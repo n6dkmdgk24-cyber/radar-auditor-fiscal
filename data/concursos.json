@@ -1,0 +1,946 @@
+[
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "agente fazendario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Votorantim/SP — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3557006/2026-07-24/b889eeece9390e36922b124efffa973c67e5a628.pdf",
+  "orgao": "",
+  "municipio": "Votorantim",
+  "uf": "SP",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3557006/2026-07-24/b889eeece9390e36922b124efffa973c67e5a628.txt",
+   "edition": "1524",
+   "scraped_at": "2026-07-25T02:09:32.680108"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "agente fazendario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Jundiaí/SP — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3525904/2026-07-24/7ad92fd17dcb7a57632ae78ce8ebae3908c961ef.pdf",
+  "orgao": "",
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3525904/2026-07-24/7ad92fd17dcb7a57632ae78ce8ebae3908c961ef.txt",
+   "edition": "5851",
+   "scraped_at": "2026-07-25T01:37:27.855625"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-24/4582c90f945605a5181fbb8a78494626998204ca.pdf",
+  "orgao": "",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3304557/2026-07-24/4582c90f945605a5181fbb8a78494626998204ca.txt",
+   "edition": "88",
+   "scraped_at": "2026-07-25T00:09:19.370202"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-23",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-23/4424bf963c8849f96e31361bb72d801431a50c8f.pdf",
+  "orgao": "",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "data_publicacao": "2026-07-23",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/4104204/2026-07-23/4424bf963c8849f96e31361bb72d801431a50c8f.txt",
+   "edition": "3224",
+   "scraped_at": "2026-07-23T23:29:30.241486"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itaúna/MG — 2026-07-23",
+  "url": "https://data.queridodiario.ok.org.br/3133808/2026-07-23/e106ab034f021a4a6df6940f8ded47ffb857e583.pdf",
+  "orgao": "",
+  "municipio": "Itaúna",
+  "uf": "MG",
+  "data_publicacao": "2026-07-23",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3133808/2026-07-23/e106ab034f021a4a6df6940f8ded47ffb857e583.txt",
+   "edition": "2752",
+   "scraped_at": "2026-07-23T22:44:39.570186"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-07-23",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-07-23/f29e8d93d10ad26d2367a67f590c2e709bd88afb.pdf",
+  "orgao": "",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "data_publicacao": "2026-07-23",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3205309/2026-07-23/f29e8d93d10ad26d2367a67f590c2e709bd88afb.txt",
+   "edition": "",
+   "scraped_at": "2026-07-23T22:25:59.865929"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Bela Vista/MS — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/5002100/2026-07-22/c64694589925024b8f88c70788bdeeb54f4bffff.pdf",
+  "orgao": "",
+  "municipio": "Bela Vista",
+  "uf": "MS",
+  "data_publicacao": "2026-07-22",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5002100/2026-07-22/c64694589925024b8f88c70788bdeeb54f4bffff.txt",
+   "edition": "2960",
+   "scraped_at": "2026-07-22T23:04:35.971143"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-22/40ac7cafd24c4950b4a31ca3614f05bb9e071603.pdf",
+  "orgao": "",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "data_publicacao": "2026-07-22",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3509502/2026-07-22/40ac7cafd24c4950b4a31ca3614f05bb9e071603.txt",
+   "edition": "13871",
+   "scraped_at": "2026-07-23T01:18:10.412351"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-21",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-21/2c619a8a26fbc56bfaf48b9968a20584a2f1eed7.pdf",
+  "orgao": "",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "data_publicacao": "2026-07-21",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3304557/2026-07-21/2c619a8a26fbc56bfaf48b9968a20584a2f1eed7.txt",
+   "edition": "85",
+   "scraped_at": "2026-07-23T00:12:01.743689"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio Claro/SP — 2026-07-20",
+  "url": "https://data.queridodiario.ok.org.br/3543907/2026-07-20/7b369e9986fec5e73e2cbc51a555c6cf38a9adf7.pdf",
+  "orgao": "",
+  "municipio": "Rio Claro",
+  "uf": "SP",
+  "data_publicacao": "2026-07-20",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3543907/2026-07-20/7b369e9986fec5e73e2cbc51a555c6cf38a9adf7.txt",
+   "edition": "1975",
+   "scraped_at": "2026-07-21T01:13:40.348595"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santa Maria da Serra/SP — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3547007/2026-07-17/4b6117f0d115a9947fb8a87ccfb4e0c3fd7820f1.pdf",
+  "orgao": "",
+  "municipio": "Santa Maria da Serra",
+  "uf": "SP",
+  "data_publicacao": "2026-07-17",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3547007/2026-07-17/4b6117f0d115a9947fb8a87ccfb4e0c3fd7820f1.txt",
+   "edition": "734",
+   "scraped_at": "2026-07-18T01:47:21.208214"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Bragança Paulista/SP — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3507605/2026-07-17/0f526c97591e1c4609dcf1cd13efa1b6648b04a9.pdf",
+  "orgao": "",
+  "municipio": "Bragança Paulista",
+  "uf": "SP",
+  "data_publicacao": "2026-07-17",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3507605/2026-07-17/0f526c97591e1c4609dcf1cd13efa1b6648b04a9.txt",
+   "edition": "2311",
+   "scraped_at": "2026-07-18T01:05:12.015780"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Salvador/BA — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/2927408/2026-07-17/f510c69c012a9a357f093fc3598cd3a41667dabf.pdf",
+  "orgao": "",
+  "municipio": "Salvador",
+  "uf": "BA",
+  "data_publicacao": "2026-07-17",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/2927408/2026-07-17/f510c69c012a9a357f093fc3598cd3a41667dabf.txt",
+   "edition": "",
+   "scraped_at": "2026-07-17T21:54:17.892746"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Juranda/PR — 2026-07-16",
+  "url": "https://data.queridodiario.ok.org.br/4112959/2026-07-16/b6717d4c1b5fceea7502bdcb32b0a4c16b043ffc.pdf",
+  "orgao": "",
+  "municipio": "Juranda",
+  "uf": "PR",
+  "data_publicacao": "2026-07-16",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/4112959/2026-07-16/b6717d4c1b5fceea7502bdcb32b0a4c16b043ffc.txt",
+   "edition": "692",
+   "scraped_at": "2026-07-16T23:20:24.703483"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Tremembé/SP — 2026-07-15",
+  "url": "https://data.queridodiario.ok.org.br/3554805/2026-07-15/0af5275e0c66f97c57828b1d85991c411962022f.pdf",
+  "orgao": "",
+  "municipio": "Tremembé",
+  "uf": "SP",
+  "data_publicacao": "2026-07-15",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3554805/2026-07-15/0af5275e0c66f97c57828b1d85991c411962022f.txt",
+   "edition": "2400",
+   "scraped_at": "2026-07-16T04:42:30.491984"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Nova Iguaçu/RJ — 2026-07-09",
+  "url": "https://data.queridodiario.ok.org.br/3303500/2026-07-09/c7d1ff4bd2b72148da4763fe196ca4a972e937af.pdf",
+  "orgao": "",
+  "municipio": "Nova Iguaçu",
+  "uf": "RJ",
+  "data_publicacao": "2026-07-09",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3303500/2026-07-09/c7d1ff4bd2b72148da4763fe196ca4a972e937af.txt",
+   "edition": "",
+   "scraped_at": "2026-07-10T04:57:34.993273"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Formosa do Rio Preto/BA — 2026-07-09",
+  "url": "https://data.queridodiario.ok.org.br/2911105/2026-07-09/780f1ea3f29955e8cf4310516f373a9954ee9431.pdf",
+  "orgao": "",
+  "municipio": "Formosa do Rio Preto",
+  "uf": "BA",
+  "data_publicacao": "2026-07-09",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/2911105/2026-07-09/780f1ea3f29955e8cf4310516f373a9954ee9431.txt",
+   "edition": "1.526",
+   "scraped_at": "2026-07-10T02:12:02.621888"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Curitiba/PR — 2026-07-08",
+  "url": "https://data.queridodiario.ok.org.br/4106902/2026-07-08/51fdf0818bc12827a5a5608bd0e7c72e7023b6a6.pdf",
+  "orgao": "",
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "data_publicacao": "2026-07-08",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/4106902/2026-07-08/51fdf0818bc12827a5a5608bd0e7c72e7023b6a6.txt",
+   "edition": "124",
+   "scraped_at": "2026-07-09T04:24:55.027428"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itapevi/SP — 2026-07-07",
+  "url": "https://data.queridodiario.ok.org.br/3522505/2026-07-07/0722474bd077345791c9625383c0e4105f61220b.pdf",
+  "orgao": "",
+  "municipio": "Itapevi",
+  "uf": "SP",
+  "data_publicacao": "2026-07-07",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3522505/2026-07-07/0722474bd077345791c9625383c0e4105f61220b.txt",
+   "edition": "1572",
+   "scraped_at": "2026-07-08T07:26:43.059104"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Mourão/PR — 2026-07-07",
+  "url": "https://data.queridodiario.ok.org.br/4104303/2026-07-07/b5c941d58cbfa0c426ec422789f4a30542bd73cf.pdf",
+  "orgao": "",
+  "municipio": "Campo Mourão",
+  "uf": "PR",
+  "data_publicacao": "2026-07-07",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/4104303/2026-07-07/b5c941d58cbfa0c426ec422789f4a30542bd73cf.txt",
+   "edition": "3396",
+   "scraped_at": "2026-07-08T05:54:43.261028"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Penápolis/SP — 2026-07-06",
+  "url": "https://data.queridodiario.ok.org.br/3537305/2026-07-06/9a0371f558ac8d04f62b54fb09756e67b2212b31.pdf",
+  "orgao": "",
+  "municipio": "Penápolis",
+  "uf": "SP",
+  "data_publicacao": "2026-07-06",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3537305/2026-07-06/9a0371f558ac8d04f62b54fb09756e67b2212b31.txt",
+   "edition": "2409",
+   "scraped_at": "2026-07-07T08:02:13.226112"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Uberaba/MG — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3170107/2026-07-03/173825f31ebdc852ab56b5356313b4d258dbb07f.pdf",
+  "orgao": "",
+  "municipio": "Uberaba",
+  "uf": "MG",
+  "data_publicacao": "2026-07-03",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3170107/2026-07-03/173825f31ebdc852ab56b5356313b4d258dbb07f.txt",
+   "edition": "2960",
+   "scraped_at": "2026-07-04T21:48:38.405102"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Valinhos/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3556206/2026-07-03/409004db2c864e3be5d8f3fe768754042e84df0a.pdf",
+  "orgao": "",
+  "municipio": "Valinhos",
+  "uf": "SP",
+  "data_publicacao": "2026-07-03",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3556206/2026-07-03/409004db2c864e3be5d8f3fe768754042e84df0a.txt",
+   "edition": "3019",
+   "scraped_at": "2026-07-05T08:02:36.456475"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santos/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3548500/2026-07-03/f890f0c6037265dc3e7d0cb50bfba4446f206359.pdf",
+  "orgao": "",
+  "municipio": "Santos",
+  "uf": "SP",
+  "data_publicacao": "2026-07-03",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3548500/2026-07-03/f890f0c6037265dc3e7d0cb50bfba4446f206359.txt",
+   "edition": "",
+   "scraped_at": "2026-07-03T02:35:10.182825"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itajubá/MG — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3132404/2026-07-02/c2d3970eb06cc70a4ca001072738b27c41643167.pdf",
+  "orgao": "",
+  "municipio": "Itajubá",
+  "uf": "MG",
+  "data_publicacao": "2026-07-02",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3132404/2026-07-02/c2d3970eb06cc70a4ca001072738b27c41643167.txt",
+   "edition": "765",
+   "scraped_at": "2026-07-03T09:56:44.614112"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Junqueirópolis/SP — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3526001/2026-07-02/2d623351745b21f500193a2f36afefea344f7617.pdf",
+  "orgao": "",
+  "municipio": "Junqueirópolis",
+  "uf": "SP",
+  "data_publicacao": "2026-07-02",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3526001/2026-07-02/2d623351745b21f500193a2f36afefea344f7617.txt",
+   "edition": "1576",
+   "scraped_at": "2026-07-03T01:32:06.400550"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Macaé/RJ — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3302403/2026-07-02/bf6d46f38269e6f9ba295ff8c48a0d40ee8f930c.pdf",
+  "orgao": "",
+  "municipio": "Macaé",
+  "uf": "RJ",
+  "data_publicacao": "2026-07-02",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3302403/2026-07-02/bf6d46f38269e6f9ba295ff8c48a0d40ee8f930c.txt",
+   "edition": "1476",
+   "scraped_at": "2026-07-02T14:59:53.925991"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Niterói/RJ — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3303302/2026-07-01/e8e07b04e64092aae8842b73c9df56818904e527.pdf",
+  "orgao": "",
+  "municipio": "Niterói",
+  "uf": "RJ",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3303302/2026-07-01/e8e07b04e64092aae8842b73c9df56818904e527.txt",
+   "edition": "",
+   "scraped_at": "2026-07-01T05:50:38.223964"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Corumbá/MS — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/5003207/2026-07-01/ca3dcf9f22aa9240c0627588b6f6ac01a10c6c61.pdf",
+  "orgao": "",
+  "municipio": "Corumbá",
+  "uf": "MS",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5003207/2026-07-01/ca3dcf9f22aa9240c0627588b6f6ac01a10c6c61.txt",
+   "edition": "3405",
+   "scraped_at": "2026-07-01T22:20:57.221675"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Contagem/MG — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3118601/2026-07-01/800d459e25cc139c339fbc36ef8ea10ddb041206.pdf",
+  "orgao": "",
+  "municipio": "Contagem",
+  "uf": "MG",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3118601/2026-07-01/800d459e25cc139c339fbc36ef8ea10ddb041206.txt",
+   "edition": "6318",
+   "scraped_at": "2026-07-02T04:06:06.753549"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Goiânia/GO — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/5208707/2026-07-01/e9653ec674857585045b3bdf91e1f44c2fe7d8fd.pdf",
+  "orgao": "",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5208707/2026-07-01/e9653ec674857585045b3bdf91e1f44c2fe7d8fd.txt",
+   "edition": "8810",
+   "scraped_at": "2026-07-02T03:39:34.052370"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Feira de Santana/BA — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/2910800/2026-07-01/4d2250feb5b4bd99c96764eabd280ffa14ab99c2.pdf",
+  "orgao": "",
+  "municipio": "Feira de Santana",
+  "uf": "BA",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/2910800/2026-07-01/4d2250feb5b4bd99c96764eabd280ffa14ab99c2.txt",
+   "edition": "3563",
+   "scraped_at": "2026-07-02T02:41:57.953261"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-06-29",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.pdf",
+  "orgao": "",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "data_publicacao": "2026-06-29",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.txt",
+   "edition": "",
+   "scraped_at": "2026-07-01T00:48:09.549998"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "CREFITO-20 - AM: Processo seletivo abre vaga para Agente Fiscal com salário de R$ 7.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/crefito-20-am-processo-seletivo-abre-vaga-para-agente-fiscal-com-salario-de-7000",
+  "orgao": "",
+  "municipio": "",
+  "uf": "AM",
+  "data_publicacao": "2026-07-28",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Manaus - AM abre concurso público com 20 vagas para Auditor-Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-manaus-am-abre-concurso-publico-com-20-vagas-para-auditor-fiscal",
+  "orgao": "Prefeitura de Manaus",
+  "municipio": "Manaus",
+  "uf": "AM",
+  "data_publicacao": "2026-07-27",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "CREMERS - RS abre concurso público para Médico Fiscal e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/cremers-rs-abre-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+  "orgao": "",
+  "municipio": "",
+  "uf": "RS",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "FUNCABES Taubaté - SP abre seleção para Controlador Interno, Escriturário e Auxiliar Administrativo",
+  "url": "https://www.pciconcursos.com.br/noticias/funcabes-taubate-sp-abre-selecao-para-controlador-interno-escriturario-e-auxiliar-administrativo",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-07-22",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Blumenau - SC abre concurso público para Controlador Interno e Procurador",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-blumenau-sc-abre-concurso-publico-para-controlador-interno-e-procurador",
+  "orgao": "Câmara de Blumenau",
+  "municipio": "Blumenau",
+  "uf": "SC",
+  "data_publicacao": "2026-07-22",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Guimarânia - MG abre concurso público para fiscal tributário",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guimarania-mg-abre-concurso-publico-para-fiscal-tributario",
+  "orgao": "Prefeitura de Guimarânia",
+  "municipio": "Guimarânia",
+  "uf": "MG",
+  "data_publicacao": "2026-07-20",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Monções - SP abre concurso público para Diretor Geral e Controlador Interno",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-moncoes-sp-abre-concurso-publico-para-diretor-geral-e-controlador-interno",
+  "orgao": "Câmara de Monções",
+  "municipio": "Monções",
+  "uf": "SP",
+  "data_publicacao": "2026-07-20",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Taubaté - SP abre concurso para Auditor Fiscal de Tributos Municipais",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-taubate-sp-abre-concurso-para-auditor-fiscal-de-tributos-municipais",
+  "orgao": "Prefeitura de Taubaté",
+  "municipio": "Taubaté",
+  "uf": "SP",
+  "data_publicacao": "2026-07-15",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "SEFAZ - MT: Concurso para Fiscal de Tributos Estaduais é suspenso",
+  "url": "https://www.pciconcursos.com.br/noticias/sefaz-mt-concurso-para-fiscal-de-tributos-estaduais-e-suspenso",
+  "orgao": "",
+  "municipio": "",
+  "uf": "MT",
+  "data_publicacao": "2026-07-14",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cezarina - GO abre concurso público com vaga para Fiscal de Tributos Municipais",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cezarina-go-abre-concurso-publico-com-vaga-para-fiscal-de-tributos-municipais",
+  "orgao": "Prefeitura de Cezarina",
+  "municipio": "Cezarina",
+  "uf": "GO",
+  "data_publicacao": "2026-07-13",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "CREA-RO retifica concurso público para os cargos de Assistente Administrativo e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/crea-ro-retifica-concurso-publico-para-os-cargos-de-assistente-administrativo-e-agente-fiscal",
+  "orgao": "",
+  "municipio": "",
+  "uf": "RO",
+  "data_publicacao": "2026-07-10",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Itararé - SP abre concurso público para Controlador Interno",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-itarare-sp-abre-concurso-publico-para-controlador-interno",
+  "orgao": "Câmara de Itararé",
+  "municipio": "Itararé",
+  "uf": "SP",
+  "data_publicacao": "2026-07-08",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de São Vicente de Minas - MG abre vagas para Controlador Interno e Psicólogo II",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-vicente-de-minas-mg-abre-vagas-para-controlador-interno-e-psicologo-ii",
+  "orgao": "Prefeitura de São Vicente de Minas",
+  "municipio": "São Vicente de Minas",
+  "uf": "MG",
+  "data_publicacao": "2026-07-07",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Guarulhos - SP abre 10 vagas para Auditor Fiscal VI",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guarulhos-sp-abre-10-vagas-para-auditor-fiscal-vi",
+  "orgao": "Prefeitura de Guarulhos",
+  "municipio": "Guarulhos",
+  "uf": "SP",
+  "data_publicacao": "2026-07-06",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "pci",
+  "titulo": "TCE-SP abre concurso com vagas para Auditor de Controle Externo",
+  "url": "https://www.pciconcursos.com.br/noticias/tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-07-06",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Tiradentes do Sul - RS abre seleções para Enfermeiro e Controlador Interno",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tiradentes-do-sul-rs-abre-selecoes-para-enfermeiro-e-controlador-interno",
+  "orgao": "Prefeitura de Tiradentes do Sul",
+  "municipio": "Tiradentes do Sul",
+  "uf": "RS",
+  "data_publicacao": "2026-07-03",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Doutor Pedrinho - SC abre concurso público para Fiscal de Tributos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-doutor-pedrinho-sc-abre-concurso-publico-para-fiscal-de-tributos",
+  "orgao": "Prefeitura de Doutor Pedrinho",
+  "municipio": "Doutor Pedrinho",
+  "uf": "SC",
+  "data_publicacao": "2026-07-01",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor da receita"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Tavares - RS abre vaga para Auditor da Receita Municipal",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tavares-rs-abre-vaga-para-auditor-da-receita-municipal",
+  "orgao": "Prefeitura de Tavares",
+  "municipio": "Tavares",
+  "uf": "RS",
+  "data_publicacao": "2026-06-29",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "dou",
+  "titulo": "EDITAL - Nº 8/2026- RFB, DE 13 DE JULHO DE 2026 (Edital)",
+  "url": "https://www.in.gov.br/web/dou/-/edital-n-8/2026-rfb-de-13-de-julho-de-2026-718843375",
+  "orgao": "Secretaria Especial da Receita Federal do Brasil",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-07-14",
+  "detalhes": {
+   "artType": "Edital",
+   "hierarquia": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "dou",
+  "titulo": "EDITAL ENAP Nº 197, DE 25 DE JUNHO DE 2026 (Edital)",
+  "url": "https://www.in.gov.br/web/dou/-/edital-enap-n-197-de-25-de-junho-de-2026-715495792",
+  "orgao": "Fundação Escola Nacional de Administração Pública",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-06-30",
+  "detalhes": {
+   "artType": "Edital",
+   "hierarquia": "Ministério da Gestão e da Inovação em Serviços Públicos/Fundação Escola Nacional de Administração Pública"
+  }
+ }
+]

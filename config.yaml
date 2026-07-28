@@ -1,0 +1,90 @@
+# Radar de concursos — Auditor Fiscal (federal, estadual, municipal)
+# Termos casados após normalização (minúsculas, sem acento); espaço também casa hífen,
+# então "auditor fiscal" cobre "Auditor-Fiscal".
+
+janela_inicial_dias: 3      # primeira execução (sem cursor) olha esse período para trás
+expira_vistos_dias: 180     # depois disso, o mesmo ente+categoria pode alertar de novo
+painel_dias: 60             # o painel exibe descobertas desse período
+
+fontes:
+  qd: true                  # Querido Diário (diários oficiais municipais)
+  pci: true                 # PCI Concursos (sitemap de notícias)
+  cnb: true                 # Concursos no Brasil (RSS)
+  dou: true                 # DOU Seção 3 (busca in.gov.br)
+
+termos:
+  # Homônimos: são MASCARADOS do texto antes de testar a inclusão, então
+  # "auditor-fiscal do trabalho" não dispara "auditor fiscal".
+  exclusao:
+    - auditor fiscal do trabalho
+    - fiscal de obras
+    - fiscal de postura
+    - fiscal de posturas
+    - fiscal sanitario
+    - fiscal de saude
+    - fiscal de vigilancia
+    - fiscal de vigilancia sanitaria
+    - fiscal de inspecao sanitaria
+    - fiscal de inspecao
+    - fiscal de meio ambiente
+    - fiscal ambiental
+    - fiscal de transporte
+    - fiscal de transito
+    - fiscal de servicos publicos
+    - fiscal de defesa do consumidor
+    - fiscal agropecuario
+    - fiscal federal agropecuario
+
+  # Fisco tributário nas 3 esferas (nomenclaturas confirmadas em editais reais 2019-2026)
+  tributario:
+    - auditor fiscal
+    - auditor de tributos
+    - fiscal de tributos
+    - fiscal tributario
+    - auditor tributario
+    - auditor fiscal tributario
+    - fiscal de rendas
+    - agente fiscal de rendas
+    - agente fazendario
+    - fiscal fazendario
+    - agente de tributos
+    - analista de tributos
+    - analista tributario
+    - gestor fazendario
+    - auditor da receita
+    - auditor de rendas
+
+  # Controle externo/interno (TCU, TCEs, CGU, controladorias)
+  controle:
+    - auditor de controle externo
+    - auditor federal de controle externo
+    - analista de controle externo
+    - tecnico de controle externo
+    - auditor de controle interno
+    - auditor municipal de controle interno
+    - auditor federal de financas e controle
+    - auditor de financas e controle
+    - auditor estadual de controle
+
+  # Ambíguos: nunca descartados em silêncio — vão para a seção "conferir" do aviso
+  conferir:
+    - fiscal municipal
+    - agente fiscal
+    - controlador interno
+    - auditor municipal
+    - auditor interno
+    - auditor publico
+
+# Consultas usadas nas fontes que buscam por frase (QD e DOU).
+# No QD a frase precisa aparecer junto de "concurso público" ou "processo seletivo".
+consultas_cargo:
+  - auditor fiscal
+  - fiscal de tributos
+  - auditor de tributos
+  - fiscal tributário
+  - fiscal de rendas
+  - agente fazendário
+  - agente de tributos
+  - analista tributário
+  - auditor de controle externo
+  - auditor de controle interno
