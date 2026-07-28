@@ -36,6 +36,7 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_PARA: ${{ secrets.EMAIL_PARA }}
           EMAIL_DE: ${{ secrets.EMAIL_DE }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m radar.main
 
       - name: Commit do estado e do painel

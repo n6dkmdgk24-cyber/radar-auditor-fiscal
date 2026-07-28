@@ -61,6 +61,9 @@ def _render_item(item, hoje):
         )
     if (item.get("detalhes") or {}).get("possivel_abertura"):
         linhas_meta.append("🔎 possível abertura — conferir no diário")
+    ia = (item.get("detalhes") or {}).get("ia")
+    if ia:
+        linhas_meta.append(f"🤖 {html.escape(ia.get('classe', ''))} — {html.escape(ia.get('resumo', ''))}")
     linhas_meta.append(
         f"descoberto em {html.escape(item.get('descoberto_em', ''))} · fonte {html.escape(item.get('fonte', ''))}"
     )

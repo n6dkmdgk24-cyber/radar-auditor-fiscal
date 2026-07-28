@@ -10,6 +10,7 @@ Uso:
 import argparse
 import datetime as dt
 import importlib
+import os
 import sys
 import traceback
 from pathlib import Path
@@ -56,7 +57,7 @@ def main(argv=None):
             falhas.append((fonte, traceback.format_exc(limit=3)))
             print(f"[{fonte}] FALHOU:\n{traceback.format_exc(limit=1)}", file=sys.stderr)
 
-    novos = []
+    candidatos = []
     for a in achados:
         # o trecho extraído do texto integral entra na classificação: o cargo
         # pode estar nele e não nos excerpts (caso real: Santos 17.7.2026)
@@ -70,9 +71,31 @@ def main(argv=None):
             categoria = "conferir"
         if estado.ja_visto(a, categoria):
             continue
+        candidatos.append((a, categoria, termos))
+
+    # revisão opcional com Claude Haiku: só dos itens "conferir", fail-open
+    descartados = []
+    if candidatos and os.environ.get("ANTHROPIC_API_KEY"):
+        from .classificador import revisar
+
+        try:
+            candidatos, descartados = revisar(candidatos, cfg)
+        except Exception:
+            print("[ia] FALHOU, itens mantidos como estavam", file=sys.stderr)
+            traceback.print_exc(limit=2)
+
+    novos = []
+    for a, categoria, termos in candidatos:
+        if estado.ja_visto(a, categoria):
+            continue
         estado.marcar(a, categoria)
         estado.registrar_concurso(a, categoria, termos)
         novos.append((a, categoria, termos))
+    for a, veredito in descartados:
+        estado.marcar(a, "descartado")
+        estado.registrar_descartado(a, veredito)
+    if descartados:
+        print(f"[ia] {len(descartados)} item(ns) descartado(s) — registro em data/descartados.json")
 
     print(f"\n== {len(novos)} novidade(s) | fontes com falha: {[f for f, _ in falhas] or 'nenhuma'} ==")
     for a, categoria, termos in novos:

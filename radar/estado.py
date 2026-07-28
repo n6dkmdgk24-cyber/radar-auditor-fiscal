@@ -21,6 +21,7 @@ class Estado:
         self._estado = self._ler("estado.json", {"cursors": {}})
         self._vistos = self._ler("vistos.json", {})
         self.concursos = self._ler("concursos.json", [])
+        self.descartados = self._ler("descartados.json", [])
 
     def _ler(self, nome, padrao):
         arq = self.dir / nome
@@ -68,6 +69,20 @@ class Estado:
             }
         )
 
+    def registrar_descartado(self, achado, veredito):
+        self.descartados.append(
+            {
+                "descartado_em": time.strftime("%Y-%m-%d"),
+                "veredito": veredito,
+                "fonte": achado.fonte,
+                "titulo": achado.titulo,
+                "url": achado.url,
+                "municipio": achado.municipio,
+                "uf": achado.uf,
+                "trecho": achado.detalhes.get("trecho", ""),
+            }
+        )
+
     # ---- manutenção ----------------------------------------------------
     def expirar(self, dias: int):
         limite = time.strftime(
@@ -84,4 +99,7 @@ class Estado:
         )
         (self.dir / "concursos.json").write_text(
             json.dumps(self.concursos, ensure_ascii=False, indent=1), encoding="utf-8"
+        )
+        (self.dir / "descartados.json").write_text(
+            json.dumps(self.descartados, ensure_ascii=False, indent=1), encoding="utf-8"
         )

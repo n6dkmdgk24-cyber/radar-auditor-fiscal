@@ -23,6 +23,12 @@ O filtro classifica cada achado em **tributário**, **controle** ou **conferir**
 
 Regra de confiança por fonte: os selos fortes (Tributário/Controle) vêm das fontes de **notícia** (PCI, CNB, DOU), cujos títulos dizem explicitamente que um concurso abriu. Itens do **Querido Diário** são texto bruto de diário oficial (que mistura editais, autos de infração, nomeações e assinaturas de servidores) e por isso entram **sempre como "Conferir"**, com o trecho casado exibido e o marcador "🔎 possível abertura" quando há indício de edital de abertura perto do cargo — sinal de triagem, não veredito.
 
+### Classificador com IA (opcional)
+
+Se o secret `ANTHROPIC_API_KEY` existir, cada item "Conferir" passa por uma revisão final com **Claude Haiku 4.5** (saída estruturada em JSON), que decide: **abertura** na área-alvo (recupera o selo forte, com marcador 🤖), **andamento** (convocação/gabarito/nomeação — continua em Conferir) ou **irrelevante** (sai dos avisos, mas fica registrado em `data/descartados.json` — nada some em silêncio). Qualquer erro de API mantém o item em Conferir (fail-open); sem a chave, o radar funciona exatamente como antes.
+
+Configuração: criar uma chave dedicada em [console.anthropic.com](https://console.anthropic.com) (Settings → API Keys), **definir um limite mensal de gasto** no console (ex.: US$ 5) e cadastrá-la como secret `ANTHROPIC_API_KEY` no repositório. Custo típico no volume deste radar (~5–15 itens/dia, ~1.400 tokens cada, a US$ 1/M de entrada e US$ 5/M de saída): **centavos de real por dia**. A chave nunca aparece no código nem nos arquivos commitados — vive só nos Actions Secrets (cifrados; mascarados nos logs).
+
 ## Uso local
 
 ```bash
