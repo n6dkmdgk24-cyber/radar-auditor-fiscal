@@ -58,7 +58,10 @@ def main(argv=None):
 
     novos = []
     for a in achados:
-        categoria, termos = filtro.classificar(f"{a.titulo}\n{a.cargo_texto}")
+        # o trecho extraído do texto integral entra na classificação: o cargo
+        # pode estar nele e não nos excerpts (caso real: Santos 17.7.2026)
+        texto = f"{a.titulo}\n{a.cargo_texto}\n{a.detalhes.get('trecho', '')}"
+        categoria, termos = filtro.classificar(texto)
         if not categoria:
             continue
         # coletor sinalizou coocorrência fraca (cargo e "concurso" em trechos

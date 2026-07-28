@@ -1,7 +1,7 @@
 [
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fazendario"
   ],
@@ -16,7 +16,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3557006/2026-07-24/b889eeece9390e36922b124efffa973c67e5a628.txt",
    "edition": "1524",
    "scraped_at": "2026-07-25T02:09:32.680108",
-   "trecho": "o da lei 2099/09, estando o imposto apurado pelo valor integral. o desconto, quando devido, estara computado, nos respectivos carnes. votorantim, 24 de julho de 2026. marcio leandro de carvalho agente fazendario secretaria de financas diretoria de departamento de lancamento e cadastros funcionario r"
+   "trecho": "Comercial 193,32 5.4 - Industrial 193,32 24 de julho de 2026 13 1 CÂMARA MUNICIPAL DE VOTORANTIM CONCURSO PÚBLICO EDITAL DE DIVULGAÇÃO DO GABARITO O PRESIDENTE DA CÂMARA MUNICIPAL DE VOTORANTIM, no uso de suas atribuições legais, DIVULGA aos candidatos inscritos neste Concurso Público o gabarito da ",
+   "contexto_fraco": true
   }
  },
  {
@@ -105,7 +106,7 @@
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "controle",
+  "categoria": "conferir",
   "termos": [
    "auditor de controle interno"
   ],
@@ -120,12 +121,13 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3205309/2026-07-23/f29e8d93d10ad26d2367a67f590c2e709bd88afb.txt",
    "edition": "",
    "scraped_at": "2026-07-23T22:25:59.865929",
-   "trecho": "candidata foi aprovada em sétimo lugar no Concurso Público, listagem ampla concorrência, para o cargo de AUDITOR DE CONTROLE INTERNO – CIÊNCIAS CONTÁBEIS – 40 HORAS, nos termos do Edital PMV nº 003/2024. Vitória, 21 de julho de 2026 José Eduardo Pereira Secretário Municipal de Gestão e Planejamento "
+   "trecho": "Data: sábado (25) Horário: das 9h às 13h 4 Diário Oficial do Município de Vitória - ES 23 de julho de 2026 - Edição nº 2930 PODER EXECUTIVO Editais SECRETARIA DE GESTÃO E PLANEJAMENTO CONCURSO PÚBLICO Nº 003/2024 EDITAL DE CONVOCAÇÃO E NOMEAÇÃO Nº 005/2026 COMUNICADO O Secretário Municipal de Gestão",
+   "contexto_fraco": true
   }
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fazendario"
   ],
@@ -140,7 +142,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3301306/2026-07-22/8a840e121b405dfdf37246bc3641aa38d45183c9.txt",
    "edition": "ERRATA 1774",
    "scraped_at": "2026-07-22T23:53:34.077520",
-   "trecho": "ndo os termos do processo administrativo cas-040202/000036/2026; resolve: art. 1o - revogar a portaria no 094, de 30 de janeiro de 2026, que designou o servidor odino miranda do nascimento, agente fazendario, matricula 2527, para exercer o cargo em comissao de subchefe de gabinete, simbolo ssm, dest"
+   "trecho": "CONFERIDAS NO ART. 97, II “a”, DA LEI ORGÂNICA MUNICIPAL. CONSIDERANDO os termos do Processo Administrativo nº 2.960/2023; CONSIDERANDO a necessidade de provimento dos cargos pre- vistos no Concurso Público realizado pelo Município, que teve seu Resultado Final homologado através do Decreto nº 3444,",
+   "contexto_fraco": true
   }
  },
  {
@@ -231,7 +234,30 @@
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santos/SP — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3548500/2026-07-17/179ba747cf8dfca453bcb571acf9b95df3914e1d.pdf",
+  "orgao": "",
+  "municipio": "Santos",
+  "uf": "SP",
+  "data_publicacao": "2026-07-17",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3548500/2026-07-17/179ba747cf8dfca453bcb571acf9b95df3914e1d.txt",
+   "edition": "",
+   "scraped_at": "2026-07-18T01:48:12.272940",
+   "trecho": "torna publico que fara realizar, sob a responsabilidade do instituto brasileiro de administracao municipal - doravante designado apenas ibam, concurso publico para o provimento dos seguintes cargos: administrador arquiteto assistente social auditor fiscal de tributos municipais bibliotecario biomedi",
+   "contexto_fraco": true,
+   "possivel_abertura": true
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
   "termos": [
    "fiscal tributario"
   ],
@@ -246,12 +272,13 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3547007/2026-07-17/4b6117f0d115a9947fb8a87ccfb4e0c3fd7820f1.txt",
    "edition": "734",
    "scraped_at": "2026-07-18T01:47:21.208214",
-   "trecho": "PREFEITO MUNICIPAL ATOS OFICIAIS CONVOCAÇÃO CONCURSO PÚBLICO Nº 001/ 2026 Ilmo(a) Sr.(a) SUELI MEURER FERNANDES CINTHIA BERTO MISSONO Psicologo Santa Maria da Serra - SP Tendo em vista sua aprovação no Concurso Público nº 01/2026 realizado por este poder Público Municipal, Homologado em 25 de março "
+   "trecho": "PREFEITO MUNICIPAL ATOS OFICIAIS CONVOCAÇÃO CONCURSO PÚBLICO Nº 001/ 2026 Ilmo(a) Sr.(a) SUELI MEURER FERNANDES CINTHIA BERTO MISSONO Psicologo Santa Maria da Serra - SP Tendo em vista sua aprovação no Concurso Público nº 01/2026 realizado por este poder Público Municipal, Homologado em 25 de março ",
+   "contexto_fraco": true
   }
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "auditor fiscal",
    "fiscal de tributos"
@@ -267,27 +294,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3507605/2026-07-17/0f526c97591e1c4609dcf1cd13efa1b6648b04a9.txt",
    "edition": "2311",
    "scraped_at": "2026-07-18T01:05:12.015780",
-   "trecho": "de 16 de abril de 2015 e decreto municipal 2.912, de 14 de marco de 2019 prefeitura do municipio de braganca paulista “para os candidatos inscritos nos empregos de auditor fiscal de tributos imobiliarios junior e/ou auditor fiscal de tributos mobiliarios junior, serao disponibilizados tres tipos de "
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-17",
-  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-17/ab7e2c8400cc244696e1b36328796715c3af67b1.pdf",
-  "orgao": "",
-  "municipio": "Campo Largo",
-  "uf": "PR",
-  "data_publicacao": "2026-07-17",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/4104204/2026-07-17/ab7e2c8400cc244696e1b36328796715c3af67b1.txt",
-   "edition": "3220",
-   "scraped_at": "2026-07-17T23:08:53.560509",
-   "trecho": "sequente execuca o fiscal, sem prejui zo da inscrica o do devedor em o rga os de proteca o ao cre dito e protesto de ti tulos, nos termos do art. 209-a da lei 2.087/2008. rogerio luiz zalkoski auditor fiscal da receita municipal departamento de rendas mobiliarias secretaria municipal da fazenda http"
+   "trecho": "contido no MEMO/SMA/DIRH N° 65/2026 CM, Processo Administrativo nº 30934/2026, RESOLVE: Art. 1º Exonerar, a pedido, a partir de 13 de julho de 2026, o Sr. CELSO AUGUSTO DE LIMA, do emprego de Auditor Fiscal de Tributos Mobiliários, considerando o contido no Processo Administrativo nº 29779/2026 Art.",
+   "contexto_fraco": true
   }
  },
  {
@@ -313,7 +321,7 @@
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
   ],
@@ -328,12 +336,36 @@
    "txt_url": "https://data.queridodiario.ok.org.br/2905206/2026-07-17/53ade43ad2b96700b45dd54960fade31ad887545.txt",
    "edition": "3.905",
    "scraped_at": "2026-07-17T21:32:59.143591",
-   "trecho": "7) 3454-5704 www.caetite.ba.gov.br anexo unico prorrogacao de posse nome cargo bruna dos santos porteiro romulo pomponet spinola auxiliar administrativo rafael cerqueira teixeira fiscal de tributos edicao 3.905 | ano 18 17 de julho de 2026 pagina 29 certificacao digital: bahu2qiw-pqpttu2h-bvtnblbi-x"
+   "trecho": ". . . . . . . . . . . . . . . . DECRETO Nº 230, DE 17 DE JULHO DE 2026. TORNA SEM EFEITO A NOMEAÇÃO DE SERVIDORES PÚBLI- COS NOMEADOS PELO DECRETO Nº 185, DE 1 DE JUNHO DE 2026, APROVADOS NO CONCURSO PÚBLICO Nº 001/2024 E DÁ OUTRAS PROVIDÊNCIAS. . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+   "contexto_fraco": true
   }
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Taubaté/SP — 2026-07-16",
+  "url": "https://data.queridodiario.ok.org.br/3554102/2026-07-16/fea0938f801f9b214b7876122c28a072d095303b.pdf",
+  "orgao": "",
+  "municipio": "Taubaté",
+  "uf": "SP",
+  "data_publicacao": "2026-07-16",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3554102/2026-07-16/fea0938f801f9b214b7876122c28a072d095303b.txt",
+   "edition": "1018",
+   "scraped_at": "2026-07-17T02:32:24.595411",
+   "trecho": "02, torna publica a retificacao do edita l nos seguintes termos: onde se le: (...) anexo i anexo i - quadro de vagas e descricao dos cargos codigo cargo vagas escolaridade / requisitos/jornada vencimentos valor da inscricao (r$) 60b auditor fiscal de tributos municipais 2 nivel universitario compati",
+   "contexto_fraco": true,
+   "possivel_abertura": true
+  }
+ },
+ {
+  "descoberto_em": "2026-07-28",
+  "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
   ],
@@ -348,7 +380,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/4112959/2026-07-16/b6717d4c1b5fceea7502bdcb32b0a4c16b043ffc.txt",
    "edition": "692",
    "scraped_at": "2026-07-16T23:20:24.703483",
-   "trecho": "Simplificado; CONSIDERANDO o Edital nº 006/2025, que divulgou o resultado e a classificação; CONSIDERANDO o Edital nº 010/2025, que suspendeu o Processo Seletivo Simplificado nº 01/2024 para os empregos públicos de Fiscal de Tributos e Advogado, em razão de liminar expedida pelo TCE-PR; Edição Extra"
+   "trecho": "Edição Extraordinária nº 692 Pág. 2 / 4 quinta-feira, 16 de julho de 2026 EDITAIS EDITAL N° 059/2026 SÚMULA: CONVOCA CANDIDATO(A) APROVADO(A) NO PROCESSO SELETIVO SIMPLIFICADO Nº 1/2024 PARA CONTRATAÇÃO. A PREFEITA MUNICIPAL DE JURANDA, ESTADO DO PARANÁ, no uso das atribuições conferidas pelo art. 6",
+   "contexto_fraco": true
   }
  },
  {
@@ -370,26 +403,6 @@
    "scraped_at": "2026-07-16T04:42:30.491984",
    "trecho": "RESULTADO DA PROVA OBJETIVA E DA CLASSIFICAÇÃO PRÉVIA A Prefeitura Municipal da Estância Turística de Tremembé/SP, no uso de suas atribuições legais, DIVULGA, aos candidatos inscritos no Concurso Público n° 001/2026, a análise dos recursos interpostos contra o gabarito da prova objetiva, o resultado",
    "contexto_fraco": true
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "fiscal de rendas"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-15",
-  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-15/9ac4f3f418cb1c38cdffb904a54f0075049b2e61.pdf",
-  "orgao": "",
-  "municipio": "Rio de Janeiro",
-  "uf": "RJ",
-  "data_publicacao": "2026-07-15",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3304557/2026-07-15/9ac4f3f418cb1c38cdffb904a54f0075049b2e61.txt",
-   "edition": "81",
-   "scraped_at": "2026-07-16T23:57:58.724312",
-   "trecho": "de acordo com o inciso I do art. 9º, combinado com o parágrafo único do art. 10, da Lei nº 94/1979, no cargo de FISCAL DE RENDAS, do Quadro Permanente do Município do Rio de Janeiro, em vagas decorrentes da Lei nº 1.952/1993, o candidato abaixo relacionado, aprovado em concurso público, conforme res"
   }
  },
  {
@@ -502,7 +515,7 @@
  },
  {
   "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "fiscal de rendas"
   ],
@@ -517,7 +530,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3537305/2026-07-06/9a0371f558ac8d04f62b54fb09756e67b2212b31.txt",
    "edition": "2409",
    "scraped_at": "2026-07-07T08:02:13.226112",
-   "trecho": "402.00023228/2026-16, que solicita a elaboração de Portaria de Contratação; R E S O L V E: Art. 1º Contratar, por tempo indeterminado, para a função de FISCAL DE RENDAS, o candidato abaixo relacionado, por ter sido classificado no Concurso Público nº 01/2023, aberto pelo Edital nº 2740, de 06/09/202"
+   "trecho": "CATALANI Prefeito Municipal ___________________________ PORTARIA Nº 231, de 01 de julho de 2026. “Dispõe sobre a contratação, por tempo indeterminado, de candidato classificado para a função de FISCAL DE RENDAS, conforme especifica.” CARLOS HENRIQUE ROSSI CATALANI, Prefeito Municipal de Penápolis, n",
+   "contexto_fraco": true
   }
  },
  {
@@ -558,8 +572,9 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3534401/2026-07-03/47460b3dbfa359abb147275db37339dc284a62b5.txt",
    "edition": "3032",
    "scraped_at": "2026-07-05T07:17:32.075235",
-   "trecho": "COMDEC ATOS DO COORDENADOR Osasco, 03 de Julho de 2026 IMPRENSA OFICIAL DO MUNICÍPIO DE OSASCO 15 Osasco, 3 de Julho de 2026 COORDENADORIA MUNICIPAL DE DEFESA CIVIL 1 PROCESSO SELETIVO EDITAL Nº 001/2025 EDITAL DE 5ª CONVOCAÇÃO PARA O CARGO DE CONDUTOR DE VEÍCULOS DE URGÊNCIA – SAMU Ficam convocados",
-   "contexto_fraco": true
+   "trecho": "te processo seletivo: 1. o nao atendimento pelo candidato a qualquer tempo, de quaisquer das condicoes estabelecidas implicara em sua eliminacao. 2. a inexatidao das informacoes e/ou irregularidades e/ou falsidades desempenho funcional do agente fiscal tributario e do fiscal tributario pelo art. 20 ",
+   "contexto_fraco": true,
+   "possivel_abertura": true
   }
  },
  {
@@ -587,28 +602,6 @@
   "descoberto_em": "2026-07-28",
   "categoria": "conferir",
   "termos": [
-   "auditor fiscal",
-   "fiscal de tributos"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Santos/SP — 2026-07-03",
-  "url": "https://data.queridodiario.ok.org.br/3548500/2026-07-03/f890f0c6037265dc3e7d0cb50bfba4446f206359.pdf",
-  "orgao": "",
-  "municipio": "Santos",
-  "uf": "SP",
-  "data_publicacao": "2026-07-03",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3548500/2026-07-03/f890f0c6037265dc3e7d0cb50bfba4446f206359.txt",
-   "edition": "",
-   "scraped_at": "2026-07-03T02:35:10.182825",
-   "trecho": "Decreto 6971, de 25 de novembro de 2014, e de acordo com os artigos 65 e 66 da Lei nº 4623/84, resolve designar VINICIUS JOSE SEVE- RINO CATULINO, registro nº 39.706-7, ocupante do cargo de Auditor Fiscal de Tributos Municipais, Nível R, do Quadro Permanente, para exercer, em substituição, a função ",
-   "contexto_fraco": true
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
    "fiscal tributario"
   ],
   "fonte": "qd",
@@ -622,7 +615,8 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3132404/2026-07-02/c2d3970eb06cc70a4ca001072738b27c41643167.txt",
    "edition": "765",
    "scraped_at": "2026-07-03T09:56:44.614112",
-   "trecho": "- para o padrao de vencimento imediatamente superior na classe a que pertence; - adicional por conclusao de curso correlato com as atribuicoes de seu cargo, de acordo com o art. 36 desta lei. fiscal tributario 1 - descricao sintetica: compreendem os cargos que se destinam a orientar e esclarecer os "
+   "trecho": "pelo Anexo II desta Lei. Art. 4° Fica autorizada a Administração Pública Municipal a realizar processo seletivo simplificado para a contratação temporária, com a finalidade de atender às demandas decorrentes do aumento do quantitativo de cargos de Cozinheiro, até que seja realizado concurso público ",
+   "contexto_fraco": true
   }
  },
  {
@@ -665,8 +659,9 @@
    "txt_url": "https://data.queridodiario.ok.org.br/3302403/2026-07-02/bf6d46f38269e6f9ba295ff8c48a0d40ee8f930c.txt",
    "edition": "1476",
    "scraped_at": "2026-07-02T14:59:53.925991",
-   "trecho": "SECRETARIA EXECUTIVA DE QUALIFICAÇÃO PROFISSIONAL AVISO DE ABERTURA EDITAL DE PROCESSO SELETIVO SEMQP N° 004/2026 - SEQP A Prefeitura Municipal de Macaé, por intermédio da Secretaria Executiva de Qualifi- cação Profissional, torna pública a abertura do Edital n°004/2026, que dispõe sobre a realizaçã",
-   "contexto_fraco": true
+   "trecho": "editalicios para investidura no cargo. art. 2o esta portaria escolares kaua pimentel ribeiro santos 6822o 19a professor a marcella ribeiro rangel 193o 19a professor a carlos andre da silva souza 200o 19a professor a jaqueline belchior vaz 441o 19a auditor fiscal tributario joao pedro rodrigues gomes",
+   "contexto_fraco": true,
+   "possivel_abertura": true
   }
  },
  {
@@ -814,27 +809,6 @@
    "edition": "1989",
    "scraped_at": "2026-07-01T01:36:55.498366",
    "trecho": "seu Prefeito, Sr. GILSON ADRIANO BECKER, FAZ SABER, por este Edital, DA CONVOCAÇÃO E CHAMAMENTO PÚBLICO, EM SEGUNDA CHAMADA, DE CANDIDATOS CLASSIFICADOS NO PROCESSO SELETIVO PÚBLICO PARA ESTAGIÁRIOS, Processo Seletivo Público nº 020, conforme Edital de Abertura nº 268/2025, e de acordo com o Edital ",
-   "contexto_fraco": true
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "conferir",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Vitória/ES — 2026-06-29",
-  "url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.pdf",
-  "orgao": "",
-  "municipio": "Vitória",
-  "uf": "ES",
-  "data_publicacao": "2026-06-29",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.txt",
-   "edition": "",
-   "scraped_at": "2026-07-01T00:48:09.549998",
-   "trecho": "lançamento tributário, constituído por meio de Auto de Infração, cuja cópia encontram-se à sua disposição na Coordenação de Administração Tributária: Nº do Auto Nome/Razão Social Inscrição Municipal Auditor Fiscal 61/2026 Associação Cultural, Social Esportiva Grêmio Recreativo Escola de Samba Unidos",
    "contexto_fraco": true
   }
  },

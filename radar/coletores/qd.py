@@ -16,41 +16,53 @@ import requests
 from ..filtro import _frase_para_regex, normalizar
 from ..modelos import Achado
 
-# Contexto de concurso exigido NO MESMO TRECHO do cargo. A consulta à API já
-# exige a coocorrência no diário inteiro, mas diário é documento longo: uma
-# portaria de pessoal citando o cargo + um "concurso público" de outro ato
-# gerariam falso positivo (caso real: DO de Curitiba de 8.7.2026). Sem a
-# coocorrência no mesmo trecho, o achado é marcado contexto_fraco e o main
-# o rebaixa para a categoria "conferir". Padrões deliberadamente estritos:
-# "edital" e "inscrição" isolados aparecem em atos de fiscalização (edital de
-# notificação, Inscrição Municipal) e não indicam concurso.
-RX_CONTEXTO = re.compile(
-    r"concurso publico|processo seletivo|selecao publica|edital de abertura|inscricoes"
+# Diário oficial é texto bruto que mistura atos: gabarito de outro concurso
+# ao lado de ato de IPTU assinado por "agente fazendário" (Votorantim
+# 24.7.2026), portaria de progressão citando o cargo (Curitiba 8.7.2026),
+# índice com "edital de abertura" perto de tudo. Nenhuma heurística textual
+# dá selo forte com segurança aqui, então TODO achado desta fonte sai como
+# contexto_fraco (o main rebaixa para "conferir"). A busca de abertura
+# próxima ao cargo serve só para escolher o melhor trecho e marcar
+# "possível abertura" como sinal de triagem, nunca como autoridade.
+RX_ABERTURA = re.compile(
+    r"edital de abertura"
+    r"|abertura d[ea]s? inscricoes"
+    r"|inscricoes abertas"
+    r"|periodo de inscricoes"
+    r"|abertura d[eo] concurso"
+    r"|realizacao de concurso publico"
+    r"|torna publica? a abertura"
+    r"|inscricoes estarao abertas"
+    r"|as inscricoes (?:serao|poderao ser|deverao ser) (?:realizadas|efetuadas|feitas)"
 )
-JANELA_PROXIMIDADE = 1500  # distância máx. cargo<->contexto no texto integral
+# Cargo imediatamente seguido de secretaria/diretoria/matrícula é assinatura
+# de servidor (ex.: "marcio ... agente fazendario secretaria de financas").
+RX_POS_ASSINATURA = re.compile(r"^\W{0,10}(secretari|diretor|departamento|matricul|chefe|prefeit)")
+JANELA_PROXIMIDADE = 800
+
+
+def _abertura_proxima(texto_norm, rx_cargos):
+    """Procura cargo não-assinatura a até JANELA de um marcador de abertura.
+
+    Retorna (True, trecho) na primeira coocorrência válida, senão (False, "").
+    """
+    ab_pos = [m.start() for m in RX_ABERTURA.finditer(texto_norm)]
+    if not ab_pos:
+        return False, ""
+    for rx in rx_cargos:
+        for m in rx.finditer(texto_norm):
+            if RX_POS_ASSINATURA.match(texto_norm[m.end() : m.end() + 90]):
+                continue
+            if any(abs(p - m.start()) <= JANELA_PROXIMIDADE for p in ab_pos):
+                ini = max(0, m.start() - 250)
+                return True, " ".join(texto_norm[ini : m.end() + 250].split())
+    return False, ""
 
 
 def _forte_no_texto_integral(txt_url, rx_cargos):
-    """Baixa o texto integral do diário e procura cargo e contexto próximos.
-
-    Os trechos (excerpts) da API têm 400 caracteres e, num edital real, o
-    cabeçalho "CONCURSO PÚBLICO" e a tabela de cargos ficam mais distantes
-    que isso (caso real: Bragança Paulista 7.7.2026). Retorna (True, trecho)
-    na primeira coocorrência dentro da janela, senão (False, "").
-    """
     resp = requests.get(txt_url, headers=HEADERS, timeout=60)
     resp.raise_for_status()
-    texto = normalizar(resp.text)
-    ctx_pos = [m.start() for m in RX_CONTEXTO.finditer(texto)]
-    if not ctx_pos:
-        return False, ""
-    for rx in rx_cargos:
-        for m in rx.finditer(texto):
-            if any(abs(p - m.start()) <= JANELA_PROXIMIDADE for p in ctx_pos):
-                ini = max(0, m.start() - 200)
-                trecho = " ".join(texto[ini : m.end() + 200].split())
-                return True, trecho
-    return False, ""
+    return _abertura_proxima(normalizar(resp.text), rx_cargos)
 
 API = "https://api.queridodiario.ok.org.br/gazettes"
 HEADERS = {
@@ -95,15 +107,10 @@ def coletar(cfg, cursor, desde_padrao):
         pagina = resp.json().get("gazettes", [])
         for g in pagina:
             excerpts = [RX_TAGS.sub("", e) for e in (g.get("excerpts") or [])]
-            trecho_forte = ""
-            for e in excerpts:
-                e_norm = normalizar(e)
-                if RX_CONTEXTO.search(e_norm) and any(rx.search(e_norm) for rx in rx_cargos):
-                    trecho_forte = e
-                    break
+            _, trecho_forte = _abertura_proxima(normalizar("\n".join(excerpts)), rx_cargos)
             if not trecho_forte and g.get("txt_url"):
                 try:
-                    forte, trecho_forte = _forte_no_texto_integral(g["txt_url"], rx_cargos)
+                    _, trecho_forte = _forte_no_texto_integral(g["txt_url"], rx_cargos)
                     time.sleep(1)
                 except requests.RequestException as e:
                     print(f"[qd] aviso: texto integral inacessível ({e!r}), mantendo contexto fraco")
@@ -114,9 +121,10 @@ def coletar(cfg, cursor, desde_padrao):
                 "edition": g.get("edition", ""),
                 "scraped_at": g.get("scraped_at", ""),
                 "trecho": " ".join((trecho_forte or (excerpts[0] if excerpts else "")).split())[:300],
+                "contexto_fraco": True,
             }
-            if not trecho_forte:
-                detalhes["contexto_fraco"] = True
+            if trecho_forte:
+                detalhes["possivel_abertura"] = True
             achados.append(
                 Achado(
                     fonte="qd",

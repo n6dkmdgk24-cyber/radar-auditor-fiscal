@@ -59,6 +59,8 @@ def _render_item(item, hoje):
         linhas_meta.append(
             f'<span class="prazo">inscrições até {prazo.strftime("%d.%m.%Y")} ({dias} dia(s))</span>'
         )
+    if (item.get("detalhes") or {}).get("possivel_abertura"):
+        linhas_meta.append("🔎 possível abertura — conferir no diário")
     linhas_meta.append(
         f"descoberto em {html.escape(item.get('descoberto_em', ''))} · fonte {html.escape(item.get('fonte', ''))}"
     )

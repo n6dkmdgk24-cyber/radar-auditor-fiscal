@@ -54,6 +54,8 @@ def _mensagem_achado(achado, categoria, termos):
         linhas.append(f"Local: {_escapar(local)}")
     linhas.append(f"Termos: {_escapar(', '.join(termos))}")
     linhas.append(f"Fonte: {_escapar(achado.fonte)}")
+    if achado.detalhes.get("possivel_abertura"):
+        linhas.append("🔎 Possível abertura de concurso — conferir no diário")
     trecho = achado.detalhes.get("trecho", "")
     if trecho:
         linhas.append(f"<i>{_escapar(trecho)}</i>")

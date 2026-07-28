@@ -21,6 +21,8 @@ Camadas de coleta (v1) — nenhuma fonte sozinha basta; elas se sobrepõem de pr
 
 O filtro classifica cada achado em **tributário**, **controle** ou **conferir** (ambíguos como "Fiscal Municipal" — nunca descartados em silêncio) usando nomenclaturas levantadas em editais reais de 2019–2026. Homônimos (Auditor-Fiscal do Trabalho, fiscal de obras/posturas/sanitário/ambiental/trânsito) são mascarados antes do teste.
 
+Regra de confiança por fonte: os selos fortes (Tributário/Controle) vêm das fontes de **notícia** (PCI, CNB, DOU), cujos títulos dizem explicitamente que um concurso abriu. Itens do **Querido Diário** são texto bruto de diário oficial (que mistura editais, autos de infração, nomeações e assinaturas de servidores) e por isso entram **sempre como "Conferir"**, com o trecho casado exibido e o marcador "🔎 possível abertura" quando há indício de edital de abertura perto do cargo — sinal de triagem, não veredito.
+
 ## Uso local
 
 ```bash
