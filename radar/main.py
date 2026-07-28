@@ -61,6 +61,10 @@ def main(argv=None):
         categoria, termos = filtro.classificar(f"{a.titulo}\n{a.cargo_texto}")
         if not categoria:
             continue
+        # coletor sinalizou coocorrência fraca (cargo e "concurso" em trechos
+        # distintos do mesmo diário): não descarta, mas não ganha selo forte
+        if categoria in ("tributario", "controle") and a.detalhes.get("contexto_fraco"):
+            categoria = "conferir"
         if estado.ja_visto(a, categoria):
             continue
         estado.marcar(a, categoria)

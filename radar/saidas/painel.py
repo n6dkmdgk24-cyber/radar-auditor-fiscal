@@ -23,6 +23,7 @@ h1 { font-size: 1.5rem; margin-bottom: 4px; }
 .item a { color: inherit; text-decoration: none; font-weight: 600; }
 .item a:hover { text-decoration: underline; }
 .meta { color: #666; font-size: .85rem; margin-top: 6px; }
+.trecho { color: #555; font-size: .85rem; margin-top: 6px; font-style: italic; }
 .badge { display: inline-block; color: #fff; border-radius: 6px;
          font-size: .75rem; padding: 2px 8px; margin-right: 8px; }
 .prazo { font-weight: 700; color: #b00; }
@@ -31,6 +32,7 @@ h2 { font-size: 1.1rem; margin: 28px 0 12px; }
   body { background: #16181c; color: #e6e6e6; }
   .item { background: #1f2228; border-color: #33363d; }
   .sub, .meta { color: #9aa0a8; }
+  .trecho { color: #8a9099; }
   .prazo { color: #ff7b72; }
 }
 """
@@ -60,10 +62,13 @@ def _render_item(item, hoje):
     linhas_meta.append(
         f"descoberto em {html.escape(item.get('descoberto_em', ''))} · fonte {html.escape(item.get('fonte', ''))}"
     )
+    trecho = (item.get("detalhes") or {}).get("trecho", "")
+    bloco_trecho = f'<div class="trecho">{html.escape(trecho)}</div>' if trecho else ""
     return (
         '<div class="item">'
         f'<a href="{html.escape(item.get("url", ""), quote=True)}">{html.escape(item.get("titulo", ""))}</a>'
         f'<div class="meta">{" · ".join(linhas_meta)}</div>'
+        f"{bloco_trecho}"
         "</div>"
     )
 

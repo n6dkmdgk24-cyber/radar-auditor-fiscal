@@ -54,6 +54,9 @@ def _mensagem_achado(achado, categoria, termos):
         linhas.append(f"Local: {_escapar(local)}")
     linhas.append(f"Termos: {_escapar(', '.join(termos))}")
     linhas.append(f"Fonte: {_escapar(achado.fonte)}")
+    trecho = achado.detalhes.get("trecho", "")
+    if trecho:
+        linhas.append(f"<i>{_escapar(trecho)}</i>")
     linhas.append(_escapar(achado.url))
     return "\n".join(linhas)
 
