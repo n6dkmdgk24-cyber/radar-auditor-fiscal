@@ -11,6 +11,9 @@ fontes:
   pci: true                 # PCI Concursos (sitemap de notícias)
   cnb: true                 # Concursos no Brasil (RSS)
   dou: true                 # DOU Seção 3 (busca in.gov.br)
+  sigpub: true              # Diário Oficial dos Municípios do PR (AMP/SIGPub)
+  domsc: true               # Diário Oficial dos Municípios de SC (DOM/SC)
+  selecao: true             # bancas na plataforma selecao.net.br (FAFIPA, AOCP...)
 
 termos:
   # Homônimos: são MASCARADOS do texto antes de testar a inclusão, então

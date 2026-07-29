@@ -1,13 +1,13 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-07-29T12:56:26"
+   "scraped_since": "2026-07-29T12:04:01"
   },
   "pci": {
    "lastmod_max": "2026-07-29"
   },
   "cnb": {
-   "ultimo_pub": "2026-07-29T12:54:31",
+   "ultimo_pub": "2026-07-29T15:04:03",
    "guids": [
     "https://concursosnobrasil.com/?p=381991",
     "https://concursosnobrasil.com/?p=381977",
@@ -189,6 +189,14 @@
     "https://concursosnobrasil.com/?p=380757",
     "https://concursosnobrasil.com/?p=380752",
     "https://concursosnobrasil.com/?p=380747",
+    "https://concursosnobrasil.com/?p=382078",
+    "https://concursosnobrasil.com/?p=382085",
+    "https://concursosnobrasil.com/?p=382076",
+    "https://concursosnobrasil.com/?p=382074",
+    "https://concursosnobrasil.com/?p=382047",
+    "https://concursosnobrasil.com/?p=382040",
+    "https://concursosnobrasil.com/?p=382029",
+    "https://concursosnobrasil.com/?p=382051",
     "https://concursosnobrasil.com/?p=382033",
     "https://concursosnobrasil.com/?p=382026",
     "https://concursosnobrasil.com/?p=382024",
@@ -201,6 +209,36 @@
   },
   "dou": {
    "ultima_data": "2026-07-29"
+  },
+  "sigpub": {
+   "ultima_data": "2026-07-29"
+  },
+  "domsc": {
+   "ultima_data": "2026-07-29"
+  },
+  "selecao": {
+   "vistos": [
+    "https://fundacaofafipa.org.br|4181",
+    "https://fundacaofafipa.org.br|4200",
+    "https://fundacaofafipa.org.br|4198",
+    "https://fundacaofafipa.org.br|4197",
+    "https://fundacaofafipa.org.br|4194",
+    "https://fundacaofafipa.org.br|4192",
+    "https://fundacaofafipa.org.br|4190",
+    "https://fundacaofafipa.org.br|4188",
+    "https://ameosc.selecao.net.br|2535",
+    "https://ameosc.selecao.net.br|2534",
+    "https://ameosc.selecao.net.br|2533",
+    "https://ameosc.selecao.net.br|2532",
+    "https://ameosc.selecao.net.br|2531",
+    "https://ameosc.selecao.net.br|2530",
+    "https://ameosc.selecao.net.br|2529",
+    "https://ameosc.selecao.net.br|2528",
+    "https://ameosc.selecao.net.br|2527",
+    "https://fundep.selecao.net.br|66",
+    "https://access.selecao.net.br|169",
+    "https://access.selecao.net.br|180"
+   ]
   }
  }
 }
