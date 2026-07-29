@@ -25,9 +25,12 @@ Regra de confiança por fonte: os selos fortes (Tributário/Controle) vêm das f
 
 ### Classificador com IA (opcional)
 
-Se o secret `ANTHROPIC_API_KEY` existir, cada item "Conferir" passa por uma revisão final com **Claude Haiku 4.5** (saída estruturada em JSON), que decide: **abertura** na área-alvo (recupera o selo forte, com marcador 🤖), **andamento** (convocação/gabarito/nomeação — continua em Conferir) ou **irrelevante** (sai dos avisos, mas fica registrado em `data/descartados.json` — nada some em silêncio). Qualquer erro de API mantém o item em Conferir (fail-open); sem a chave, o radar funciona exatamente como antes.
+Cada item que o filtro determinístico deixaria em "Conferir" passa por uma revisão final com IA (**GitHub Models**, modelo `gpt-4o-mini`, autenticado com o `GITHUB_TOKEN` do próprio workflow — sem chave externa, custo zero, permissão `models: read`). O veredito decide o destino:
 
-Configuração: criar uma chave dedicada em [console.anthropic.com](https://console.anthropic.com) (Settings → API Keys), **definir um limite mensal de gasto** no console (ex.: US$ 5) e cadastrá-la como secret `ANTHROPIC_API_KEY` no repositório. Custo típico no volume deste radar (~5–15 itens/dia, ~1.400 tokens cada, a US$ 1/M de entrada e US$ 5/M de saída): **centavos de real por dia**. A chave nunca aparece no código nem nos arquivos commitados — vive só nos Actions Secrets (cifrados; mascarados nos logs).
+- **abertura** na área-alvo → único caso que gera aviso: entra no painel/Telegram com selo forte e marcador 🤖;
+- **andamento** (homologação de inscrições, gabarito, resultado, convocação, nomeação) e **irrelevante** (ato de fiscalização, cargo de outra área) → **não geram aviso**; ficam registrados em `data/descartados.json` com o veredito — auditável, nada some em silêncio.
+
+Na dúvida entre abertura e andamento, a IA é instruída a escolher abertura (perder edital é pior que um aviso a mais). Erro de API mantém o item visível em "Conferir" (fail-open). O workflow `teste-ia` (aba Actions, disparo manual) verifica a IA de ponta a ponta.
 
 ## Uso local
 

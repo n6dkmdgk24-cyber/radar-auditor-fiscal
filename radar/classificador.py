@@ -31,10 +31,12 @@ qualquer esfera: Receita Federal, SEFAZ estaduais, prefeituras/ISS) e de CONTROL
 Dado o texto de um achado (título, órgão e trecho de diário oficial ou notícia), decida:
 
 - classe:
-  - "abertura": edital de abertura publicado ou inscrições abertas/anunciadas para concurso
-    público ou processo seletivo com cargo da área-alvo.
-  - "andamento": concurso real com cargo da área-alvo, mas em fase posterior (convocação,
-    homologação, gabarito, nomeação, retificação sem novo prazo de inscrição).
+  - "abertura": edital de abertura publicado, inscrições abertas ou anunciadas, ou
+    retificação/prorrogação que ABRA ou ESTENDA prazo de inscrição, para concurso público ou
+    processo seletivo com cargo da área-alvo. É a única classe que gera aviso ao candidato.
+  - "andamento": concurso real com cargo da área-alvo, mas em fase que NÃO permite mais se
+    inscrever: homologação de inscrições, gabarito, resultado de prova/títulos, convocação,
+    nomeação, posse, retificação sem novo prazo de inscrição.
   - "irrelevante": não é concurso (ato de fiscalização, auto de infração, portaria de pessoal,
     servidor assinando documento) OU o cargo não é da área-alvo (fiscal sanitário/de obras/
     posturas/ambiental/trânsito, agente fiscal de conselho profissional como CREA/CREFITO/CRM,
@@ -42,8 +44,8 @@ Dado o texto de um achado (título, órgão e trecho de diário oficial ou notí
 - area: "tributario", "controle" ou "outra" — a área do cargo em questão.
 - resumo: uma frase curta (máx. 120 caracteres) dizendo o que o texto é.
 
-Na dúvida entre "abertura" e "andamento", escolha "andamento". Na dúvida entre "andamento" e
-"irrelevante", escolha "andamento" — é melhor um aviso a mais do que um concurso perdido.
+Na dúvida entre "abertura" e "andamento", escolha "abertura" — perder um edital é pior do que
+um aviso a mais. Na dúvida entre "andamento" e "irrelevante", escolha "andamento".
 
 Responda SOMENTE com um objeto JSON neste formato, sem nenhum outro texto:
 {"classe": "abertura|andamento|irrelevante", "area": "tributario|controle|outra", "resumo": "..."}"""
@@ -121,8 +123,8 @@ def revisar(candidatos, cfg):
         achado.detalhes["ia"] = veredito
         if veredito["classe"] == "abertura" and veredito["area"] in ("tributario", "controle"):
             revisados.append((achado, veredito["area"], termos))
-        elif veredito["classe"] == "irrelevante":
-            descartados.append((achado, veredito))
         else:
-            revisados.append((achado, "conferir", termos))
+            # andamento, irrelevante ou abertura de outra área: não gera aviso,
+            # mas fica registrado em data/descartados.json (auditável)
+            descartados.append((achado, veredito))
     return revisados, descartados

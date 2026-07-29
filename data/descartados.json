@@ -754,5 +754,425 @@
   "municipio": "São Joaquim",
   "uf": "SC",
   "trecho": "do cargo de Fiscal de Tributos, a contar do dia 21/07/2026 e retorno de acordo com o INSS. – MATHEUS PAIM, ocupante do cargo de Procurador Jurídico, por 01 (um) dia, no dia 21/07/2026. – ANDERSON ESTANISLAU, ocupante do cargo de Fiscal de Cadastro Imobiliário, por 01 (um) dia, no dia 21/07/2026, par"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "abertura",
+   "area": "outra",
+   "resumo": "Concurso para Médico Fiscal e Agente Fiscal do CREMERS - RS."
+  },
+  "fonte": "pci",
+  "titulo": "CREMERS - RS abre concurso público para Médico Fiscal e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/cremers-rs-abre-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+  "municipio": "",
+  "uf": "RS",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "resumo": "Retificação do concurso do CREA-RO para Agente Fiscal e Assistente Administrativo."
+  },
+  "fonte": "pci",
+  "titulo": "CREA-RO retifica concurso público para os cargos de Assistente Administrativo e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/crea-ro-retifica-concurso-publico-para-os-cargos-de-assistente-administrativo-e-agente-fiscal",
+  "municipio": "",
+  "uf": "RO",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Divulgação do gabarito do concurso para Agente Fazendário em Votorantim."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Votorantim/SP — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3557006/2026-07-24/b889eeece9390e36922b124efffa973c67e5a628.pdf",
+  "municipio": "Votorantim",
+  "uf": "SP",
+  "trecho": "Comercial 193,32 5.4 - Industrial 193,32 24 de julho de 2026 13 1 CÂMARA MUNICIPAL DE VOTORANTIM CONCURSO PÚBLICO EDITAL DE DIVULGAÇÃO DO GABARITO O PRESIDENTE DA CÂMARA MUNICIPAL DE VOTORANTIM, no uso de suas atribuições legais, DIVULGA aos candidatos inscritos neste Concurso Público o gabarito da "
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "resumo": "Convocação e nomeação de candidatos para auditor de controle interno em Vitória/ES."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-07-23",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-07-23/f29e8d93d10ad26d2367a67f590c2e709bd88afb.pdf",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "trecho": "Data: sábado (25) Horário: das 9h às 13h 4 Diário Oficial do Município de Vitória - ES 23 de julho de 2026 - Edição nº 2930 PODER EXECUTIVO Editais SECRETARIA DE GESTÃO E PLANEJAMENTO CONCURSO PÚBLICO Nº 003/2024 EDITAL DE CONVOCAÇÃO E NOMEAÇÃO Nº 005/2026 COMUNICADO O Secretário Municipal de Gestão"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Nomeação de candidata para cargo de agente fazendário em concurso homologado."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Casimiro de Abreu/RJ — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/3301306/2026-07-22/8a840e121b405dfdf37246bc3641aa38d45183c9.pdf",
+  "municipio": "Casimiro de Abreu",
+  "uf": "RJ",
+  "trecho": "CONFERIDAS NO ART. 97, II “a”, DA LEI ORGÂNICA MUNICIPAL. CONSIDERANDO os termos do Processo Administrativo nº 2.960/2023; CONSIDERANDO a necessidade de provimento dos cargos pre- vistos no Concurso Público realizado pelo Município, que teve seu Resultado Final homologado através do Decreto nº 3444,"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Nomeação de aprovados no concurso público da Prefeitura de Rio Claro para fiscal de tributos."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio Claro/SP — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/3543907/2026-07-22/62c02dbde06c6a5aabb702db4c8d4cd60b1d0276.pdf",
+  "municipio": "Rio Claro",
+  "uf": "SP",
+  "trecho": "Prefeito do Município de Rio Claro, Estado de São Paulo, usando das atribuições que a Lei lhe confere e, CONSIDERANDO o disposto na Lei Complementar nº 090, de 22 de dezembro de 2014; CONSIDERANDO o concurso público realizado pela Prefeitura Municipal de Rio Claro para preenchimento de cargos consta"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Comunicado sobre resultado de exame médico para concurso de Auditor Fiscal Tributário."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-22/40ac7cafd24c4950b4a31ca3614f05bb9e071603.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "relativa à competência de mar- ço/2025, que se encontra disponível no sistema da Nota Fiscal de Serviços Eletrônica, no endereço: https://novanfse.campinas.sp.gov.br. Por conseguinte, o Auditor Fiscal Tributário Municipal abaixo subscrito, lotado na Coordenadoria Setorial do Cadastro Mobiliário do D"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação de candidatos aprovados no concurso público para auditor fiscal em Marechal Deodoro."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Marechal Deodoro/AL — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/2700000/2026-07-22/99f0d0d429faa5cfc0a04103624da36eacffa4ec.pdf",
+  "municipio": "Marechal Deodoro",
+  "uf": "AL",
+  "trecho": "DA SILVA Diretor de Compras Publicado por: Maria José Barbosa da Silva Filha Código Identificador:971E1328 SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO EDITAL Nº 012/2026 – CONVOCAÇÃO CONCURSO PÚBLICO Nº 001/2022 MUNICÍPIO DE MARECHAL DEODORO, pessoa jurídica de direito público interno, inscrito no CNPJ/MF"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação para o cargo de fiscal de rendas no Rio de Janeiro."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-20",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-20/4f61a9d77770dd4f2b03bd677dde73a7f2a943e4.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "A/SUBSAD/CGRH/CTCSF/CARF, situada à Rua Afonso Cavalcanti n° 455, Prédio Anexo, 10º andar, Ala A - Cidade Nova. O atendimento presencial ocorrerá do dia 20/07/2026 ao dia 29/07/2026, entre 10h e 17h. FISCAL DE RENDAS VAGAS REGULARES CLASS. NOME 33º ARTHUR DA COSTA MARINHO ANEXO ÚNICO DO EDITAL DE CO"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação de aprovados no Concurso Público nº 001/2026 para Fiscal Tributário."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santa Maria da Serra/SP — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3547007/2026-07-17/4b6117f0d115a9947fb8a87ccfb4e0c3fd7820f1.pdf",
+  "municipio": "Santa Maria da Serra",
+  "uf": "SP",
+  "trecho": "PREFEITO MUNICIPAL ATOS OFICIAIS CONVOCAÇÃO CONCURSO PÚBLICO Nº 001/ 2026 Ilmo(a) Sr.(a) SUELI MEURER FERNANDES CINTHIA BERTO MISSONO Psicologo Santa Maria da Serra - SP Tendo em vista sua aprovação no Concurso Público nº 01/2026 realizado por este poder Público Municipal, Homologado em 25 de março "
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Exoneração de Auditor Fiscal de Tributos Mobiliários em Bragança Paulista."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Bragança Paulista/SP — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3507605/2026-07-17/0f526c97591e1c4609dcf1cd13efa1b6648b04a9.pdf",
+  "municipio": "Bragança Paulista",
+  "uf": "SP",
+  "trecho": "contido no MEMO/SMA/DIRH N° 65/2026 CM, Processo Administrativo nº 30934/2026, RESOLVE: Art. 1º Exonerar, a pedido, a partir de 13 de julho de 2026, o Sr. CELSO AUGUSTO DE LIMA, do emprego de Auditor Fiscal de Tributos Mobiliários, considerando o contido no Processo Administrativo nº 29779/2026 Art."
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Decreto torna sem efeito a nomeação de servidores do concurso público nº 001/2024."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Caetité/BA — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/2905206/2026-07-17/53ade43ad2b96700b45dd54960fade31ad887545.pdf",
+  "municipio": "Caetité",
+  "uf": "BA",
+  "trecho": ". . . . . . . . . . . . . . . . DECRETO Nº 230, DE 17 DE JULHO DE 2026. TORNA SEM EFEITO A NOMEAÇÃO DE SERVIDORES PÚBLI- COS NOMEADOS PELO DECRETO Nº 185, DE 1 DE JUNHO DE 2026, APROVADOS NO CONCURSO PÚBLICO Nº 001/2024 E DÁ OUTRAS PROVIDÊNCIAS. . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Retificação do edital do concurso para auditor fiscal de tributos municipais em Taubaté."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Taubaté/SP — 2026-07-16",
+  "url": "https://data.queridodiario.ok.org.br/3554102/2026-07-16/fea0938f801f9b214b7876122c28a072d095303b.pdf",
+  "municipio": "Taubaté",
+  "uf": "SP",
+  "trecho": "02, torna publica a retificacao do edita l nos seguintes termos: onde se le: (...) anexo i anexo i - quadro de vagas e descricao dos cargos codigo cargo vagas escolaridade / requisitos/jornada vencimentos valor da inscricao (r$) 60b auditor fiscal de tributos municipais 2 nivel universitario compati"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação de candidato aprovado no processo seletivo para fiscal de tributos."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Juranda/PR — 2026-07-16",
+  "url": "https://data.queridodiario.ok.org.br/4112959/2026-07-16/b6717d4c1b5fceea7502bdcb32b0a4c16b043ffc.pdf",
+  "municipio": "Juranda",
+  "uf": "PR",
+  "trecho": "Edição Extraordinária nº 692 Pág. 2 / 4 quinta-feira, 16 de julho de 2026 EDITAIS EDITAL N° 059/2026 SÚMULA: CONVOCA CANDIDATO(A) APROVADO(A) NO PROCESSO SELETIVO SIMPLIFICADO Nº 1/2024 PARA CONTRATAÇÃO. A PREFEITA MUNICIPAL DE JURANDA, ESTADO DO PARANÁ, no uso das atribuições conferidas pelo art. 6"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Divulgação do resultado da prova objetiva do concurso para fiscal de tributos em Tremembé/SP."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Tremembé/SP — 2026-07-15",
+  "url": "https://data.queridodiario.ok.org.br/3554805/2026-07-15/0af5275e0c66f97c57828b1d85991c411962022f.pdf",
+  "municipio": "Tremembé",
+  "uf": "SP",
+  "trecho": "RESULTADO DA PROVA OBJETIVA E DA CLASSIFICAÇÃO PRÉVIA A Prefeitura Municipal da Estância Turística de Tremembé/SP, no uso de suas atribuições legais, DIVULGA, aos candidatos inscritos no Concurso Público n° 001/2026, a análise dos recursos interpostos contra o gabarito da prova objetiva, o resultado"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "resumo": "Convocação de candidatos aprovados no concurso para Auditor Fiscal do Tesouro Municipal."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Nova Iguaçu/RJ — 2026-07-09",
+  "url": "https://data.queridodiario.ok.org.br/3303500/2026-07-09/c7d1ff4bd2b72148da4763fe196ca4a972e937af.pdf",
+  "municipio": "Nova Iguaçu",
+  "uf": "RJ",
+  "trecho": "001476/2026- 76, RESOLVE: AVERBAR para efeito de aposentadoria e contabilização do adicional de tempo de serviço do servidor VITOR DE MELLO OLIVEIRA, matrícula n.º 10/709.421-2, investido no cargo de Auditor Fiscal do Tesouro Municipal, lotado na SEMEF, o tempo de serviço de 13 (treze) anos e 33 (tr"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Nomeação de candidatos para Auditor Fiscal de Tributos Municipais em Curitiba."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Curitiba/PR — 2026-07-08",
+  "url": "https://data.queridodiario.ok.org.br/4106902/2026-07-08/51fdf0818bc12827a5a5608bd0e7c72e7023b6a6.pdf",
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "trecho": "2025, considerando o Edital Normativo º 6, de 20 de julho de 2022, e o Protocolo nº 04- 029661/2026, RESOLVE: Art. 1º NOMEAR, na Administração Pública Direta, em virtude de habilitação em Concurso Público, no cargo de Profissional do Magistério – Área de Atuação: Docência I, Grupo Ocupacional Superi"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "resumo": "Convocação para entrega de documentos de concurso público, mas não para cargo da área-alvo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-08",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-08/e44ac2d2a2b7f9648c23f4c20aee5af4edafbd66.pdf",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "trecho": "Largo da garantia da autenticidade deste documento, desde que visualizado através de http://www.campolargo.pr.gov.brno link Diário Oficial. EDITAL DE CONVOCAÇÃO N.o 104/2026 REFERENTE AO CONCURSO PÚBLICO No 061/2024 CONVOCÁÇÁ O para entrega presencial da documentaça o exigida para admissa o, incluin"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Contratação de candidato classificado para a função de Fiscal de Rendas."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Penápolis/SP — 2026-07-06",
+  "url": "https://data.queridodiario.ok.org.br/3537305/2026-07-06/9a0371f558ac8d04f62b54fb09756e67b2212b31.pdf",
+  "municipio": "Penápolis",
+  "uf": "SP",
+  "trecho": "CATALANI Prefeito Municipal ___________________________ PORTARIA Nº 231, de 01 de julho de 2026. “Dispõe sobre a contratação, por tempo indeterminado, de candidato classificado para a função de FISCAL DE RENDAS, conforme especifica.” CARLOS HENRIQUE ROSSI CATALANI, Prefeito Municipal de Penápolis, n"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "resumo": "Corrigenda altera cronograma de processo seletivo em Niterói."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Niterói/RJ — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3303302/2026-07-01/e8e07b04e64092aae8842b73c9df56818904e527.pdf",
+  "municipio": "Niterói",
+  "uf": "RJ",
+  "trecho": "Portaria entra em vigor na data de sua publicação. CORRIGENDA: Altera o Edital SEXEC/COJUVE nº 03/2025, publicado em 10/06/2026, na folha 2: Onde se lê: “10. DO CRONOGRAMA 10.1 As etapas do processo seletivo seguem os períodos a seguir: CRONOGRAMA Publicação do Edital 09/06/2026 Período de Inscrição"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "resumo": "Convocação de candidatos aprovados em processo seletivo para arquiteto e engenheiro ambiental."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Contagem/MG — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3118601/2026-07-01/800d459e25cc139c339fbc36ef8ea10ddb041206.pdf",
+  "municipio": "Contagem",
+  "uf": "MG",
+  "trecho": "CONTRATAÇÃO DOS CANDIDATOS APROVADOS NO PSS 07/2024 – ÁREAS URBANAS CONVOCAÇÃO Nº 06/2026 A Secretaria Municipal de Administração de Contagem, no uso de suas atribuições e considerando o Edital do processo seletivo simplificado PSS 07/2024, Lei Municipal nº 4.288, de 30 de setembro de 2009 que dispõ"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação de candidatos classificados no concurso público para auditor fiscal tributário em Itapevi."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itapevi/SP — 2026-06-30",
+  "url": "https://data.queridodiario.ok.org.br/3522505/2026-06-30/415886b6d39c10103dccc3602d24bf38a795b3b8.pdf",
+  "municipio": "Itapevi",
+  "uf": "SP",
+  "trecho": "enquadrando-se nas hipóteses do art. 1º, § 1º, da Lei nº 116/2023. Fundamentação legal: Artigos, 381, § 1º, I a IV da LC 34/2005 - Código Tributário Municipal Itapevi. Luciano Ferreira Bernardino Auditor Fiscal Tributário Matrícula 7476 Contribuinte: R&C NEGOCIOS, ADMINISTRACAO E SERVICOS LTDA. CRC:"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "resumo": "Convocação de candidatos para o cargo de Auditor Fiscal em Nutrição."
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Almirante Tamandaré — EDITAL DE CONVOCAÇÃO Nº 052/2026 –  CONCURSO PÚBLICO 2022 (2026-07-28)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/D95C9510",
+  "municipio": "Almirante Tamandaré",
+  "uf": "PR",
+  "trecho": "Humanos, e em conformidade com a legislação vigente, resolve: TORNAR PÚBLICO CONVOCAR os candidatos contidos no Anexo I deste Edital, para o cargo de AUDITOR FISCAL EM NUTRIÇÃO, a comparecer no período de 29 de julho à 05 de agosto de 2026, das 08h30 às 11h30 e das 13h30 às 16h30 na Secretaria Munic"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Homologação das inscrições do concurso público para agente fiscal de tributos."
+  },
+  "fonte": "sigpub",
+  "titulo": "MUNICÍPIO DE BOA ESPERANÇA DO IGUAÇU — EDITAL Nº 003/2026 EDITAL DE HOMOLOGAÇÃO DAS INSCRIÇÕES  CONCURSO PÚBLICO Nº 001/2026 (2026-07-27)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/07BF7FAE",
+  "municipio": "Boa Esperança Do Iguaçu",
+  "uf": "PR",
+  "trecho": "ONASSA 23817386 ADVOGADO ROBERT CAPOTE DE OLIVEIRA 23817306 ADVOGADO ROSEVALDO RODRIGUES PEREZ 23817327 ADVOGADO VERIDIANE DOS SANTOS 23817000 AGENTE FISCAL DE TRIBUTOS ALEXANDRE KEHL PEREIRA 23816964 AGENTE FISCAL DE TRIBUTOS PEDRO AUGUSTO SEVERO JOSEFI 23817002 AUXILIAR DE CONTABILIDADE ALEXANDRE "
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Homologação das inscrições do concurso público para fiscal tributário em Rio Azul/PR."
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Rio Azul — CONCURSO PÚBLICO ESTATUTÁRIO 01/2026 (2026-07-27)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/E3A2D440",
+  "municipio": "Rio Azul",
+  "uf": "PR",
+  "trecho": "EIRO CIVIL FELIPE DE OLIVEIRA MANCHUR 23816450 FARMACÊUTICO GUSTAVO DO NASCIMENTO ROMÃO 23817180 FARMACÊUTICO LOYANNE DANICHEWCZ DE OLIVEIRA 23816732 FISCAL TRIBUTÁRIO ALEXANDRE KEHL PEREIRA 23816701 FISCAL TRIBUTÁRIO CAIO FELIPE DOMINGUES 23816713 FISCAL TRIBUTÁRIO FLAVIO ROBERTO GEREMIAS 23816866 "
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação dos aprovados no concurso público para auditor fiscal."
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Nova Trento — DECRETO N°264/2026 - CONVOCA OS APROVADOS NO CONCURSO PÚBLICO Nº 001/2023 HOMOLOGADO EM 02/10/2023, QUE NOMINA PARA COMPARECIMENTO E APRESENTAÇÃO DE DOCUMENTOS JUNTO AO DEPARTAMENTO DE RECURSOS HUMANOS E DÁ OUTRAS PROVIDÊNCIAS (2026-07-28)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8554868",
+  "municipio": "Nova Trento",
+  "uf": "SC",
+  "trecho": "INSC AUDITOR FISCAL 15° 1142056"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Nomeação de auditor fiscal de tributos pela Prefeitura de Barra Bonita."
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Barra Bonita — PORTARIA N.º 533, DE 28 DE JULHO DE 2026 (2026-07-28)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8554268",
+  "municipio": "Barra Bonita",
+  "uf": "SC",
+  "trecho": ", ficando o texto da seguinte forma: Nomear por Concurso Público o senhor Igor Airton de Souza, CPF nº 092.992.959-48 , para ocupar o Cargo de Auditor Fiscal de Tributos e Obras, do Quadro de Pessoal da Prefeitura Municipal,"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Resultado definitivo da prova de títulos do concurso para Auditor Fiscal de Tributos Municipais."
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Três Barras — RESULTADO DEFINITIVO DA PROVA DE TÍTULOS DO CONCURSO PÚBLICO N.º 001/2026 (2026-07-28)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8553852",
+  "municipio": "Três Barras",
+  "uf": "SC",
+  "trecho": "PONTOS 8244 - ASSISTENTE SOCIAL 40H - TRÊS BARRAS MODALIDADE 8245 - AUDITOR FISCAL DE TRIBUTOS MUNICIPAIS - TRÊS BARRAS"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Convocação de candidatos para o cargo de Fiscal de Tributos."
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Campos Novos — CONCURSO PÚBLICO Nº 001/2025 EDITAL DE CONVOCAÇÃO Nº 031/2026 (2026-07-28)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8551456",
+  "municipio": "Campos Novos",
+  "uf": "SC",
+  "trecho": "Cargo: Fiscal de Tributos Nº inscrição Nome do candidato Classificação"
+ },
+ {
+  "descartado_em": "2026-07-29",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "resumo": "Decreto da Prefeitura de Anchieta relacionado a auditor de tributos."
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Anchieta — DECRETO 097/2026 (2026-07-27)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8542731",
+  "municipio": "Anchieta",
+  "uf": "SC",
+  "trecho": "iã De Jesus Portella Felipe 06/05/1999 3,00 0,00 0,00 3,00 Desc. 63 Daniela Cosmann Faltante Desc. 33 Maria Clara Carpeggiani Faltante Desc. AUDITOR DE TRIBUTOS Insc. Nome candidato(a) Data Nasc. CE LP CG Total Class. $(document).ready(function() { // Evento do resumo do documento $(document).on('cl"
  }
 ]
