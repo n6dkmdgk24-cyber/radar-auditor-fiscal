@@ -63,6 +63,14 @@ def _render_item(item, hoje):
         linhas_meta.append("🔎 possível abertura — conferir no diário")
     ia = (item.get("detalhes") or {}).get("ia")
     if ia:
+        if ia.get("classe") == "suspensao":
+            linhas_meta.append('<span class="prazo">⚠️ suspenso/adiado</span>')
+        if ia.get("cadastro_reserva"):
+            linhas_meta.append("📋 somente cadastro de reserva")
+        if ia.get("cargo"):
+            linhas_meta.append(f"cargo: {html.escape(ia['cargo'])}")
+        if ia.get("inscricoes"):
+            linhas_meta.append(f"🗓 inscrições: {html.escape(ia['inscricoes'])}")
         linhas_meta.append(f"🤖 {html.escape(ia.get('classe', ''))} — {html.escape(ia.get('resumo', ''))}")
     linhas_meta.append(
         f"descoberto em {html.escape(item.get('descoberto_em', ''))} · fonte {html.escape(item.get('fonte', ''))}"

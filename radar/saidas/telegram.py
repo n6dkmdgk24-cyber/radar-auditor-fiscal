@@ -58,7 +58,15 @@ def _mensagem_achado(achado, categoria, termos):
         linhas.append("🔎 Possível abertura de concurso — conferir no diário")
     ia = achado.detalhes.get("ia")
     if ia:
-        linhas.append(f"🤖 IA: {_escapar(ia.get('classe', ''))} — {_escapar(ia.get('resumo', ''))}")
+        if ia.get("classe") == "suspensao":
+            linhas.append("⚠️ CONCURSO SUSPENSO/ADIADO")
+        if ia.get("cadastro_reserva"):
+            linhas.append("📋 Somente cadastro de reserva")
+        if ia.get("cargo"):
+            linhas.append(f"Cargo: {_escapar(ia['cargo'])}")
+        if ia.get("inscricoes"):
+            linhas.append(f"🗓 Inscrições: {_escapar(ia['inscricoes'])}")
+        linhas.append(f"🤖 {_escapar(ia.get('classe', ''))} — {_escapar(ia.get('resumo', ''))}")
     trecho = achado.detalhes.get("trecho", "")
     if trecho:
         linhas.append(f"<i>{_escapar(trecho)}</i>")

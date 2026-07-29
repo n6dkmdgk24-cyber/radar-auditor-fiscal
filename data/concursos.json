@@ -122,7 +122,17 @@
   "municipio": "",
   "uf": "MT",
   "data_publicacao": "2026-07-14",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "Fiscal de Tributos Estaduais",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso da SEFAZ-MT suspenso",
+    "origem": "auditoria-manual-29.7.2026"
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -245,96 +255,6 @@
   "descoberto_em": "2026-07-28",
   "categoria": "tributario",
   "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "dou",
-  "titulo": "EDITAL - Nº 8/2026- RFB, DE 13 DE JULHO DE 2026 (Edital)",
-  "url": "https://www.in.gov.br/web/dou/-/edital-n-8/2026-rfb-de-13-de-julho-de-2026-718843375",
-  "orgao": "Secretaria Especial da Receita Federal do Brasil",
-  "municipio": "",
-  "uf": "",
-  "data_publicacao": "2026-07-14",
-  "detalhes": {
-   "artType": "Edital",
-   "hierarquia": "Ministério da Fazenda/Secretaria Especial da Receita Federal do Brasil"
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "dou",
-  "titulo": "EDITAL ENAP Nº 197, DE 25 DE JUNHO DE 2026 (Edital)",
-  "url": "https://www.in.gov.br/web/dou/-/edital-enap-n-197-de-25-de-junho-de-2026-715495792",
-  "orgao": "Fundação Escola Nacional de Administração Pública",
-  "municipio": "",
-  "uf": "",
-  "data_publicacao": "2026-06-30",
-  "detalhes": {
-   "artType": "Edital",
-   "hierarquia": "Ministério da Gestão e da Inovação em Serviços Públicos/Fundação Escola Nacional de Administração Pública"
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-23",
-  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-23/4424bf963c8849f96e31361bb72d801431a50c8f.pdf",
-  "orgao": "",
-  "municipio": "Campo Largo",
-  "uf": "PR",
-  "data_publicacao": "2026-07-23",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/4104204/2026-07-23/4424bf963c8849f96e31361bb72d801431a50c8f.txt",
-   "edition": "3224",
-   "scraped_at": "2026-07-23T23:29:30.241486",
-   "trecho": "desconhecimento, expediu-se o presente Edital, publicado em jornal oficial na forma da Lei Municipal Nº 2087/2008. Kelly Cristina Sanches Bento Auditor Fiscal da Receita Municipal Departamento de Rendas Mobiliárias Secretaria Municipal da Fazenda http://www.campolargo.pr.gov.br/ DIÁRIO OFICIAL ELETR",
-   "contexto_fraco": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Edital publicado para concurso de Auditor Fiscal da Receita Municipal."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal",
-   "fiscal tributario",
-   "auditor fiscal tributario"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Campinas/SP — 2026-07-21",
-  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-21/47b6650b4e0693257a1dfecac829f477cdadf5c5.pdf",
-  "orgao": "",
-  "municipio": "Campinas",
-  "uf": "SP",
-  "data_publicacao": "2026-07-21",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3509502/2026-07-21/47b6650b4e0693257a1dfecac829f477cdadf5c5.txt",
-   "edition": "13870",
-   "scraped_at": "2026-07-22T00:59:57.981654",
-   "trecho": "destinada ao sexo feminino será facultativa, devendo a interessada manifestar a sua opção no ato da inscrição no concurso público, na forma estabelecida em edital. § 6º A reserva de vagas prevista neste artigo, os requisitos para comprovação e aplica- ção dentro das fases do concurso público e sua c",
-   "contexto_fraco": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Edital de concurso público para Auditor Fiscal Tributário em Campinas/SP."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
    "auditor fiscal",
    "fiscal de tributos"
   ],
@@ -356,113 +276,6 @@
     "classe": "abertura",
     "area": "tributario",
     "resumo": "Concurso público para auditor fiscal de tributos municipais em Santos/SP."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "fiscal de tributos"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Tremembé/SP — 2026-07-08",
-  "url": "https://data.queridodiario.ok.org.br/3554805/2026-07-08/4f84580a355693fd5304a08080f84259db0823c5.pdf",
-  "orgao": "",
-  "municipio": "Tremembé",
-  "uf": "SP",
-  "data_publicacao": "2026-07-08",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3554805/2026-07-08/4f84580a355693fd5304a08080f84259db0823c5.txt",
-   "edition": "2397",
-   "scraped_at": "2026-07-08T21:54:07.430069",
-   "trecho": "tremembe.sp.gov.br | Tel. (12) 3607-1000 | tremembe@tremembe.sp.gov.br EDITAL DE ABERTURA DE INSCRIÇÕES – RETIFICAÇÃO 4 CONCURSO PÚBLICO Nº 001/2026 A Prefeitura Municipal da Estância Turística de Tremembé/SP faz saber que estarão abertas inscrições para o Concurso Público nº 001/2026 regido pelas p",
-   "contexto_fraco": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Abertura de inscrições para o Concurso Público nº 001/2026 em Tremembé/SP."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "fiscal tributario"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Itajubá/MG — 2026-07-02",
-  "url": "https://data.queridodiario.ok.org.br/3132404/2026-07-02/c2d3970eb06cc70a4ca001072738b27c41643167.pdf",
-  "orgao": "",
-  "municipio": "Itajubá",
-  "uf": "MG",
-  "data_publicacao": "2026-07-02",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3132404/2026-07-02/c2d3970eb06cc70a4ca001072738b27c41643167.txt",
-   "edition": "765",
-   "scraped_at": "2026-07-03T09:56:44.614112",
-   "trecho": "pelo Anexo II desta Lei. Art. 4° Fica autorizada a Administração Pública Municipal a realizar processo seletivo simplificado para a contratação temporária, com a finalidade de atender às demandas decorrentes do aumento do quantitativo de cargos de Cozinheiro, até que seja realizado concurso público ",
-   "contexto_fraco": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Autorizado processo seletivo para Fiscal Tributário em Itajubá/MG."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal",
-   "fiscal tributario",
-   "auditor fiscal tributario"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Macaé/RJ — 2026-07-02",
-  "url": "https://data.queridodiario.ok.org.br/3302403/2026-07-02/bf6d46f38269e6f9ba295ff8c48a0d40ee8f930c.pdf",
-  "orgao": "",
-  "municipio": "Macaé",
-  "uf": "RJ",
-  "data_publicacao": "2026-07-02",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/3302403/2026-07-02/bf6d46f38269e6f9ba295ff8c48a0d40ee8f930c.txt",
-   "edition": "1476",
-   "scraped_at": "2026-07-02T14:59:53.925991",
-   "trecho": "editalicios para investidura no cargo. art. 2o esta portaria escolares kaua pimentel ribeiro santos 6822o 19a professor a marcella ribeiro rangel 193o 19a professor a carlos andre da silva souza 200o 19a professor a jaqueline belchior vaz 441o 19a auditor fiscal tributario joao pedro rodrigues gomes",
-   "contexto_fraco": true,
-   "possivel_abertura": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Abertura de processo seletivo para auditor fiscal tributário em Macaé."
-   }
-  }
- },
- {
-  "descoberto_em": "2026-07-28",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "qd",
-  "titulo": "Diário Oficial de Feira de Santana/BA — 2026-07-01",
-  "url": "https://data.queridodiario.ok.org.br/2910800/2026-07-01/4d2250feb5b4bd99c96764eabd280ffa14ab99c2.pdf",
-  "orgao": "",
-  "municipio": "Feira de Santana",
-  "uf": "BA",
-  "data_publicacao": "2026-07-01",
-  "detalhes": {
-   "txt_url": "https://data.queridodiario.ok.org.br/2910800/2026-07-01/4d2250feb5b4bd99c96764eabd280ffa14ab99c2.txt",
-   "edition": "3563",
-   "scraped_at": "2026-07-02T02:41:57.953261",
-   "trecho": "O DIÁRIO OFICIAL DO MUNICÍPIO DE FEIRA DE SANTANA garante a autenticidade deste documento quando visualizado diretamente no portal www.diariooficial.feiradesantana.ba.gov.br 15 CONCURSO PÚBLICO EDITAL Nº 01, DE 30 DE JULHO DE 2024 A PREFEITURA MUNICIPAL DE FEIRA DE SANTANA, no uso de suas atribuiçõe",
-   "contexto_fraco": true,
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "resumo": "Edital de concurso público para auditor fiscal publicado pela Prefeitura de Feira de Santana."
    }
   }
  },
@@ -507,7 +320,16 @@
   "detalhes": {
    "banca": "Fundação FAFIPA",
    "id": "4194",
-   "base": "https://fundacaofafipa.org.br"
+   "base": "https://fundacaofafipa.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal de Tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "Abertura com vagas somente em cadastro de reserva",
+    "origem": "auditoria-manual-29.7.2026"
+   }
   }
  },
  {
