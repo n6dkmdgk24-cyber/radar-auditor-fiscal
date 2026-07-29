@@ -1,0 +1,40 @@
+name: teste-ia
+
+# Disparo manual para verificar se o classificador (GitHub Models via
+# GITHUB_TOKEN) está funcionando dentro do Actions.
+on: workflow_dispatch
+
+permissions:
+  models: read
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - name: Chamar o classificador com um caso de teste
+        env:
+          IA_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'EOF'
+          from radar import classificador
+          from radar.modelos import Achado
+
+          a = Achado(
+              fonte='teste',
+              titulo='Prefeitura de Exemplo - PR abre concurso para Fiscal de Tributos',
+              url='https://exemplo',
+              detalhes={'trecho': 'edital de abertura de concurso público, inscrições de 1 a 30 de agosto, cargo Fiscal de Tributos, nível médio'},
+          )
+          veredito = classificador._chamar(classificador._texto_item(a, ['fiscal de tributos']))
+          print('veredito:', veredito)
+          assert veredito['classe'] == 'abertura', veredito
+          print('OK: GitHub Models respondendo no Actions')
+          EOF
