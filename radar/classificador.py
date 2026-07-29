@@ -68,30 +68,35 @@ def _texto_item(achado, termos):
 
 def _chamar(texto):
     token = os.environ.get("IA_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    resp = requests.post(
-        os.environ.get("IA_URL", URL_PADRAO),
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-        json={
-            "model": os.environ.get("IA_MODELO", MODELO_PADRAO),
-            "messages": [
-                {"role": "system", "content": SISTEMA},
-                {"role": "user", "content": texto},
-            ],
-            "response_format": {"type": "json_object"},
-            "max_tokens": 300,
-            "temperature": 0,
-        },
-        timeout=60,
-    )
-    resp.raise_for_status()
-    veredito = json.loads(resp.json()["choices"][0]["message"]["content"])
-    if veredito.get("classe") not in CLASSES or veredito.get("area") not in AREAS:
-        raise ValueError(f"veredito fora do esquema: {veredito!r}")
-    return {
-        "classe": veredito["classe"],
-        "area": veredito["area"],
-        "resumo": str(veredito.get("resumo", ""))[:160],
-    }
+    for _ in range(3):
+        resp = requests.post(
+            os.environ.get("IA_URL", URL_PADRAO),
+            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+            json={
+                "model": os.environ.get("IA_MODELO", MODELO_PADRAO),
+                "messages": [
+                    {"role": "system", "content": SISTEMA},
+                    {"role": "user", "content": texto},
+                ],
+                "response_format": {"type": "json_object"},
+                "max_tokens": 300,
+                "temperature": 0,
+            },
+            timeout=60,
+        )
+        if resp.status_code == 429:  # limite do plano gratuito: espera e tenta de novo
+            time.sleep(min(int(resp.headers.get("retry-after", "30")), 120))
+            continue
+        resp.raise_for_status()
+        veredito = json.loads(resp.json()["choices"][0]["message"]["content"])
+        if veredito.get("classe") not in CLASSES or veredito.get("area") not in AREAS:
+            raise ValueError(f"veredito fora do esquema: {veredito!r}")
+        return {
+            "classe": veredito["classe"],
+            "area": veredito["area"],
+            "resumo": str(veredito.get("resumo", ""))[:160],
+        }
+    raise RuntimeError("limite de requisições persistente (HTTP 429)")
 
 
 def revisar(candidatos, cfg):
@@ -107,7 +112,7 @@ def revisar(candidatos, cfg):
             continue
         try:
             veredito = _chamar(_texto_item(achado, termos))
-            time.sleep(2)  # cortesia com o limite de requisições do plano gratuito
+            time.sleep(5)  # o tier gratuito aceita ~15 requisições/minuto
         except Exception as e:  # fail-open: sem veredito, o item segue como conferir
             print(f"[ia] aviso: classificação falhou ({e!r}), item mantido em conferir")
             revisados.append((achado, categoria, termos))

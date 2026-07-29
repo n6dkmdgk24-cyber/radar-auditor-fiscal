@@ -1,1 +1,576 @@
-[]
+[
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Processo seletivo para Agente Fiscal do CREFITO-20, cargo fora da área-alvo."
+  },
+  "fonte": "pci",
+  "titulo": "CREFITO-20 - AM: Processo seletivo abre vaga para Agente Fiscal com salário de R$ 7.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/crefito-20-am-processo-seletivo-abre-vaga-para-agente-fiscal-com-salario-de-7000",
+  "municipio": "",
+  "uf": "AM",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Prefeitura abre seleção para Enfermeiro e Controlador Interno, cargos fora da área-alvo."
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Tiradentes do Sul - RS abre seleções para Enfermeiro e Controlador Interno",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tiradentes-do-sul-rs-abre-selecoes-para-enfermeiro-e-controlador-interno",
+  "municipio": "Tiradentes do Sul",
+  "uf": "RS",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Extrato de balancete do mês de junho de 2026, sem relação a concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Jundiaí/SP — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3525904/2026-07-24/7ad92fd17dcb7a57632ae78ce8ebae3908c961ef.pdf",
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "trecho": "(2008) 0,00 0,00 0,00 0,00 1928.01.11.01.04.001 - INDENIZAÇÕES - FMT(504) 0,00 0,00 0,00 0,00 TOTAL 2.361.006,14 14.831.558,38 30.028.800,00 (15.197.241,62) Elaborado por: FÁTIMA BOSCHINI Agente Fazendário SMFIN/ DC FUNDO MUNICIPAL DE TRÂNSITO (Lei Municipal nº 5090/97 ) EXTRATO DE BALANCETE DO MÊS "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Pedido de redução de carga horária de auditor de controle externo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-24",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-24/4582c90f945605a5181fbb8a78494626998204ca.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "de 01(hum) ano, o pedido de redução de carga horária, previsto no artigo 177, inciso XXVIII, da Lei Orgânica do Município do Rio de Janeiro, formulado por: ROBERTA DA SILVA SCOTELLARO, Auditor de Controle Externo, matrícula 40/901.725-2, processo nº 40/100.866/2019. LUCIANA NOGUEIRA FIRMO WANDERLEY,"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto menciona adequação de cargos, mas não é sobre concurso público."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itaúna/MG — 2026-07-23",
+  "url": "https://data.queridodiario.ok.org.br/3133808/2026-07-23/e106ab034f021a4a6df6940f8ded47ffb857e583.pdf",
+  "municipio": "Itaúna",
+  "uf": "MG",
+  "trecho": "serem desenvolvidos pela Administração, por meio de audiências públicas, reuniões regionais, com a efetiva participação de autoridades, lideranças e população em geral; c) adequar os cargos de Fiscal Tributário, Técnico em Contabilidade e Contador para atendimento às demandas do Município com foco e"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Designação de servidora para cargo de Fiscal de Tributos, sem relação a concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Bela Vista/MS — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/5002100/2026-07-22/c64694589925024b8f88c70788bdeeb54f4bffff.pdf",
+  "municipio": "Bela Vista",
+  "uf": "MS",
+  "trecho": "uso das atribuições que lhe confere a Lei Orgânica do Município R E S O L V E: Art. 1º - Designar a servidora Alessandra Além Quinhones, matrícula 3130, ocupante do cargo efetivo de Fiscal de Tributos, lotada na Secretaria Municipal de Fazenda, para responder pelo Centro de Atendimento ao Contribuin"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Portaria designa e revoga funções de servidores ocupantes do cargo de Agente Fazendário."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Jundiaí/SP — 2026-07-22",
+  "url": "https://data.queridodiario.ok.org.br/3525904/2026-07-22/f03736f3df7c4107c17fdb286f878c91e14d546c.pdf",
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "trecho": "agosto de 2026, conforme consta no Processo PMJ.0023551/2026. PORTARIA N° 819, DE 20 DE JULHO DE 2026 Resolve designar o(a) servidor(a) EDNEIA CRISTIANE MARQUES CAUSS, ocupante do cargo de Agente Fazendário, pertencente ao quadro de pessoal estatutário, para exercer em substituição ao cargo de Diret"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre contrato de gestão, sem relação com concurso público."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-21",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-21/2c619a8a26fbc56bfaf48b9968a20584a2f1eed7.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "recursos ou após o seu julgamento, a Organização Social vencedora será considerada apta a celebrar o contrato de gestão. Seção IV Formalização do Contrato de Gestão Art. 15. Havendo ou não prévio processo seletivo, antes da assinatura do respectivo instrumento, o contrato de gestão deverá ser aprova"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto menciona processo seletivo para estagiários, não relacionado à área-alvo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-20",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-20/47497d1bf570d83214655f14ca625a39dd60a3ba.pdf",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "trecho": "gov.brno link Diário Oficial. SUMÁ RIO ÁTOS DO PODER EXECUTIVO 3 Termo Aditivo de Contrato de Financiamento - FINISA 3 PORTARIA N.o 043/2026 – FAPEN 5 PROCESSO SELETIVO Nº 091/2026 - ESTAGIÁRIOS 6 PROCESSO SELETIVO Nº 091/2026 - ESTAGIÁRIOS 7 CONSELHO MUNICIPAL DOS DIREITOS DO IDOSO 11 PORTARIA No 1"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "resumo": "Decisão sobre indeferimento de pedido relacionado a isenção de IPTU."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-17/48e165404e34f6daa9f78167c4265e050d98cd87.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "essencial à instrução do processo, opina-se pelo INDEFERIMENTO DE PLANO do pedido, sem apreciação do mérito. À consideração de V. Sa F/REC-RIO/CIP-1, em 08/05/2026. Walter C.N. da Silva Jr. Fiscal de Rendas- Mat. 10/352.074-9 SUPERINTENDÊNCIA EXECUTIVA DE TRIBUTAÇÃO E FISCALIZAÇÃO COORDENADORIA DO I"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre seleção de projetos e empresas, sem relação com auditor fiscal."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-17/ab7e2c8400cc244696e1b36328796715c3af67b1.pdf",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "trecho": "SELEÇÃO DE PROJETOS E EMPRESAS PARA INCUBAÇÃO 5 Nº 06/2026 SMDEI 5 NOTIFICAÇÃO CADASTRO 27587 6 EDITAL DE CONVOCAÇÃO N.º 113/2026 7 REFERENTE AO PROCESSO SELETIVO Nº 036/2025 7 EDITAL DE CONVOCAÇÃO N.º 114/2026 11 REFERENTE AO PROCESSO SELETIVO Nº 039/2026 11 PORTARIA N° 2010/2026 15 PORTARIA N° 204"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Ato de diligência do auditor fiscal em processo do Conselho Municipal de Tributos."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Salvador/BA — 2026-07-17",
+  "url": "https://data.queridodiario.ok.org.br/2927408/2026-07-17/f510c69c012a9a357f093fc3598cd3a41667dabf.pdf",
+  "municipio": "Salvador",
+  "uf": "BA",
+  "trecho": "COMPARECER, NO PRAZO DE 05 (CINCO) DIAS, A SECRETARIA ADMINISTRATIVA DO CONSELHO MUNICIPAL DE TRIBUTOS PARA TOMAR CIÊNCIA DA DILIGÊNCIA REQUERIDA PELO CONSELHEIRO RELATOR E AS MANIFESTAÇÕES DO AUDITOR FISCAL À SEFIS. CASO HAJA MANIFESTAÇÃO, ESTA DEVE SER PROTOCOLIZADA NO SETOR DE PROTOCOLO DA SECRET"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre arquivamento de processo de fiscalização, sem relação a concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-16",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-16/a27a8ff18b19af985393d8766d057cc8ea13c71b.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "br/PF331 IPTUATUAL/pages/ParcelamentoIptuDs/TelaSelecao.aspx Após ciência do contribuinte e decorrido o prazo legal para recurso, arquive-se. Rio, 21 de maio de 2026. José Henrique da Silva Santos- Fiscal de Rendas Mat.: 12/146570-7 Assistente II da FP/REC-RIO/CIP/SAC-5 RECEITA RIO COORDENADORIA DO "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Edital de lavratura de auto de infração por fiscal de tributos."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio Claro/SP — 2026-07-15",
+  "url": "https://data.queridodiario.ok.org.br/3543907/2026-07-15/9b8af6e71331668a4ec3ff7915123cff8e08d499.pdf",
+  "municipio": "Rio Claro",
+  "uf": "SP",
+  "trecho": "................... SECRETARIA MUNICIPAL DE ECONOMIA E FINANÇAS Secretaria Municipal de Economia e Finanças Editais Editais EDITAL DE LAVRATURA DE AUTO DE INFRAÇÃO Pelo presente Edital, a Fiscal de Tributos Municipal Roberta Vidal Graciolli, infraqualificada, em cumprimento ao disposto no Artigo 72,"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Ato de arquivamento de processo relacionado a auditor fiscal tributário."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-15",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-15/6bae061e9a066061017ecf8880a5c1f9548b501d.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "não conheci- mento do pedido e posterior arquivamento do processo, nos termos do artigo 83, inciso VIII, da Lei Municipal 13.104/2007. Campinas, 14 de julho de 2026 ILTON OLIVEIRA SILVA Auditor Fiscal Tributário Municipal DEPARTAMENTO DE RECEITAS MOBILIÁRIAS - DRM DEPARTAMENTO DE RECEITAS MOBILIÁRIA"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre homologação e processos seletivos, sem concurso para auditor fiscal."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-15",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-15/f66b09125f03de2457054d8a736cbe3cbcc16f21.pdf",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "trecho": "Oficial. TERMO DE HOMOLOGAÇÃO 55 INEXIGIBILIDADE DE LICITAÇÃO Nº 011/2026 55 AVISO DE CONTRATAÇÃO DIRETA 56 POR INEXIGIBILIDADE 011/2026 56 PROCESSO SELETIVO Nº 091/2026 - ESTAGIÁRIOS 57 DIVULGAÇÃO DO GABARITO PROVISÓRIO 57 PROCESSO SELETIVO Nº 091/2026 - ESTAGIÁRIOS 58 DIVULGAÇÃO DO RESULTADO PROVI"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre atividade de auditoria fiscal tributária municipal, não concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-14",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-14/798dab30b11b40e2104dea4cee1c2f29c00ffe57.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "RESI- DENCIAL CORES DA ILHA 298334 3ªCRI AVENIDA DOIS, 95 - RESI- DENCIAL PARQUE DAS CORES 1 104 R$ 254.500,00 Campinas, 08 de julho de 2026 RAFAEL ALEXANDRE GOMES TAKESAKO Auditor Fiscal Tributário Municipal - Matrícula nº 140.808-9 - Setor de ITBI-DRI/SMF DEPARTAMENTO DE RECEITAS IMOBILIARIAS Prot"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Decreto altera o calendário fiscal de tributos do município."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Formosa do Rio Preto/BA — 2026-07-09",
+  "url": "https://data.queridodiario.ok.org.br/2911105/2026-07-09/780f1ea3f29955e8cf4310516f373a9954ee9431.pdf",
+  "municipio": "Formosa do Rio Preto",
+  "uf": "BA",
+  "trecho": "Endereço: Praça da Matriz, nº 22, Centro, Formosa do Rio Preto - BA, CEP: 47.990-000 DECRETO Nº 149/2026, DE 08 DE JULHO DE 2026 “Altera o art. 4º do Decreto nº 003/2018 - Calendário Fiscal de Tributos do Município de Formosa do Rio Preto e dá outras providências.” O PREFEITO MUNICIPAL DE FORMOSA DO"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Auto de infração relacionado a auditor fiscal tributário em Itapevi."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Itapevi/SP — 2026-07-07",
+  "url": "https://data.queridodiario.ok.org.br/3522505/2026-07-07/0722474bd077345791c9625383c0e4105f61220b.pdf",
+  "municipio": "Itapevi",
+  "uf": "SP",
+  "trecho": "primeiro vencimento para o dia 10 de agostode 2026.O prazo para impugnação de lançamento é de 30 (trinta) dias, a contar da ciência do presente termo. ELIAS MOREIRA SANTOS FILHO AUDITOR FISCAL TRIBUTÁRIO RE 7335 DIÁRIO OFICIAL - MUNICÍPIO DE ITAPEVI Ano 18 | Edição nº 1572 | Itapevi, 07 de julho de "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Ato de convocação de membros para comissão, sem relação a concurso público."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Mourão/PR — 2026-07-07",
+  "url": "https://data.queridodiario.ok.org.br/4104303/2026-07-07/b5c941d58cbfa0c426ec422789f4a30542bd73cf.pdf",
+  "municipio": "Campo Mourão",
+  "uf": "PR",
+  "trecho": "composta pelos seguintes membros: Titulares: - Sérgio Luís Vieira - Diretor de Arrecadação - Cristiane Schwarz – Gerente de Valores em Carteira e Cobrança - Sebastião Francisco de Oliveira - Auditor de Tributos Suplentes: - Shara Cardozo Barbosa - Chefe da Divisão de Lançamento, Controle e Fiscaliza"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Notificação de lançamento de ofício sobre ISSQN por auditor fiscal tributário."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-06",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-06/f006027dd99e5aad5ee9af6ef7cb8731239d55f4.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "DE NOTIFICAÇÃO DE LANÇAMENTO DE OFÍCIO Dos Profissionais Autônomos Contribuintes do Imposto Sobre Serviços de Qual- quer Natureza - ISSQN Processo SEI de referência: PMC.2026.00023546-86 O Auditor Fiscal Tributário Municipal da Coordenadoria Setorial do Cadastro Mo- biliário do Departamento de Recei"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Edital de lavratura de auto de infração por fiscal de tributos."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio Claro/SP — 2026-07-06",
+  "url": "https://data.queridodiario.ok.org.br/3543907/2026-07-06/c3970e67149f319f8154564f688047793a92e564.pdf",
+  "municipio": "Rio Claro",
+  "uf": "SP",
+  "trecho": "................... SECRETARIA MUNICIPAL DE ECONOMIA E FINANÇAS Secretaria Municipal de Economia e Finanças Editais Editais EDITAL DE LAVRATURA DE AUTO DE INFRAÇÃO Pelo presente Edital, a Fiscal de Tributos Municipal Roberta Vidal Graciolli, infraqualificada, em cumprimento ao disposto no Artigo 72,"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "resumo": "Informações sobre tabela de vencimentos para Auditor Fiscal de Tributos Municipais."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Curitiba/PR — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/4106902/2026-07-03/97a1c1297d9ca6177e0239206b015c363a234945.pdf",
+  "municipio": "Curitiba",
+  "uf": "PR",
+  "trecho": "cargos de Auditor Fiscal de Tributos Municipais nos seguintes termos: I - 9,14% (nove vírgula quatorze por cento) a partir de 1º de julho de 2026; II - 9,14% (nove vírgula quatorze por cento) a partir de 1º de janeiro de 2027; III - 9,14% (nove vírgula quatorze por cento) a partir de 1º de janeiro d"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Processo seletivo para o cargo de Enfermeiro(a) no Hospital Regional José Alencar."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Uberaba/MG — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3170107/2026-07-03/173825f31ebdc852ab56b5356313b4d258dbb07f.pdf",
+  "municipio": "Uberaba",
+  "uf": "MG",
+  "trecho": "........................................................................................................ HOSPITAL REGIONAL JOSÉ ALENCAR Hospital Regional José Alencar Publicação 03/07/2026 Processo Seletivo — Enfermeiro(a) O HOSPITAL REGIONAL JOSÉ ALENCAR, inscrito no CNPJ sob o n.º 25.452.301/ 0022"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre convocação para cargo de condutor de veículos de urgência, não relacionado à área-alvo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Osasco/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3534401/2026-07-03/47460b3dbfa359abb147275db37339dc284a62b5.pdf",
+  "municipio": "Osasco",
+  "uf": "SP",
+  "trecho": "te processo seletivo: 1. o nao atendimento pelo candidato a qualquer tempo, de quaisquer das condicoes estabelecidas implicara em sua eliminacao. 2. a inexatidao das informacoes e/ou irregularidades e/ou falsidades desempenho funcional do agente fiscal tributario e do fiscal tributario pelo art. 20 "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Constituição de comissão para concurso de cargos não relacionados à fiscalização tributária ou controle."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Votorantim/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3557006/2026-07-03/376005eefc853ba8a6e5b2380843a7a36e948652.pdf",
+  "municipio": "Votorantim",
+  "uf": "SP",
+  "trecho": "VOTORANTIM, NO USO DE SUAS ATRIBUIÇÕES LEGAIS E CONSIDERANDO TUDO O QUE CONSTA DO OFÍCIO Nº 777/2026 - SEED, R E S O L V E : Art. 1º CONSTITUIR Comissão Especial de Planejamento e Execução do Concurso Público nº 001/2026, visando a contratação de Auxiliar de Serviços Infantis, Inspetor de Alunos, Pr"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre competências e gestão de Auditores Fiscais-SF, sem concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Valinhos/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3556206/2026-07-03/409004db2c864e3be5d8f3fe768754042e84df0a.pdf",
+  "municipio": "Valinhos",
+  "uf": "SP",
+  "trecho": "Município; II - realizar a gestão, atualização, desenvolvimento e suporte do sistema de cadastro georreferenciado do Município. Parágrafo único. As competências exclusivas das carreiras de Auditor Fiscal- SF e de Contador, na forma do art. 78 e seguintes desta Lei, permanecem integralmente válidas n"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Designação de auditor fiscal de tributos municipais para função gratificada."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santos/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3548500/2026-07-03/f890f0c6037265dc3e7d0cb50bfba4446f206359.pdf",
+  "municipio": "Santos",
+  "uf": "SP",
+  "trecho": "Decreto 6971, de 25 de novembro de 2014, e de acordo com os artigos 65 e 66 da Lei nº 4623/84, resolve designar VINICIUS JOSE SEVE- RINO CATULINO, registro nº 39.706-7, ocupante do cargo de Auditor Fiscal de Tributos Municipais, Nível R, do Quadro Permanente, para exercer, em substituição, a função "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Decisão de arquivamento de processo administrativo tributário em Campinas."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-03",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-03/26424a300ada45451827baabedd6bcfaac6c4a96.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "não conhecimento do pedido e posterior arquivamento do processo, nos termos do artigo 83, inciso VIII, da Lei Municipal 13.104/2007. Campinas, 02 de julho de 2026 ILTON OLIVEIRA SILVA Auditor Fiscal Tributário Municipal DEPARTAMENTO DE RECEITAS IMOBILIÁRIAS / DRI DECISÃO DE PRIMEIRA INSTÂNCIA EM PRO"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "resumo": "Texto sobre auditor fiscal tributário, sem relação a concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campinas/SP — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3509502/2026-07-02/b7bcfd28e25100733079490b8d8d02b1d0378aec.pdf",
+  "municipio": "Campinas",
+  "uf": "SP",
+  "trecho": "/ 1º AVENIDA DOUTOR ARLIN- DO JOA- QUIM DE LEMOS 1225 2SS BX 24 PLENA 100.0% R$ 3.557,73 R$ 26.460,79 R$ 22.903,06 Campinas, 29 de junho de 2026 RAFAEL ALEXANDRE GOMES TAKESAKO Auditor Fiscal Tributário Municipal - Matrícula nº 140.808-9 - Setor de ITBI-DRI/SMF DEPARTAMENTO DE RECEITAS IMOBILIÁRIAS "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto menciona cargos de fiscalização, mas não é concurso para área-alvo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Junqueirópolis/SP — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3526001/2026-07-02/2d623351745b21f500193a2f36afefea344f7617.pdf",
+  "municipio": "Junqueirópolis",
+  "uf": "SP",
+  "trecho": "PE-03 40 03 Enfermeiro PE-01.E 40 06 Engenheiro Agrônomo PE-01.A 40 02 Engenheiro Ambiental PE-01.A 40 01 Engenheiro Civil PE-01.A 20 02 Escriturário PE-03 40 44 Farmacêutico PE-01.D 40 04 Fiscal de Rendas e Posturas PE-02.A 40 04 Fisioterapeuta PE-02.A 30 03 Fonoaudiólogo PE-01.D 40 02 Leiturista d"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto menciona auditor fiscal, mas não se refere a concurso público."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Campo Largo/PR — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/4104204/2026-07-02/69fab2f9eacccc92e28849bb2073c33ff4575c37.pdf",
+  "municipio": "Campo Largo",
+  "uf": "PR",
+  "trecho": "1893/2026 22 PORTARIA N° 1894/2026 23 PORTARIA N° 1895/2026 24 ATA DA REUNIÃO DA COMISSÃO AVALIADORA DO EOITAL DE GHAMAMENTO DE SELEÇÃO DE PROJETOS E EMPRESAS PARA INCUBAÇÃO N'06/2026 25 PROCESSO SELETIVO Nº 039/2026 30 HOMOLOGAÇÃO DO RESULTADO FINAL 30 MEMORANDO VIGILÂNCIA EM SAÚDE N°208/2026 39 AV"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Ato relacionado a aposentadoria de servidor e reenquadramento de cargo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-02",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-02/aba5d91ac2cee449763e22ccd355df9b392a7587.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "Lei nº 94/79, o tempo de serviço/contribuição prestado à Prefeitura Municipal de São Gonçalo para fins de aposentadoria: 000414.006459/2026-01 - LOHAN FRIAS MOLINA LOPES, matrícula 391.680-6, Fiscal de Rendas, apuramos que o servidor perfez um 2.528 (dois mil quinhentos e vinte e oito) dias, no perí"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre programa de residência técnica, sem concurso público."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3304557/2026-07-01/083d089ac48f7081b2ac2a015792090586467baa.pdf",
+  "municipio": "Rio de Janeiro",
+  "uf": "RJ",
+  "trecho": "recebendo orientacoes, instrucoes e os ensinamentos praticos 040/101405/2023 - thais brandao ribeiro de almeida, matricula no 40/902.004-1. autorizo reposicionamento de classe - lei no 9.204 de 12/12/2025 processo no 040/100690/2019 cargo efetivo: auditor de controle externo - esp. engenharia nome m"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Designação de gestores e fiscais de contratos, não é concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Corumbá/MS — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/5003207/2026-07-01/ca3dcf9f22aa9240c0627588b6f6ac01a10c6c61.pdf",
+  "municipio": "Corumbá",
+  "uf": "MS",
+  "trecho": "Atendimento ao Cidadão - CAC, localizada na Rua Dom Aquino nº 1.027, Centro, Corumbá/MS.de segunda a sexta-feira, das 07:30 às 16:00. Corumbá/MS 30 de Junho de 2026. Gisleine Eliza Cardozo Aguilar Auditor Fiscal da Receita Municipal Mat. 6474 RESOLUÇÃO N.º 374/2025 Designa Gestores e Fiscais de Cont"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Prorrogação de validade de processo seletivo da Secretaria Municipal de Saúde."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Betim/MG — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/3106705/2026-07-01/aebe61dea2de2fa63dc7bc22b7e65939311141b3.pdf",
+  "municipio": "Betim",
+  "uf": "MG",
+  "trecho": "DECRETO Nº 53.435, DE 01 DE JULHO DE 2026 PRORROGA O PRAZO DE VALIDADE DO PROCESSO SELETIVO SIMPLIFICADO - PSS DA SECRETARIA MUNICIPAL DE SAÚDE, REGIDO PELO EDITAL PSS Nº 01/2024. CONSIDERANDO o disposto no inc. III, do art. 37, da Constituição da República Federativa do Brasil, aplicado subsidiaria"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Trecho sobre tabela de vencimentos e auditoria de fiscalização, sem concurso."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Goiânia/GO — 2026-07-01",
+  "url": "https://data.queridodiario.ok.org.br/5208707/2026-07-01/e9653ec674857585045b3bdf91e1f44c2fe7d8fd.pdf",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "trecho": "93 ANEXO XII AUDITOR DE TRIBUTOS - Lei Complementar nº 360, de 2022 TABELA DE VENCIMENTOS SETEMBRO/2025 A B C D E F G H I J K L 22.308,87 23.327,71 24.346,54 25.365,38 26.384,22 27.403,05 28.421,89 29.440,72 30.459,56 31.478,40 32.497,23 32.817,48 ANEXO XIII AUDITORIA DE FISCALIZAÇÃO DE ATIVIDADES U"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Convocação de candidatos para estágio e concurso de técnico de enfermagem."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vera Cruz/RS — 2026-06-30",
+  "url": "https://data.queridodiario.ok.org.br/4322707/2026-06-30/7459ee5a93f0e4ee6b63a33379dafbe9588f8708.pdf",
+  "municipio": "Vera Cruz",
+  "uf": "RS",
+  "trecho": "seu Prefeito, Sr. GILSON ADRIANO BECKER, FAZ SABER, por este Edital, DA CONVOCAÇÃO E CHAMAMENTO PÚBLICO, EM SEGUNDA CHAMADA, DE CANDIDATOS CLASSIFICADOS NO PROCESSO SELETIVO PÚBLICO PARA ESTAGIÁRIOS, Processo Seletivo Público nº 020, conforme Edital de Abertura nº 268/2025, e de acordo com o Edital "
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre auto de infração e convocação de candidatos em processo seletivo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-06-29",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.pdf",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "trecho": "lancamento tributario, constituido por meio de auto de infracao, cuja copia encontram-se a sua disposicao na coordenacao de administracao tributaria: no do auto nome/razao social inscricao municipal auditor fiscal 61/2026 associacao cultural, social esportiva gremio recreativo escola de samba unidos"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre auto de infração e convocação de candidatos em processo seletivo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-06-29",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.pdf",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "trecho": "lancamento tributario, constituido por meio de auto de infracao, cuja copia encontram-se a sua disposicao na coordenacao de administracao tributaria: no do auto nome/razao social inscricao municipal auditor fiscal 61/2026 associacao cultural, social esportiva gremio recreativo escola de samba unidos"
+ },
+ {
+  "descartado_em": "2026-07-28",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "resumo": "Texto sobre auto de infração e convocação de candidatos em processo seletivo."
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vitória/ES — 2026-06-29",
+  "url": "https://data.queridodiario.ok.org.br/3205309/2026-06-29/7541dc29bc4a1ac5aacb13b54082634ed04ebeea.pdf",
+  "municipio": "Vitória",
+  "uf": "ES",
+  "trecho": "lancamento tributario, constituido por meio de auto de infracao, cuja copia encontram-se a sua disposicao na coordenacao de administracao tributaria: no do auto nome/razao social inscricao municipal auditor fiscal 61/2026 associacao cultural, social esportiva gremio recreativo escola de samba unidos"
+ }
+]

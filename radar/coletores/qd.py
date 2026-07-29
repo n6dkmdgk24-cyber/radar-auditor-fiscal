@@ -102,9 +102,18 @@ def coletar(cfg, cursor, desde_padrao):
 
     achados = []
     while True:
-        resp = requests.get(API, params=params, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        pagina = resp.json().get("gazettes", [])
+        pagina = None
+        for tentativa in range(1, 4):
+            try:
+                resp = requests.get(API, params=params, headers=HEADERS, timeout=30)
+                resp.raise_for_status()
+                pagina = resp.json().get("gazettes", [])
+                break
+            except requests.RequestException as e:
+                if tentativa == 3:
+                    raise
+                print(f"[qd] aviso: paginação falhou ({e!r}), tentativa {tentativa}/3")
+                time.sleep(5 * tentativa)
         for g in pagina:
             excerpts = [RX_TAGS.sub("", e) for e in (g.get("excerpts") or [])]
             _, trecho_forte = _abertura_proxima(normalizar("\n".join(excerpts)), rx_cargos)
