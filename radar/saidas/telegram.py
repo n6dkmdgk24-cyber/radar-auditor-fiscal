@@ -38,39 +38,35 @@ def _escapar(texto):
 
 
 def _local(achado):
-    municipio, uf = achado.municipio, achado.uf
-    if municipio and uf:
-        return f"{municipio}/{uf}"
-    return municipio or uf
+    lugar = achado.municipio or achado.orgao
+    if not lugar:
+        return ""
+    return f"{lugar}/{achado.uf}" if achado.uf else lugar
 
 
 def _mensagem_achado(achado, categoria, termos):
-    emoji = EMOJI_CATEGORIA.get(categoria, "❓")
-    linhas = [f"{emoji} <b>{_escapar(achado.titulo)}</b>", ""]
-    if achado.orgao:
-        linhas.append(f"Órgão: {_escapar(achado.orgao)}")
+    ia = achado.detalhes.get("ia") or {}
+
+    # linha de tags, sempre na mesma ordem: categoria · suspenso · cadastro de reserva
+    nomes = {"tributario": "Tributário", "controle": "Controle", "conferir": "Conferir"}
+    tags = [f"{EMOJI_CATEGORIA.get(categoria, '❓')} {nomes.get(categoria, categoria)}"]
+    if ia.get("classe") == "suspensao":
+        tags.append("⚠️ SUSPENSO")
+    if ia.get("cadastro_reserva"):
+        tags.append("📋 CADASTRO DE RESERVA")
+
+    # título padronizado: "Município/UF — Cargo"; sem local ou cargo, título original
     local = _local(achado)
-    if local:
-        linhas.append(f"Local: {_escapar(local)}")
-    linhas.append(f"Termos: {_escapar(', '.join(termos))}")
-    linhas.append(f"Fonte: {_escapar(achado.fonte)}")
-    if achado.detalhes.get("possivel_abertura"):
-        linhas.append("🔎 Possível abertura de concurso — conferir no diário")
-    ia = achado.detalhes.get("ia")
-    if ia:
-        if ia.get("classe") == "suspensao":
-            linhas.append("⚠️ CONCURSO SUSPENSO/ADIADO")
-        if ia.get("cadastro_reserva"):
-            linhas.append("📋 Somente cadastro de reserva")
-        if ia.get("cargo"):
-            linhas.append(f"Cargo: {_escapar(ia['cargo'])}")
-        if ia.get("inscricoes"):
-            linhas.append(f"🗓 Inscrições: {_escapar(ia['inscricoes'])}")
-        linhas.append(f"🤖 {_escapar(ia.get('classe', ''))} — {_escapar(ia.get('resumo', ''))}")
-    trecho = achado.detalhes.get("trecho", "")
-    if trecho:
-        linhas.append(f"<i>{_escapar(trecho)}</i>")
-    linhas.append(_escapar(achado.url))
+    cargo = (ia.get("cargo") or "").strip()
+    titulo = f"{local} — {cargo}" if local and cargo else achado.titulo
+
+    linhas = [" · ".join(tags), f"<b>{_escapar(titulo)}</b>"]
+    if ia.get("inscricoes"):
+        linhas.append(f"🗓 Inscrições: {_escapar(ia['inscricoes'])}")
+    resumo = ia.get("resumo") or achado.detalhes.get("trecho", "")
+    if resumo:
+        linhas.append(f"<i>{_escapar(resumo)}</i>")
+    linhas.append(f"fonte: {_escapar(achado.fonte)} · {_escapar(achado.url)}")
     return "\n".join(linhas)
 
 

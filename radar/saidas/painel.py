@@ -25,7 +25,8 @@ h1 { font-size: 1.5rem; margin-bottom: 4px; }
 .meta { color: #666; font-size: .85rem; margin-top: 6px; }
 .trecho { color: #555; font-size: .85rem; margin-top: 6px; font-style: italic; }
 .badge { display: inline-block; color: #fff; border-radius: 6px;
-         font-size: .75rem; padding: 2px 8px; margin-right: 8px; }
+         font-size: .75rem; font-weight: 600; padding: 2px 8px; margin-right: 6px; }
+.tags { margin-bottom: 6px; }
 .prazo { font-weight: 700; color: #b00; }
 h2 { font-size: 1.1rem; margin: 28px 0 12px; }
 @media (prefers-color-scheme: dark) {
@@ -46,42 +47,62 @@ def _prazo(item):
         return None
 
 
+def _fmt_data(iso):
+    """AAAA-MM-DD -> d.m.aaaa (sem zero à esquerda)."""
+    try:
+        d = dt.date.fromisoformat(iso)
+        return f"{d.day}.{d.month}.{d.year}"
+    except (ValueError, TypeError):
+        return iso or ""
+
+
+def _local(item):
+    """Município/UF (ou órgão/UF). Sem município nem órgão, retorna '' —
+    UF sozinha não identifica nada e o título original é melhor."""
+    lugar = item.get("municipio") or item.get("orgao") or ""
+    if not lugar:
+        return ""
+    uf = item.get("uf") or ""
+    return f"{lugar}/{uf}" if uf else lugar
+
+
 def _render_item(item, hoje):
+    det = item.get("detalhes") or {}
+    ia = det.get("ia") or {}
     nome, cor = CATEGORIAS.get(item["categoria"], ("Outro", "#777"))
-    local = " / ".join(x for x in (item.get("municipio") or item.get("orgao"), item.get("uf")) if x)
+
+    # tags visuais, sempre na mesma ordem: categoria, suspenso, cadastro de reserva
+    tags = [f'<span class="badge" style="background:{cor}">{nome}</span>']
+    if ia.get("classe") == "suspensao":
+        tags.append('<span class="badge" style="background:#c0392b">⚠️ Suspenso</span>')
+    if ia.get("cadastro_reserva"):
+        tags.append('<span class="badge" style="background:#b7791f">📋 Cadastro de reserva</span>')
+
+    # título padronizado: "Município/UF — Cargo"; sem cargo extraído, cai no título original
+    local = _local(item)
+    cargo = (ia.get("cargo") or "").strip()
+    titulo = f"{local} — {cargo}" if local and cargo else item.get("titulo", "")
+
+    # metadados, sempre na mesma ordem: inscrições · prazo · banca · fonte · descoberta
+    meta = []
+    if ia.get("inscricoes"):
+        meta.append(f"🗓 inscrições: {html.escape(ia['inscricoes'])}")
     prazo = _prazo(item)
-    linhas_meta = [
-        f'<span class="badge" style="background:{cor}">{nome}</span>'
-        f"{html.escape(local) if local else 'local n/d'}"
-    ]
     if prazo and prazo >= hoje:
-        dias = (prazo - hoje).days
-        linhas_meta.append(
-            f'<span class="prazo">inscrições até {prazo.strftime("%d.%m.%Y")} ({dias} dia(s))</span>'
-        )
-    if (item.get("detalhes") or {}).get("possivel_abertura"):
-        linhas_meta.append("🔎 possível abertura — conferir no diário")
-    ia = (item.get("detalhes") or {}).get("ia")
-    if ia:
-        if ia.get("classe") == "suspensao":
-            linhas_meta.append('<span class="prazo">⚠️ suspenso/adiado</span>')
-        if ia.get("cadastro_reserva"):
-            linhas_meta.append("📋 somente cadastro de reserva")
-        if ia.get("cargo"):
-            linhas_meta.append(f"cargo: {html.escape(ia['cargo'])}")
-        if ia.get("inscricoes"):
-            linhas_meta.append(f"🗓 inscrições: {html.escape(ia['inscricoes'])}")
-        linhas_meta.append(f"🤖 {html.escape(ia.get('classe', ''))} — {html.escape(ia.get('resumo', ''))}")
-    linhas_meta.append(
-        f"descoberto em {html.escape(item.get('descoberto_em', ''))} · fonte {html.escape(item.get('fonte', ''))}"
-    )
-    trecho = (item.get("detalhes") or {}).get("trecho", "")
-    bloco_trecho = f'<div class="trecho">{html.escape(trecho)}</div>' if trecho else ""
+        meta.append(f'<span class="prazo">até {_fmt_data(prazo.isoformat())} ({(prazo - hoje).days} dia(s))</span>')
+    if det.get("banca"):
+        meta.append(f"banca: {html.escape(det['banca'])}")
+    meta.append(f"fonte: {html.escape(item.get('fonte', ''))}")
+    meta.append(f"descoberto em {_fmt_data(item.get('descoberto_em', ''))}")
+
+    resumo = ia.get("resumo") or det.get("trecho", "")
+    bloco_resumo = f'<div class="trecho">{html.escape(resumo)}</div>' if resumo else ""
     return (
         '<div class="item">'
-        f'<a href="{html.escape(item.get("url", ""), quote=True)}">{html.escape(item.get("titulo", ""))}</a>'
-        f'<div class="meta">{" · ".join(linhas_meta)}</div>'
-        f"{bloco_trecho}"
+        f'<div class="tags">{"".join(tags)}</div>'
+        f'<a href="{html.escape(item.get("url", ""), quote=True)}">{html.escape(titulo)}</a>'
+        f'<div class="meta">{" · ".join(meta)}</div>'
+        f"{bloco_resumo}"
         "</div>"
     )
 

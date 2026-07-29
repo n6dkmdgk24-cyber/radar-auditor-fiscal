@@ -13,7 +13,16 @@
   "municipio": "Manaus",
   "uf": "AM",
   "data_publicacao": "2026-07-27",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Auditor-Fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Manaus abre concurso com 20 vagas para Auditor-Fiscal"
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -32,7 +41,10 @@
    "ia": {
     "classe": "abertura",
     "area": "controle",
-    "resumo": "FUNCABES Taubaté abre seleção para Controlador Interno e outros cargos."
+    "cargo": "Controlador Interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Seleção aberta para Controlador Interno, Escriturário e Auxiliar Administrativo em Taubaté-SP."
    }
   }
  },
@@ -53,7 +65,10 @@
    "ia": {
     "classe": "abertura",
     "area": "controle",
-    "resumo": "Câmara de Blumenau abre concurso para Controlador Interno e Procurador."
+    "cargo": "Controlador Interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Câmara de Blumenau abre concurso para Controlador Interno e Procurador"
    }
   }
  },
@@ -70,7 +85,16 @@
   "municipio": "Guimarânia",
   "uf": "MG",
   "data_publicacao": "2026-07-20",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal Tributário",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Guimarânia/MG abre concurso para Fiscal Tributário."
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -89,7 +113,10 @@
    "ia": {
     "classe": "abertura",
     "area": "controle",
-    "resumo": "Câmara de Monções - SP abre concurso para Diretor Geral e Controlador Interno."
+    "cargo": "Controlador Interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Câmara de Monções abre concurso para Diretor Geral e Controlador Interno."
    }
   }
  },
@@ -107,7 +134,16 @@
   "municipio": "Taubaté",
   "uf": "SP",
   "data_publicacao": "2026-07-15",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Auditor Fiscal de Tributos Municipais",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Taubaté abre concurso para Auditor Fiscal de Tributos Municipais."
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -147,7 +183,16 @@
   "municipio": "Cezarina",
   "uf": "GO",
   "data_publicacao": "2026-07-13",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal de Tributos Municipais",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Cezarina abre concurso com vaga para Fiscal de Tributos Municipais"
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -166,7 +211,10 @@
    "ia": {
     "classe": "abertura",
     "area": "controle",
-    "resumo": "Câmara de Itararé - SP abre concurso para Controlador Interno com inscrições de 10/07 a 06/08/2026."
+    "cargo": "Controlador Interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Câmara de Itararé/SP abre concurso público para Controlador Interno."
    }
   }
  },
@@ -187,7 +235,10 @@
    "ia": {
     "classe": "abertura",
     "area": "controle",
-    "resumo": "Prefeitura de São Vicente de Minas abre inscrições para Controlador Interno."
+    "cargo": "Controlador Interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de São Vicente de Minas abre vagas para Controlador Interno e Psicólogo II."
    }
   }
  },
@@ -204,7 +255,16 @@
   "municipio": "Guarulhos",
   "uf": "SP",
   "data_publicacao": "2026-07-06",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Auditor Fiscal VI",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Guarulhos abre 10 vagas para Auditor Fiscal VI"
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -219,7 +279,16 @@
   "municipio": "",
   "uf": "SP",
   "data_publicacao": "2026-07-06",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "Auditor de Controle Externo",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "TCE-SP anuncia abertura de concurso para Auditor de Controle Externo"
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -234,7 +303,16 @@
   "municipio": "Doutor Pedrinho",
   "uf": "SC",
   "data_publicacao": "2026-07-01",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal de Tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Doutor Pedrinho abre concurso para Fiscal de Tributos."
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -249,7 +327,16 @@
   "municipio": "Tavares",
   "uf": "RS",
   "data_publicacao": "2026-06-29",
-  "detalhes": {}
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Auditor da Receita Municipal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Tavares abre vaga para Auditor da Receita Municipal."
+   }
+  }
  },
  {
   "descoberto_em": "2026-07-28",
@@ -275,7 +362,10 @@
    "ia": {
     "classe": "abertura",
     "area": "tributario",
-    "resumo": "Concurso público para auditor fiscal de tributos municipais em Santos/SP."
+    "cargo": "Auditor Fiscal de Tributos Municipais",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Edital de abertura para Auditor Fiscal de Tributos Municipais em Santos/SP"
    }
   }
  },
@@ -300,7 +390,10 @@
    "ia": {
     "classe": "abertura",
     "area": "tributario",
-    "resumo": "Edital de abertura para concurso de Auditor Fiscal de Tributos na Prefeitura de Contenda."
+    "cargo": "Auditor Fiscal de Tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "Edital de abertura publicado para Auditor Fiscal de Tributos em Contenda/PR."
    }
   }
  },
@@ -348,7 +441,15 @@
   "detalhes": {
    "banca": "Fundação FAFIPA",
    "id": "4190",
-   "base": "https://fundacaofafipa.org.br"
+   "base": "https://fundacaofafipa.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal Tributário",
+    "inscricoes": "18/07/2026 a 17/08/2026",
+    "cadastro_reserva": false,
+    "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026."
+   }
   }
  }
 ]
