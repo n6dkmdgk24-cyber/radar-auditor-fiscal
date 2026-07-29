@@ -73,16 +73,17 @@ def main(argv=None):
             continue
         candidatos.append((a, categoria, termos))
 
-    # revisão opcional com Claude Haiku: só dos itens "conferir", fail-open
+    # revisão opcional com IA (GitHub Models): só dos itens "conferir", fail-open
     descartados = []
-    if candidatos and os.environ.get("ANTHROPIC_API_KEY"):
-        from .classificador import revisar
+    if candidatos:
+        from . import classificador
 
-        try:
-            candidatos, descartados = revisar(candidatos, cfg)
-        except Exception:
-            print("[ia] FALHOU, itens mantidos como estavam", file=sys.stderr)
-            traceback.print_exc(limit=2)
+        if classificador.disponivel():
+            try:
+                candidatos, descartados = classificador.revisar(candidatos, cfg)
+            except Exception:
+                print("[ia] FALHOU, itens mantidos como estavam", file=sys.stderr)
+                traceback.print_exc(limit=2)
 
     novos = []
     for a, categoria, termos in candidatos:
