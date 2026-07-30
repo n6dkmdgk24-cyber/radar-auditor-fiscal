@@ -1471,5 +1471,22 @@
   "municipio": "Gaspar",
   "uf": "SC",
   "trecho": "Nome: Juçara Pereira Junkes Fiscal de tributos Matricula 5374 Cargo $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var target = $link.data('target'); var $box = $(target); $box.toggl"
+ },
+ {
+  "descartado_em": "2026-07-30",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "Decreto sobre procedimentos de dívida ativa, sem relação com concurso público."
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Matinhos — DECRETO Nº 5.134/2026 (2026-07-30)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/F4A4FBF9",
+  "municipio": "Matinhos",
+  "uf": "PR",
+  "trecho": "GABINETE DECRETO Nº 5.134/2026 Dispõe sobre o fluxo procedimental de inscrição, autenticação, emissão, atesto, homologação e encaminhamento da Certidão de Dívida Ativa (CDA) para fins de cobrança judicial e extrajudicial no âmbito do Município de Matinhos, e dá outras providências. O PREFEITO MUNICI"
  }
 ]
