@@ -451,5 +451,100 @@
     "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026."
    }
   }
+ },
+ {
+  "descoberto_em": "2026-07-30",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Matinhos — PORTARIA Nº 820/2026 (2026-07-30)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/AE242171",
+  "orgao": "Prefeitura Municipal de Matinhos",
+  "municipio": "Matinhos",
+  "uf": "PR",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "trecho": "nça para Tratamento de Saúde, resolve: REVOGAR Art.1º Da servidora Katia Maria Bonfim de Almeida, matrícula nº 100470/1, ocupante do cargo público de Auditor Fiscal da Receita Municipal, lotada na Secretaria Municipal de Finanças, 90 (noventa ) dias de Licença Prêmio a contar do dia 20 de julho de 2",
+   "contexto_fraco": true,
+   "orgao_interno": "Gabinete"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-30",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Foz do Jordão — PORTARIA 184/2026 (2026-07-30)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/00D45DDB",
+  "orgao": "Prefeitura Municipal de Foz do Jordão",
+  "municipio": "Foz Do Jordão",
+  "uf": "PR",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "trecho": "DUARTE ASSISTENTE SOCIAL 05/08/2026 14/08/2026 1269601 VANDERLEIA MOSCHEN DA SILVA TELEFONISTA 04/08/2026 02/09/2026 10000487 DARIELI DE SOUZA BORGES FISCAL TRIBUTÁRIO 27/07/2026 05/08/2026 6939011 GISELI DE FATIMA SCHWAMBACH RECEPCIONISTA 27/07/2026 10/08/2026 10000652 JOÃO RENAN DE OLIVEIRA AGENTE",
+   "contexto_fraco": true,
+   "orgao_interno": "Departamento de Recursos Humanos"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-30",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Cordilheira Alta — EDITAL DE NOTIFICAÇÃO DE DÍVIDA ATIVA Nº 01/2026 (2026-07-30)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8562775",
+  "orgao": "Prefeitura municipal de Cordilheira Alta",
+  "municipio": "Cordilheira Alta",
+  "uf": "SC",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "categoria": "Edital",
+   "trecho": "dos nos incisos II, IV e V do art. 29 da LC 011/1999. Cordilheira Alta–SC, 30 de julho de 2026. Marcos Paulo Mocellin Solange M. D. Lanzarin Fiscal de Tributos, Obras e VISA Secretário",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-07-30",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Erval Velho — PORTARIA 5697/2026 (2026-07-30)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8558799",
+  "orgao": "Prefeitura municipal de Erval Velho",
+  "municipio": "Erval Velho",
+  "uf": "SC",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "categoria": "Portarias",
+   "trecho": "Cleucimara Ponte Fiscal de Tributos Municipais 17/02/2025 – 16/02/2026 Art. 2º Esta Portaria entra em vigor na data de sua publicação, com efeitos a partir de 26 de agosto de 2026. Gabinete do Prefeito Municipal de Erval Velho/SC, em 28 de julho de 2026. Lenita Dadalt",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-07-30",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Novo Horizonte — LEI COMPLEMENTAR Nº 074 DE 29 DE JULHO DE 2026 (2026-07-30)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8557508",
+  "orgao": "Prefeitura municipal de Novo Horizonte",
+  "municipio": "Novo Horizonte",
+  "uf": "SC",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "categoria": "Leis",
+   "trecho": "VA GA S V encime nto Tesoureiro 40.01 1 6.313,61 Técnico em Contabilidade (já extinto) 40.02 Técnico em agropecuária 40.03 4 4.534,37 Fiscal de Tributos, obras e Vigilância Extinto pela presente Lei 40.04 2 4.534,37 Técnico em vigilância Sanitária Extinto pela presente Lei 40.05 2 4.534,37 $(documen",
+   "contexto_fraco": true
+  }
  }
 ]
