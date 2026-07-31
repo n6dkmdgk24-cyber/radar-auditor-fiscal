@@ -546,5 +546,83 @@
    "trecho": "VA GA S V encime nto Tesoureiro 40.01 1 6.313,61 Técnico em Contabilidade (já extinto) 40.02 Técnico em agropecuária 40.03 4 4.534,37 Fiscal de Tributos, obras e Vigilância Extinto pela presente Lei 40.04 2 4.534,37 Técnico em vigilância Sanitária Extinto pela presente Lei 40.05 2 4.534,37 $(documen",
    "contexto_fraco": true
   }
+ },
+ {
+  "descoberto_em": "2026-07-31",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Paranaguá — PORTARIA Nº 2.588 (2026-07-31)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/E51F8EE2",
+  "orgao": "Prefeitura Municipal de Paranaguá",
+  "municipio": "Paranaguá",
+  "uf": "PR",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "trecho": "393-1 ADRIANO MENIM BELO 02/12/1999 SOLDADOR 5.909-1 AGUINALDO CUSTODIO GALDINO 02/01/2001 GUARDA CIVIL MUNICIPAL 6.272-1 AGUINALDO ROZINA 04/06/2001 AUDITOR FISCAL DA FAZENDA MUNICIPAL 5.338-2 AILTON ALVES DOS SANTOS 01/11/1999 GUARDA CIVIL MUNICIPAL 1.883-1 ALCESAR CARDOSO TAVARES 11/06/1985 TÉC. ",
+   "contexto_fraco": true,
+   "orgao_interno": "Secretaria Municipal de Governo"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-31",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Campina Grande do Sul — PORTARIA CONCESSÃO DE DIÁRIAS (2026-07-31)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/612C83E2",
+  "orgao": "Prefeitura Municipal de Campina Grande do Sul",
+  "municipio": "Campina Grande Do Sul",
+  "uf": "PR",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "trecho": "rande do Sul, A U T O R I Z A: A concessão de diárias ao(a) servidor(a) Gabriel Salcedo Govoni - Matrícula n.º 32841-9 , ocupante do cargo efetivo de Auditor Fiscal , na condição de Presidente do Conselho Fiscal da PREVICAMP , conforme abaixo discriminado: I Número de diárias: 2,0 (duas) II Valor da",
+   "contexto_fraco": true,
+   "orgao_interno": "PREVIDÊNCIA SOCIAL DE CAMPINA GRANDE DO SUL - PREVICAMP"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-31",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Guaira — CONCURSO PÚBLICO Nº 001/2026 EDITAL DE ABERTURA N° 01.001/2026 EDITAL Nº 01.009/2026  EDITAL DE DATA, LOCAL E HORÁRIO DE PROVA (2026-07-31)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/ED88B857",
+  "orgao": "Prefeitura Municipal de Guaira",
+  "municipio": "Guaira",
+  "uf": "PR",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "trecho": "rancisco Murtinho, nº 656 – Centro (entrada pela Rua Paraguai em frente ao INSS) – Guaíra – Paraná Horário de Fechamento do Portão: 08hs15min Cargos: Auditor Fiscal de Tributos Municipais, Enfermeiro Padrão, Terapeuta Ocupacional. COL. EST. PRESIDENTE ROOSEVELT Rua Mato Grosso, nº 111 – Centro – Gua",
+   "contexto_fraco": true,
+   "orgao_interno": "PROJUR"
+  }
+ },
+ {
+  "descoberto_em": "2026-07-31",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Rio Branco do Sul — RETIFICAÇÃO N.º 02 – DISPÕE DA ALTERAÇÃO DO RESULTADO DEFINITIVO DO PROCEDIMENTO DE HETEROIDENTIFICAÇÃO (2026-07-31)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/5A57905F",
+  "orgao": "Prefeitura Municipal de Rio Branco do Sul",
+  "municipio": "Rio Branco Do Sul",
+  "uf": "PR",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "trecho": "VEIRA DA SILVA Afrodescendente 0006643 MARIA LUIZA NASCIMENTO FERREIRA Afrodescendente 0007640 THAMYRYS VYCTORYA PEREIRA SANTOS Afrodescendente 915 - AUDITOR FISCAL DE TRIBUTOS MUNICIPAIS - RIO BRANCO DO SUL INSCRIÇÃO NOME MODALIDADE 0004736 FERNANDO SANTILHO DE SOUZA Afrodescendente 0005726 GISLAIN",
+   "contexto_fraco": true,
+   "orgao_interno": "Gabinete do Prefeito"
+  }
  }
 ]

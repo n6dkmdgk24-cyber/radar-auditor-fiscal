@@ -1,13 +1,13 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-07-30T23:34:15"
+   "scraped_since": "2026-07-31T12:51:04"
   },
   "pci": {
-   "lastmod_max": "2026-07-30"
+   "lastmod_max": "2026-07-31"
   },
   "cnb": {
-   "ultimo_pub": "2026-07-30T20:28:07",
+   "ultimo_pub": "2026-07-31T12:37:07",
    "guids": [
     "https://concursosnobrasil.com/?p=381991",
     "https://concursosnobrasil.com/?p=381977",
@@ -248,17 +248,24 @@
     "https://concursosnobrasil.com/?p=382326",
     "https://concursosnobrasil.com/?p=382307",
     "https://concursosnobrasil.com/?p=382305",
-    "https://concursosnobrasil.com/?p=382316"
+    "https://concursosnobrasil.com/?p=382316",
+    "https://concursosnobrasil.com/?p=382520",
+    "https://concursosnobrasil.com/?p=382501",
+    "https://concursosnobrasil.com/?p=382503",
+    "https://concursosnobrasil.com/?p=382493",
+    "https://concursosnobrasil.com/?p=382491",
+    "https://concursosnobrasil.com/?p=382477",
+    "https://concursosnobrasil.com/?p=382480"
    ]
   },
   "dou": {
-   "ultima_data": "2026-07-30"
+   "ultima_data": "2026-07-31"
   },
   "sigpub": {
-   "ultima_data": "2026-07-30"
+   "ultima_data": "2026-07-31"
   },
   "domsc": {
-   "ultima_data": "2026-07-30"
+   "ultima_data": "2026-07-31"
   },
   "selecao": {
    "vistos": [
