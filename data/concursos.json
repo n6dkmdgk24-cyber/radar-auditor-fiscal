@@ -816,5 +816,89 @@
    "trecho": "Curitibanos (SC), 30 de julho de 2026 Francisco B. Pereira Jr Fiscal de Tributos Mat. 235506",
    "contexto_fraco": true
   }
+ },
+ {
+  "descoberto_em": "2026-08-02",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Inocência/MS — 2026-07-31",
+  "url": "https://data.queridodiario.ok.org.br/5004403/2026-07-31/02ada77d2db8054ce9df4b81d55280a1004c7315.pdf",
+  "orgao": "",
+  "municipio": "Inocência",
+  "uf": "MS",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5004403/2026-07-31/02ada77d2db8054ce9df4b81d55280a1004c7315.txt",
+   "edition": "3261",
+   "scraped_at": "2026-08-02T19:40:25.742999",
+   "trecho": "das atribuições que lhe são conferidas por Lei, RESOLVE: Art.1º - CONCEDER férias regulamentares de 15 (quinze) dias ao servidor Roney Junqueira Azambuja, ocupante de cargo efetivo de Auditor Fiscal no período de 03/08/2026 à 17/08/2026, referente ao período aquisitivo de 26/09/2024 à 25/09/2025. DI",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-02",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Maracaju/MS — 2026-07-30",
+  "url": "https://data.queridodiario.ok.org.br/5005400/2026-07-30/830ac5f63f51b19d68367d1627a94112c236fd69.pdf",
+  "orgao": "",
+  "municipio": "Maracaju",
+  "uf": "MS",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5005400/2026-07-30/830ac5f63f51b19d68367d1627a94112c236fd69.txt",
+   "edition": "4153",
+   "scraped_at": "2026-08-02T19:41:56.598017",
+   "trecho": "REFERÊNCIA A PARTIR DE:de para 149501 MARQUISA ANDREA DE ALMEIDA ASSISTENTE ADMINISTRATIVO L M 03/07/2026 148601 GENEZIR SEBASTIAO VAREIRO DE SOUZA VIGIA I J 02/07/2026 62101 AUGUSTO DE JESUS FISCAL DE TRIBUTOS H I 24/07/2026 93901 FABIANE DE OLIVEIRA SILVA ASSISTENTE ADMINISTRATIVO H I 24/07/2026 9",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-02",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santa Luzia do Norte/AL — 2026-07-10",
+  "url": "https://data.queridodiario.ok.org.br/2700000/2026-07-10/50394899a06a3d85a2f2cc8bfd3cca9de94720c3.pdf",
+  "orgao": "",
+  "municipio": "Santa Luzia do Norte",
+  "uf": "AL",
+  "data_publicacao": "2026-07-10",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/2707909/2026-07-10/a927a8f99d3ae0a71db367c2440fea45.txt",
+   "edition": "2846",
+   "scraped_at": "2026-08-02T15:09:28.858163",
+   "trecho": "2846 ESTADO DE ALAGOAS PREFEITURA MUNICIPAL DE SANTA LUZIA DO NORTE GABINETE PREFEITO PORTARIA Nº 088/2026 -PMSLN PORTARIA Nº 088/2026-PMSLN/AL NOMEIA CANDIDATOS APROVADOS NO CONCURSO PÚBLICO Nº 001/2025-PMSLN/AL, CONSIDERADOS APTOS NAS AVALIAÇÕES DOCUMENTAL E MÉDICA, CONVOCA-OS PARA POSSE E DÁ OUTR",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-02",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Goiânia/GO — 2026-07-10",
+  "url": "https://data.queridodiario.ok.org.br/5208707/2026-07-10/1e9481132d90efcbd1b0f01425789d11f1588ea1.pdf",
+  "orgao": "",
+  "municipio": "Goiânia",
+  "uf": "GO",
+  "data_publicacao": "2026-07-10",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/5208707/2026-07-10/1e9481132d90efcbd1b0f01425789d11f1588ea1.txt",
+   "edition": "8817",
+   "scraped_at": "2026-08-02T17:23:05.625256",
+   "trecho": "conforme a documentação contida no Processo SEI nº 26.29.000023145-2, RESOLVE: Art. 1º Conceder à servidora TATIANE KAROLINE CANDIDA GUIMARAES, matrícula funcional nº 967211-01, ocupante do cargo de Auditor Fiscal Saúde Pública, afastamento, em razão da necessária desincompatibilização, pelo período",
+   "contexto_fraco": true
+  }
  }
 ]
