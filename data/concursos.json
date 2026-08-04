@@ -1382,5 +1382,97 @@
    "contexto_fraco": true,
    "orgao_interno": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO"
   }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Blumenau - SC divulga retificação do concurso público para Controlador Interno e Procurador",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-blumenau-sc-divulga-retificacao-do-concurso-publico-para-controlador-interno-e-procurador",
+  "orgao": "Câmara de Blumenau",
+  "municipio": "Blumenau",
+  "uf": "SC",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {}
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Guaraqueçaba — LEI Nº 059/2026 (2026-08-04)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/11D2870C",
+  "orgao": "Prefeitura Municipal de Guaraqueçaba",
+  "municipio": "Guaraqueçaba",
+  "uf": "PR",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "trecho": "ciais e prestadoras de serviços. VIII - À concessão de desconto para pagamento em parcela única do IPTU de até 20% (vinte por cento); IX - À renúncia fiscal de tributos como incentivos aos desenvolvimentos da economia local, na forma de leis específicas. § 1°. Os tributos lançados e não arrecadados,",
+   "contexto_fraco": true,
+   "orgao_interno": "CAMARA MUNICIPAL"
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos",
+   "analista tributario"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Águas de Chapecó — PORTARIA Nº 305/2026 - DESIGNA SERVIDORES RESP. PELO ENVIO DE DADOS AO E-SFINGE ONLINE (2026-08-04)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8575886",
+  "orgao": "Prefeitura Municipal de Águas de Chapecó",
+  "municipio": "Águas de Chapecó",
+  "uf": "SC",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "categoria": "Portarias",
+   "trecho": "ULA Nº 23.158. Suplente: GENOR ANTONIO MOTERLE – CONTADOR GERAL – MATRÍCULA Nº 11.305. IV – Módulo Tributário: Titular: VANDERLEI SCHEFFER – FISCAL DE TRIBUTOS, OBRAS E POSTURA – MATRÍCULA Nº 11.267. Suplente: YASSANA HELLEN PISATTO PEDRASSANI – ANALISTA TRIBUTÁRIO –",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Tangará — PORTARIA Nº 583, DE 03 DE AGOSTO DE 2026. CONCEDE PROGRESSÃO POR DESEMPENHO A SERVIDORA QUE MENCIONA, E DÁ OUTRAS PROVIDÊNCIAS (2026-08-04)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8571954",
+  "orgao": "Prefeitura municipal de Tangará",
+  "municipio": "Tangará",
+  "uf": "SC",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "categoria": "Portarias",
+   "trecho": ": Art. 1º Conceder, a partir de 01 de agosto de 2026, a servidora CAMILA CRISTINE HINTZ HAHNE, ocupante do cargo efetivo de FISCAL DE TRIBUTOS – NIVEL 13 – CLASSE B, a progressão horizontal por desempenho, passando para classe “C”, com as vantagens previstas em Lei. Art. 2º A progressão prevista no ",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 132/2026 (2026-08-04)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8571601",
+  "orgao": "Prefeitura Municipal de Laguna",
+  "municipio": "Laguna",
+  "uf": "SC",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "categoria": "Outras publicações",
+   "trecho": " / CPF / CNPJ XX.319.272/00XX-XX Ao(s) 3 dia(s) do mês de 7 do ano de 2026, o(s) servidor(es) abaixo qualificado(s), no exercício do cargo de Fiscal Tributário da PREFEITURA DO MUNICÍPIO DE LAGUNA, tendo verificado que o contribuinte acima identificado cometeu as seguintes faltas: Protocolo 11.095/2",
+   "contexto_fraco": true
+  }
  }
 ]
