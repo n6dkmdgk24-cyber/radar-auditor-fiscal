@@ -1302,5 +1302,85 @@
    "trecho": "PORTARIA Nº: 736/2026 “Exonera o Servidor Público Municipal Senhor Everson Cargnin Caldas Junior do cargo de Fiscal Tributário do Município de Porto Belo e dá outras providências”. JOEL ORLANDO LUCINDA, Prefeito do Município de Porto Belo, Estado de Santa Catarina, no uso de suas atribuições que lhe",
    "contexto_fraco": true
   }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Angra dos Reis/RJ — 2026-03-20",
+  "url": "https://data.queridodiario.ok.org.br/3300100/2026-03-20/143d627f46f9ea868f59705a9431ca7e29cb5d4a.pdf",
+  "orgao": "",
+  "municipio": "Angra dos Reis",
+  "uf": "RJ",
+  "data_publicacao": "2026-03-20",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3300100/2026-03-20/143d627f46f9ea868f59705a9431ca7e29cb5d4a.txt",
+   "edition": "2326",
+   "scraped_at": "2026-08-03T15:41:03.026377",
+   "trecho": "disposto nos artigos 9º e 11, inciso I, da Lei Municipal nº 412/L.O., de 20 de fevereiro de 1995; CONSIDERANDO que o Instituto de Previdência Social do Município de Angra dos Reis realizou Concurso Público para preenchimento de cargos, cujas atribuições estão previstas nas Leis 1.683/2006, 4.037/202",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Maricá/RJ — 2026-02-06",
+  "url": "https://data.queridodiario.ok.org.br/3302700/2026-02-06/23c309100f543d3d0f6b5b6d46ef50268cf27baa.pdf",
+  "orgao": "",
+  "municipio": "Maricá",
+  "uf": "RJ",
+  "data_publicacao": "2026-02-06",
+  "detalhes": {
+   "txt_url": "https://data.queridodiario.ok.org.br/3302700/2026-02-06/23c309100f543d3d0f6b5b6d46ef50268cf27baa.txt",
+   "edition": "1839",
+   "scraped_at": "2026-08-03T16:35:50.042095",
+   "trecho": "nº 01, de 09.05.1990, bem como o solicitado no Processo nº 823.108 de 15.01.2026. R E S O L V E Art. 1º Conceder LICENÇA PRÊMIO ao servidor do Quadro Permanente ROBSON MANOEL CUNHA DA SILVA, FISCAL DE TRIBUTOS, sob matrícula nº 6298, com lotação na Secretaria de Gestão Tributária e Fiscal, pelo perí",
+   "contexto_fraco": true
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Campina do Simão — REPUBLICAÇÃO LEI Nº 934/2026 (2026-08-04)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/2CE4CBA2",
+  "orgao": "Prefeitura Municipal de Campina do Simão",
+  "municipio": "Campina Do Simão",
+  "uf": "PR",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "trecho": "ADVOGADO 2 20 6.422,65 6.551,10 6.682,13 6.815,77 6.952,08 7.091,12 7.232,95 7.377,61 7.525,16 7.675,66 7.829,17 7.985,76 8.145,47 8.308,38 8.474,55 AUDITOR FISCAL DA RECEITA MUNICIPAL 1 40 5.138,17 5.240,93 5.345,75 5.452,67 5.561,72 5.672,95 5.786,41 5.902,14 6.020,19 6.140,59 6.263,40 6.388,67 6.",
+   "contexto_fraco": true,
+   "orgao_interno": "CONTROLE INTERNO"
+  }
+ },
+ {
+  "descoberto_em": "2026-08-04",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Antonina — PORTARIA Nº  331/2026  -  LICENÇA PARA TRATAMENTO DE SAÚDE - ALEX SANDRO DE OLIVEIRA FONSECA  – AGENTE FISCAL TRIBUTÁRIO (2026-08-04)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/F8D954B0",
+  "orgao": "Prefeitura Municipal de Antonina",
+  "municipio": "Antonina",
+  "uf": "PR",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "trecho": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO PORTARIA Nº 331/2026 - LICENÇA PARA TRATAMENTO DE SAÚDE - ALEX SANDRO DE OLIVEIRA FONSECA – AGENTE FISCAL TRIBUTÁRIO PORTARIA Nº 331/2026, de 20 de julho de 2026. A Prefeita Municipal de Antonina, Estado do Paraná , no uso de suas atribuições legais, de conformi",
+   "contexto_fraco": true,
+   "orgao_interno": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO"
+  }
  }
 ]
