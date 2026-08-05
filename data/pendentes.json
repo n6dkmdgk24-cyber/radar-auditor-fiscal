@@ -1,7 +1,30 @@
 [
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 2,
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Forquilhinha — AUTORIZAÇÃO DL 133/PMF/2026 (2026-08-05)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8580060",
+   "cargo_texto": "AUTORIZAÇÃO DL 133/PMF/2026\n: Nilzete Locks de Souza - Chefe de Fiscalização Tributária Fiscal da Contratação: Daniele Berti Dalmolim - Fiscal de Tributos Suplente do fiscal: Anderson Coelho",
+   "orgao": "Prefeitura Municipal de Forquilhinha",
+   "municipio": "Forquilhinha",
+   "uf": "SC",
+   "data_publicacao": "2026-08-05",
+   "detalhes": {
+    "categoria": "Outras publicações",
+    "trecho": ": Nilzete Locks de Souza - Chefe de Fiscalização Tributária Fiscal da Contratação: Daniele Berti Dalmolim - Fiscal de Tributos Suplente do fiscal: Anderson Coelho",
+    "contexto_fraco": true
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-05",
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
