@@ -141,7 +141,7 @@ def gerar(estado, cfg, caminho):
 <body>
 <h1>📡 Radar Auditor Fiscal</h1>
 <div class="sub">Concursos de fiscalização tributária e controle — federal, estadual e municipal.
-Atualizado em {time.strftime("%d.%m.%Y %H:%M")} · {len(itens)} item(ns) nos últimos {cfg.get("painel_dias", 60)} dias.</div>
+Atualizado em {time.strftime("%d.%m.%Y %H:%M")} · {len(itens)} item(ns) nos últimos {cfg.get("painel_dias", 60)} dias.{f" · {estado.total_pendentes} item(ns) aguardando classificação" if getattr(estado, "total_pendentes", 0) else ""}</div>
 {"".join(blocos)}
 </body>
 </html>"""

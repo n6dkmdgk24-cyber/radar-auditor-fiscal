@@ -23,14 +23,36 @@ O filtro classifica cada achado em **tributário**, **controle** ou **conferir**
 
 Regra de confiança por fonte: os selos fortes (Tributário/Controle) vêm das fontes de **notícia** (PCI, CNB, DOU), cujos títulos dizem explicitamente que um concurso abriu. Itens do **Querido Diário** são texto bruto de diário oficial (que mistura editais, autos de infração, nomeações e assinaturas de servidores) e por isso entram **sempre como "Conferir"**, com o trecho casado exibido e o marcador "🔎 possível abertura" quando há indício de edital de abertura perto do cargo — sinal de triagem, não veredito.
 
-### Classificador com IA (opcional)
+### Triagem: regras determinísticas + IA opcional (fail-closed)
 
-Cada item que o filtro determinístico deixaria em "Conferir" passa por uma revisão final com IA (**GitHub Models**, modelo `gpt-4o-mini`, autenticado com o `GITHUB_TOKEN` do próprio workflow — sem chave externa, custo zero, permissão `models: read`). O veredito decide o destino:
+> Histórico: até 29.7.2026 a triagem usava o **GitHub Models** (custo zero). O GitHub
+> aposentou a plataforma em 30.7.2026 e, como o desenho era *fail-open* (erro de IA
+> mantinha o item visível), o radar publicou 5 dias de falsos positivos. O desenho
+> atual corrige as duas coisas.
 
-- **abertura** na área-alvo → único caso que gera aviso: entra no painel/Telegram com selo forte e marcador 🤖;
-- **andamento** (homologação de inscrições, gabarito, resultado, convocação, nomeação) e **irrelevante** (ato de fiscalização, cargo de outra área) → **não geram aviso**; ficam registrados em `data/descartados.json` com o veredito — auditável, nada some em silêncio.
+Todo candidato passa por duas camadas:
 
-Na dúvida entre abertura e andamento, a IA é instruída a escolher abertura (perder edital é pior que um aviso a mais). Erro de API mantém o item visível em "Conferir" (fail-open). O workflow `teste-ia` (aba Actions, disparo manual) verifica a IA de ponta a ponta.
+1. **Regras determinísticas** (`radar/regras.py`) — resolvem os casos óbvios sem IA:
+   portaria/decreto/lei/licitação/dívida ativa e fases sem inscrição (convocação,
+   gabarito, resultado, homologação, atos de pessoal) são **descartados**; notícia com
+   evidência de inscrição + cargo-alvo forte **publica**; o resto fica **incerto**.
+2. **IA** (opcional, **API da Anthropic**, modelo `claude-haiku-4-5`, secret
+   `ANTHROPIC_API_KEY`) — árbitro final dos incertos e refinadora dos demais
+   (cargo literal, período de inscrições, cadastro de reserva). Custa centavos/dia.
+
+Destinos, sempre com registro auditável:
+
+- **abertura** na área-alvo → único caso que gera aviso (painel/Telegram);
+- **suspensao** → entra com ⚠️; **andamento**/**irrelevante** → `data/descartados.json`;
+- **incerto sem IA** → fila `data/pendentes.json` (**fail-closed**: nada sem veredito
+  chega ao painel), re-tentado a cada execução e expirado após 30 dias; o Telegram
+  recebe um aviso operacional quando a fila cresce;
+- cada execução grava as decisões item a item em `data/relatorio.json` e no log do
+  Actions (`[triagem] ...`).
+
+O corpus real do incidente de 30.7–4.8.2026 (52 falsos positivos + 18 acertos) está
+congelado em `tests/` como regressão. O workflow `teste-ia` (disparo manual) roda a
+suíte e, havendo secret, testa o classificador de ponta a ponta.
 
 ## Uso local
 
@@ -46,7 +68,7 @@ python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
 
 1. **Repositório**: `gh auth login`, depois criar o repo público e dar push (`gh repo create radar-auditor-fiscal --public --source . --push`).
 2. **Bot do Telegram**: falar com o @BotFather → `/newbot` → guardar o token. Criar um grupo com o bot + os dois interessados; pegar o `chat_id` acessando `https://api.telegram.org/bot<TOKEN>/getUpdates` após mandar uma mensagem no grupo (o id de grupo começa com `-`).
-3. **Secrets** no repo (Settings → Secrets and variables → Actions): `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID` e, para o e-mail, `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `EMAIL_PARA` (destinatários separados por vírgula) e opcionalmente `EMAIL_DE`. Gmail: usar senha de app com `smtp.gmail.com` porta 587.
+3. **Secrets** no repo (Settings → Secrets and variables → Actions): `TELEGRAM_TOKEN`, `TELEGRAM_CHAT_ID` e, para o e-mail, `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `EMAIL_PARA` (destinatários separados por vírgula) e opcionalmente `EMAIL_DE`. Gmail: usar senha de app com `smtp.gmail.com` porta 587. Para a IA, `ANTHROPIC_API_KEY` (chave em console.anthropic.com; sem ela o radar opera só com as regras e segura os incertos na fila de pendentes).
 4. **GitHub Pages**: Settings → Pages → Deploy from a branch → `main` / pasta `/docs`.
 5. **Primeira execução**: aba Actions → workflow `radar` → Run workflow. As duas execuções diárias (08h00 e 19h30 de Brasília) já ficam agendadas.
 

@@ -73,30 +73,47 @@ def main(argv=None):
             continue
         candidatos.append((a, categoria, termos))
 
-    # revisão opcional com IA (GitHub Models): só dos itens "conferir", fail-open
-    descartados = []
-    if candidatos:
-        from . import classificador
+    # triagem FAIL-CLOSED: regras determinísticas + IA opcional (Anthropic).
+    # Sem veredito, o item vai para data/pendentes.json — nunca para o painel.
+    from . import classificador, triagem
 
-        if classificador.disponivel():
-            try:
-                candidatos, descartados = classificador.revisar(candidatos, cfg)
-            except Exception:
-                print("[ia] FALHOU, itens mantidos como estavam", file=sys.stderr)
-                traceback.print_exc(limit=2)
+    pendentes_antigos = estado.pendentes_carregados()
+    resultado = triagem.triar(candidatos, pendentes_antigos, cfg)
 
     novos = []
-    for a, categoria, termos in candidatos:
-        if estado.ja_visto(a, categoria):
+    for a, categoria, termos, de_pendentes in resultado.publicar:
+        if not de_pendentes and estado.ja_visto(a, categoria):
             continue
         estado.marcar(a, categoria)
         estado.registrar_concurso(a, categoria, termos)
         novos.append((a, categoria, termos))
-    for a, veredito in descartados:
+    for a, veredito, _de_pendentes in resultado.descartar:
         estado.marcar(a, "descartado")
         estado.registrar_descartado(a, veredito)
-    if descartados:
-        print(f"[ia] {len(descartados)} item(ns) descartado(s) — registro em data/descartados.json")
+    for a, categoria, _termos, _meta in resultado.pendentes:
+        estado.marcar(a, categoria)  # evita que a coleta re-enfileire a mesma URL
+    estado.definir_pendentes(resultado.pendentes)
+
+    if resultado.descartar:
+        print(f"[triagem] {len(resultado.descartar)} descartado(s) — data/descartados.json")
+    if resultado.pendentes:
+        print(f"[triagem] {len(resultado.pendentes)} pendente(s) na fila — data/pendentes.json")
+    for linha in resultado.relatorio:
+        print(f"[triagem] {linha['destino']:<32} regras={linha['regras']:<9} {linha['titulo'][:80]}")
+
+    # avisos operacionais (não são achados): IA fora do ar / fila crescendo
+    avisos = []
+    if resultado.erros_ia:
+        avisos.append(
+            f"⚠️ Radar: classificador de IA falhou em {resultado.erros_ia} item(ns) "
+            f"({resultado.ultimo_erro_ia}). Itens seguraram na fila de pendentes."
+        )
+    if resultado.novos_pendentes:
+        motivo = "IA indisponível" if not classificador.disponivel() else "aguardando IA"
+        avisos.append(
+            f"🕐 Radar: {resultado.novos_pendentes} item(ns) novo(s) na fila de conferência "
+            f"({motivo}); fila total: {len(resultado.pendentes)}."
+        )
 
     print(f"\n== {len(novos)} novidade(s) | fontes com falha: {[f for f, _ in falhas] or 'nenhuma'} ==")
     for a, categoria, termos in novos:
@@ -115,8 +132,10 @@ def main(argv=None):
     erros_saida = []
     for nome, fn in (
         ("telegram", lambda: s_telegram.enviar(novos, falhas, cfg)),
+        ("telegram-avisos", lambda: s_telegram.enviar_textos(avisos)),
         ("email", lambda: s_email.enviar(novos, falhas, cfg)),
         ("painel", lambda: s_painel.gerar(estado, cfg, BASE / "docs" / "index.html")),
+        ("relatorio", lambda: estado.registrar_relatorio(resultado.relatorio)),
     ):
         try:
             fn()

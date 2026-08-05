@@ -5,6 +5,7 @@
 janela_inicial_dias: 3      # primeira execução (sem cursor) olha esse período para trás
 expira_vistos_dias: 180     # depois disso, o mesmo ente+categoria pode alertar de novo
 painel_dias: 60             # o painel exibe descobertas desse período
+pendentes_expira_dias: 30   # item sem veredito de IA expira da fila após esse prazo
 
 fontes:
   qd: true                  # Querido Diário (diários oficiais municipais)

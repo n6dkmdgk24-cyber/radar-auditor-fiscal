@@ -1,29 +1,41 @@
-"""Revisão final dos achados com IA gratuita (GitHub Models).
+"""Classificador por IA — API da Anthropic (Claude Haiku 4.5).
 
-Usa a API do GitHub Models (formato OpenAI chat/completions) autenticada com
-o GITHUB_TOKEN que o próprio workflow do Actions recebe — nenhuma chave
-externa, custo zero. Modelo padrão: gpt-4.1 (mais preciso), com fallback
-automático para gpt-4o-mini se a cota diária do primeiro esgotar.
-Configurável por ambiente: IA_TOKEN (padrão: GITHUB_TOKEN), IA_MODELO, IA_URL.
+Histórico: o classificador original usava o GitHub Models (gpt-4.1 com o
+GITHUB_TOKEN do Actions, custo zero). O GitHub aposentou a plataforma em
+30.7.2026 e o endpoint passou a responder 410 — foi isso que derrubou a
+triagem entre 30.7 e 4.8.2026. Este módulo é o substituto: usa a API da
+Anthropic quando o segredo ANTHROPIC_API_KEY existir no ambiente.
 
-TODOS os candidatos passam pela revisão (não só os "conferir"): a IA é o
-árbitro final. Só o veredito "abertura" na área-alvo COM cargo citado no
-texto gera aviso; "suspensao" na área-alvo entra com marcador ⚠️; andamento,
-irrelevante e abertura de outra área saem dos avisos com registro auditável
-em data/descartados.json. Fail-open: erro de API mantém o item como estava.
+Sem a chave, `disponivel()` devolve False e a triagem opera só com as
+regras determinísticas (radar/regras.py), segurando os casos incertos na
+fila de pendentes — NUNCA fail-open.
+
+Modelo padrão: claude-haiku-4-5 (classificação simples; ~US$ 0,01-0,05/dia
+neste volume). Sobreponha com IA_MODELO. A saída é JSON garantido por
+schema (structured outputs), sem parsing frágil.
 """
 
 import json
 import os
-import time
 
-import requests
-
-URL_PADRAO = "https://models.github.ai/inference/chat/completions"
-MODELO_PADRAO = "openai/gpt-4.1"
-MODELO_RESERVA = "openai/gpt-4o-mini"
 CLASSES = {"abertura", "andamento", "suspensao", "irrelevante"}
 AREAS = {"tributario", "controle", "outra"}
+
+MODELO_PADRAO = "claude-haiku-4-5"
+
+_ESQUEMA = {
+    "type": "object",
+    "properties": {
+        "classe": {"type": "string", "enum": sorted(CLASSES)},
+        "area": {"type": "string", "enum": sorted(AREAS)},
+        "cargo": {"type": "string"},
+        "inscricoes": {"type": "string"},
+        "cadastro_reserva": {"type": "boolean"},
+        "resumo": {"type": "string"},
+    },
+    "required": ["classe", "area", "cargo", "inscricoes", "cadastro_reserva", "resumo"],
+    "additionalProperties": False,
+}
 
 SISTEMA = """Você classifica achados de um radar de concursos públicos brasileiros.
 O público-alvo presta concursos de fiscalização TRIBUTÁRIA (auditor/fiscal de tributos em
@@ -62,69 +74,44 @@ classifique como "andamento" ou "irrelevante" conforme o caso.
 
 Na dúvida entre "abertura" e "andamento" (quando há alguma evidência de abertura), escolha
 "abertura" — perder um edital é pior do que um aviso a mais. Na dúvida entre "andamento" e
-"irrelevante", escolha "andamento".
+"irrelevante", escolha "andamento"."""
 
-Responda SOMENTE com um objeto JSON neste formato, sem nenhum outro texto:
-{"classe": "abertura|suspensao|andamento|irrelevante", "area": "tributario|controle|outra",
- "cargo": "...", "inscricoes": "...", "cadastro_reserva": false, "resumo": "..."}"""
+_cliente = None
 
 
 def disponivel():
-    return bool(os.environ.get("IA_TOKEN") or os.environ.get("GITHUB_TOKEN"))
+    return bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def _texto_item(achado, termos):
-    partes = [
-        f"Título: {achado.titulo}",
-        f"Órgão/local: {achado.orgao or achado.municipio or 'n/d'} / {achado.uf or 'n/d'}",
-        f"Termos casados pelo filtro: {', '.join(termos)}",
-        f"Trecho: {achado.detalhes.get('trecho', '')}",
-    ]
-    contexto = (achado.cargo_texto or "").strip()[:2000]
-    if contexto:
-        partes.append(f"Contexto adicional: {contexto}")
-    return "\n".join(partes)
+def _obter_cliente():
+    global _cliente
+    if _cliente is None:
+        import anthropic
+
+        # o SDK lê ANTHROPIC_API_KEY do ambiente e refaz 429/5xx sozinho
+        _cliente = anthropic.Anthropic(timeout=60.0)
+    return _cliente
 
 
-def _pedir(modelo, token, texto):
-    """Uma chamada ao modelo, com retry de 429; devolve o veredito ou None se a cota esgotar."""
-    for _ in range(2):
-        resp = requests.post(
-            os.environ.get("IA_URL", URL_PADRAO),
-            headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
-            json={
-                "model": modelo,
-                "messages": [
-                    {"role": "system", "content": SISTEMA},
-                    {"role": "user", "content": texto},
-                ],
-                "response_format": {"type": "json_object"},
-                "max_tokens": 300,
-                "temperature": 0,
-            },
-            timeout=60,
-        )
-        if resp.status_code == 429:
-            time.sleep(min(int(resp.headers.get("retry-after", "20")), 60))
-            continue
-        resp.raise_for_status()
-        return json.loads(resp.json()["choices"][0]["message"]["content"])
-    return None  # cota persistentemente esgotada neste modelo
+def classificar(texto):
+    """Uma chamada de classificação; devolve o veredito ou levanta exceção.
 
-
-def _chamar(texto):
-    token = os.environ.get("IA_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    modelos = [os.environ.get("IA_MODELO", MODELO_PADRAO)]
-    if MODELO_RESERVA not in modelos:
-        modelos.append(MODELO_RESERVA)
-    veredito = None
-    for modelo in modelos:
-        veredito = _pedir(modelo, token, texto)
-        if veredito is not None:
-            break
-        print(f"[ia] aviso: cota de {modelo} esgotada, tentando modelo reserva")
-    if veredito is None:
-        raise RuntimeError("cota de todos os modelos esgotada (HTTP 429 persistente)")
+    Quem chama (radar/triagem.py) decide o destino em caso de erro —
+    fail-closed: o item vai para a fila de pendentes, nunca para o painel.
+    """
+    resp = _obter_cliente().messages.create(
+        model=os.environ.get("IA_MODELO", MODELO_PADRAO),
+        max_tokens=500,
+        system=SISTEMA,
+        output_config={"format": {"type": "json_schema", "schema": _ESQUEMA}},
+        messages=[{"role": "user", "content": texto}],
+    )
+    if resp.stop_reason == "refusal":
+        raise RuntimeError("classificação recusada pelo modelo")
+    if resp.stop_reason == "max_tokens":
+        raise RuntimeError("resposta truncada (max_tokens)")
+    corpo = next(b.text for b in resp.content if b.type == "text")
+    veredito = json.loads(corpo)
     if veredito.get("classe") not in CLASSES or veredito.get("area") not in AREAS:
         raise ValueError(f"veredito fora do esquema: {veredito!r}")
     return {
@@ -134,30 +121,5 @@ def _chamar(texto):
         "inscricoes": str(veredito.get("inscricoes", ""))[:80],
         "cadastro_reserva": bool(veredito.get("cadastro_reserva")),
         "resumo": str(veredito.get("resumo", ""))[:160],
+        "origem": f"ia:{os.environ.get('IA_MODELO', MODELO_PADRAO)}",
     }
-
-
-def revisar(candidatos, cfg):
-    """Recebe [(Achado, categoria, termos)] — TODOS passam pela IA — e devolve
-    (revisados, descartados). descartados é [(Achado, veredito)] para auditoria."""
-    revisados, descartados = [], []
-    for achado, categoria, termos in candidatos:
-        try:
-            veredito = _chamar(_texto_item(achado, termos))
-            time.sleep(3)
-        except Exception as e:  # fail-open: sem veredito, o item segue como estava
-            print(f"[ia] aviso: classificação falhou ({e!r}), item mantido como {categoria}")
-            revisados.append((achado, categoria, termos))
-            continue
-
-        achado.detalhes["ia"] = veredito
-        alvo = veredito["area"] in ("tributario", "controle")
-        if veredito["classe"] == "abertura" and alvo and veredito["cargo"]:
-            revisados.append((achado, veredito["area"], termos))
-        elif veredito["classe"] == "suspensao" and alvo:
-            revisados.append((achado, veredito["area"], termos))
-        else:
-            # andamento, irrelevante, outra área ou abertura sem cargo citado:
-            # não gera aviso, fica registrado em data/descartados.json
-            descartados.append((achado, veredito))
-    return revisados, descartados

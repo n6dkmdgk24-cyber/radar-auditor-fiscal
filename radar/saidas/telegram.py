@@ -112,6 +112,20 @@ def _enviar_mensagem(token, chat_id, texto):
         raise RuntimeError(f"API do Telegram retornou erro: {corpo}")
 
 
+def enviar_textos(textos):
+    """Avisos operacionais avulsos (IA fora do ar, fila de pendentes...)."""
+    token = os.environ.get("TELEGRAM_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not textos:
+        return
+    if not token or not chat_id:
+        print("[telegram] aviso: credenciais ausentes, avisos operacionais pulados")
+        return
+    for texto in textos:
+        _enviar_mensagem(token, chat_id, _escapar(texto))
+        time.sleep(PAUSA_ENTRE_ENVIOS)
+
+
 def enviar(novos, falhas, cfg):
     """Envia um aviso por achado novo (resumindo o excedente acima de 12)
     e uma mensagem consolidada de falhas de coletor, se houver."""

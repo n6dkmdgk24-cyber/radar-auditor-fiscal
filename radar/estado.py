@@ -1,3 +1,4 @@
+import dataclasses
 import hashlib
 import json
 import re
@@ -5,14 +6,18 @@ import time
 from pathlib import Path
 
 from .filtro import normalizar
+from .modelos import Achado
 
 
 class Estado:
     """Persistência em data/: cursors por fonte, deduplicação e registro do painel.
 
-    - estado.json   -> {"cursors": {fonte: {...}}}
-    - vistos.json   -> {chave: timestamp} para deduplicação
-    - concursos.json-> lista acumulada de achados relevantes (alimenta o painel)
+    - estado.json    -> {"cursors": {fonte: {...}}}
+    - vistos.json    -> {chave: timestamp} para deduplicação
+    - concursos.json -> lista acumulada de achados relevantes (alimenta o painel)
+    - descartados.json -> registro auditável do que a triagem rejeitou
+    - pendentes.json -> fila fail-closed: itens sem veredito aguardando IA
+    - relatorio.json -> decisões da última execução, item a item
     """
 
     def __init__(self, data_dir):
@@ -22,6 +27,7 @@ class Estado:
         self._vistos = self._ler("vistos.json", {})
         self.concursos = self._ler("concursos.json", [])
         self.descartados = self._ler("descartados.json", [])
+        self._pendentes = self._ler("pendentes.json", [])
 
     def _ler(self, nome, padrao):
         arq = self.dir / nome
@@ -83,6 +89,49 @@ class Estado:
             }
         )
 
+    # ---- fila de pendentes (fail-closed) -------------------------------
+    def pendentes_carregados(self):
+        """Devolve [(Achado, categoria, termos, meta)] da fila persistida."""
+        itens = []
+        for p in self._pendentes:
+            itens.append(
+                (
+                    Achado(**p["achado"]),
+                    p["categoria"],
+                    p["termos"],
+                    {"enfileirado_em": p["enfileirado_em"], "tentativas": p["tentativas"]},
+                )
+            )
+        return itens
+
+    def definir_pendentes(self, pendentes):
+        """Substitui a fila por [(Achado, categoria, termos, meta)]."""
+        self._pendentes = [
+            {
+                "enfileirado_em": meta["enfileirado_em"],
+                "tentativas": meta["tentativas"],
+                "categoria": categoria,
+                "termos": termos,
+                "achado": dataclasses.asdict(achado),
+            }
+            for achado, categoria, termos, meta in pendentes
+        ]
+
+    @property
+    def total_pendentes(self):
+        return len(self._pendentes)
+
+    def registrar_relatorio(self, linhas):
+        """Grava as decisões da última execução (sobrescreve)."""
+        (self.dir / "relatorio.json").write_text(
+            json.dumps(
+                {"executado_em": time.strftime("%Y-%m-%dT%H:%M:%S"), "itens": linhas},
+                ensure_ascii=False,
+                indent=1,
+            ),
+            encoding="utf-8",
+        )
+
     # ---- manutenção ----------------------------------------------------
     def expirar(self, dias: int):
         limite = time.strftime(
@@ -102,4 +151,7 @@ class Estado:
         )
         (self.dir / "descartados.json").write_text(
             json.dumps(self.descartados, ensure_ascii=False, indent=1), encoding="utf-8"
+        )
+        (self.dir / "pendentes.json").write_text(
+            json.dumps(self._pendentes, ensure_ascii=False, indent=1), encoding="utf-8"
         )
