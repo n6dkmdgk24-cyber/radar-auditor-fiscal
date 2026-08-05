@@ -1,31 +1,18 @@
 {
- "executado_em": "2026-08-05T19:28:48",
+ "executado_em": "2026-08-05T19:39:02",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Japurá - PR divulga retificação de concurso com salários de até R$ 26.762,20",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-japura-pr-divulga-retificacao-de-concurso-com-salarios-de-ate-26762",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "auditor fiscal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Palhano - CE reabre inscrições de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-palhano-ce-reabre-inscricoes-de-concurso-publico",
+   "titulo": "Prefeitura de Primavera do Leste - MT retifica edital de concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-primavera-do-leste-mt-retifica-edital-de-concurso-publico",
    "categoria_filtro": "conferir",
    "termos": [
-    "agente fiscal"
+    "controlador interno"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretifica\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
@@ -38,47 +25,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Ponta Grossa - PR divulga retificação do concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ponta-grossa-pr-divulga-retificacao-do-concurso-publico",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Rancho Alegre D'Oeste - PR abre concurso público com salários de até R$ 14.322,64",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rancho-alegre-doeste-pr-abre-concurso-publico-com-salarios-de-ate-14322",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Novo Hamburgo - RS divulga retificação de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-novo-hamburgo-rs-divulga-retificacao-de-concurso-publico",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "auditor fiscal",
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "pci",
@@ -91,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "domsc",
@@ -104,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   }
  ]
 }
