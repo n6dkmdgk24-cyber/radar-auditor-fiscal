@@ -451,5 +451,206 @@
     "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026."
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Delfinópolis - MG abre editais de concurso e processo seletivo",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-delfinopolis-mg-abre-editais-de-concurso-e-processo-seletivo",
+  "orgao": "Prefeitura de Delfinópolis",
+  "municipio": "Delfinópolis",
+  "uf": "MG",
+  "data_publicacao": "2026-08-03",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Mairiporã - SP abre concurso público com salários de até R$ 5.574,03",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mairipora-sp-abre-concurso-publico-com-salarios-de-ate-5574",
+  "orgao": "Prefeitura de Mairiporã",
+  "municipio": "Mairiporã",
+  "uf": "SP",
+  "data_publicacao": "2026-08-03",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Tasso Fragoso - MA abre concurso público com salários de até R$ 2.800,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-tasso-fragoso-ma-abre-concurso-publico-com-salarios-de-ate-2800",
+  "orgao": "Câmara de Tasso Fragoso",
+  "municipio": "Tasso Fragoso",
+  "uf": "MA",
+  "data_publicacao": "2026-08-03",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "agente de arrecadacao"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Jaborandi - BA abre concurso público com diversas vagas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jaborandi-ba-abre-concurso-publico-com-diversas-vagas",
+  "orgao": "Prefeitura de Jaborandi",
+  "municipio": "Jaborandi",
+  "uf": "BA",
+  "data_publicacao": "2026-08-03",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Marialva - PR abre concurso público com salários de até R$ 6.768,66",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-marialva-pr-abre-concurso-publico-com-salarios-de-ate-6768",
+  "orgao": "Prefeitura de Marialva",
+  "municipio": "Marialva",
+  "uf": "PR",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal fazendario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Balneário Piçarras - SC abre concursos e processo seletivo com salários de até R$ 22.936,56",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-balneario-picarras-sc-abre-concursos-e-processo-seletivo-com-salarios-de-ate-22936",
+  "orgao": "Prefeitura de Balneário Piçarras",
+  "municipio": "Balneário Piçarras",
+  "uf": "SC",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal fazendario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Dores do Indaiá - MG abre concurso público com salários de até R$ 4.500,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-dores-do-indaia-mg-abre-concurso-publico-com-salarios-de-ate-4500",
+  "orgao": "Câmara de Dores do Indaiá",
+  "municipio": "Dores do Indaiá",
+  "uf": "MG",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de São Vicente de Minas - MG abre concurso público com salários de até R$ 15.142,28",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-vicente-de-minas-mg-abre-concurso-publico-com-salarios-de-ate-15142",
+  "orgao": "Prefeitura de São Vicente de Minas",
+  "municipio": "São Vicente de Minas",
+  "uf": "MG",
+  "data_publicacao": "2026-08-04",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
  }
 ]

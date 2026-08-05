@@ -1,13 +1,13 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-05T15:02:37"
+   "scraped_since": "2026-08-05T19:00:47"
   },
   "pci": {
-   "lastmod_max": "2026-07-21"
+   "lastmod_max": "2026-08-05"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-05T15:02:18",
+   "ultimo_pub": "2026-08-05T18:48:30",
    "guids": [
     "https://concursosnobrasil.com/?p=381991",
     "https://concursosnobrasil.com/?p=381977",
@@ -369,7 +369,16 @@
     "https://concursosnobrasil.com/?p=383260",
     "https://concursosnobrasil.com/?p=383264",
     "https://concursosnobrasil.com/?p=383255",
-    "https://concursosnobrasil.com/?p=383247"
+    "https://concursosnobrasil.com/?p=383247",
+    "https://concursosnobrasil.com/?p=383372",
+    "https://concursosnobrasil.com/?p=383361",
+    "https://concursosnobrasil.com/?p=383348",
+    "https://concursosnobrasil.com/?p=383351",
+    "https://concursosnobrasil.com/?p=383337",
+    "https://concursosnobrasil.com/?p=383340",
+    "https://concursosnobrasil.com/?p=383324",
+    "https://concursosnobrasil.com/?p=383311",
+    "https://concursosnobrasil.com/?p=383300"
    ]
   },
   "dou": {
@@ -405,5 +414,8 @@
     "https://access.selecao.net.br|180"
    ]
   }
- }
+ },
+ "fontes_com_falha": [
+  "selecao"
+ ]
 }
