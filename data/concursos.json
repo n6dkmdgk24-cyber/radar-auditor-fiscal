@@ -779,5 +779,80 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Meruoca - CE reabre inscrições de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meruoca-ce-reabre-inscricoes-de-concurso-publico",
+  "orgao": "Prefeitura de Meruoca",
+  "municipio": "Meruoca",
+  "uf": "CE",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cianorte - PR abre concurso público com salários de até R$ 13.692,14",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cianorte-pr-abre-concurso-publico-com-salarios-de-ate-13692",
+  "orgao": "Prefeitura de Cianorte",
+  "municipio": "Cianorte",
+  "uf": "PR",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Município de Nova Aurora - PR abre concurso público com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/municipio-de-nova-aurora-pr-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-07-24",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

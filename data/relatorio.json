@@ -1,18 +1,44 @@
 {
- "executado_em": "2026-08-05T19:39:02",
+ "executado_em": "2026-08-05T19:48:05",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Primavera do Leste - MT retifica edital de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-primavera-do-leste-mt-retifica-edital-de-concurso-publico",
-   "categoria_filtro": "conferir",
+   "titulo": "Prefeitura de Meruoca - CE reabre inscrições de concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meruoca-ce-reabre-inscricoes-de-concurso-publico",
+   "categoria_filtro": "tributario",
    "termos": [
-    "controlador interno"
+    "fiscal de tributos"
    ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretifica\\b)",
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)",
    "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Cianorte - PR abre concurso público com salários de até R$ 13.692,14",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cianorte-pr-abre-concurso-publico-com-salarios-de-ate-13692",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Município de Nova Aurora - PR abre concurso público com vagas imediatas e cadastro de reserva",
+   "url": "https://www.pciconcursos.com.br/noticias/municipio-de-nova-aurora-pr-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "pci",
@@ -25,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "pci",
@@ -38,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   }
  ]
 }

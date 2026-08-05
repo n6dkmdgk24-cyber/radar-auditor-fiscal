@@ -1,7 +1,7 @@
 [
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -20,7 +20,7 @@
  },
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 4,
+  "tentativas": 5,
   "categoria": "tributario",
   "termos": [
    "fiscal de rendas"
@@ -39,7 +39,7 @@
  },
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
