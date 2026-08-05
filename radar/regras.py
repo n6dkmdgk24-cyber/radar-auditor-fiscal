@@ -74,7 +74,9 @@ _FASE_SEM_INSCRICAO = [
     r"\bgabarito\b",
     r"\bclassificacao\b",
     r"\bheteroidentificacao\b",
-    r"\bisencao\b",
+    # "isencao" NÃO entra: pedido de isenção da taxa é seção normal de edital
+    # de abertura (caso real: Limeira/SP 31.7.2026); a lista de isentos, que é
+    # fase posterior, casa por "isentos".
     r"\bisentos\b",
     r"\bensalamento\b",
     r"\berrata\b",
@@ -88,9 +90,10 @@ _FASE_SEM_INSCRICAO = [
 # A frase solta "edital de abertura" NÃO entra aqui de propósito: ela
 # aparece como referência em editais de fase posterior (caso Guaíra/PR).
 _EVIDENCIA_ABERTURA = [
-    r"\babre (o )?concurso\b",
-    r"\babre (o )?processo seletivo\b",
+    r"\babre (o )?concursos?\b",
+    r"\babre (o )?processos? seletivos?\b",
     r"\babre (a )?selecao\b",
+    r"\babre (os )?edita(l|is)\b",
     r"\babre \d+ vagas?\b",
     r"\babre vagas?\b",
     r"\babrem?,? inscricoes\b",
@@ -109,6 +112,7 @@ _EVIDENCIA_ABERTURA = [
     r"\brecebe inscricoes\b",
     r"\binscreva-se\b",
     r"\blanca (o )?edital\b",
+    r"\bpublica (o )?edita(l|is)\b",
     r"\banuncia (o )?concurso\b",
     r"\bnovo concurso\b",
     r"\bdivulga (o )?edital de (abertura|concurso)\b",
@@ -122,6 +126,8 @@ _EVIDENCIA_ABERTURA = [
 _ATO_DE_PESSOAL = [
     r"\bocupante d[eo] cargo\b",
     r"\bmatricula\b",
+    r"\benquadramento\b",
+    r"\bplano de cargos\b",
     r"\blicenca[- ]premio\b",
     r"\blicenca capacitacao\b",
     r"\bferias regulamentares\b",
@@ -142,6 +148,10 @@ _SUSPENSAO = [
     r"\banulad[oa]\b",
     r"\banula(cao)?\b",
 ]
+
+# Fontes cujo título é manchete editorial (diz o que aconteceu); diários
+# oficiais brutos (qd/sigpub/domsc/dou) ficam de fora.
+FONTES_DE_NOTICIA = {"pci", "cnb", "selecao"}
 
 _RX_DOC = [re.compile(p) for p in _DOC_NAO_CONCURSO]
 _RX_FASE = [re.compile(p) for p in _FASE_SEM_INSCRICAO]
@@ -184,6 +194,16 @@ def triar(achado, categoria, termos):
 
     if fase_titulo and not abertura:
         return "descarte", f"fase sem inscrição (título: {fase_titulo[0]})"
+
+    # Evidência de abertura no PRÓPRIO TÍTULO (manchete de notícia) decide
+    # sozinha: o corpo de uma notícia de abertura cita etapas futuras
+    # ("classificação", "resultado") sem que isso mude o que a manchete diz.
+    # Em fonte de notícia, vale até para termo ambíguo ("controlador
+    # interno"): a manchete diz que o concurso ABRIU e o cargo está no corpo
+    # do artigo (a extração é restrita ao <article>, sem menus).
+    abertura_titulo = _casados(_RX_ABERTURA, titulo)
+    if abertura_titulo and not fase_titulo and (forte or achado.fonte in FONTES_DE_NOTICIA):
+        return "abertura", f"manchete de abertura ({abertura_titulo[0]}) + cargo ({termos[0]})"
 
     if abertura and forte and not fase_titulo and not fase_trecho:
         return "abertura", f"evidência de inscrição ({abertura[0]}) + termo forte ({termos[0]})"

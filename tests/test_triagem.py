@@ -16,7 +16,7 @@ from pathlib import Path
 
 import pytest
 
-from radar import classificador, regras, triagem
+from radar import regras, triagem, verificador
 from radar.modelos import Achado
 
 CORPUS = json.loads(
@@ -66,35 +66,53 @@ def _candidato(titulo, trecho, categoria="conferir", termos=("agente fiscal",)):
     return (a, categoria, list(termos))
 
 
-def test_incerto_sem_ia_vai_para_pendentes(monkeypatch):
-    monkeypatch.setattr(classificador, "disponivel", lambda: False)
+def _sem_rede(monkeypatch, veredito=("incerto", "sem rede no teste", {})):
+    monkeypatch.setattr(verificador, "verificar", lambda _a, _t: veredito)
+
+
+def test_incerto_vai_para_pendentes(monkeypatch):
+    _sem_rede(monkeypatch)
     r = triagem.triar([_candidato("Comunicado sobre agente fiscal", "texto neutro")], [], {})
     assert not r.publicar and not r.descartar
     assert len(r.pendentes) == 1 and r.novos_pendentes == 1
 
 
-def test_erro_de_ia_e_fail_closed(monkeypatch):
-    monkeypatch.setattr(classificador, "disponivel", lambda: True)
-
-    def explode(_texto):
-        raise RuntimeError("api fora do ar")
-
-    monkeypatch.setattr(classificador, "classificar", explode)
+def test_falha_do_verificador_e_fail_closed(monkeypatch):
+    _sem_rede(monkeypatch, ("incerto", "falha ao obter texto integral (rede)", {}))
     r = triagem.triar([_candidato("Comunicado sobre agente fiscal", "texto neutro")], [], {})
-    assert not r.publicar, "erro de IA jamais pode publicar (era o bug de 30.7-4.8)"
-    assert len(r.pendentes) == 1 and r.erros_ia == 1
+    assert not r.publicar, "falha de verificação jamais pode publicar (era o bug de 30.7-4.8)"
+    assert len(r.pendentes) == 1
+
+
+def test_verificador_abertura_publica_e_mapeia_area(monkeypatch):
+    _sem_rede(monkeypatch, ("abertura", "anatomia de edital", {"inscricoes": "1/9 a 30/9"}))
+    cand = _candidato("Edital novo", "texto", categoria="conferir", termos=("controlador interno",))
+    r = triagem.triar([cand], [], {})
+    assert len(r.publicar) == 1
+    achado, categoria, _termos, _ = r.publicar[0]
+    assert categoria == "controle"  # termo ambíguo mapeado para a área
+    assert achado.detalhes["ia"]["origem"] == "verificador"
+    assert achado.detalhes["ia"]["inscricoes"] == "1/9 a 30/9"
+
+
+def test_verificador_descarte_descarta(monkeypatch):
+    _sem_rede(monkeypatch, ("descarte", "texto integral sem anatomia", {}))
+    r = triagem.triar([_candidato("Comunicado sobre agente fiscal", "texto neutro")], [], {})
+    assert not r.publicar and not r.pendentes
+    assert len(r.descartar) == 1
+    assert r.descartar[0][1]["origem"] == "verificador"
 
 
 def test_pendente_expira_para_descarte(monkeypatch):
-    monkeypatch.setattr(classificador, "disponivel", lambda: False)
+    _sem_rede(monkeypatch)
     a, cat, termos = _candidato("Comunicado sobre agente fiscal", "texto neutro")
     meta = {"enfileirado_em": "2026-01-01", "tentativas": 5}
     r = triagem.triar([], [(a, cat, termos, meta)], {"pendentes_expira_dias": 30})
     assert not r.pendentes and len(r.descartar) == 1 and r.expirados == 1
 
 
-def test_abertura_por_regras_publica_sem_ia(monkeypatch):
-    monkeypatch.setattr(classificador, "disponivel", lambda: False)
+def test_abertura_por_regras_publica_sem_verificador(monkeypatch):
+    _sem_rede(monkeypatch)
     cand = _candidato(
         "Prefeitura de Exemplo abre concurso público com 5 vagas para Fiscal de Tributos",
         "inscrições de 10/08 a 10/09/2026",
@@ -106,3 +124,30 @@ def test_abertura_por_regras_publica_sem_ia(monkeypatch):
     achado = r.publicar[0][0]
     assert achado.detalhes["ia"]["classe"] == "abertura"
     assert achado.detalhes["ia"]["origem"] == "regras"
+
+
+def test_manchete_de_noticia_publica_termo_ambiguo_mapeado(monkeypatch):
+    _sem_rede(monkeypatch)
+    a = Achado(
+        fonte="pci",
+        titulo="Câmara de Exemplo - SP abre concurso público com salários de até R$ 7.000,00",
+        url="https://exemplo/noticia",
+        cargo_texto="As oportunidades são para os cargos de: Controlador Interno (1 vaga) Advogado (1 vaga)",
+    )
+    r = triagem.triar([(a, "conferir", ["controlador interno"])], [], {})
+    assert len(r.publicar) == 1
+    _, categoria, _, _ = r.publicar[0]
+    assert categoria == "controle"
+    assert a.detalhes["ia"]["origem"] == "regras"
+
+
+def test_manchete_em_diario_bruto_nao_publica_termo_ambiguo(monkeypatch):
+    _sem_rede(monkeypatch)
+    a = Achado(
+        fonte="sigpub",
+        titulo="Prefeitura Municipal de Exemplo — ABRE CONCURSO (2026-08-05)",
+        url="https://exemplo/diario",
+        cargo_texto="texto de diário citando agente fiscal",
+    )
+    r = triagem.triar([(a, "conferir", ["agente fiscal"])], [], {})
+    assert not r.publicar, "diário bruto com termo ambíguo precisa de verificação, não de manchete"

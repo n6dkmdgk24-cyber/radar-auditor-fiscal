@@ -21,7 +21,7 @@ from ..modelos import Achado
 # A Seção 3 menciona os cargos em atos que não são concurso (mercadoria
 # abandonada, extratos de acordo, convocações sindicais); só interessa o que
 # tem contexto de concurso/seleção.
-RX_CONTEXTO = re.compile(r"concurso|processo seletivo|selecao publica|inscric")
+RX_CONTEXTO = re.compile(r"concurso|processo seletivo|selecao publica|inscric|edital")
 
 BUSCA = "https://www.in.gov.br/consulta/-/buscar/dou"
 HEADERS = {
@@ -109,7 +109,9 @@ def coletar(cfg, cursor, desde_padrao):
     if falhas and len(falhas) == len(cfg["consultas_cargo"]):
         raise RuntimeError(f"todas as {len(falhas)} consultas ao DOU falharam; primeira: {falhas[0]}")
     if falhas:
-        print(f"[dou] aviso: {len(falhas)} de {len(cfg['consultas_cargo'])} consultas falharam")
-
-    cursor["ultima_data"] = hoje.isoformat()
+        # cursor NÃO avança com falha parcial: a janela das frases que
+        # falharam é refeita na próxima execução (dedupe absorve repetidos)
+        print(f"[dou] aviso: {len(falhas)} de {len(cfg['consultas_cargo'])} consultas falharam; cursor mantido")
+    else:
+        cursor["ultima_data"] = hoje.isoformat()
     return achados

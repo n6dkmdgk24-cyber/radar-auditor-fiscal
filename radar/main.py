@@ -73,9 +73,10 @@ def main(argv=None):
             continue
         candidatos.append((a, categoria, termos))
 
-    # triagem FAIL-CLOSED: regras determinísticas + IA opcional (Anthropic).
-    # Sem veredito, o item vai para data/pendentes.json — nunca para o painel.
-    from . import classificador, triagem
+    # triagem FAIL-CLOSED: regras determinísticas + verificação profunda do
+    # texto integral (sem IA). Sem veredito, o item vai para
+    # data/pendentes.json — nunca vira aviso de concurso.
+    from . import triagem
 
     pendentes_antigos = estado.pendentes_carregados()
     resultado = triagem.triar(candidatos, pendentes_antigos, cfg)
@@ -101,19 +102,20 @@ def main(argv=None):
     for linha in resultado.relatorio:
         print(f"[triagem] {linha['destino']:<32} regras={linha['regras']:<9} {linha['titulo'][:80]}")
 
-    # avisos operacionais (não são achados): IA fora do ar / fila crescendo
+    # avisos operacionais (não são achados): fila de pendentes e mudanças de
+    # estado dos coletores (falha NOVA ou recuperação — sem repetir todo dia)
     avisos = []
-    if resultado.erros_ia:
-        avisos.append(
-            f"⚠️ Radar: classificador de IA falhou em {resultado.erros_ia} item(ns) "
-            f"({resultado.ultimo_erro_ia}). Itens seguraram na fila de pendentes."
-        )
     if resultado.novos_pendentes:
-        motivo = "IA indisponível" if not classificador.disponivel() else "aguardando IA"
         avisos.append(
-            f"🕐 Radar: {resultado.novos_pendentes} item(ns) novo(s) na fila de conferência "
-            f"({motivo}); fila total: {len(resultado.pendentes)}."
+            f"🕐 Radar: {resultado.novos_pendentes} item(ns) novo(s) aguardando confirmação "
+            f"no painel (fila total: {len(resultado.pendentes)})."
         )
+    falhas_atuais = {f for f, _ in falhas}
+    falhas_novas = falhas_atuais - estado.falhas_anteriores()
+    recuperadas = (estado.falhas_anteriores() - falhas_atuais) & set(ativas)
+    avisos.extend(f"✅ Radar: coletor {f} voltou a funcionar." for f in sorted(recuperadas))
+    falhas_para_alertar = [(f, tb) for f, tb in falhas if f in falhas_novas]
+    estado.registrar_falhas(falhas_atuais)
 
     print(f"\n== {len(novos)} novidade(s) | fontes com falha: {[f for f, _ in falhas] or 'nenhuma'} ==")
     for a, categoria, termos in novos:
@@ -131,7 +133,7 @@ def main(argv=None):
 
     erros_saida = []
     for nome, fn in (
-        ("telegram", lambda: s_telegram.enviar(novos, falhas, cfg)),
+        ("telegram", lambda: s_telegram.enviar(novos, falhas_para_alertar, cfg)),
         ("telegram-avisos", lambda: s_telegram.enviar_textos(avisos)),
         ("email", lambda: s_email.enviar(novos, falhas, cfg)),
         ("painel", lambda: s_painel.gerar(estado, cfg, BASE / "docs" / "index.html")),

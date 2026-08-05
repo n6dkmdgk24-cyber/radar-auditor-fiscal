@@ -89,6 +89,13 @@ class Estado:
             }
         )
 
+    # ---- memória de falhas de coletor (anti-spam de avisos) ------------
+    def falhas_anteriores(self):
+        return set(self._estado.get("fontes_com_falha", []))
+
+    def registrar_falhas(self, fontes):
+        self._estado["fontes_com_falha"] = sorted(fontes)
+
     # ---- fila de pendentes (fail-closed) -------------------------------
     def pendentes_carregados(self):
         """Devolve [(Achado, categoria, termos, meta)] da fila persistida."""

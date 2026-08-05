@@ -2,8 +2,10 @@ name: radar
 
 on:
   schedule:
-    - cron: '0 11 * * *'    # 08:00 de Brasília (cron do GitHub é UTC)
-    - cron: '30 22 * * *'   # 19:30 de Brasília
+    # 4×/dia (cron do GitHub é UTC): 8h, 12h, 16h e 20h de Brasília.
+    # O feed do CNB guarda ~15 itens/6h; com 2 execuções/dia havia janela
+    # para notícia rolar para fora do feed sem ser coletada.
+    - cron: '0 11,15,19,23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -36,9 +38,6 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           EMAIL_PARA: ${{ secrets.EMAIL_PARA }}
           EMAIL_DE: ${{ secrets.EMAIL_DE }}
-          # IA opcional: sem o secret, a triagem roda só com as regras e
-          # segura os incertos em data/pendentes.json (fail-closed).
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m radar.main
 
       - name: Commit do estado e do painel

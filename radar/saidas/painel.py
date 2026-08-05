@@ -130,6 +130,28 @@ def gerar(estado, cfg, caminho):
     if not itens:
         blocos.append("<p>Nenhuma descoberta no período.</p>")
 
+    # fila de pendentes: itens sem veredito automático — transparência sem
+    # poluir as descobertas (não geram aviso no Telegram)
+    pendentes = estado.pendentes_carregados() if hasattr(estado, "pendentes_carregados") else []
+    if pendentes:
+        blocos.append("<h2>Aguardando confirmação</h2>")
+        blocos.append(
+            '<p class="sub">Itens que a triagem automática não conseguiu decidir; '
+            "são reavaliados a cada execução e expiram sozinhos.</p>"
+        )
+        for achado, _categoria, _termos, meta in pendentes:
+            trecho = achado.detalhes.get("trecho", "")
+            bloco_trecho = f'<div class="trecho">{html.escape(trecho[:300])}</div>' if trecho else ""
+            blocos.append(
+                '<div class="item">'
+                '<div class="tags"><span class="badge" style="background:#777">🔎 Sem veredito</span></div>'
+                f'<a href="{html.escape(achado.url, quote=True)}">{html.escape(achado.titulo)}</a>'
+                f'<div class="meta">fonte: {html.escape(achado.fonte)} · na fila desde '
+                f"{_fmt_data(meta.get('enfileirado_em', ''))}</div>"
+                f"{bloco_trecho}"
+                "</div>"
+            )
+
     pagina = f"""<!doctype html>
 <html lang="pt-BR">
 <head>
