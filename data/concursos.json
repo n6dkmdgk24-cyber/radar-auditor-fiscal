@@ -904,5 +904,105 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "SAAE de Barretos - SP reabre inscrições para concurso com salários de até R$ 10.524,03",
+  "url": "https://www.pciconcursos.com.br/noticias/saae-de-barretos-sp-reabre-inscricoes-para-concurso-com-salarios-de-ate-10524",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-07-28",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Abaetetuba - PA abre concurso com vagas em diversas áreas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-abaetetuba-pa-abre-concurso-com-vagas-em-diversas-areas",
+  "orgao": "Prefeitura de Abaetetuba",
+  "municipio": "Abaetetuba",
+  "uf": "PA",
+  "data_publicacao": "2026-07-29",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Bom Jardim de Minas - MG reabre inscrições para o concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bom-jardim-de-minas-mg-reabre-inscricoes-para-o-concurso-publico",
+  "orgao": "Prefeitura de Bom Jardim de Minas",
+  "municipio": "Bom Jardim de Minas",
+  "uf": "MG",
+  "data_publicacao": "2026-07-29",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Belo Vale - MG abre concurso público com diversas vagas e salários de até R$ 8.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-belo-vale-mg-abre-concurso-publico-com-diversas-vagas-e-salarios-de-ate-8000",
+  "orgao": "Prefeitura de Belo Vale",
+  "municipio": "Belo Vale",
+  "uf": "MG",
+  "data_publicacao": "2026-07-29",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
  }
 ]
