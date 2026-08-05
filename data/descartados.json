@@ -2784,5 +2784,41 @@
   "municipio": "Primavera do Leste",
   "uf": "MT",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Angatuba - SP divulga retificação de concurso público com salários de até R$ 6.102,68",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-angatuba-sp-divulga-retificacao-de-concurso-publico-com-salarios-de-ate-6102",
+  "municipio": "Angatuba",
+  "uf": "SP",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretifica\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Buriti Alegre - GO retifica edital de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-buriti-alegre-go-retifica-edital-de-concurso-publico",
+  "municipio": "Buriti Alegre",
+  "uf": "GO",
+  "trecho": ""
  }
 ]

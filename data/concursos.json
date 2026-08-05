@@ -854,5 +854,55 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Quatro Pontes - PR abre concurso público com salários de até R$ 15.970,05",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-quatro-pontes-pr-abre-concurso-publico-com-salarios-de-ate-15970",
+  "orgao": "Prefeitura de Quatro Pontes",
+  "municipio": "Quatro Pontes",
+  "uf": "PR",
+  "data_publicacao": "2026-07-28",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ribeira do Pombal - BA anuncia concurso para Guardas Municipais e Fiscais",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ribeira-do-pombal-ba-anuncia-concurso-para-guardas-municipais-e-fiscais",
+  "orgao": "Prefeitura de Ribeira do Pombal",
+  "municipio": "Ribeira do Pombal",
+  "uf": "BA",
+  "data_publicacao": "2026-07-28",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

@@ -1,42 +1,55 @@
 {
- "executado_em": "2026-08-05T19:48:05",
+ "executado_em": "2026-08-05T19:57:20",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Meruoca - CE reabre inscrições de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meruoca-ce-reabre-inscricoes-de-concurso-publico",
+   "titulo": "Prefeitura de Angatuba - SP divulga retificação de concurso público com salários de até R$ 6.102,68",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-angatuba-sp-divulga-retificacao-de-concurso-publico-com-salarios-de-ate-6102",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Buriti Alegre - GO retifica edital de concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-buriti-alegre-go-retifica-edital-de-concurso-publico",
    "categoria_filtro": "tributario",
    "termos": [
     "fiscal de tributos"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)",
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretifica\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Cianorte - PR abre concurso público com salários de até R$ 13.692,14",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cianorte-pr-abre-concurso-publico-com-salarios-de-ate-13692",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Município de Nova Aurora - PR abre concurso público com vagas imediatas e cadastro de reserva",
-   "url": "https://www.pciconcursos.com.br/noticias/municipio-de-nova-aurora-pr-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+   "titulo": "Prefeitura de Quatro Pontes - PR abre concurso público com salários de até R$ 15.970,05",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-quatro-pontes-pr-abre-concurso-publico-com-salarios-de-ate-15970",
    "categoria_filtro": "tributario",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "abertura",
    "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Ribeira do Pombal - BA anuncia concurso para Guardas Municipais e Fiscais",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ribeira-do-pombal-ba-anuncia-concurso-para-guardas-municipais-e-fiscais",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
@@ -51,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "pci",
@@ -64,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "domsc",
@@ -77,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   }
  ]
 }
