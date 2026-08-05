@@ -1,26 +1,26 @@
 {
- "executado_em": "2026-08-05T04:07:27",
+ "executado_em": "2026-08-05T12:56:40",
  "itens": [
   {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Bom Sucesso do Sul — PORTARIA Nº 387, DE 04 DE AGOSTO DE 2026. (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/03F067B6",
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Pontes Gestal/SP — 2026-08-04",
+   "url": "https://data.queridodiario.ok.org.br/3540309/2026-08-04/f0f4c35ef80249769b6f09d279dfa75876ae6f5d.pdf",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
    "ia": null,
    "destino": "descartado (regras)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Planalto — DECRETO DE NOMEAÇÃO RUAM MORAES PALMIRO (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/D544AD3B",
+   "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — DECRETO Nº 5011/2026  DISPÕE SOBRE O LANÇAMENTO DO IMPOSTO PREDIAL E TERRITORIAL URBANO – IPTU, REFERENTE AO EXERCÍCIO DE 2026,",
+   "url": "https://www.diariomunicipal.com.br/amp/load/3000F82B",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal municipal"
    ],
    "regras": "descarte",
    "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
@@ -29,14 +29,40 @@
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Paula Freitas — EDITAL Nº 14/2026 EDITAL CLASSIFICAÇÃO FINAL CONCURSO PÚBLICO Nº 01/2026 (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/87A63960",
+   "titulo": "Prefeitura Municipal de Boa Ventura de São Roque — PORTARIA Nº 284/2026 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/571E2836",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bclassificacao\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — EDITAL DE CONVOCAÇÃO APROVADOS Nº 014/2026 DO EDITAL Nº 001/2023 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/1495FD38",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "PREFEITURA MUNICIPAL DE SALTO DO LONTRA — DECRETO 1431/2026 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/330CD9BF",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
    "ia": null,
    "destino": "descartado (regras)"
   },
@@ -51,46 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "ia": null,
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Boa Vista da Aparecida — LEI Nº 1.046/2026 (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/9AE75A19",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
-   "ia": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — EDITAL DE CONVOCAÇÃO APROVADOS Nº 015/2026 DO EDITAL Nº 001/2023 (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/32949FEA",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
-   "ia": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Vitorino — LEI Nº 2224, DE 04 DE AGOSTO DE 2026 (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/920E5F61",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
-   "ia": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   }
  ]
 }
