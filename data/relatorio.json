@@ -1,0 +1,96 @@
+{
+ "executado_em": "2026-08-05T04:07:27",
+ "itens": [
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Bom Sucesso do Sul — PORTARIA Nº 387, DE 04 DE AGOSTO DE 2026. (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/03F067B6",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Planalto — DECRETO DE NOMEAÇÃO RUAM MORAES PALMIRO (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/D544AD3B",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Paula Freitas — EDITAL Nº 14/2026 EDITAL CLASSIFICAÇÃO FINAL CONCURSO PÚBLICO Nº 01/2026 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/87A63960",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bclassificacao\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Querência do Norte — ENQUADRAMENTO (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/D8615A1E",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "ia": null,
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Boa Vista da Aparecida — LEI Nº 1.046/2026 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/9AE75A19",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — EDITAL DE CONVOCAÇÃO APROVADOS Nº 015/2026 DO EDITAL Nº 001/2023 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/32949FEA",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Vitorino — LEI Nº 2224, DE 04 DE AGOSTO DE 2026 (2026-08-05)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/920E5F61",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "ia": null,
+   "destino": "descartado (regras)"
+  }
+ ]
+}
