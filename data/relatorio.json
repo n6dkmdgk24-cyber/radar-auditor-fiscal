@@ -1,98 +1,6 @@
 {
- "executado_em": "2026-08-05T20:14:56",
+ "executado_em": "2026-08-05T20:24:21",
  "itens": [
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Salto Veloso - SC abre concurso público com salários de até R$ 9.151,71",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-salto-veloso-sc-abre-concurso-publico-com-salarios-de-ate-9151",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "tecnico em tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Câmara de Rifaina - SP abre concurso com salários de até R$ 7.018,00",
-   "url": "https://www.pciconcursos.com.br/noticias/camara-de-rifaina-sp-abre-concurso-com-salarios-de-ate-7018",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Conceição do Almeida - BA abre concurso público com vagas para diversos cargos",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-do-almeida-ba-abre-concurso-publico-com-vagas-para-diversos-cargos",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Rincão - SP abre concurso público com vagas imediatas e cadastro de reserva",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rincao-sp-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Limeira - SP publica editais de concursos com vagas em diversas áreas",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-limeira-sp-publica-editais-de-concursos-com-vagas-em-diversas-areas",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "auditor fiscal",
-    "fiscal tributario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Câmara de Pedra Branca - CE abre concurso com salários de até R$ 4.000,00",
-   "url": "https://www.pciconcursos.com.br/noticias/camara-de-pedra-branca-ce-abre-concurso-com-salarios-de-ate-4000",
-   "categoria_filtro": "controle",
-   "termos": [
-    "analista de controle interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Pedro Teixeira - MG publica edital de concurso público com salários de até R$ 5.494,76",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pedro-teixeira-mg-publica-edital-de-concurso-publico-com-salarios-de-ate-5494",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
   {
    "fonte": "pci",
    "titulo": "Prefeitura de Meridiano - SP publica retificação em concurso público com salários de até R$ 9.722,52",
@@ -104,7 +12,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   },
   {
    "fonte": "pci",
@@ -117,7 +25,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "domsc",
@@ -130,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   }
  ]
 }
