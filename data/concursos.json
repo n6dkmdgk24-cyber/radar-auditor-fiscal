@@ -652,5 +652,82 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cosmópolis - SP divulga retificação do concurso público com salários de até R$ 9.652,63",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cosmopolis-sp-divulga-retificacao-do-concurso-publico-com-salarios-de-ate-9652",
+  "orgao": "Prefeitura de Cosmópolis",
+  "municipio": "Cosmópolis",
+  "uf": "SP",
+  "data_publicacao": "2026-08-05",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ubirajara - SP retifica concurso público com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ubirajara-sp-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Ubirajara",
+  "municipio": "Ubirajara",
+  "uf": "SP",
+  "data_publicacao": "2026-08-05",
+  "detalhes": {
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "agente de arrecadacao"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Chapada dos Guimarães - MT abre concurso público para diversas áreas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-chapada-dos-guimaraes-mt-abre-concurso-publico-para-diversas-areas",
+  "orgao": "Prefeitura de Chapada dos Guimarães",
+  "municipio": "Chapada dos Guimarães",
+  "uf": "MT",
+  "data_publicacao": "2026-08-05",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

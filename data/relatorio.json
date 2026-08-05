@@ -1,49 +1,37 @@
 {
- "executado_em": "2026-08-05T19:09:41",
+ "executado_em": "2026-08-05T19:17:39",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Delfinópolis - MG abre editais de concurso e processo seletivo",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-delfinopolis-mg-abre-editais-de-concurso-e-processo-seletivo",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Mairiporã - SP abre concurso público com salários de até R$ 5.574,03",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mairipora-sp-abre-concurso-publico-com-salarios-de-ate-5574",
+   "titulo": "Prefeitura de Cosmópolis - SP divulga retificação do concurso público com salários de até R$ 9.652,63",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cosmopolis-sp-divulga-retificacao-do-concurso-publico-com-salarios-de-ate-9652",
    "categoria_filtro": "conferir",
    "termos": [
-    "controlador interno"
+    "agente fiscal"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
+   "destino": "publicado (verificador: abertura)"
   },
   {
    "fonte": "pci",
-   "titulo": "Câmara de Tasso Fragoso - MA abre concurso público com salários de até R$ 2.800,00",
-   "url": "https://www.pciconcursos.com.br/noticias/camara-de-tasso-fragoso-ma-abre-concurso-publico-com-salarios-de-ate-2800",
-   "categoria_filtro": "controle",
+   "titulo": "Prefeitura de Ubirajara - SP retifica concurso público com vagas imediatas e cadastro de reserva",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ubirajara-sp-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+   "categoria_filtro": "tributario",
    "termos": [
-    "analista de controle interno"
+    "auditor fiscal",
+    "fiscal de tributos"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+   "regras": "suspensao",
+   "regras_motivo": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "publicado (regras: suspensao)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Jaborandi - BA abre concurso público com diversas vagas",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jaborandi-ba-abre-concurso-publico-com-diversas-vagas",
+   "titulo": "Prefeitura de Chapada dos Guimarães - MT abre concurso público para diversas áreas",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-chapada-dos-guimaraes-mt-abre-concurso-publico-para-diversas-areas",
    "categoria_filtro": "tributario",
    "termos": [
     "fiscal de tributos",
@@ -65,111 +53,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Marialva - PR abre concurso público com salários de até R$ 6.768,66",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-marialva-pr-abre-concurso-publico-com-salarios-de-ate-6768",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "agente fiscal"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Balneário Piçarras - SC abre concursos e processo seletivo com salários de até R$ 22.936,56",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-balneario-picarras-sc-abre-concursos-e-processo-seletivo-com-salarios-de-ate-22936",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal fazendario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Câmara de Dores do Indaiá - MG abre concurso público com salários de até R$ 4.500,00",
-   "url": "https://www.pciconcursos.com.br/noticias/camara-de-dores-do-indaia-mg-abre-concurso-publico-com-salarios-de-ate-4500",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de São Vicente de Minas - MG abre concurso público com salários de até R$ 15.142,28",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-vicente-de-minas-mg-abre-concurso-publico-com-salarios-de-ate-15142",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Santo Amaro da Imperatriz — DECRETO Nº 10.041 (2026-08-05)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8580564",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Santo Amaro da Imperatriz — DECRETO Nº 10.058 (2026-08-05)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8580525",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Santo Amaro da Imperatriz — DECRETO Nº 10.088 (2026-08-05)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8580303",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Irati — EDITAL DE NOTIFICAÇÃO DE DÍVIDA ATIVA Nº. 001/2026 - MUNICIPIO DE IRATI/SC (2026-08-05)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8576241",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdivida ativa\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "domsc",
@@ -182,20 +66,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 2)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Querência do Norte — ENQUADRAMENTO (2026-08-05)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/D8615A1E",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "ato de pessoal sobre servidor (\\benquadramento\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 3)"
   }
  ]
 }
