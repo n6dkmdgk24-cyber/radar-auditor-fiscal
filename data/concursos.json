@@ -729,5 +729,55 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Palhano - CE reabre inscrições de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-palhano-ce-reabre-inscricoes-de-concurso-publico",
+  "orgao": "Prefeitura de Palhano",
+  "municipio": "Palhano",
+  "uf": "CE",
+  "data_publicacao": "2026-07-21",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Rancho Alegre D'Oeste - PR abre concurso público com salários de até R$ 14.322,64",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rancho-alegre-doeste-pr-abre-concurso-publico-com-salarios-de-ate-14322",
+  "orgao": "Prefeitura de Rancho Alegre D'Oeste",
+  "municipio": "Rancho Alegre D'Oeste",
+  "uf": "PR",
+  "data_publicacao": "2026-07-22",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

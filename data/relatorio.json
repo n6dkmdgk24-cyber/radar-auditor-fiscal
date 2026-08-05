@@ -1,46 +1,84 @@
 {
- "executado_em": "2026-08-05T19:17:39",
+ "executado_em": "2026-08-05T19:28:48",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Cosmópolis - SP divulga retificação do concurso público com salários de até R$ 9.652,63",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cosmopolis-sp-divulga-retificacao-do-concurso-publico-com-salarios-de-ate-9652",
+   "titulo": "Prefeitura de Japurá - PR divulga retificação de concurso com salários de até R$ 26.762,20",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-japura-pr-divulga-retificacao-de-concurso-com-salarios-de-ate-26762",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Palhano - CE reabre inscrições de concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-palhano-ce-reabre-inscricoes-de-concurso-publico",
    "categoria_filtro": "conferir",
    "termos": [
     "agente fiscal"
    ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Meridiano - SP publica retificação em concurso público com salários de até R$ 9.722,52",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meridiano-sp-publica-retificacao-em-concurso-publico-com-salarios-de-ate-9722",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal municipal"
+   ],
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "abertura: anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
-   "destino": "publicado (verificador: abertura)"
+   "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
+   "destino": "pendente (tentativa 1)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Ubirajara - SP retifica concurso público com vagas imediatas e cadastro de reserva",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ubirajara-sp-retifica-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+   "titulo": "Prefeitura de Ponta Grossa - PR divulga retificação do concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ponta-grossa-pr-divulga-retificacao-do-concurso-publico",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal",
     "fiscal de tributos"
    ],
-   "regras": "suspensao",
-   "regras_motivo": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
    "verificador": null,
-   "destino": "publicado (regras: suspensao)"
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Chapada dos Guimarães - MT abre concurso público para diversas áreas",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-chapada-dos-guimaraes-mt-abre-concurso-publico-para-diversas-areas",
+   "titulo": "Prefeitura de Rancho Alegre D'Oeste - PR abre concurso público com salários de até R$ 14.322,64",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rancho-alegre-doeste-pr-abre-concurso-publico-com-salarios-de-ate-14322",
    "categoria_filtro": "tributario",
    "termos": [
-    "fiscal de tributos",
-    "agente de arrecadacao"
+    "fiscal de tributos"
    ],
    "regras": "abertura",
    "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Novo Hamburgo - RS divulga retificação de concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-novo-hamburgo-rs-divulga-retificacao-de-concurso-publico",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
@@ -53,7 +91,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "domsc",
@@ -66,7 +104,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   }
  ]
 }

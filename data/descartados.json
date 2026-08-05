@@ -2712,5 +2712,59 @@
   "municipio": "Querência Do Norte",
   "uf": "PR",
   "trecho": "A SILVA SANTOS D 12 10 RICARDO PEREIRA FOGASSA C 12 CARGO: AUXILIAR DE TRIBUTAÇÃO Nº Nome Nível Classe 1 OSMARCO LUIZ DE OLIVEIRA MARTINS F 36 CARGO: FISCAL DE TRIBUTOS Nº Nome Nível Classe 1 FABIO FERREIRA DE SANTIAGO F 22 2 JOVELINO BARBOSA SOBRINHO D 35 3 LUCIANO ALVES RIBEIRO JUSSANI F 34 4 MART"
+ },
+ {
+  "descartado_em": "2026-08-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Japurá - PR divulga retificação de concurso com salários de até R$ 26.762,20",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-japura-pr-divulga-retificacao-de-concurso-com-salarios-de-ate-26762",
+  "municipio": "Japurá",
+  "uf": "PR",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ponta Grossa - PR divulga retificação do concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ponta-grossa-pr-divulga-retificacao-do-concurso-publico",
+  "municipio": "Ponta Grossa",
+  "uf": "PR",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Novo Hamburgo - RS divulga retificação de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-novo-hamburgo-rs-divulga-retificacao-de-concurso-publico",
+  "municipio": "Novo Hamburgo",
+  "uf": "RS",
+  "trecho": ""
  }
 ]

@@ -1,7 +1,26 @@
 [
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 2,
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "achado": {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Meridiano - SP publica retificação em concurso público com salários de até R$ 9.722,52",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meridiano-sp-publica-retificacao-em-concurso-publico-com-salarios-de-ate-9722",
+   "cargo_texto": "A Prefeitura de Meridiano , no estado de São Paulo, publicou o edital do Concurso Público nº 001/2026, executado pela GL Consultoria , para o preenchimento de vagas e formação de cadastro de reserva em funções de nível fundamental, médio/técnico e superior. Conforme a 1ª Retificação do Edital, foi incluído o Anexo V - Solicitação de Isenção. Agora, os candidatos que solicitarem isenção do pagamento da inscrição deverão, obrigatoriamente, enviar o Anexo V preenchido juntamente com os documentos comprobatórios da situação, conforme orientações do edital. De acordo com o edital, as oportunidades são para os cargos de: Faxineira (Cadastro de reserva) Faxineira para o Distrito do Santo Antônio do Viradouro (2 vagas + Cadastro de reserva) Auxiliar de Serviços Administrativos (Cadastro de reserva) Escriturário (Cadastro de reserva) Fiscal Municipal (Cadastro de reserva) Lançador e Controle de Arrecadação (Cadastro de reserva) Visitador Domiciliar (Cadastro de reserva) Agente de Contratação (Cadastro de reserva) Contador (1 vaga + Cadastro de reserva) Dentista - Jornada Integral (Cadastro de reserva) Engenheiro Civil (1 vaga + Cadastro de reserva) Fonoaudiólogo - Jornada Integral (Cadastro de reserva) Professor de Arte (1 vaga + Cadastro de reserva) Professor de Educação Física (Cadastro de reserva) Professor de Inglês (1 vaga + Cadastro de reserva) A jornada semanal varia de 24 a 40 horas. As remunerações vão de R$ 1.621,00 a R$ 9.722,52, de acordo com o cargo. As inscrições estarão abertas exclusivamente pelo site www.glconsultoria.com.br das 13h do dia 20 de julho de 2026 até às 13h do dia 3 de agosto de 2026. As taxas de inscrição vão de R$ 50,00 a R$ 100,00 conforme o cargo. Os pedidos de isenção poderão ser feitos por doadores de medula óssea ou de sangue até às 23h59 do dia 23 de julho de 2026. A seleção ocorrerá por prova objetiva de múltipla escolha para todos os cargos, prevista para o dia 30 de agosto de 2026. Para os cargos de Professor de Arte, Professor de Educação Física e Professor de Inglês haverá também avaliação de títulos. O concurso terá validade de 2 anos, podendo ser prorrogado uma única vez por igual período. Mais informações podem ser obtidas no edital completo. Transforme sua leitura em escuta: ouça o podcast desta notícia.",
+   "orgao": "Prefeitura de Meridiano",
+   "municipio": "Meridiano",
+   "uf": "SP",
+   "data_publicacao": "2026-07-21",
+   "detalhes": {}
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-05",
+  "tentativas": 3,
   "categoria": "tributario",
   "termos": [
    "fiscal de rendas"
@@ -20,7 +39,7 @@
  },
  {
   "enfileirado_em": "2026-08-05",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
