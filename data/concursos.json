@@ -1004,5 +1004,181 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "tecnico em tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Salto Veloso - SC abre concurso público com salários de até R$ 9.151,71",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-salto-veloso-sc-abre-concurso-publico-com-salarios-de-ate-9151",
+  "orgao": "Prefeitura de Salto Veloso",
+  "municipio": "Salto Veloso",
+  "uf": "SC",
+  "data_publicacao": "2026-07-30",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "tecnico em tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Rifaina - SP abre concurso com salários de até R$ 7.018,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-rifaina-sp-abre-concurso-com-salarios-de-ate-7018",
+  "orgao": "Câmara de Rifaina",
+  "municipio": "Rifaina",
+  "uf": "SP",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Conceição do Almeida - BA abre concurso público com vagas para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-do-almeida-ba-abre-concurso-publico-com-vagas-para-diversos-cargos",
+  "orgao": "Prefeitura de Conceição do Almeida",
+  "municipio": "Conceição do Almeida",
+  "uf": "BA",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Rincão - SP abre concurso público com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rincao-sp-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Rincão",
+  "municipio": "Rincão",
+  "uf": "SP",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Limeira - SP publica editais de concursos com vagas em diversas áreas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-limeira-sp-publica-editais-de-concursos-com-vagas-em-diversas-areas",
+  "orgao": "Prefeitura de Limeira",
+  "municipio": "Limeira",
+  "uf": "SP",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Pedra Branca - CE abre concurso com salários de até R$ 4.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-pedra-branca-ce-abre-concurso-com-salarios-de-ate-4000",
+  "orgao": "Câmara de Pedra Branca",
+  "municipio": "Pedra Branca",
+  "uf": "CE",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Pedro Teixeira - MG publica edital de concurso público com salários de até R$ 5.494,76",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-pedro-teixeira-mg-publica-edital-de-concurso-publico-com-salarios-de-ate-5494",
+  "orgao": "Prefeitura de Pedro Teixeira",
+  "municipio": "Pedro Teixeira",
+  "uf": "MG",
+  "data_publicacao": "2026-07-31",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
