@@ -73,9 +73,12 @@ def _data_iso(pub_date):
 
 def coletar(cfg, cursor, desde_padrao):
     hoje = dt.date.today()
-    de = desde_padrao
+    # cursor existente manda (recupera intervalo perdido após parada);
+    # a janela padrão só inicializa a primeira execução
     if cursor.get("ultima_data"):
-        de = max(de, dt.date.fromisoformat(cursor["ultima_data"]) - dt.timedelta(days=1))
+        de = dt.date.fromisoformat(cursor["ultima_data"]) - dt.timedelta(days=1)
+    else:
+        de = desde_padrao
 
     achados, vistos, falhas = [], set(), []
     for frase in cfg["consultas_cargo"]:

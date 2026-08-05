@@ -82,7 +82,9 @@ def _corpo_artigo(url):
 def coletar(cfg, cursor, desde_padrao):
     ultimo_pub = cursor.get("ultimo_pub", "")
     desde_iso = f"{desde_padrao.isoformat()}T00:00:00"
-    marco = max(ultimo_pub, desde_iso) if ultimo_pub else desde_iso
+    # cursor existente manda (recupera intervalo perdido após parada);
+    # a janela padrão só inicializa a primeira execução
+    marco = ultimo_pub or desde_iso
     guids_vistos = set(cursor.get("guids", []))
 
     achados, maior_pub, guids_novos = [], ultimo_pub, []

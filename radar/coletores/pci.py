@@ -58,7 +58,10 @@ def coletar(cfg, cursor, desde_padrao):
     raiz = ET.fromstring(resp.content)
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
 
-    marco = max(cursor.get("lastmod_max", ""), desde_padrao.isoformat())
+    # cursor existente MANDA (mesmo que seja mais antigo que a janela padrão:
+    # é assim que uma parada — ou um resgate — recupera o intervalo perdido);
+    # a janela padrão só inicializa a primeira execução
+    marco = cursor.get("lastmod_max") or desde_padrao.isoformat()
     # lastmod defeituoso (futuro) não pode empurrar o cursor e silenciar dias
     teto_lastmod = (dt.date.today() + dt.timedelta(days=1)).isoformat()
     entradas = []
