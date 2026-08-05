@@ -1180,5 +1180,55 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Auriflama - SP abre concurso público com vagas para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-abre-concurso-publico-com-vagas-para-diversos-cargos",
+  "orgao": "Prefeitura de Auriflama",
+  "municipio": "Auriflama",
+  "uf": "SP",
+  "data_publicacao": "2026-08-05",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-05",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "cnb",
+  "titulo": "Prefeitura de Auriflama (SP) abre concurso com salário de até R$ 6,5 mil",
+  "url": "https://concursosnobrasil.com/concursos/sp/2026/08/05/prefeitura-de-auriflama-sp-abre-concurso-com-salario-de-ate-r-65-mil/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-05",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
