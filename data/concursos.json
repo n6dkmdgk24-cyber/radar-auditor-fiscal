@@ -1230,5 +1230,31 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-06",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cuité de Mamanguape - PB abre concurso público com salários de até R$ 11.975,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cuite-de-mamanguape-pb-abre-concurso-publico-com-salarios-de-ate-11975",
+  "orgao": "Prefeitura de Cuité de Mamanguape",
+  "municipio": "Cuité de Mamanguape",
+  "uf": "PB",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

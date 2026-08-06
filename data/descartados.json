@@ -2820,5 +2820,77 @@
   "municipio": "Buriti Alegre",
   "uf": "GO",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-06",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Jundiaí/SP — 2026-08-05",
+  "url": "https://data.queridodiario.ok.org.br/3525904/2026-08-05/9b0390587d4c5344f3b4dfb7023b263d29643b57.pdf",
+  "municipio": "Jundiaí",
+  "uf": "SP",
+  "trecho": "Certificação ISO 9001 Certificação ISSO 9001 para o IPREJUN contratação R$ 20.000,00 jan/27 33903900 5 7000 88 Contratação de serviços de planejamento, organização, execução e supervisão de concurso público Necessidade de preencher cargos efetivos do quadro de pessoal do– IPREJUN contratação R$ 0,00"
+ },
+ {
+  "descartado_em": "2026-08-06",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bnomeia\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Jaboticabal/SP — 2026-08-05",
+  "url": "https://data.queridodiario.ok.org.br/3524303/2026-08-05/e731fbd5fadd41919d2314673902b8522fae6b64.pdf",
+  "municipio": "Jaboticabal",
+  "uf": "SP",
+  "trecho": "PODER EXECUTIVO PORTARIAS PORTARIA Nº 861, DE 05 DE AGOSTO DE 2026 Nomeia candidata aprovada em Concurso Público nº 01/2024. EMERSON RODRIGO CAMARGO, Prefeito Municipal de Jaboticabal, Estado de São Paulo, no exercício de suas atribuições legais, em razão de prévia habilitação no Concurso Público nº"
+ },
+ {
+  "descartado_em": "2026-08-06",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Coronel Vivida — EDITAL 001/2026 - CONCURSO PÚBLICO 001/2026 (2026-08-06)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/BD9EB6E1",
+  "municipio": "Coronel Vivida",
+  "uf": "PR",
+  "trecho": "A) 40h CR - R$ 6.899,21 Farmacêutico Ensino superior completo em Farmácia e registro no respectivo conselho de classe (CRF) 40h 02 + CR - R$ 4.992,03 Fiscal Tributário Ensino superior completo nas áreas de Direito, Contabilidade ou Administração 40h 01 + CR - R$ 6.347,27 Fonoaudiólogo Ensino superio"
+ },
+ {
+  "descartado_em": "2026-08-06",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-06)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8583813",
+  "municipio": "São João do Oeste",
+  "uf": "SC",
+  "trecho": "São João do Oeste/SC, 06 de agosto de 2026. Rosane Dewes Mombach Fiscal de Tributos, Obras e Posturas PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº 66, Centro Contato: (49) 3195-2000 PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº"
  }
 ]

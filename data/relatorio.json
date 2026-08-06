@@ -1,31 +1,71 @@
 {
- "executado_em": "2026-08-05T23:51:47",
+ "executado_em": "2026-08-06T12:56:36",
  "itens": [
   {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Jundiaí/SP — 2026-08-05",
+   "url": "https://data.queridodiario.ok.org.br/3525904/2026-08-05/9b0390587d4c5344f3b4dfb7023b263d29643b57.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fazendario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Jaboticabal/SP — 2026-08-05",
+   "url": "https://data.queridodiario.ok.org.br/3524303/2026-08-05/e731fbd5fadd41919d2314673902b8522fae6b64.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bnomeia\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
    "fonte": "pci",
-   "titulo": "Prefeitura de Auriflama - SP abre concurso público com vagas para diversos cargos",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-abre-concurso-publico-com-vagas-para-diversos-cargos",
+   "titulo": "Prefeitura de Cuité de Mamanguape - PB abre concurso público com salários de até R$ 11.975,00",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cuite-de-mamanguape-pb-abre-concurso-publico-com-salarios-de-ate-11975",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal"
+    "auditor de tributos",
+    "fiscal de tributos"
    ],
    "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
-   "fonte": "cnb",
-   "titulo": "Prefeitura de Auriflama (SP) abre concurso com salário de até R$ 6,5 mil",
-   "url": "https://concursosnobrasil.com/concursos/sp/2026/08/05/prefeitura-de-auriflama-sp-abre-concurso-com-salario-de-ate-r-65-mil/",
-   "categoria_filtro": "tributario",
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Coronel Vivida — EDITAL 001/2026 - CONCURSO PÚBLICO 001/2026 (2026-08-06)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/BD9EB6E1",
+   "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal tributario"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8583813",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
@@ -38,7 +78,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "pci",
@@ -51,7 +91,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "domsc",
@@ -64,7 +104,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   }
  ]
 }
