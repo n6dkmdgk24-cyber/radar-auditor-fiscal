@@ -3108,5 +3108,59 @@
   "municipio": "Jaguapitã",
   "uf": "PR",
   "trecho": "o Indicação/lotação Nome Matrícula Cargo efetivo I Presidente titular Secretaria Municipal de Finanças VINICIUS HENRIQUE NUNES PAIVA 8148611 ANALISTA FISCAL DE TRIBUTOS II Suplente da Presidência Secretaria Municipal de Finanças LAERCIO SOARES JUNIOR 78618 FISCAL DE TRIBUTOS III Membro titular Secre"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Santa Rita de Cássia/BA — 2026-08-06",
+  "url": "https://data.queridodiario.ok.org.br/2928406/2026-08-06/d469c2f80bb90d7bf37483fff839d37d756b2684.pdf",
+  "municipio": "Santa Rita de Cássia",
+  "uf": "BA",
+  "trecho": "cargos do quadro da Controladoria Geral do Município. Art. 13. O quadro de pessoal efetivo da Controladoria Geral do Município deve ser composto por servidores públicos, aprovados mediante concurso público, ressalvada a ocupação de cargos em comissão de livre nomeação e exoneração. Art. 14. Para ocu"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Camaquã/RS — 2026-08-06",
+  "url": "https://data.queridodiario.ok.org.br/4303509/2026-08-06/7500f4c9c41d2d87f0b92894fcf93fc2448aff43.pdf",
+  "municipio": "Camaquã",
+  "uf": "RS",
+  "trecho": "(por nomeação concurso público), conforme Artigo 84 da Lei nº 390/02 - RJU, o qual passa a vigorar com a seguinte redação: “Art. 1º Conceder o 1º (primeiro) avanço trienal a servidora municipal MARIA ONEIDA GARCIA BARBOSA – Matri. nº 13340, lotada na Secretaria Municipal da Saúde, referente ao triên"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Londrina/PR — 2026-08-06",
+  "url": "https://data.queridodiario.ok.org.br/4113700/2026-08-06/83635bfbf33efe0fa21b7b9fe925952f3d7e70e9.pdf",
+  "municipio": "Londrina",
+  "uf": "PR",
+  "trecho": "procuradoria juridica - pmuu01, conforme o quadro de vagas do municipio, observada 2026 anexo unico do decreto no 896/2026 servidor cargo funcao sit. anterior sit. atual data vigencia tab ref niv tab ref niv 138487 carlos eduardo burkle auditor fiscal de tributos aftu01 servico de auditoria fiscal d"
  }
 ]

@@ -1357,5 +1357,30 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Caruaru - PE abre concurso público para auditores e analistas fiscais",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-caruaru-pe-abre-concurso-publico-para-auditores-e-analistas-fiscais",
+  "orgao": "Prefeitura de Caruaru",
+  "municipio": "Caruaru",
+  "uf": "PE",
+  "data_publicacao": "2026-08-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]

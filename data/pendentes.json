@@ -1,7 +1,30 @@
 [
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 4,
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Ibirama — 823/2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8588018",
+   "cargo_texto": "823/2026\n09/07/2026 Professor Educação 01 194 Raquel da Cruz 27/07/2027 Monitor escolar Educação 01 195 Raquel Strey 29/06/2026 à 03/07/2026 Ag. Com. Saúde Saúde 05 196 Rayssa M. Ferreiro 27/07/2026 Monitor escolar Educação 01 197 Renato Alves de Borba 17/07/2026 à 20/07/2026 Fiscal de Tributos Adm 04 198 Ricardo Tambosi 02/07/2026 Professor Educação 01 199 Roberta S. Nascimento 21/07/2027 Servente/Merendeira Educação 01 200 Roberta S.Nascimento 03/07/2026 à 10/07/2026 Servente/Merendeira. Educação 08",
+   "orgao": "Prefeitura municipal de Ibirama",
+   "municipio": "Ibirama",
+   "uf": "SC",
+   "data_publicacao": "2026-08-07",
+   "detalhes": {
+    "categoria": "Portarias",
+    "trecho": "2026 Ag. Com. Saúde Saúde 05 196 Rayssa M. Ferreiro 27/07/2026 Monitor escolar Educação 01 197 Renato Alves de Borba 17/07/2026 à 20/07/2026 Fiscal de Tributos Adm 04 198 Ricardo Tambosi 02/07/2026 Professor Educação 01 199 Roberta S. Nascimento 21/07/2027 Servente/Merendeira Educação 01 200 Roberta",
+    "contexto_fraco": true
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-07",
+  "tentativas": 5,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

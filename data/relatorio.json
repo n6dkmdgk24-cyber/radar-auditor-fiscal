@@ -1,44 +1,87 @@
 {
- "executado_em": "2026-08-07T11:44:11",
+ "executado_em": "2026-08-07T15:48:38",
  "itens": [
   {
-   "fonte": "dou",
-   "titulo": "EDITAL (Retificação (de Edital))",
-   "url": "https://www.in.gov.br/web/dou/-/edital-723842939",
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Santa Rita de Cássia/BA — 2026-08-06",
+   "url": "https://data.queridodiario.ok.org.br/2928406/2026-08-06/d469c2f80bb90d7bf37483fff839d37d756b2684.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor de controle interno",
+    "analista de controle interno"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Camaquã/RS — 2026-08-06",
+   "url": "https://data.queridodiario.ok.org.br/4303509/2026-08-06/7500f4c9c41d2d87f0b92894fcf93fc2448aff43.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Londrina/PR — 2026-08-06",
+   "url": "https://data.queridodiario.ok.org.br/4113700/2026-08-06/83635bfbf33efe0fa21b7b9fe925952f3d7e70e9.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Caruaru - PE abre concurso público para auditores e analistas fiscais",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-caruaru-pe-abre-concurso-publico-para-auditores-e-analistas-fiscais",
    "categoria_filtro": "tributario",
    "termos": [
     "auditor fiscal"
    ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
    "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "publicado (regras: abertura)"
   },
   {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Santa Maria do Oeste — PORTARIA Nº 067/2026 (2026-08-07)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/35599FA1",
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Caruaru (PE) oferta iniciais de até R$ 6 mil",
+   "url": "https://concursosnobrasil.com/concursos/pe/2026/08/07/concurso-prefeitura-de-caruaru-pe-oferta-iniciais-de-ate-r-6-mil/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "evidência de inscrição (\\babre vagas?\\b) + termo forte (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Ibirama — 823/2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8588018",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Jaguapitã — PORTARIA Nº. 519/2026 (2026-08-07)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/5350775B",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +94,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   }
  ]
 }
