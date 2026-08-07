@@ -8,6 +8,29 @@
   ],
   "achado": {
    "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Palmitos — PORTARI Nº 603/2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8589359",
+   "cargo_texto": "PORTARI Nº 603/2026\na avaliação do 2º Semestre do Estágio Probatório da Servidora Pública Municipal, Sra. MAROISA BARBOSA, Fiscal de Tributos, Obras, Postura e Vigilância Sanitária, por ter atingido o número de pontos necessários nos termos da avaliação efetuada por seu respectivo responsável, homologada pela Comissão de Avaliação de Estágio Probatório, considerando-o aprovado, em conformidade com os Artigos 22 a 25 da Lei Complementar no 011/2008 e o boletim de avaliação",
+   "orgao": "Prefeitura municipal de Palmitos",
+   "municipio": "Palmitos",
+   "uf": "SC",
+   "data_publicacao": "2026-08-07",
+   "detalhes": {
+    "categoria": "Portarias",
+    "trecho": "a avaliação do 2º Semestre do Estágio Probatório da Servidora Pública Municipal, Sra. MAROISA BARBOSA, Fiscal de Tributos, Obras, Postura e Vigilância Sanitária, por ter atingido o número de pontos necessários nos termos da avaliação efetuada por seu respectivo responsável, homologada pela Comissão ",
+    "contexto_fraco": true
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-07",
+  "tentativas": 2,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "domsc",
    "titulo": "Prefeitura municipal de Ibirama — 823/2026 (2026-08-07)",
    "url": "https://diariomunicipal.sc.gov.br/atos/8588018",
    "cargo_texto": "823/2026\n09/07/2026 Professor Educação 01 194 Raquel da Cruz 27/07/2027 Monitor escolar Educação 01 195 Raquel Strey 29/06/2026 à 03/07/2026 Ag. Com. Saúde Saúde 05 196 Rayssa M. Ferreiro 27/07/2026 Monitor escolar Educação 01 197 Renato Alves de Borba 17/07/2026 à 20/07/2026 Fiscal de Tributos Adm 04 198 Ricardo Tambosi 02/07/2026 Professor Educação 01 199 Roberta S. Nascimento 21/07/2027 Servente/Merendeira Educação 01 200 Roberta S.Nascimento 03/07/2026 à 10/07/2026 Servente/Merendeira. Educação 08",
@@ -24,7 +47,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

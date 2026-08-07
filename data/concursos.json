@@ -1382,5 +1382,80 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Paraíso - SC abre concurso público para Controlador Interno",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-paraiso-sc-abre-concurso-publico-para-controlador-interno",
+  "orgao": "Câmara de Paraíso",
+  "municipio": "Paraíso",
+  "uf": "SC",
+  "data_publicacao": "2026-08-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "CaraguaPrev - SP abre concurso público com salários de até R$ 7.104,30",
+  "url": "https://www.pciconcursos.com.br/noticias/caraguaprev-sp-abre-concurso-publico-com-salarios-de-ate-7104",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso CaraguaPrev (SP) abre vagas com salários até R$ 7.104",
+  "url": "https://concursosnobrasil.com/concursos/sp/2026/08/07/concurso-caraguaprev-sp-abre-vagas-com-salarios-ate-r-7-104/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre vagas?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]

@@ -3162,5 +3162,77 @@
   "municipio": "Londrina",
   "uf": "PR",
   "trecho": "procuradoria juridica - pmuu01, conforme o quadro de vagas do municipio, observada 2026 anexo unico do decreto no 896/2026 servidor cargo funcao sit. anterior sit. atual data vigencia tab ref niv tab ref niv 138487 carlos eduardo burkle auditor fiscal de tributos aftu01 servico de auditoria fiscal d"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bhomologacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "cnb",
+  "titulo": "Concurso Câmara de Paraíso (SC) oferece oportunidade com inicial R$ 7,8 mil",
+  "url": "https://concursosnobrasil.com/concursos/sc/2026/08/07/concurso-camara-de-paraiso-sc-oferece-oportunidade-com-inicial-r-78-mil/",
+  "municipio": "Paraíso",
+  "uf": "SC",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bdecreto\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Camboriú — DECRETO Nº 4.984/2026 (2026-08-07)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8588681",
+  "municipio": "Camboriú",
+  "uf": "SC",
+  "trecho": "DECRETO Nº4.984/2026 INSTITUI E REGULAMENTA O DISTINTIVO FUNCIONAL DOS CARGOS DE AUDITOR FISCAL TRIBUTÁRIO E FISCAL DE TRIBUTOS DO MUNICÍPIO DE CAMBORIÚ, DISCIPLINA SUA EXPEDIÇÃO, UTILIZAÇÃO, CONTROLE, SUBSTITUIÇÃO E DEVOLUÇÃO, E DÁ OUTRAS PROVIDÊNCIAS."
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Major Gercino — PORTARIA Nº 236, DE 07 DE AGOSTO DE 2026 (2026-08-07)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8589358",
+  "municipio": "Major Gercino",
+  "uf": "SC",
+  "trecho": "/09/2026, ao funcionário OBERDAN RODRIGO DE AMORIM, ocupante do cargo de FISCAL DE TRIBUTOS, matrícula nº 900842, do Quadro de Pessoal desta Prefeitura Municipal. ARTIGO 2º - Esta portaria entrará em vigor na data de sua publicação. Publique-se. Registre-se. Cumpra-se. Major Gercino/SC, 07 de agosto"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-07)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8583775",
+  "municipio": "São João do Oeste",
+  "uf": "SC",
+  "trecho": "São João do Oeste/SC, 06 de agosto de 2026. Rosane Dewes Mombach Fiscal de Tributos, Obras e Posturas PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº 66, Centro Contato: (49) 3195-2000 PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº"
  }
 ]

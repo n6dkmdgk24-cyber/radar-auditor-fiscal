@@ -1,74 +1,112 @@
 {
- "executado_em": "2026-08-07T15:48:38",
+ "executado_em": "2026-08-07T19:49:42",
  "itens": [
   {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Santa Rita de Cássia/BA — 2026-08-06",
-   "url": "https://data.queridodiario.ok.org.br/2928406/2026-08-06/d469c2f80bb90d7bf37483fff839d37d756b2684.pdf",
+   "fonte": "pci",
+   "titulo": "Câmara de Paraíso - SC abre concurso público para Controlador Interno",
+   "url": "https://www.pciconcursos.com.br/noticias/camara-de-paraiso-sc-abre-concurso-publico-para-controlador-interno",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor de controle interno",
-    "analista de controle interno"
+    "controlador interno"
    ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
    "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Camaquã/RS — 2026-08-06",
-   "url": "https://data.queridodiario.ok.org.br/4303509/2026-08-06/7500f4c9c41d2d87f0b92894fcf93fc2448aff43.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal",
-    "fiscal tributario",
-    "auditor fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bnomeacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Londrina/PR — 2026-08-06",
-   "url": "https://data.queridodiario.ok.org.br/4113700/2026-08-06/83635bfbf33efe0fa21b7b9fe925952f3d7e70e9.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal",
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Caruaru - PE abre concurso público para auditores e analistas fiscais",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-caruaru-pe-abre-concurso-publico-para-auditores-e-analistas-fiscais",
-   "categoria_filtro": "tributario",
+   "titulo": "CaraguaPrev - SP abre concurso público com salários de até R$ 7.104,30",
+   "url": "https://www.pciconcursos.com.br/noticias/caraguaprev-sp-abre-concurso-publico-com-salarios-de-ate-7104",
+   "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "controlador interno"
    ],
    "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Caruaru (PE) oferta iniciais de até R$ 6 mil",
-   "url": "https://concursosnobrasil.com/concursos/pe/2026/08/07/concurso-prefeitura-de-caruaru-pe-oferta-iniciais-de-ate-r-6-mil/",
-   "categoria_filtro": "tributario",
+   "titulo": "Concurso Câmara de Paraíso (SC) oferece oportunidade com inicial R$ 7,8 mil",
+   "url": "https://concursosnobrasil.com/concursos/sc/2026/08/07/concurso-camara-de-paraiso-sc-oferece-oportunidade-com-inicial-r-78-mil/",
+   "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "controlador interno"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bhomologacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso CaraguaPrev (SP) abre vagas com salários até R$ 7.104",
+   "url": "https://concursosnobrasil.com/concursos/sp/2026/08/07/concurso-caraguaprev-sp-abre-vagas-com-salarios-ate-r-7-104/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
    ],
    "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\babre vagas?\\b) + termo forte (auditor fiscal)",
+   "regras_motivo": "manchete de abertura (\\babre vagas?\\b) + cargo (controlador interno)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Camboriú — DECRETO Nº 4.984/2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8588681",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Major Gercino — PORTARIA Nº 236, DE 07 DE AGOSTO DE 2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8589358",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Palmitos — PORTARI Nº 603/2026 (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8589359",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8583775",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "domsc",
@@ -81,7 +119,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "domsc",
@@ -94,7 +132,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   }
  ]
 }
