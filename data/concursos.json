@@ -1457,5 +1457,30 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Conceição do Mato Dentro - MG abre concurso público com salários de até R$ 21.138,26",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-do-mato-dentro-mg-abre-concurso-publico-com-salarios-de-ate-21138",
+  "orgao": "Prefeitura de Conceição do Mato Dentro",
+  "municipio": "Conceição do Mato Dentro",
+  "uf": "MG",
+  "data_publicacao": "2026-08-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]

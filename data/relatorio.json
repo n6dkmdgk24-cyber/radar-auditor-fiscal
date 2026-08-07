@@ -1,84 +1,42 @@
 {
- "executado_em": "2026-08-07T19:49:42",
+ "executado_em": "2026-08-07T23:28:56",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Câmara de Paraíso - SC abre concurso público para Controlador Interno",
-   "url": "https://www.pciconcursos.com.br/noticias/camara-de-paraiso-sc-abre-concurso-publico-para-controlador-interno",
-   "categoria_filtro": "conferir",
+   "titulo": "Prefeitura de Conceição do Mato Dentro - MG abre concurso público com salários de até R$ 21.138,26",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-do-mato-dentro-mg-abre-concurso-publico-com-salarios-de-ate-21138",
+   "categoria_filtro": "tributario",
    "termos": [
-    "controlador interno"
+    "auditor fiscal"
    ],
    "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "CaraguaPrev - SP abre concurso público com salários de até R$ 7.104,30",
-   "url": "https://www.pciconcursos.com.br/noticias/caraguaprev-sp-abre-concurso-publico-com-salarios-de-ate-7104",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "cnb",
-   "titulo": "Concurso Câmara de Paraíso (SC) oferece oportunidade com inicial R$ 7,8 mil",
-   "url": "https://concursosnobrasil.com/concursos/sc/2026/08/07/concurso-camara-de-paraiso-sc-oferece-oportunidade-com-inicial-r-78-mil/",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bhomologacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "cnb",
-   "titulo": "Concurso CaraguaPrev (SP) abre vagas com salários até R$ 7.104",
-   "url": "https://concursosnobrasil.com/concursos/sp/2026/08/07/concurso-caraguaprev-sp-abre-vagas-com-salarios-ate-r-7-104/",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre vagas?\\b) + cargo (controlador interno)",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Camboriú — DECRETO Nº 4.984/2026 (2026-08-07)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8588681",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal",
-    "fiscal de tributos",
-    "fiscal tributario",
-    "auditor fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Major Gercino — PORTARIA Nº 236, DE 07 DE AGOSTO DE 2026 (2026-08-07)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8589358",
+   "titulo": "Prefeitura municipal de Irani — PORTARIA 396/2026 NOMEAÇÃO GUILHERME AUGUSTO RIQUETI (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8589792",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
    "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Irani — 1º CONVOCAÇÃO GUILHERME AUGUSTO RIQUETI (2026-08-07)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8589774",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -93,20 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-07)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8583775",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "domsc",
@@ -119,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "domsc",
@@ -132,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   }
  ]
 }

@@ -3234,5 +3234,41 @@
   "municipio": "São João do Oeste",
   "uf": "SC",
   "trecho": "São João do Oeste/SC, 06 de agosto de 2026. Rosane Dewes Mombach Fiscal de Tributos, Obras e Posturas PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº 66, Centro Contato: (49) 3195-2000 PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Irani — PORTARIA 396/2026 NOMEAÇÃO GUILHERME AUGUSTO RIQUETI (2026-08-07)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8589792",
+  "municipio": "Irani",
+  "uf": "SC",
+  "trecho": "Guilherme Augusto Riqueti, para exercer o cargo de provimento efetivo de Fiscal de Tributos, com carga horária de 40 horas semanais, vinculado ao quadro de Pessoal do Poder Executivo do Município de Irani, em razão da sua aprovação, em 01º lugar, no Concurso Público nº 01/2022, devendo tomar posse d"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Irani — 1º CONVOCAÇÃO GUILHERME AUGUSTO RIQUETI (2026-08-07)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8589774",
+  "municipio": "Irani",
+  "uf": "SC",
+  "trecho": "referido Concurso Público, temos a honra de convocá-la para assumir o cargo de Fiscal de Tributos. Orientações: 1- Prazo para comparecimento: Solicitamos que compareça ao setor de Recursos Humanos da Prefeitura Municipal de Irani no prazo máximo de 15 (quinze) dias úteis, contados a partir da data d"
  }
 ]
