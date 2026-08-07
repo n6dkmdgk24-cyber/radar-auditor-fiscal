@@ -53,10 +53,22 @@ class Estado:
     def ja_visto(self, achado, categoria) -> bool:
         return any(k in self._vistos for k in self._chaves(achado, categoria))
 
+    def ja_visto_ente(self, achado, categoria) -> bool:
+        """Só a chave ente+UF+categoria+ano — para item vindo da fila de
+        pendentes, cuja própria URL já foi marcada no enfileiramento."""
+        return self._chaves(achado, categoria)[1] in self._vistos
+
     def marcar(self, achado, categoria):
         agora = time.strftime("%Y-%m-%dT%H:%M:%S")
         for k in self._chaves(achado, categoria):
             self._vistos[k] = agora
+
+    def marcar_url(self, achado):
+        """Marca só a URL (item enfileirado): impede a re-coleta sem reservar
+        a chave do ente — outro item do mesmo concurso ainda pode publicar."""
+        self._vistos["u:" + hashlib.sha1(achado.url.encode()).hexdigest()[:16]] = (
+            time.strftime("%Y-%m-%dT%H:%M:%S")
+        )
 
     def registrar_concurso(self, achado, categoria, termos):
         self.concursos.append(

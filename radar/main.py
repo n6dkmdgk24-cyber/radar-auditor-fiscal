@@ -83,7 +83,12 @@ def main(argv=None):
 
     novos = []
     for a, categoria, termos, de_pendentes in resultado.publicar:
-        if not de_pendentes and estado.ja_visto(a, categoria):
+        # item da fila: a própria URL já está marcada desde o enfileiramento,
+        # mas o CONCURSO pode ter sido publicado por outra fonte nesse meio
+        # tempo — a chave do ente pega essa duplicata (caso Coronel Vivida
+        # pci×cnb, 7.8.2026)
+        visto = estado.ja_visto_ente(a, categoria) if de_pendentes else estado.ja_visto(a, categoria)
+        if visto:
             continue
         estado.marcar(a, categoria)
         estado.registrar_concurso(a, categoria, termos)
@@ -91,8 +96,8 @@ def main(argv=None):
     for a, veredito, _de_pendentes in resultado.descartar:
         estado.marcar(a, "descartado")
         estado.registrar_descartado(a, veredito)
-    for a, categoria, _termos, _meta in resultado.pendentes:
-        estado.marcar(a, categoria)  # evita que a coleta re-enfileire a mesma URL
+    for a, _categoria, _termos, _meta in resultado.pendentes:
+        estado.marcar_url(a)  # evita re-coleta da URL sem reservar o ente
     estado.definir_pendentes(resultado.pendentes)
 
     if resultado.descartar:

@@ -30,8 +30,9 @@ HEADERS = {
 }
 PAUSA_ARTIGO = 0.5
 RX_UF = re.compile(r"/concursos/([a-z]{2})/")
+# aceita "Prefeitura de X - PR", "Prefeitura de X (PR)" e variantes
 RX_ORGAO = re.compile(
-    r"\b(Prefeitura|Câmara)(?: Municipal)? de ([A-Za-zÀ-ÿ' ]+?)[\s\-–]+([A-Z]{2})\b"
+    r"\b(Prefeitura|Câmara)(?: Municipal)? de ([A-Za-zÀ-ÿ' ]+?)[\s\-–(]+([A-Z]{2})\b"
 )
 MAX_GUIDS = 400
 MAX_PAGINAS = 12
