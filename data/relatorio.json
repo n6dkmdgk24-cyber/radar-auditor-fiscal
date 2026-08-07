@@ -1,32 +1,44 @@
 {
- "executado_em": "2026-08-07T00:52:56",
+ "executado_em": "2026-08-07T11:44:11",
  "itens": [
   {
-   "fonte": "cnb",
-   "titulo": "Prefeitura de Coronel Vivida (PR) lança concurso com 65 vagas de até R$ 21 mil",
-   "url": "https://concursosnobrasil.com/concursos/pr/2026/08/06/prefeitura-de-coronel-vivida-pr-lanca-concurso-com-65-vagas-de-ate-r-21-mil/",
+   "fonte": "dou",
+   "titulo": "EDITAL (Retificação (de Edital))",
+   "url": "https://www.in.gov.br/web/dou/-/edital-723842939",
    "categoria_filtro": "tributario",
    "termos": [
-    "fiscal tributario"
+    "auditor fiscal"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\blanca (o )?concursos?\\b) + cargo (fiscal tributario)",
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "descartado (regras)"
   },
   {
-   "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Cuité de Mamanguape (PB) oferta 116 vagas em edital",
-   "url": "https://concursosnobrasil.com/concursos/pb/2026/08/06/concurso-prefeitura-de-cuite-de-mamanguape-pb-oferts-116-vagas-em-edital/",
-   "categoria_filtro": "tributario",
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Santa Maria do Oeste — PORTARIA Nº 067/2026 (2026-08-07)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/35599FA1",
+   "categoria_filtro": "conferir",
    "termos": [
-    "auditor de tributos",
     "fiscal de tributos"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor de tributos)",
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Jaguapitã — PORTARIA Nº. 519/2026 (2026-08-07)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/5350775B",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "domsc",
@@ -39,46 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Meridiano - SP publica retificação em concurso público com salários de até R$ 9.722,52",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meridiano-sp-publica-retificacao-em-concurso-publico-com-salarios-de-ate-9722",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal municipal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "retificação sem novo prazo de inscrição no artigo",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura da Estância Turística de Piraju - SP retifica edital de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-da-estancia-turistica-de-piraju-sp-retifica-edital-de-concurso-publico",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de rendas"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "retificação sem novo prazo de inscrição no artigo",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Forquilhinha — AUTORIZAÇÃO DL 133/PMF/2026 (2026-08-05)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8580060",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bautorizacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 4)"
   }
  ]
 }

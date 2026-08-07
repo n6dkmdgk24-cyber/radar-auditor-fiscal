@@ -3054,5 +3054,59 @@
   "municipio": "Forquilhinha",
   "uf": "SC",
   "trecho": ": Nilzete Locks de Souza - Chefe de Fiscalização Tributária Fiscal da Contratação: Daniele Berti Dalmolim - Fiscal de Tributos Suplente do fiscal: Anderson Coelho"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "dou",
+  "titulo": "EDITAL (Retificação (de Edital))",
+  "url": "https://www.in.gov.br/web/dou/-/edital-723842939",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Santa Maria do Oeste — PORTARIA Nº 067/2026 (2026-08-07)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/35599FA1",
+  "municipio": "Santa Maria Do Oeste",
+  "uf": "PR",
+  "trecho": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO PORTARIA Nº 067/2026 SÚMULA: Designar Servidor público Municipal efetivo ocupante do cargo de Fiscal de Tributos para Gestor do Convênio SINTER, e da outras providências. O Prefeito do Município de Santa Maria do Oeste, Estado do Paraná, no uso de suas atribuiçõ"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Jaguapitã — PORTARIA Nº. 519/2026 (2026-08-07)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/5350775B",
+  "municipio": "Jaguapitã",
+  "uf": "PR",
+  "trecho": "o Indicação/lotação Nome Matrícula Cargo efetivo I Presidente titular Secretaria Municipal de Finanças VINICIUS HENRIQUE NUNES PAIVA 8148611 ANALISTA FISCAL DE TRIBUTOS II Suplente da Presidência Secretaria Municipal de Finanças LAERCIO SOARES JUNIOR 78618 FISCAL DE TRIBUTOS III Membro titular Secre"
  }
 ]
