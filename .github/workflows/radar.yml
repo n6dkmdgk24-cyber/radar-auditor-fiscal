@@ -28,6 +28,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Um run que ficou na fila faz checkout de um commit velho; sem isto,
+      # o commit do estado no fim conflita com o que o run anterior salvou
+      # (corridas reais em 29.7 e 5.8.2026).
+      - name: Sincronizar com o main mais recente
+        run: git pull --rebase origin main
+
       - name: Executar radar
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -47,5 +53,9 @@ jobs:
           git config user.email 'radar-bot@users.noreply.github.com'
           git add data docs
           git diff --cached --quiet || git commit -m "radar: atualização automática"
-          git pull --rebase origin main
-          git push
+          ok=""
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            echo "push falhou (tentativa $i), aguardando"; sleep 10
+          done
+          [ -n "$ok" ] || { echo "::error::push do estado falhou nas 3 tentativas"; exit 1; }
