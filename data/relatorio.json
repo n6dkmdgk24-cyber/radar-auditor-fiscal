@@ -1,69 +1,174 @@
 {
- "executado_em": "2026-08-06T12:56:36",
+ "executado_em": "2026-08-07T00:26:57",
  "itens": [
   {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Jundiaí/SP — 2026-08-05",
-   "url": "https://data.queridodiario.ok.org.br/3525904/2026-08-05/9b0390587d4c5344f3b4dfb7023b263d29643b57.pdf",
+   "fonte": "pci",
+   "titulo": "CREMERS - RS retifica edital de concurso público para Médico Fiscal e Agente Fiscal",
+   "url": "https://www.pciconcursos.com.br/noticias/cremers-rs-retifica-edital-de-concurso-publico-para-medico-fiscal-e-agente-fiscal",
    "categoria_filtro": "conferir",
    "termos": [
-    "agente fazendario"
+    "agente fiscal"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Jaboticabal/SP — 2026-08-05",
-   "url": "https://data.queridodiario.ok.org.br/3524303/2026-08-05/e731fbd5fadd41919d2314673902b8522fae6b64.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bnomeia\\b)",
+   "regras_motivo": "fase sem inscrição (título: \\bretifica\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Cuité de Mamanguape - PB abre concurso público com salários de até R$ 11.975,00",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cuite-de-mamanguape-pb-abre-concurso-publico-com-salarios-de-ate-11975",
+   "titulo": "TCE-SP prorroga inscrições do concurso público para Auditor de Controle Externo",
+   "url": "https://www.pciconcursos.com.br/noticias/tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor de controle externo"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\bprorroga(cao)? (de |das |o prazo de )?inscricoes?\\b) + cargo (auditor de controle externo)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Ipuã - SP reabre inscrições para o concurso público com salários de até R$ 6.536,19",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipua-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-6536",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal municipal",
+    "controlador interno"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Coronel Vivida - PR abre concurso público com salários de até R$ 21.525,56",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-coronel-vivida-pr-abre-concurso-publico-com-salarios-de-ate-21525",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Cajueiro da Praia - PI reabre inscrições para concurso público",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concurso-publico",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor tributario"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Passo de Torres - SC suspende processos seletivos temporariamente",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-passo-de-torres-sc-suspende-processos-seletivos-temporariamente",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Prefeitura de Coronel Vivida (PR) lança concurso com 65 vagas de até R$ 21 mil",
+   "url": "https://concursosnobrasil.com/concursos/pr/2026/08/06/prefeitura-de-coronel-vivida-pr-lanca-concurso-com-65-vagas-de-ate-r-21-mil/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, carga, provas, requisitos, taxa)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Cuité de Mamanguape (PB) oferta 116 vagas em edital",
+   "url": "https://concursosnobrasil.com/concursos/pb/2026/08/06/concurso-prefeitura-de-cuite-de-mamanguape-pb-oferts-116-vagas-em-edital/",
    "categoria_filtro": "tributario",
    "termos": [
     "auditor de tributos",
     "fiscal de tributos"
    ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, requisitos)",
+   "destino": "pendente (tentativa 1)"
   },
   {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Coronel Vivida — EDITAL 001/2026 - CONCURSO PÚBLICO 001/2026 (2026-08-06)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/BD9EB6E1",
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Vidal Ramos — PORTARIA Nº 261/2026, DE 27 DE JULHO DE 2026 (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8578906",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal tributario"
+    "auditor fiscal"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de São João do Oeste — EDITAL DE NOTIFICAÇÃO N. 01-2026 - TRIBUTAÇÃO (2026-08-06)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8583813",
+   "titulo": "Prefeitura municipal de Bombinhas — NOTIFICAÇÕES E LANÇAMENTOS FISCAIS SEFIN 2026 (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8580118",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "regras_motivo": "ato de pessoal sobre servidor (\\bmatricula\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Belmonte — 0511/2026 (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8580752",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Maravilha — PORTARIA Nº 1685, DE 16 DE JULHO DE 2026 (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8579355",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Morro da Fumaça — PORTARIAS 700-749/2026 (2026-08-06)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8581017",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "ato de pessoal sobre servidor (\\bocupante d[eo] cargo\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -78,7 +183,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   },
   {
    "fonte": "pci",
@@ -91,7 +196,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "domsc",
@@ -104,7 +209,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   }
  ]
 }

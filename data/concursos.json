@@ -1256,5 +1256,106 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "pci",
+  "titulo": "TCE-SP prorroga inscrições do concurso público para Auditor de Controle Externo",
+  "url": "https://www.pciconcursos.com.br/noticias/tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\bprorroga(cao)? (de |das |o prazo de )?inscricoes?\\b) + cargo (auditor de controle externo)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal municipal",
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ipuã - SP reabre inscrições para o concurso público com salários de até R$ 6.536,19",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipua-sp-reabre-inscricoes-para-o-concurso-publico-com-salarios-de-ate-6536",
+  "orgao": "Prefeitura de Ipuã",
+  "municipio": "Ipuã",
+  "uf": "SP",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal municipal",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Coronel Vivida - PR abre concurso público com salários de até R$ 21.525,56",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-coronel-vivida-pr-abre-concurso-publico-com-salarios-de-ate-21525",
+  "orgao": "Prefeitura de Coronel Vivida",
+  "municipio": "Coronel Vivida",
+  "uf": "PR",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cajueiro da Praia - PI reabre inscrições para concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cajueiro-da-praia-pi-reabre-inscricoes-para-concurso-publico",
+  "orgao": "Prefeitura de Cajueiro da Praia",
+  "municipio": "Cajueiro da Praia",
+  "uf": "PI",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)",
+    "origem": "regras"
+   }
+  }
  }
 ]

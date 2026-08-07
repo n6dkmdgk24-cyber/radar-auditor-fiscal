@@ -2892,5 +2892,113 @@
   "municipio": "São João do Oeste",
   "uf": "SC",
   "trecho": "São João do Oeste/SC, 06 de agosto de 2026. Rosane Dewes Mombach Fiscal de Tributos, Obras e Posturas PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº 66, Centro Contato: (49) 3195-2000 PREFEITURA MUNICIPAL DE SÃO JOÃO DO OESTE SETOR DE FISCALIZAÇÃO Rua Encantado, Nº"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretifica\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "CREMERS - RS retifica edital de concurso público para Médico Fiscal e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/cremers-rs-retifica-edital-de-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+  "municipio": "",
+  "uf": "RS",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "pci",
+  "titulo": "Prefeitura de Passo de Torres - SC suspende processos seletivos temporariamente",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-passo-de-torres-sc-suspende-processos-seletivos-temporariamente",
+  "municipio": "Passo de Torres",
+  "uf": "SC",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Vidal Ramos — PORTARIA Nº 261/2026, DE 27 DE JULHO DE 2026 (2026-08-06)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8578906",
+  "municipio": "Vidal Ramos",
+  "uf": "SC",
+  "trecho": "Fabio Sidney Thiesen Atendente Geral 097/2026 – PREF 130/2026 – PREF Lucas Kuhnen Barni Auditor Fiscal"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "ato de pessoal sobre servidor (\\bmatricula\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Bombinhas — NOTIFICAÇÕES E LANÇAMENTOS FISCAIS SEFIN 2026 (2026-08-06)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8580118",
+  "municipio": "Bombinhas",
+  "uf": "SC",
+  "trecho": "Fiscal de Tributos Matrícula 7801 Secretaria"
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Maravilha — PORTARIA Nº 1685, DE 16 DE JULHO DE 2026 (2026-08-06)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8579355",
+  "municipio": "Maravilha",
+  "uf": "SC",
+  "trecho": "de férias a servidora municipal Sra. INDIRA KLEIN, ocupante do cargo de Agente de Fiscal de Tributos, 40 horas semanais, lotada na Secretaria Municipal de Planejamento, Administração e Fazenda, período aquisitivo 03 de abril de 2023 a 02 de abril de 2024, período de concessão de 16 de julho de 2026 "
+ },
+ {
+  "descartado_em": "2026-08-07",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "ato de pessoal sobre servidor (\\bocupante d[eo] cargo\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Morro da Fumaça — PORTARIAS 700-749/2026 (2026-08-06)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8581017",
+  "municipio": "Morro da Fumaça",
+  "uf": "SC",
+  "trecho": "IO Municipal 701 2026 01/07/2026 CONCEDE LICENÇA PARA TRATAR DE ASSUNTO PARTICULAR À SERVIDORA RAQUEL TRAMONTIN, OCUPANTE DO CARGO EFETIVO DE FISCAL TRIBUTARIO. Municipal 702 2026 $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e"
  }
 ]
