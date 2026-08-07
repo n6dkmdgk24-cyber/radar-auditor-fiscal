@@ -151,3 +151,31 @@ def test_manchete_em_diario_bruto_nao_publica_termo_ambiguo(monkeypatch):
     )
     r = triagem.triar([(a, "conferir", ["agente fiscal"])], [], {})
     assert not r.publicar, "diário bruto com termo ambíguo precisa de verificação, não de manchete"
+
+
+def test_retificacao_com_prorrogacao_de_inscricao_e_abertura(monkeypatch):
+    _sem_rede(monkeypatch)
+    a = Achado(
+        fonte="pci",
+        titulo="Prefeitura de Exemplo - SP publica retificação em concurso público",
+        url="https://exemplo/n1",
+        cargo_texto="A retificação prorroga as inscrições até 30/09/2026 para Fiscal de Tributos.",
+    )
+    r = triagem.triar([(a, "tributario", ["fiscal de tributos"])], [], {})
+    assert len(r.publicar) == 1
+
+
+def test_retificacao_com_boilerplate_de_validade_nao_avisa(monkeypatch):
+    _sem_rede(monkeypatch)
+    a = Achado(
+        fonte="pci",
+        titulo="Prefeitura de Exemplo - SP retifica edital de concurso público",
+        url="https://exemplo/n2",
+        cargo_texto=(
+            "Retificação de requisitos do cargo Fiscal de Tributos. O concurso terá "
+            "validade de 2 anos, podendo ser prorrogado por igual período."
+        ),
+    )
+    r = triagem.triar([(a, "tributario", ["fiscal de tributos"])], [], {})
+    assert not r.publicar, "prorrogação de VALIDADE não é novo prazo de inscrição"
+    assert len(r.descartar) == 1

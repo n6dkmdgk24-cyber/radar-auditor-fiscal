@@ -38,6 +38,7 @@ _DOC_NAO_CONCURSO = [
     r"\blicitacao\b",
     r"\binexigibilidade\b",
     r"\bdispensa\b",
+    r"\bautorizacao\b",
     r"\bpregao\b",
     r"\bchamada publica\b",
     r"\baudiencia publica\b",
@@ -112,8 +113,11 @@ _EVIDENCIA_ABERTURA = [
     r"\brecebe inscricoes\b",
     r"\binscreva-se\b",
     r"\blanca (o )?edital\b",
+    r"\blanca (o )?concursos?\b",
     r"\bpublica (o )?edita(l|is)\b",
     r"\banuncia (o )?concurso\b",
+    r"\boferta \d+ vagas\b",
+    r"\boferece \d+ vagas\b",
     r"\bnovo concurso\b",
     r"\bdivulga (o )?edital de (abertura|concurso)\b",
     r"\btorna publica a abertura\b",
@@ -152,6 +156,16 @@ _SUSPENSAO = [
 # Fontes cujo título é manchete editorial (diz o que aconteceu); diários
 # oficiais brutos (qd/sigpub/domsc/dou) ficam de fora.
 FONTES_DE_NOTICIA = {"pci", "cnb", "selecao"}
+
+# Prorrogação/reabertura DE INSCRIÇÕES (a palavra precisa estar amarrada a
+# "inscri..." na mesma oração). "Concurso terá validade de 2 anos, podendo
+# ser prorrogado" é boilerplate de todo artigo e NÃO é novo prazo — pegadinha
+# real de Meridiano/Piraju, 7.8.2026.
+_RX_PRORROGACAO = re.compile(
+    r"(?:prorrog|reabr)\w*[^.;]{0,80}?inscric"
+    r"|inscric\w*[^.;]{0,80}?(?:prorrogad|reabert)"
+    r"|novo (?:prazo|periodo) de inscric"
+)
 
 _RX_DOC = [re.compile(p) for p in _DOC_NAO_CONCURSO]
 _RX_FASE = [re.compile(p) for p in _FASE_SEM_INSCRICAO]
@@ -194,6 +208,15 @@ def triar(achado, categoria, termos):
 
     if fase_titulo and not abertura:
         return "descarte", f"fase sem inscrição (título: {fase_titulo[0]})"
+
+    # Retificação noticiada: a regra de produto é binária — retificação que
+    # PRORROGA/REABRE prazo de inscrição avisa como abertura; sem novo
+    # prazo, não avisa (mero ajuste de edital em andamento).
+    retificacao = any("retifica" in f or "errata" in f for f in fase_titulo)
+    if retificacao and achado.fonte in FONTES_DE_NOTICIA:
+        if _RX_PRORROGACAO.search(tudo):
+            return "abertura", f"retificação estendendo prazo de inscrição ({termos[0]})"
+        return "descarte", "retificação sem novo prazo de inscrição no artigo"
 
     # Evidência de abertura no PRÓPRIO TÍTULO (manchete de notícia) decide
     # sozinha: o corpo de uma notícia de abertura cita etapas futuras
