@@ -1357,5 +1357,56 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "cnb",
+  "titulo": "Prefeitura de Coronel Vivida (PR) lança concurso com 65 vagas de até R$ 21 mil",
+  "url": "https://concursosnobrasil.com/concursos/pr/2026/08/06/prefeitura-de-coronel-vivida-pr-lanca-concurso-com-65-vagas-de-ate-r-21-mil/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "inscricoes": "",
+    "cadastro_reserva": true,
+    "resumo": "manchete de abertura (\\blanca (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos",
+   "fiscal de tributos"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Cuité de Mamanguape (PB) oferta 116 vagas em edital",
+  "url": "https://concursosnobrasil.com/concursos/pb/2026/08/06/concurso-prefeitura-de-cuite-de-mamanguape-pb-oferts-116-vagas-em-edital/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "PB",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor de tributos",
+    "inscricoes": "",
+    "cadastro_reserva": false,
+    "resumo": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

@@ -1,5 +1,5 @@
 {
- "executado_em": "2026-08-07T00:38:23",
+ "executado_em": "2026-08-07T00:52:56",
  "itens": [
   {
    "fonte": "cnb",
@@ -9,10 +9,10 @@
    "termos": [
     "fiscal tributario"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, carga, provas, requisitos, taxa)",
-   "destino": "pendente (tentativa 2)"
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\blanca (o )?concursos?\\b) + cargo (fiscal tributario)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "cnb",
@@ -23,10 +23,10 @@
     "auditor de tributos",
     "fiscal de tributos"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "domsc",
@@ -39,7 +39,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "pci",
@@ -49,10 +49,10 @@
    "termos": [
     "fiscal municipal"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: provas, requisitos, secao_inscricoes)",
-   "destino": "pendente (tentativa 11)"
+   "regras": "descarte",
+   "regras_motivo": "retificação sem novo prazo de inscrição no artigo",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "pci",
@@ -62,10 +62,10 @@
    "termos": [
     "fiscal de rendas"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 13)"
+   "regras": "descarte",
+   "regras_motivo": "retificação sem novo prazo de inscrição no artigo",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "domsc",
@@ -75,10 +75,10 @@
    "termos": [
     "fiscal de tributos"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 14)"
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bautorizacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   }
  ]
 }
