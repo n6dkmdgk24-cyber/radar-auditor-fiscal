@@ -1,6 +1,32 @@
 {
- "executado_em": "2026-08-08T11:24:17",
+ "executado_em": "2026-08-08T15:19:19",
  "itens": [
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de São Roque/SP — 2026-08-07",
+   "url": "https://data.queridodiario.ok.org.br/3550605/2026-08-07/ceb57cd76b0f245176ebe87f9e80b17f9ab64767.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
+   "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
+  },
   {
    "fonte": "domsc",
    "titulo": "Prefeitura municipal de Palmitos — PORTARI Nº 603/2026 (2026-08-07)",
@@ -12,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "domsc",
@@ -25,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   },
   {
    "fonte": "domsc",
@@ -38,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   }
  ]
 }

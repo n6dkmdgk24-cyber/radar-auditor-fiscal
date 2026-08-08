@@ -3270,5 +3270,23 @@
   "municipio": "Irani",
   "uf": "SC",
   "trecho": "referido Concurso Público, temos a honra de convocá-la para assumir o cargo de Fiscal de Tributos. Orientações: 1- Prazo para comparecimento: Solicitamos que compareça ao setor de Recursos Humanos da Prefeitura Municipal de Irani no prazo máximo de 15 (quinze) dias úteis, contados a partir da data d"
+ },
+ {
+  "descartado_em": "2026-08-08",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de São Roque/SP — 2026-08-07",
+  "url": "https://data.queridodiario.ok.org.br/3550605/2026-08-07/ceb57cd76b0f245176ebe87f9e80b17f9ab64767.pdf",
+  "municipio": "São Roque",
+  "uf": "SP",
+  "trecho": "COMPARECIMENTO EM CONVOCAÇÃO DE CONCURSO PÚBLICO E PROCESSO SELETIVO O candidato abaixo relacionado foi convocado, porém não compareceu dentro dos prazos, ficando assim excluído do referido concurso público e/ou processo seletivo: NOME CPF/ CIN CLASSIF CARGO/ FUNÇÃO CATEG Júlia Santos Tecchio 388.xx"
  }
 ]

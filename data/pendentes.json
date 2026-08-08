@@ -1,7 +1,32 @@
 [
  {
+  "enfileirado_em": "2026-08-08",
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "achado": {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
+   "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.pdf",
+   "cargo_texto": "(Represen-\ntante da Secretaria Municipal de Administração e Gestão de \nPessoas - SMAG);\n\n IV - Ezequiel Ferreira da Silva - Membro (Guarda \nCivil Municipal mais antigo da GCM, admitido por meio de \nconcurso público);\n\n V - Jocimar da Silva Araújo Júnior - Membro (Repre-\nsentante do Sindicato dos Guardas Civis Municipais);\n\n VI - Tiago dos Santos Ribeiro - Membro (Represen-\ntante da Associação dos Guardas\n2023/2026 01/07/2026\n\n4 25454 Cadson Igo Ramos Barata Auxiliar/Auxiliar de Serviços Diversos Ext. 03/05/2005 C-07 D-07 2023/2026 01/07/2026\n\n5 14701 Carlos Alberto Vieira Cabral Fiscal Municipal - Fiscal Tributário 01/07/1996 C-11 D-11 2023/2026 01/07/2026\n\n6 27602 Carlos Sergio da Silva Cruz Assistente/Assistente Administrativo 13/02/2009 D-04 E-04 2023/2026 01/07/2026\n\n7 27607 Chirlene Lima da Silva A",
+   "orgao": "",
+   "municipio": "Boa Vista",
+   "uf": "RR",
+   "data_publicacao": "2026-08-07",
+   "detalhes": {
+    "txt_url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.txt",
+    "edition": "6650",
+    "scraped_at": "2026-08-08T01:00:57.214061",
+    "trecho": "(Represen- tante da Secretaria Municipal de Administração e Gestão de Pessoas - SMAG); IV - Ezequiel Ferreira da Silva - Membro (Guarda Civil Municipal mais antigo da GCM, admitido por meio de concurso público); V - Jocimar da Silva Araújo Júnior - Membro (Repre- sentante do Sindicato dos Guardas Ci",
+    "contexto_fraco": true
+   }
+  }
+ },
+ {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -24,7 +49,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 4,
+  "tentativas": 5,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -47,7 +72,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 8,
+  "tentativas": 9,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
