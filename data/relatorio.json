@@ -1,19 +1,6 @@
 {
- "executado_em": "2026-08-08T15:19:19",
+ "executado_em": "2026-08-08T19:22:31",
  "itens": [
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de São Roque/SP — 2026-08-07",
-   "url": "https://data.queridodiario.ok.org.br/3550605/2026-08-07/ceb57cd76b0f245176ebe87f9e80b17f9ab64767.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
   {
    "fonte": "qd",
    "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
@@ -25,7 +12,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "domsc",
@@ -38,7 +25,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "domsc",
@@ -64,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   }
  ]
 }
