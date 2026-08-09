@@ -3017,7 +3017,8 @@
   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-meridiano-sp-publica-retificacao-em-concurso-publico-com-salarios-de-ate-9722",
   "municipio": "Meridiano",
   "uf": "SP",
-  "trecho": ""
+  "trecho": "",
+  "correcao": "motivo real: inscrições encerradas em 3.8.2026 (a regra antiga não lia a data)"
  },
  {
   "descartado_em": "2026-08-07",
@@ -3035,7 +3036,8 @@
   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-da-estancia-turistica-de-piraju-sp-retifica-edital-de-concurso-publico",
   "municipio": "",
   "uf": "SP",
-  "trecho": ""
+  "trecho": "",
+  "correcao": "descarte INDEVIDO (inscrições seguiam abertas até 30.8.2026); republicado no painel em 6.8.2026 após correção da regra"
  },
  {
   "descartado_em": "2026-08-07",

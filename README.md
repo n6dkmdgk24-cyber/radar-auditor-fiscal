@@ -42,14 +42,21 @@ Regra de confiança por fonte: os selos fortes (Tributário/Controle) vêm das f
 > publicou 5 dias de falsos positivos. Desde 5.8.2026 a triagem é 100% determinística
 > — sem IA de nenhum tipo, por decisão de produto — e *fail-closed*.
 
-Todo candidato passa por duas camadas:
+Todo candidato passa por três camadas:
 
+0. **Extrator** (`radar/extrator.py`) — lê o texto já coletado e extrai, por
+   regex, os dados estruturados do concurso: período de inscrições (início/fim),
+   vagas do cargo-alvo ("1 vaga + CR", "cadastro de reserva"), banca, validade e
+   site de inscrição. Campo não encontrado fica **vazio** — nunca inventado. É o
+   que preenche os cartões do painel e o que decide retificação pela data.
 1. **Regras** (`radar/regras.py`) — decidem pelo título/trecho: portaria, decreto,
    lei, licitação, dívida ativa, fases sem inscrição (convocação, gabarito,
    resultado, homologação) e atos de pessoal (matrícula, ocupante do cargo,
    enquadramento, férias, licenças) são **descartados**; evidência de inscrição
    ("abre concurso", "inscrições abertas", período com datas) junto de cargo-alvo
-   forte **publica**; o resto fica **incerto**.
+   forte **publica**; retificação noticiada decide pela **data extraída**
+   (inscrições ainda abertas → avisa; encerradas → descarta; ilegível → fila);
+   o resto fica **incerto**.
 2. **Verificador** (`radar/verificador.py`) — para os incertos, baixa o **texto
    integral** do documento (matéria do SIGPub, `.txt` do Querido Diário, HTML da
    página) e pontua a janela ao redor de cada ocorrência do cargo: anatomia de
@@ -57,14 +64,37 @@ Todo candidato passa por duas camadas:
    provas/cronograma/banca + período de inscrição com datas) contra sinais de ato
    de pessoal. Só publica com anatomia rica; só descarta com contra-evidência.
 
+Guardas transversais:
+
+- **prazo vencido**: "abertura" com fim de inscrições extraído no passado não
+  vira aviso (descarte com o motivo real, ex.: "inscrições encerradas em X");
+- **cargo genérico**: "fiscal municipal"/"agente fiscal" só ganham selo
+  Tributário com evidência de atribuição tributária perto do cargo; sem
+  evidência, o cartão sai como **"Conferir área"** (fiscal pode ser de obras,
+  posturas, sanitário...);
+- **prorrogação × certame novo**: duplicata do mesmo ente com prazo mais novo
+  **atualiza o cartão existente** quando o período começa dentro do prazo
+  antigo (prorrogação); se começa depois, é outro certame ou reabertura e
+  vira **cartão próprio** — nunca some no meio do caminho;
+- **fuso de Brasília** (`radar/tempo.py`): o runner do Actions roda em UTC e
+  os carimbos nasciam um dia à frente do que o painel exibia.
+
+O extrator é deliberadamente desconfiado, e cada guarda veio de um erro real:
+vaga do cargo vizinho ("Fiscal de Tributos Fonoaudiólogo (1 vaga)"), termos
+sobrepostos dobrando a contagem, jornada entre parênteses virando vaga, data
+de prova virando fim de inscrição, "por meio do site www..." virando banca,
+link da prefeitura rotulado como site de inscrição. Todos estão congelados
+como teste em `tests/test_extrator.py`.
+
 Destinos, sempre com registro auditável:
 
 - **abertura** → único caso que vira aviso (painel/Telegram), com o período de
   inscrições extraído do texto quando houver; **suspensao** → entra com ⚠️;
 - **descartes** → `data/descartados.json` com o motivo textual;
 - **indecidível** → fila `data/pendentes.json` (**fail-closed**: nunca vira aviso),
-  exibida no painel na seção "Aguardando confirmação", re-tentada a cada execução
-  e expirada em 30 dias; o Telegram recebe um aviso operacional quando entra item;
+  exibida no painel na caixa expansível "aguardando confirmação" (no topo),
+  re-tentada a cada execução e expirada em 30 dias; o Telegram recebe um aviso
+  operacional quando entra item;
 - cada execução grava as decisões item a item em `data/relatorio.json` e no log do
   Actions (`[triagem] ...`).
 
@@ -72,6 +102,17 @@ O corpus real do incidente (52 falsos positivos + 18 acertos) e recortes de
 documentos reais (editais de Santos e Contenda; atos de pessoal de Querência,
 Inocência e Macaé) estão congelados em `tests/` como regressão. O workflow
 `teste-triagem` (disparo manual) roda a suíte no Actions.
+
+## Painel
+
+O painel (GitHub Pages) organiza os cartões por proximidade de Maringá/PR —
+**Paraná**, **vizinhos (SC · SP · MS)**, **demais estados** — e, dentro de cada
+grupo, quem encerra inscrição primeiro aparece primeiro. Cada cartão traz as
+datas de abertura e encerramento das inscrições (com contagem de dias), as
+vagas reais do cargo ("1 vaga + CR"), banca, validade do concurso e o link do
+site de inscrição. Concursos com inscrições encerradas ou suspensos ficam numa
+caixa recolhida no fim; a fila "aguardando confirmação" fica numa caixa
+recolhida no topo.
 
 ## Uso local
 

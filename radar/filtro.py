@@ -10,9 +10,20 @@ def normalizar(texto: str) -> str:
     return re.sub(r"[‐-―]", "-", t)
 
 
-def _frase_para_regex(frase: str) -> re.Pattern:
-    palavras = [re.escape(p) for p in normalizar(frase).split()]
+def frase_para_regex(frase: str) -> re.Pattern:
+    """Regex da frase normalizada.
+
+    Espaço também casa hífen ("Auditor-Fiscal") e cada palavra aceita a
+    flexão de gênero que os editais usam ("Auditor(a) Fiscal", "Auditor/a
+    Fiscal") — sem isso a lista de cargos do PCI não casava e o cartão de
+    Guarulhos/SP perdia as 10 vagas que o artigo afirma (6.8.2026).
+    """
+    flexao = r"(?:\(a\)|/a)?"
+    palavras = [re.escape(p) + flexao for p in normalizar(frase).split()]
     return re.compile(r"\b" + r"[-\s]+".join(palavras) + r"\b")
+
+
+_frase_para_regex = frase_para_regex
 
 
 class Filtro:

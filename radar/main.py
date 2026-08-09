@@ -57,7 +57,37 @@ def main(argv=None):
             falhas.append((fonte, traceback.format_exc(limit=3)))
             print(f"[{fonte}] FALHOU:\n{traceback.format_exc(limit=1)}", file=sys.stderr)
 
-    candidatos = []
+    from . import extrator
+    from .regras import FONTES_DE_NOTICIA, manchete_de_prazo
+
+    def _resolver_duplicata(a, categoria, termos):
+        """Item cujo ente já tem cartão publicado. Devolve:
+        "novo"       -> período que começa depois do prazo antigo: outro
+                        certame ou reabertura; segue para a triagem;
+        "atualizado" -> prorrogação do mesmo certame: o prazo entrou no cartão;
+        "duplicata"  -> mesma coisa já publicada, nada a fazer.
+
+        Notícia de fase posterior não mexe em prazo; diário oficial também
+        não (o extrator só é confiável no artigo estereotipado de notícia).
+        """
+        if a.fonte not in FONTES_DE_NOTICIA or not manchete_de_prazo(a.titulo):
+            return "duplicata"
+        ex = extrator.extrair(a, termos)
+        if not ex["inscricoes_fim"]:
+            return "duplicata"
+        a.detalhes["inscricoes_fim"] = ex["inscricoes_fim"]
+        if ex["inscricoes_inicio"]:
+            a.detalhes.setdefault("inscricoes_inicio", ex["inscricoes_inicio"])
+        a.detalhes.setdefault("ia", {})["inscricoes"] = ex["inscricoes_texto"]
+        if estado.atualizar_concurso(a, categoria):
+            print(f"[triagem] prazo atualizado no cartão existente: {a.titulo[:70]}")
+            return "atualizado"
+        if estado.eh_certame_novo(a, categoria):
+            print(f"[triagem] certame novo em ente já conhecido: {a.titulo[:70]}")
+            return "novo"
+        return "duplicata"
+
+    candidatos, duplicatas, certames_novos = [], 0, set()
     for a in achados:
         # o trecho extraído do texto integral entra na classificação: o cargo
         # pode estar nele e não nos excerpts (caso real: Santos 17.7.2026)
@@ -70,8 +100,13 @@ def main(argv=None):
         if categoria in ("tributario", "controle") and a.detalhes.get("contexto_fraco"):
             categoria = "conferir"
         if estado.ja_visto(a, categoria):
-            continue
+            if _resolver_duplicata(a, categoria, termos) != "novo":
+                duplicatas += 1
+                continue
+            certames_novos.add(a.url)
         candidatos.append((a, categoria, termos))
+    if duplicatas:
+        print(f"[coleta] {duplicatas} item(ns) já conhecido(s) do mesmo ente")
 
     # triagem FAIL-CLOSED: regras determinísticas + verificação profunda do
     # texto integral (sem IA). Sem veredito, o item vai para
@@ -87,9 +122,17 @@ def main(argv=None):
         # mas o CONCURSO pode ter sido publicado por outra fonte nesse meio
         # tempo — a chave do ente pega essa duplicata (caso Coronel Vivida
         # pci×cnb, 7.8.2026)
-        visto = estado.ja_visto_ente(a, categoria) if de_pendentes else estado.ja_visto(a, categoria)
-        if visto:
-            continue
+        # certame novo de ente conhecido já foi resolvido na coleta: a chave
+        # de ente existe, mas o período começa depois do prazo antigo
+        if a.url not in certames_novos:
+            visto = (
+                estado.ja_visto_ente(a, categoria) if de_pendentes
+                else estado.ja_visto(a, categoria)
+            )
+            if visto:
+                if estado.atualizar_concurso(a, categoria):
+                    print(f"[triagem] prazo atualizado no cartão existente: {a.titulo[:70]}")
+                continue
         estado.marcar(a, categoria)
         estado.registrar_concurso(a, categoria, termos)
         novos.append((a, categoria, termos))

@@ -18,10 +18,25 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Auditor-Fiscal",
-    "inscricoes": "",
+    "inscricoes": "27.7.2026 a 27.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Manaus abre concurso com 20 vagas para Auditor-Fiscal"
-   }
+    "resumo": "A Prefeitura de Manaus , no Amazonas, por meio da Secretaria Municipal de Finanças, Planejamento e Tecnologia da Informação (SEMEF), lançou um concurso público para o preenchimento de 20 vagas imediatas e para a formação de cadastro de r…",
+    "vagas": "20 vagas + CR",
+    "validade": "1 ano, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Manaus",
+     "https://manaus.am.gov.br/"
+    ],
+    [
+     "www.concursosfcc.com.br",
+     "https://www.concursosfcc.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-27",
+   "site_inscricao": "https://www.concursosfcc.com.br"
   }
  },
  {
@@ -42,10 +57,25 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Controlador Interno",
-    "inscricoes": "",
+    "inscricoes": "24.7.2026 a 2.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Seleção aberta para Controlador Interno, Escriturário e Auxiliar Administrativo em Taubaté-SP."
-   }
+    "resumo": "A Fundação Caixa Beneficente dos Servidores da Universidade de Taubaté ( FUNCABES ), no estado de São Paulo, abriu inscrições para o Processo Seletivo destinado ao preenchimento de uma vaga e à formação de cadastro de reserva para profis…",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "FUNCABES",
+     "https://www.funcabes.com.br/"
+    ],
+    [
+     "www.epts.com.br",
+     "https://www.epts.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-24",
+   "inscricoes_fim": "2026-08-02",
+   "site_inscricao": "https://www.epts.com.br"
   }
  },
  {
@@ -66,10 +96,24 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Controlador Interno",
-    "inscricoes": "",
+    "inscricoes": "27.7.2026 a 25.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Câmara de Blumenau abre concurso para Controlador Interno e Procurador"
-   }
+    "resumo": "A Câmara Municipal de Blumenau , em Santa Catarina, anunciou um concurso público para preencher 3 vagas de nível superior em seu quadro de pessoal, sob a organização do IBAM .",
+    "vagas": "1 vaga"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Blumenau",
+     "https://camarablu.sc.gov.br/"
+    ],
+    [
+     "IBAM",
+     "https://www.ibam-concursos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-25",
+   "site_inscricao": "https://www.ibam-concursos.org.br"
   }
  },
  {
@@ -90,10 +134,25 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Fiscal Tributário",
-    "inscricoes": "",
+    "inscricoes": "17.9.2026 a 8.10.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Guimarânia/MG abre concurso para Fiscal Tributário."
-   }
+    "resumo": "A Prefeitura Municipal de Guimarânia , no estado de Minas Gerais, publicou um edital de Concurso Público para preencher 1 vaga de Fiscal Tributário, com exigência de nível superior.",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Guimarânia",
+     "https://www.guimarania.mg.gov.br/"
+    ],
+    [
+     "www.eloassessoriaeservicos.com.br",
+     "https://www.eloassessoriaeservicos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-17",
+   "inscricoes_fim": "2026-10-08",
+   "site_inscricao": "https://www.eloassessoriaeservicos.com.br"
   }
  },
  {
@@ -114,10 +173,25 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Controlador Interno",
-    "inscricoes": "",
+    "inscricoes": "18.7.2026 a 1.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Câmara de Monções abre concurso para Diretor Geral e Controlador Interno."
-   }
+    "resumo": "A Câmara Municipal de Monções , no estado de São Paulo, divulgou a abertura do Concurso Público destinado ao preenchimento de 2 vagas para funções de nível superior.",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Monções",
+     "https://www.camaramoncoes.sp.gov.br/"
+    ],
+    [
+     "portal.fenix.selecao.site",
+     "https://portal.fenix.selecao.site/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-18",
+   "inscricoes_fim": "2026-08-01",
+   "site_inscricao": "https://portal.fenix.selecao.site"
   }
  },
  {
@@ -139,10 +213,25 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Auditor Fiscal de Tributos Municipais",
-    "inscricoes": "",
+    "inscricoes": "15.7.2026 a 17.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Taubaté abre concurso para Auditor Fiscal de Tributos Municipais."
-   }
+    "resumo": "A Prefeitura Municipal de Taubaté , no estado de São Paulo, publicou o edital do Concurso Público nº 02 com o objetivo de preencher 2 vagas para Auditor Fiscal de Tributos Municipais.",
+    "vagas": "2 vagas",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Taubaté",
+     "https://www.taubate.sp.gov.br/"
+    ],
+    [
+     "www.ibamsp-concursos.org.br",
+     "https://www.ibamsp-concursos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-15",
+   "inscricoes_fim": "2026-08-17",
+   "site_inscricao": "https://www.ibamsp-concursos.org.br"
   }
  },
  {
@@ -154,7 +243,7 @@
   "fonte": "pci",
   "titulo": "SEFAZ - MT: Concurso para Fiscal de Tributos Estaduais é suspenso",
   "url": "https://www.pciconcursos.com.br/noticias/sefaz-mt-concurso-para-fiscal-de-tributos-estaduais-e-suspenso",
-  "orgao": "",
+  "orgao": "SEFAZ-MT",
   "municipio": "",
   "uf": "MT",
   "data_publicacao": "2026-07-14",
@@ -165,9 +254,15 @@
     "cargo": "Fiscal de Tributos Estaduais",
     "inscricoes": "",
     "cadastro_reserva": false,
-    "resumo": "Concurso da SEFAZ-MT suspenso",
+    "resumo": "A Secretaria de Estado da Fazenda do Mato Grosso (SEFAZ-MT) suspendeu o concurso público que tinha como objetivo preencher 30 vagas no cargo de Fiscal de Tributos Estaduais - FTE.",
     "origem": "auditoria-manual-29.7.2026"
-   }
+   },
+   "links_artigo": [
+    [
+     "Secretaria de Estado da Fazenda do Mato Grosso (SEFAZ-MT)",
+     "https://www.sefaz.mt.gov.br/"
+    ]
+   ]
   }
  },
  {
@@ -188,10 +283,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Fiscal de Tributos Municipais",
-    "inscricoes": "",
+    "inscricoes": "16.8.2026 a 16.9.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Cezarina abre concurso com vaga para Fiscal de Tributos Municipais"
-   }
+    "resumo": "A Prefeitura de Cezarina , no estado de Goiás, publicou o edital do Concurso Público nº 01/2026, realizado pela ITAME - Instituto de Consultoria e Concursos , para preencher uma vaga de nível superior e formar cadastro de reserva.",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Cezarina",
+     "https://cezarina.go.gov.br/"
+    ],
+    [
+     "ITAME - Instituto de Consultoria e Concursos",
+     "https://www.itame.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-16",
+   "inscricoes_fim": "2026-09-16",
+   "site_inscricao": "https://www.itame.com.br",
+   "banca": "ITAME - Instituto de Consultoria e Concursos"
   }
  },
  {
@@ -212,10 +323,25 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Controlador Interno",
-    "inscricoes": "",
+    "inscricoes": "10.7.2026 a 6.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Câmara de Itararé/SP abre concurso público para Controlador Interno."
-   }
+    "resumo": "A Câmara Municipal de Itararé , no estado de São Paulo, anunciou a abertura de um concurso público para preencher uma vaga efetiva e formar cadastro de reserva no cargo de Controlador Interno, com exigência de nível superior nas áreas de…",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Itararé",
+     "https://camaraitarare.sp.gov.br/novo/"
+    ],
+    [
+     "seletrix-backend.onrender.com",
+     "https://seletrix-backend.onrender.com/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-10",
+   "inscricoes_fim": "2026-08-06",
+   "site_inscricao": "https://seletrix-backend.onrender.com"
   }
  },
  {
@@ -236,10 +362,20 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Controlador Interno",
-    "inscricoes": "",
+    "inscricoes": "10.7.2026 a 16.7.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de São Vicente de Minas abre vagas para Controlador Interno e Psicólogo II."
-   }
+    "resumo": "A Prefeitura Municipal de São Vicente de Minas , no estado de Minas Gerais, abriu inscrições para o Processo Seletivo Simplificado que visa preencher três vagas de nível superior.",
+    "vagas": "1 vaga",
+    "validade": "1 ano, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de São Vicente de Minas",
+     "https://www.saovicentedeminas.mg.gov.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-10",
+   "inscricoes_fim": "2026-07-16"
   }
  },
  {
@@ -260,10 +396,25 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Auditor Fiscal VI",
-    "inscricoes": "",
+    "inscricoes": "4.7.2026 a 6.8.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Guarulhos abre 10 vagas para Auditor Fiscal VI"
-   }
+    "resumo": "O Município de Guarulhos , no estado de São Paulo, por meio da Secretaria de Gestão, divulgou um Concurso Público para o preenchimento de 10 vagas no cargo de Auditor(a) Fiscal VI, com exigência de nível superior completo em qualquer áre…",
+    "validade": "2 anos, prorrogável",
+    "vagas": "10 vagas"
+   },
+   "links_artigo": [
+    [
+     "Município de Guarulhos",
+     "https://www.guarulhos.sp.gov.br/"
+    ],
+    [
+     "do IBAM",
+     "https://www.ibamsp-concursos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-04",
+   "inscricoes_fim": "2026-08-06",
+   "site_inscricao": "https://www.ibamsp-concursos.org.br/"
   }
  },
  {
@@ -275,7 +426,7 @@
   "fonte": "pci",
   "titulo": "TCE-SP abre concurso com vagas para Auditor de Controle Externo",
   "url": "https://www.pciconcursos.com.br/noticias/tce-sp-abre-concurso-com-vagas-para-auditor-de-controle-externo",
-  "orgao": "",
+  "orgao": "TCE-SP",
   "municipio": "",
   "uf": "SP",
   "data_publicacao": "2026-07-06",
@@ -284,10 +435,26 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "Auditor de Controle Externo",
-    "inscricoes": "",
+    "inscricoes": "13.7.2026 a 20.8.2026 (prorrogadas)",
     "cadastro_reserva": false,
-    "resumo": "TCE-SP anuncia abertura de concurso para Auditor de Controle Externo"
-   }
+    "resumo": "O Tribunal de Contas do Estado de São Paulo ( TCESP ) publicou um edital de concurso público para preencher vagas no cargo de Auditor de Controle Externo - DIPE, com exigência de nível superior.",
+    "vagas": "50 vagas",
+    "validade": "24 meses, prorrogável",
+    "prazo_atualizado_em": "2026-08-09"
+   },
+   "links_artigo": [
+    [
+     "TCESP",
+     "https://www.tce.sp.gov.br/"
+    ],
+    [
+     "www.vunesp.com.br/TCSP2501",
+     "https://www.vunesp.com.br/TCSP2501"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-13",
+   "inscricoes_fim": "2026-08-20",
+   "site_inscricao": "https://www.vunesp.com.br/TCSP2501"
   }
  },
  {
@@ -308,10 +475,25 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Fiscal de Tributos",
-    "inscricoes": "",
+    "inscricoes": "1.7.2026 a 31.7.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Doutor Pedrinho abre concurso para Fiscal de Tributos."
-   }
+    "resumo": "A Prefeitura de Doutor Pedrinho , em Santa Catarina, publicou o edital de Concurso Público nº 02/2026 para o preenchimento de 1 vaga e a formação de cadastro de reserva no cargo de Fiscal de Tributos, com exigência de nível superior comp…",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Doutor Pedrinho",
+     "https://doutorpedrinho.sc.gov.br/"
+    ],
+    [
+     "portal.sctreinamentos.selecao.site",
+     "https://portal.sctreinamentos.selecao.site/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-01",
+   "inscricoes_fim": "2026-07-31",
+   "site_inscricao": "https://portal.sctreinamentos.selecao.site"
   }
  },
  {
@@ -332,10 +514,20 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Auditor da Receita Municipal",
-    "inscricoes": "",
+    "inscricoes": "29.6.2026 a 3.7.2026",
     "cadastro_reserva": false,
-    "resumo": "Prefeitura de Tavares abre vaga para Auditor da Receita Municipal."
-   }
+    "resumo": "A Prefeitura Municipal de Tavares , no Rio Grande do Sul, publicou o edital do Processo Seletivo Simplificado nº 13/2026 visando à contratação temporária de Auditor(a) da Receita Municipal.",
+    "validade": "12 meses, prorrogável",
+    "vagas": "1 vaga"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Tavares",
+     "https://www.tavares.rs.gov.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-06-29",
+   "inscricoes_fim": "2026-07-03"
   }
  },
  {
@@ -418,11 +610,15 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Fiscal de Tributos",
-    "inscricoes": "",
+    "inscricoes": "28.7.2026 a 26.8.2026",
     "cadastro_reserva": true,
-    "resumo": "Abertura com vagas somente em cadastro de reserva",
-    "origem": "auditoria-manual-29.7.2026"
-   }
+    "resumo": "O Município de Nova Aurora , no Paraná, publicou o edital do Concurso para Emprego Público, organizado pela Fundação FAFIPA , para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio/técnic…",
+    "origem": "auditoria-manual-29.7.2026",
+    "vagas": "cadastro de reserva",
+    "criterio": "Abertura com vagas somente em cadastro de reserva"
+   },
+   "inscricoes_inicio": "2026-07-28",
+   "inscricoes_fim": "2026-08-26"
   }
  },
  {
@@ -449,7 +645,9 @@
     "inscricoes": "18/07/2026 a 17/08/2026",
     "cadastro_reserva": false,
     "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026."
-   }
+   },
+   "inscricoes_inicio": "2026-07-18",
+   "inscricoes_fim": "2026-08-17"
   }
  },
  {
@@ -470,11 +668,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal tributario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)",
-    "origem": "regras"
-   }
+    "inscricoes": "3.8.2026 a 3.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Delfinópolis , em Minas Gerais, divulgou dois editais coordenados pelo Instituto Brasileiro de Gestão e Pesquisa (IBGP) para Concurso Público e Processo Seletivo, visando ao preenchimento de vagas imediatas e à formação de…",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)"
+   },
+   "links_artigo": [
+    [
+     "Município de Delfinópolis",
+     "https://delfinopolis.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-09-03",
+   "site_inscricao": "https://www.ibgpconcursos.com.br"
   }
  },
  {
@@ -495,11 +708,26 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "controlador interno",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-    "origem": "regras"
-   }
+    "inscricoes": "6.8.2026 a 3.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Mairiporã , no estado de São Paulo, em parceria com o Instituto de Educação e Desenvolvimento Social Nosso Rumo , abriu um concurso público para preencher vagas e formar cadastro de reserva em funções de nível m…",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Mairiporã",
+     "https://www.mairipora.sp.gov.br/"
+    ],
+    [
+     "Instituto de Educação e Desenvolvimento Social Nosso Rumo",
+     "https://www.nossorumo.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-06",
+   "inscricoes_fim": "2026-09-03",
+   "site_inscricao": "https://www.nossorumo.org.br"
   }
  },
  {
@@ -520,11 +748,27 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "analista de controle interno",
-    "inscricoes": "",
+    "inscricoes": "4.8.2026 a 8.9.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
-    "origem": "regras"
-   }
+    "resumo": "A Câmara Municipal de Tasso Fragoso , no Maranhão, publicou um edital de Concurso Público para preencher vagas em funções de nível fundamental, médio e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Tasso Fragoso",
+     "https://www.cmtassofragoso.ma.gov.br/"
+    ],
+    [
+     "www.icap-to.com.br",
+     "https://www.icap-to.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-04",
+   "inscricoes_fim": "2026-09-08",
+   "site_inscricao": "https://www.icap-to.com.br"
   }
  },
  {
@@ -546,16 +790,31 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
+    "inscricoes": "3.8.2026 a 4.9.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "resumo": "A Prefeitura de Jaborandi , na Bahia, divulgou o edital do Concurso Público para o preenchimento de vagas em funções de nível fundamental, médio/técnico e superior.",
+    "origem": "regras",
+    "vagas": "Fiscal de Tributos: 5 vagas · Agente de Arrecadação: 3 vagas",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Jaborandi",
+     "https://www.jaborandi.ba.gov.br/"
+    ],
+    [
+     "www.abconcursospublicos.org",
+     "https://abconcursospublicos.org/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-09-04",
+   "site_inscricao": "https://www.abconcursospublicos.org"
   }
  },
  {
   "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fiscal"
   ],
@@ -569,13 +828,29 @@
   "detalhes": {
    "ia": {
     "classe": "abertura",
-    "area": "tributario",
+    "area": "outra",
     "cargo": "agente fiscal",
-    "inscricoes": "",
+    "inscricoes": "10.8.2026 a 3.9.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
-    "origem": "regras"
-   }
+    "resumo": "No Paraná, a Prefeitura de Marialva abriu um Concurso Público visando preencher vagas para profissionais de níveis de escolaridade: fundamental incompleto, fundamental completo, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Marialva",
+     "https://www.marialva.pr.gov.br/"
+    ],
+    [
+     "www.fundacaofafipa.org.br",
+     "https://www.fundacaofafipa.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-03",
+   "site_inscricao": "https://www.fundacaofafipa.org.br"
   }
  },
  {
@@ -596,11 +871,27 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal fazendario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
-    "origem": "regras"
-   }
+    "inscricoes": "22.7.2026 a 20.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Balneário Piçarras , no estado de Santa Catarina, divulgou os editais do Concurso Público (Edital nº 01/2026), do Concurso Público (Edital nº 02/2026) e do Processo Seletivo Público (Edital nº 03/2026), realizados pelo IB…",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Balneário Piçarras",
+     "https://balneariopicarras.atende.net/cidadao"
+    ],
+    [
+     "IBAM - Instituto Brasileiro de Administração Municipal",
+     "https://www.ibam-concursos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-22",
+   "inscricoes_fim": "2026-08-20",
+   "site_inscricao": "https://www.ibam-concursos.org.br",
+   "banca": "IBAM - Instituto Brasileiro de Administração Municipal"
   }
  },
  {
@@ -621,11 +912,27 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "controlador interno",
-    "inscricoes": "",
+    "inscricoes": "5.10.2026 a 3.11.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-    "origem": "regras"
-   }
+    "resumo": "A Câmara Municipal de Dores do Indaiá , no Estado de Minas Gerais, em conjunto com o Instituto Brasileiro de Gestão e Pesquisa (IBGP) , realiza um Concurso Público destinado ao preenchimento de cinco vagas para profissionais de nível fun…",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Dores do Indaiá",
+     "https://www.doresdoindaia.mg.leg.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-03",
+   "site_inscricao": "https://www.ibgpconcursos.com.br"
   }
  },
  {
@@ -646,16 +953,28 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal tributario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-    "origem": "regras"
-   }
+    "inscricoes": "5.10.2026 a 5.11.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de São Vicente de Minas - MG, em parceria com o Instituto ACCESS , anunciou a abertura de um concurso público para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio…",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+   },
+   "links_artigo": [
+    [
+     "Instituto ACCESS",
+     "https://www.access.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-05",
+   "site_inscricao": "https://www.access.org.br"
   }
  },
  {
   "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fiscal"
   ],
@@ -669,13 +988,28 @@
   "detalhes": {
    "ia": {
     "classe": "abertura",
-    "area": "tributario",
+    "area": "outra",
     "cargo": "agente fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
-    "origem": "verificador"
-   }
+    "inscricoes": "19.6.2026 a 4.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Cosmópolis , no estado de São Paulo, anunciou a abertura do Concurso Público nº 001/2026 destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para funções de nível fundamental, médio…",
+    "origem": "verificador",
+    "vagas": "Agente Fiscal em Enfermagem I: 1 vaga + CR · Agente Fiscal em Engenharia Sanitária I: 1 vaga + CR",
+    "criterio": "anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Cosmópolis",
+     "https://cosmopolis.sp.gov.br/"
+    ],
+    [
+     "institutoindec.org.br",
+     "https://institutoindec.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-06-19",
+   "inscricoes_fim": "2026-08-04",
+   "site_inscricao": "https://institutoindec.org.br"
   }
  },
  {
@@ -697,11 +1031,23 @@
     "classe": "suspensao",
     "area": "tributario",
     "cargo": "auditor fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
-    "origem": "regras"
-   }
+    "inscricoes": "14.7.2026 a 16.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Ubirajara, em São Paulo, publicou edital de Concurso Público para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)"
+   },
+   "links_artigo": [
+    [
+     "portal.institutoibepp.com.br",
+     "https://portal.institutoibepp.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-14",
+   "inscricoes_fim": "2026-08-16",
+   "site_inscricao": "https://portal.institutoibepp.com.br"
   }
  },
  {
@@ -723,16 +1069,31 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "7.8.2026 a 10.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Chapada dos Guimarães , no estado de Mato Grosso, em conjunto com o Serviço Autônomo de Água e Esgoto (SAAE), anunciou a abertura de um concurso público com o objetivo de preencher vagas e formar cadastro de reserva para …",
+    "origem": "regras",
+    "vagas": "Fiscal de Tributos: 4 vagas · Agente de Arrecadação: 5 vagas",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Chapada dos Guimarães",
+     "https://www.chapadadosguimaraes.mt.gov.br/"
+    ],
+    [
+     "selecon.org.br",
+     "https://selecon.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-07",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://selecon.org.br"
   }
  },
  {
   "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fiscal"
   ],
@@ -746,13 +1107,29 @@
   "detalhes": {
    "ia": {
     "classe": "abertura",
-    "area": "tributario",
+    "area": "outra",
     "cargo": "agente fiscal",
-    "inscricoes": "",
+    "inscricoes": "20.7.2026 a 10.8.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
-    "origem": "regras"
-   }
+    "resumo": "A Prefeitura Municipal de Palhano , no Ceará, publicou o edital do Concurso Público nº 001/2026, com organização do Instituto Consulpam , para o preenchimento de vagas em funções de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "4 vagas",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Palhano",
+     "https://www.palhano.ce.gov.br/"
+    ],
+    [
+     "Instituto Consulpam",
+     "https://www.consulpam.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-20",
+   "inscricoes_fim": "2026-08-10",
+   "site_inscricao": "https://www.consulpam.com.br"
   }
  },
  {
@@ -773,11 +1150,27 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "29.7.2026 a 19.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Rancho Alegre D'Oeste , no Paraná, abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Rancho Alegre D'Oeste",
+     "https://www.ranchoalegredoeste.pr.gov.br/"
+    ],
+    [
+     "www.institutounicampo.com.br",
+     "https://www.institutounicampo.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-29",
+   "inscricoes_fim": "2026-08-19",
+   "site_inscricao": "https://www.institutounicampo.com.br"
   }
  },
  {
@@ -798,11 +1191,27 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "23.7.2026 a 10.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Meruoca , no Ceará, divulgou o edital do Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível médio/técnico e de nível superior.",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Meruoca",
+     "https://www.meruoca.ce.gov.br/"
+    ],
+    [
+     "www.consulpam.com.br",
+     "https://www.consulpam.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-23",
+   "inscricoes_fim": "2026-08-10",
+   "site_inscricao": "https://www.consulpam.com.br"
   }
  },
  {
@@ -823,36 +1232,27 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal tributario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-    "origem": "regras"
-   }
-  }
- },
- {
-  "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
-  "termos": [
-   "fiscal de tributos"
-  ],
-  "fonte": "pci",
-  "titulo": "Município de Nova Aurora - PR abre concurso público com vagas imediatas e cadastro de reserva",
-  "url": "https://www.pciconcursos.com.br/noticias/municipio-de-nova-aurora-pr-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
-  "orgao": "",
-  "municipio": "",
-  "uf": "PR",
-  "data_publicacao": "2026-07-24",
-  "detalhes": {
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "27.7.2026 a 25.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Cianorte , no Estado do Paraná, divulgou a abertura do Concurso Público 001/2026 para o preenchimento de vagas e formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Cianorte",
+     "https://www.cianorte.pr.gov.br/"
+    ],
+    [
+     "www.institutounifil.com.br",
+     "https://www.institutounifil.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-25",
+   "site_inscricao": "https://www.institutounifil.com.br"
   }
  },
  {
@@ -873,11 +1273,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "31.7.2026 a 8.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "No Paraná, o Município de Quatro Pontes divulgou o edital do Concurso Público destinado a preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médio/técnico e superior.",
+    "origem": "regras",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Município de Quatro Pontes",
+     "https://quatropontes.pr.gov.br/"
+    ],
+    [
+     "concursos.unioeste.br",
+     "https://concursos.unioeste.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-31",
+   "inscricoes_fim": "2026-09-08",
+   "site_inscricao": "https://concursos.unioeste.br"
   }
  },
  {
@@ -898,11 +1313,27 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "27.7.2026 a 24.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Ribeira do Pombal , no Estado da Bahia, abriu um Concurso Público visando preencher vagas imediatas e formar cadastro de reserva para profissionais de nível médio e superior.",
+    "origem": "regras",
+    "vagas": "3 vagas + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Ribeira do Pombal",
+     "https://www.ribeiradopombal.ba.gov.br/"
+    ],
+    [
+     "inet.selecao.net.br",
+     "https://inet.selecao.net.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-24",
+   "site_inscricao": "https://inet.selecao.net.br"
   }
  },
  {
@@ -914,8 +1345,8 @@
   "fonte": "pci",
   "titulo": "SAAE de Barretos - SP reabre inscrições para concurso com salários de até R$ 10.524,03",
   "url": "https://www.pciconcursos.com.br/noticias/saae-de-barretos-sp-reabre-inscricoes-para-concurso-com-salarios-de-ate-10524",
-  "orgao": "",
-  "municipio": "",
+  "orgao": "SAAE de Barretos",
+  "municipio": "Barretos",
   "uf": "SP",
   "data_publicacao": "2026-07-28",
   "detalhes": {
@@ -923,16 +1354,32 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "controlador interno",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
-    "origem": "regras"
-   }
+    "inscricoes": "27.7.2026 a 10.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "O Serviço Autônomo de Água e Esgoto de Barretos (SAAE) , no estado de São Paulo, lançou um Concurso Público para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)"
+   },
+   "links_artigo": [
+    [
+     "Serviço Autônomo de Água e Esgoto de Barretos (SAAE)",
+     "https://www.saaeb.com.br/"
+    ],
+    [
+     "www.institutoconsulplan.org.br",
+     "https://www.institutoconsulplan.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-10",
+   "site_inscricao": "https://www.institutoconsulplan.org.br"
   }
  },
  {
   "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
+  "categoria": "conferir",
   "termos": [
    "agente fiscal"
   ],
@@ -946,13 +1393,28 @@
   "detalhes": {
    "ia": {
     "classe": "abertura",
-    "area": "tributario",
+    "area": "outra",
     "cargo": "agente fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
-    "origem": "regras"
-   }
+    "inscricoes": "10.8.2026 a 10.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Abaetetuba , no Pará, abriu um Concurso Público para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio/técnico e superior.",
+    "origem": "regras",
+    "vagas": "3 vagas",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Abaetetuba",
+     "https://abaetetuba.pa.gov.br/"
+    ],
+    [
+     "institutovicentenelson.com.br",
+     "https://institutovicentenelson.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://institutovicentenelson.com.br"
   }
  },
  {
@@ -973,11 +1435,26 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "controlador interno",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
-    "origem": "regras"
-   }
+    "inscricoes": "22.6.2026 a 19.7.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Bom Jardim de Minas , no estado de Minas Gerais, divulgou editais de Concurso Público e Processo Seletivo, visando preencher vagas imediatas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e s…",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Bom Jardim de Minas",
+     "https://www.bomjardimdeminas.mg.gov.br/"
+    ],
+    [
+     "concursos.msconc.com.br",
+     "https://concursos.msconc.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-06-22",
+   "inscricoes_fim": "2026-07-19",
+   "site_inscricao": "https://concursos.msconc.com.br"
   }
  },
  {
@@ -998,11 +1475,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal tributario",
-    "inscricoes": "",
+    "inscricoes": "2.10.2026 a 3.11.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-    "origem": "regras"
-   }
+    "resumo": "O Município de Belo Vale , no Estado de Minas Gerais, divulgou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+   },
+   "links_artigo": [
+    [
+     "Município de Belo Vale",
+     "https://www.belovale.mg.gov.br/"
+    ],
+    [
+     "www.institutoconsulplan.org.br",
+     "https://www.institutoconsulplan.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-02",
+   "inscricoes_fim": "2026-11-03",
+   "site_inscricao": "https://www.institutoconsulplan.org.br"
   }
  },
  {
@@ -1023,11 +1515,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "tecnico em tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "30.7.2026 a 28.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "O município de Salto Veloso , em Santa Catarina, publicou o edital do Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)"
+   },
+   "links_artigo": [
+    [
+     "município de Salto Veloso",
+     "https://www.saltoveloso.sc.gov.br/"
+    ],
+    [
+     "www.aprendersc.srv.br",
+     "https://www.aprendersc.srv.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-30",
+   "inscricoes_fim": "2026-08-28",
+   "site_inscricao": "https://www.aprendersc.srv.br"
   }
  },
  {
@@ -1048,11 +1555,26 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "controlador interno",
-    "inscricoes": "",
+    "inscricoes": "3.8.2026 a 24.8.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-    "origem": "regras"
-   }
+    "resumo": "A Câmara Municipal de Rifaina , no Estado de São Paulo, abriu um concurso público com o objetivo de preencher 4 vagas para profissionais de nível médio e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Rifaina",
+     "https://www.camararifaina.sp.gov.br/"
+    ],
+    [
+     "www.glconsultoria.com.br",
+     "https://www.glconsultoria.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-08-24",
+   "site_inscricao": "https://www.glconsultoria.com.br"
   }
  },
  {
@@ -1073,11 +1595,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "10.8.2026 a 10.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Conceição do Almeida , na Bahia, abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental incompleto e completo, médio, técnico e superior, conforme edital de ab…",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Município de Conceição do Almeida",
+     "https://conceicaodoalmeida.ba.gov.br/"
+    ],
+    [
+     "www.objetivas.com.br",
+     "https://www.objetivas.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://www.objetivas.com.br"
   }
  },
  {
@@ -1098,11 +1635,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "inscricoes": "10.8.2026 a 3.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Rincão , em São Paulo, divulgou o edital do Concurso Público nº 001/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.",
+    "origem": "regras",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Rincão",
+     "https://www.rincao.sp.gov.br/"
+    ],
+    [
+     "www.inepam.org.br",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-03",
+   "site_inscricao": "https://www.inepam.org.br"
   }
  },
  {
@@ -1124,11 +1676,28 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "auditor fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)",
-    "origem": "regras"
-   }
+    "inscricoes": "31.7.2026 a 31.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Limeira , no Estado de São Paulo, publicou os editais dos Concursos Públicos 01/2026 e 02/2026, organizados pela AvançaSP .",
+    "origem": "regras",
+    "vagas": "Auditor Fiscal: 1 vaga + CR · Fiscal Tributário: 1 vaga + CR",
+    "validade": "1 ano",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Limeira",
+     "https://www.limeira.sp.gov.br/"
+    ],
+    [
+     "AvançaSP",
+     "https://www.avancasp.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-31",
+   "inscricoes_fim": "2026-08-31",
+   "site_inscricao": "https://www.avancasp.org.br",
+   "banca": "AvançaSP"
   }
  },
  {
@@ -1149,11 +1718,27 @@
     "classe": "abertura",
     "area": "controle",
     "cargo": "analista de controle interno",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
-    "origem": "regras"
-   }
+    "inscricoes": "31.7.2026 a 24.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Pedra Branca , no Ceará, divulgou a abertura de um Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental incompleto, médio e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)"
+   },
+   "links_artigo": [
+    [
+     "Câmara Municipal de Pedra Branca",
+     "https://www.camarapedrabranca.ce.gov.br/"
+    ],
+    [
+     "www.inbrasp.org",
+     "https://www.inbrasp.org/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-31",
+   "inscricoes_fim": "2026-08-24",
+   "site_inscricao": "https://www.inbrasp.org"
   }
  },
  {
@@ -1174,11 +1759,26 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "",
+    "inscricoes": "30.9.2026 a 30.10.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
-    "origem": "regras"
-   }
+    "resumo": "A Prefeitura de Pedro Teixeira , no Estado de Minas Gerais, publicou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de níveis fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "1 vaga",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura de Pedro Teixeira",
+     "https://www.pedroteixeira.mg.gov.br/"
+    ],
+    [
+     "www.concursosjcm.com.br",
+     "https://www.concursosjcm.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-30",
+   "inscricoes_fim": "2026-10-30",
+   "site_inscricao": "https://www.concursosjcm.com.br"
   }
  },
  {
@@ -1199,36 +1799,28 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "auditor fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
-    "origem": "regras"
-   }
-  }
- },
- {
-  "descoberto_em": "2026-08-05",
-  "categoria": "tributario",
-  "termos": [
-   "auditor fiscal"
-  ],
-  "fonte": "cnb",
-  "titulo": "Prefeitura de Auriflama (SP) abre concurso com salário de até R$ 6,5 mil",
-  "url": "https://concursosnobrasil.com/concursos/sp/2026/08/05/prefeitura-de-auriflama-sp-abre-concurso-com-salario-de-ate-r-65-mil/",
-  "orgao": "",
-  "municipio": "",
-  "uf": "SP",
-  "data_publicacao": "2026-08-05",
-  "detalhes": {
-   "ia": {
-    "classe": "abertura",
-    "area": "tributario",
-    "cargo": "auditor fiscal",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
-    "origem": "regras"
-   }
+    "inscricoes": "10.8.2026 a 1.9.2026",
+    "cadastro_reserva": false,
+    "resumo": "No Estado de São Paulo, a Prefeitura Municipal de Auriflama divulgou, por meio do INEPAM , a abertura das inscrições para concurso público visando o preenchimento de vagas e a formação de cadastro de reserva para profissionais de nível f…",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)"
+   },
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Auriflama",
+     "https://auriflama.sp.gov.br/"
+    ],
+    [
+     "INEPAM",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-01",
+   "site_inscricao": "https://www.inepam.org.br",
+   "banca": "INEPAM"
   }
  },
  {
@@ -1250,36 +1842,23 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "auditor de tributos",
-    "inscricoes": "",
+    "inscricoes": "12.8.2026 a 13.9.2026",
     "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
-    "origem": "regras"
-   }
-  }
- },
- {
-  "descoberto_em": "2026-08-07",
-  "categoria": "controle",
-  "termos": [
-   "auditor de controle externo"
-  ],
-  "fonte": "pci",
-  "titulo": "TCE-SP prorroga inscrições do concurso público para Auditor de Controle Externo",
-  "url": "https://www.pciconcursos.com.br/noticias/tce-sp-prorroga-inscricoes-do-concurso-publico-para-auditor-de-controle-externo",
-  "orgao": "",
-  "municipio": "",
-  "uf": "SP",
-  "data_publicacao": "2026-08-06",
-  "detalhes": {
-   "ia": {
-    "classe": "abertura",
-    "area": "controle",
-    "cargo": "auditor de controle externo",
-    "inscricoes": "",
-    "cadastro_reserva": false,
-    "resumo": "manchete de abertura (\\bprorroga(cao)? (de |das |o prazo de )?inscricoes?\\b) + cargo (auditor de controle externo)",
-    "origem": "regras"
-   }
+    "resumo": "A Prefeitura Municipal de Cuité de Mamanguape, no estado da Paraíba, divulgou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio, técnico e superior.",
+    "origem": "regras",
+    "vagas": "Auditor de Tributos: 1 vaga · Fiscal de Tributos: 1 vaga",
+    "validade": "1 ano, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)"
+   },
+   "links_artigo": [
+    [
+     "www.educapb.com.br",
+     "https://www.educapb.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-09-13",
+   "site_inscricao": "https://www.educapb.com.br"
   }
  },
  {
@@ -1300,12 +1879,24 @@
    "ia": {
     "classe": "abertura",
     "area": "tributario",
-    "cargo": "fiscal municipal",
-    "inscricoes": "",
+    "cargo": "fiscal municipal (atribuição híbrida)",
+    "inscricoes": "3.8.2026 a 10.8.2026",
     "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)",
-    "origem": "regras"
-   }
+    "resumo": "Reabertura de inscrições do Concurso 01/2026. Fiscal Municipal em cadastro de reserva; pelo edital, o cargo é híbrido: fiscalização de posturas/obras E tributária/fazendária (Capítulo II das atribuições).",
+    "origem": "regras",
+    "vagas": "Fiscal Municipal: cadastro de reserva · Controlador Interno: cadastro de reserva",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)"
+   },
+   "links_artigo": [
+    [
+     "www.omconcursos.com.br",
+     "https://www.omconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-08-10",
+   "site_inscricao": "https://www.omconcursos.com.br"
   }
  },
  {
@@ -1326,11 +1917,24 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal tributario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
-    "origem": "regras"
-   }
+    "inscricoes": "11.8.2026 a 8.10.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Coronel Vivida, no Paraná, publicou o edital do Concurso Público n.º 001/2026, organizado pela Fundação FAFIPA , com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médi…",
+    "origem": "regras",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+   },
+   "links_artigo": [
+    [
+     "Fundação FAFIPA",
+     "https://www.fundacaofafipa.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-11",
+   "inscricoes_fim": "2026-10-08",
+   "site_inscricao": "https://www.fundacaofafipa.org.br",
+   "banca": "Fundação FAFIPA"
   }
  },
  {
@@ -1351,9 +1955,63 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "auditor tributario",
-    "inscricoes": "",
-    "cadastro_reserva": true,
-    "resumo": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)",
+    "inscricoes": "6.8.2026 a 30.8.2026",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Cajueiro da Praia, no Piauí, por meio do INBRASP - Instituto Brasileiro de Pesquisa, Avaliação e Seleção de Pessoal , tornou público o concurso para preencher vagas e formar cadastro de reserva em funções de nív…",
+    "origem": "regras",
+    "vagas": "2 vagas + CR",
+    "validade": "2 anos, prorrogável",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)"
+   },
+   "links_artigo": [
+    [
+     "INBRASP - Instituto Brasileiro de Pesquisa, Avaliação e Seleção de Pessoal",
+     "https://www.inbrasp.org/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-06",
+   "inscricoes_fim": "2026-08-30",
+   "site_inscricao": "https://www.inbrasp.org",
+   "banca": "INBRASP - Instituto Brasileiro de Pesquisa"
+  }
+ },
+ {
+  "descoberto_em": "2026-08-06",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura da Estância Turística de Piraju - SP retifica edital de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-da-estancia-turistica-de-piraju-sp-retifica-edital-de-concurso-publico",
+  "orgao": "Prefeitura da Estância Turística de Piraju",
+  "municipio": "Piraju",
+  "uf": "SP",
+  "data_publicacao": "2026-08-06",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município da Estância Turística de Piraju",
+     "https://www.estanciadepiraju.sp.gov.br/"
+    ],
+    [
+     "portal.institutoibepp.com.br",
+     "https://portal.institutoibepp.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-29",
+   "inscricoes_fim": "2026-08-30",
+   "site_inscricao": "https://portal.institutoibepp.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "Fiscal de Rendas e Tributos",
+    "inscricoes": "29.7.2026 a 30.8.2026",
+    "vagas": "1 vaga + CR",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Município da Estância Turística de Piraju , em São Paulo, divulgou o edital do Concurso Público nº 01/2026 para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "retificação com inscrições abertas até 2026-08-30 (republicado em 6.8.2026 após correção da regra de retificação)",
     "origem": "regras"
    }
   }

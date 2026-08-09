@@ -20,6 +20,7 @@ título e do trecho. Sinais de título valem mais que sinais de trecho: o
 título diz o que o documento É; o trecho é só a janela onde o cargo apareceu.
 """
 
+import datetime as dt
 import re
 
 from .filtro import normalizar
@@ -118,6 +119,12 @@ _EVIDENCIA_ABERTURA = [
     r"\banuncia (o )?concurso\b",
     r"\boferta \d+ vagas\b",
     r"\boferece \d+ vagas\b",
+    r"\boferece oportunidade\b",
+    r"\bconta com \d+ vagas?\b",
+    r"\blibera (o )?edital\b",
+    r"\bsai (o )?edital\b",
+    r"\bedital (publicado|liberado|divulgado)\b",
+    r"\bdivulga (o )?edital\b",
     r"\bnovo concurso\b",
     r"\bdivulga (o )?edital de (abertura|concurso)\b",
     r"\btorna publica a abertura\b",
@@ -167,6 +174,7 @@ _RX_PRORROGACAO = re.compile(
     r"|novo (?:prazo|periodo) de inscric"
 )
 
+_RX_RETIFICACAO = [re.compile(p) for p in (r"\bretifica\w*\b", r"\berrata\b")]
 _RX_DOC = [re.compile(p) for p in _DOC_NAO_CONCURSO]
 _RX_FASE = [re.compile(p) for p in _FASE_SEM_INSCRICAO]
 _RX_ABERTURA = [re.compile(p) for p in _EVIDENCIA_ABERTURA]
@@ -178,18 +186,34 @@ def _casados(rxs, texto):
     return [rx.pattern for rx in rxs if rx.search(texto)]
 
 
-def triar(achado, categoria, termos):
+def manchete_de_prazo(titulo):
+    """True quando o TÍTULO fala de abertura, prorrogação ou retificação —
+    gate barato para o caminho de atualização de prazo de cartão já publicado
+    (main.py), sem triagem completa. Retificação entra porque é assim que a
+    prorrogação costuma ser noticiada ("retifica edital e prorroga
+    inscrições"); quem decide é a data extraída. Fase posterior
+    (resultado, convocação, gabarito) nunca mexe em prazo."""
+    t = normalizar(titulo)
+    fases = [f for f in _casados(_RX_FASE, t)
+             if "retifica" not in f and "errata" not in f]
+    return bool(_casados(_RX_ABERTURA, t) or _casados(_RX_RETIFICACAO, t)) and not fases
+
+
+def triar(achado, categoria, termos, extracao=None, hoje=None):
     """Devolve (veredito, motivo) com veredito em
     {"abertura", "suspensao", "descarte", "incerto"}.
 
     categoria/termos vêm do Filtro: "tributario"/"controle" = cargo-alvo
-    casado com termo forte; "conferir" = termo ambíguo (nunca vira
-    "abertura" por regra — só a IA promove).
+    casado com termo forte; "conferir" = termo ambíguo.
+    extracao: dados estruturados do radar/extrator.py (período de inscrição
+    etc.) — decide retificação pela DATA real, não por palavra-chave.
     """
     titulo = normalizar(achado.titulo)
     trecho = normalizar(f"{achado.cargo_texto} {achado.detalhes.get('trecho', '')}")
     tudo = f"{titulo} {trecho}"
     forte = categoria in ("tributario", "controle")
+    cargo = termos[0] if termos else "cargo-alvo"
+    noticia = achado.fonte in FONTES_DE_NOTICIA
 
     abertura = _casados(_RX_ABERTURA, tudo)
     suspensao = _casados(_RX_SUSPENSAO, tudo)
@@ -206,17 +230,28 @@ def triar(achado, categoria, termos):
     if doc_titulo:
         return "descarte", f"documento não é concurso (título: {doc_titulo[0]})"
 
-    if fase_titulo and not abertura:
-        return "descarte", f"fase sem inscrição (título: {fase_titulo[0]})"
-
-    # Retificação noticiada: a regra de produto é binária — retificação que
-    # PRORROGA/REABRE prazo de inscrição avisa como abertura; sem novo
-    # prazo, não avisa (mero ajuste de edital em andamento).
+    # Retificação noticiada decide pela DATA: o artigo do PCI/CNB sempre
+    # reafirma o período de inscrições do concurso retificado. Inscrições
+    # ainda abertas => avisa (caso Piraju/SP, perdido em 7.8.2026 pela regra
+    # antiga de palavra-chave); encerradas => descarta com o motivo certo
+    # (caso Meridiano/SP, encerrado em 3.8.2026). Sem data legível, cai na
+    # fila de pendentes — nunca descarte silencioso nem aval do verificador
+    # (a anatomia do artigo de retificação é idêntica à de abertura).
+    # Cargo genérico ("agente fiscal" de conselho, "fiscal municipal") não
+    # ganha aviso por retificação: o ruído não compensa fora do alvo forte.
     retificacao = any("retifica" in f or "errata" in f for f in fase_titulo)
     if retificacao and achado.fonte in FONTES_DE_NOTICIA:
+        fim = (extracao or {}).get("inscricoes_fim", "")
+        if fim:
+            if fim >= (hoje or dt.date.today()).isoformat():
+                return "abertura", f"retificação com inscrições abertas até {fim}"
+            return "descarte", f"retificação de concurso com inscrições encerradas em {fim}"
         if _RX_PRORROGACAO.search(tudo):
-            return "abertura", f"retificação estendendo prazo de inscrição ({termos[0]})"
-        return "descarte", "retificação sem novo prazo de inscrição no artigo"
+            return "abertura", f"retificação estendendo prazo de inscrição ({cargo})"
+        return "incerto", "retificação sem período de inscrição legível no artigo"
+
+    if fase_titulo and not abertura:
+        return "descarte", f"fase sem inscrição (título: {fase_titulo[0]})"
 
     # Evidência de abertura no PRÓPRIO TÍTULO (manchete de notícia) decide
     # sozinha: o corpo de uma notícia de abertura cita etapas futuras
@@ -226,12 +261,19 @@ def triar(achado, categoria, termos):
     # do artigo (a extração é restrita ao <article>, sem menus).
     abertura_titulo = _casados(_RX_ABERTURA, titulo)
     if abertura_titulo and not fase_titulo and (forte or achado.fonte in FONTES_DE_NOTICIA):
-        return "abertura", f"manchete de abertura ({abertura_titulo[0]}) + cargo ({termos[0]})"
+        return "abertura", f"manchete de abertura ({abertura_titulo[0]}) + cargo ({cargo})"
 
     if abertura and forte and not fase_titulo and not fase_trecho:
-        return "abertura", f"evidência de inscrição ({abertura[0]}) + termo forte ({termos[0]})"
+        return "abertura", f"evidência de inscrição ({abertura[0]}) + termo forte ({cargo})"
 
     if fase_trecho and not abertura:
+        # Em FONTE DE NOTÍCIA o corpo do artigo de abertura sempre cita as
+        # etapas futuras ("classificação", "resultado", "convocação"): isso
+        # não é fase, é descrição do certame. Descartar por aí perdia
+        # abertura real (caso Conceição do Mato Dentro/MG, 7.8.2026) — aqui
+        # o item vai ao verificador, que lê o texto integral.
+        if noticia:
+            return "incerto", f"fase citada no corpo do artigo ({fase_trecho[0]}) — verificar"
         return "descarte", f"fase sem inscrição (trecho: {fase_trecho[0]})"
 
     pessoal = _casados(_RX_PESSOAL, tudo)

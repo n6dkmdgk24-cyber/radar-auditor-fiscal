@@ -61,6 +61,13 @@ _RX_PERIODO = re.compile(
 _RX_PERIODO_ALT = re.compile(
     r"(?:periodo|prazo) de inscric\w+|inscric\w+ (?:abertas|encerram|ate as)"
 )
+# etapa posterior citada entre as duas datas capturadas: a segunda data é da
+# prova/resultado, não do fim das inscrições (o cartão exibia contagem
+# regressiva contra data de prova — revisão de 6.8.2026)
+_RX_ETAPA_ENTRE = re.compile(
+    r"\bprovas?\b|\baplicac\w+\b|\bresultado\b|\bgabarito\b|\bhomologac\w+\b|"
+    r"\bconvocac\w+\b|\bclassificac\w+\b|\bdivulgad\w+\b|\bposse\b"
+)
 
 # Contra-evidência na janela: o cargo aparece em ato de pessoal ou em fase
 # posterior de concurso (reaproveita a semântica de radar/regras.py).
@@ -162,6 +169,10 @@ def analisar(texto, termos):
         extras = {}
         if periodo:
             datas = [d for d in periodo.groups() if d]
+            if len(datas) == 2 and _RX_ETAPA_ENTRE.search(
+                periodo.group(0)[periodo.end(1) - periodo.start(): periodo.start(2) - periodo.start()]
+            ):
+                datas = datas[:1]  # a segunda data é de outra etapa
             extras["inscricoes"] = " a ".join(datas)
         motivo = (
             f"anatomia de edital ({len(grupos)} seções: {', '.join(sorted(grupos))}) "
