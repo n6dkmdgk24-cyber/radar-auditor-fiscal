@@ -2178,5 +2178,46 @@
    "inscricoes_fim": "2026-08-10",
    "site_inscricao": "https://www.omconcursos.com.br"
   }
+ },
+ {
+  "descoberto_em": "2026-08-10",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Porto Alegre do Norte - MT divulga retificação de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-alegre-do-norte-mt-divulga-retificacao-de-concurso-publico",
+  "orgao": "Prefeitura de Porto Alegre do Norte",
+  "municipio": "Porto Alegre do Norte",
+  "uf": "MT",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Porto Alegre do Norte",
+     "https://www.portoalegredonorte.mt.gov.br/"
+    ],
+    [
+     "www.w2consultores.com.br",
+     "https://www.w2consultores.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2024-10-11",
+   "inscricoes_fim": "2024-10-31",
+   "site_inscricao": "https://www.w2consultores.com.br",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "11.10.2024 a 31.10.2024",
+    "vagas": "3 vagas",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Porto Alegre do Norte , no Estado de Mato Grosso, publicou edital de Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva em cargos de níveis alfabetizado, fundamental, médio,…",
+    "criterio": "suspensão/cancelamento detectado (\\bsuspensao\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
