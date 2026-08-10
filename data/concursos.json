@@ -2257,5 +2257,46 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-10",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal fazendario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Bariri - SP publica edital de concurso com salários de até R$ 19.593,52",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bariri-sp-publica-edital-de-concurso-com-salarios-de-ate-19593",
+  "orgao": "Prefeitura de Bariri",
+  "municipio": "Bariri",
+  "uf": "SP",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Bariri",
+     "https://www.bariri.sp.gov.br/"
+    ],
+    [
+     "www.fronteconcursos.com.br",
+     "https://www.fronteconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-14",
+   "inscricoes_fim": "2026-09-14",
+   "site_inscricao": "https://www.fronteconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal fazendario",
+    "inscricoes": "14.8.2026 a 14.9.2026",
+    "vagas": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Bariri , no Estado de São Paulo, publicou o edital do Concurso Público nº 01/2026 com o objetivo de preencher vagas imediatas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico …",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal fazendario)",
+    "origem": "regras"
+   }
+  }
  }
 ]

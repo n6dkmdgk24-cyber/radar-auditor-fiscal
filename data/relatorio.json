@@ -1,26 +1,26 @@
 {
- "executado_em": "2026-08-10T16:52:51",
+ "executado_em": "2026-08-10T20:30:04",
  "itens": [
   {
-   "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Santana de Pirapama (MG) abre mais de 70 vagas",
-   "url": "https://concursosnobrasil.com/concursos/mg/2026/08/10/concurso-prefeitura-de-santana-de-pirapama-mg-abre-mais-de-70-vagas/",
+   "fonte": "pci",
+   "titulo": "Prefeitura de Bariri - SP publica edital de concurso com salários de até R$ 19.593,52",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bariri-sp-publica-edital-de-concurso-com-salarios-de-ate-19593",
    "categoria_filtro": "tributario",
    "termos": [
-    "fiscal de tributos"
+    "fiscal fazendario"
    ],
    "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\bpublica (o )?edita(l|is)\\b) + termo forte (fiscal de tributos)",
+   "regras_motivo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal fazendario)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Forquilhinha — PORTARIA Nº 831, DE 04 DE AGOSTO DE 2026 (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593733",
+   "titulo": "Prefeitura municipal de São Ludgero — EXTRATO DE PUBLICAÇÃO - PORTARIA 650/2026 - PROCESSO ADMINISTRATIVO DISCIPLINAR (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8594711",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal de tributos"
    ],
    "regras": "descarte",
    "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
@@ -29,66 +29,14 @@
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Timbó — EDITAL DE NOTIFICAÇÃO DE LANÇAMENTO COMPLEMENTAR - TAXA DE LICENÇA PARA LOCALIZAÇÃO E FUNCIONAMENTO – ANO FISCAL 2026 (2026-08-1",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593591",
+   "titulo": "Prefeitura municipal de Luiz Alves — PORTARIA N.º 702/2026 (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8594668",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Timbó — EDITAL DE NOTIFICAÇÃO DE LANÇAMENTO COMPLEMENTAR - TAXA DOS ATOS DA VIGILÂNCIA SANITÁRIA MUNICIPAL - ANO FISCAL 2026 (2026-08-10",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593565",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Videira — 25.094/2026 (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8588835",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "ato de pessoal sobre servidor (\\bocupante d[eo] cargo\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Formosa do Sul — DECRETO MUNICIPAL N. 7190, DE 07 DE AGOSTO DE 2026 (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8587467",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Xaxim — DECRETO N.º 0278/2026, DE 07 DE AGOSTO DE 2026 (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8588410",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -103,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "domsc",
@@ -116,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "domsc",
@@ -129,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "domsc",
@@ -142,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 18)"
+   "destino": "pendente (tentativa 19)"
   }
  ]
 }
