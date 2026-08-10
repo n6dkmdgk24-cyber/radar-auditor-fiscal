@@ -1,6 +1,58 @@
 {
- "executado_em": "2026-08-09T20:21:04",
+ "executado_em": "2026-08-10T08:46:55",
  "itens": [
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Jaguapitã — EDITAL DE NOTIFICAÇÃO PRELIMINAR DE POSTURAS Nº 09/2026 NOTIFICAÇÃO PARA A LIMPEZA DE TERRENO / IMÓVEL (2026-08-10)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/C16C0D53",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Flor da Serra do Sul — PORTARIA 297/2026 (2026-08-10)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/67A1CC4C",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — EDITAL DE CONVOCAÇÃO DE APROVADOS Nº 016/2026 DO EDITAL º 001/2023 (2026-08-10)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/86D23CD7",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Doutor Ulysses — PORTARIA Nº 085/2026     SÚMULA: DISPÕE SOBRE O REGIME FUNCIONAL DE EXECUÇÃO DAS ATIVIDADES E A FORMA DE COMPROVAÇÃO DO",
+   "url": "https://www.diariomunicipal.com.br/amp/load/205CA678",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
   {
    "fonte": "qd",
    "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
@@ -12,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "domsc",
@@ -25,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "domsc",
@@ -38,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +103,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   }
  ]
 }

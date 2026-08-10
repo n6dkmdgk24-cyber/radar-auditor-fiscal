@@ -3290,5 +3290,89 @@
   "municipio": "São Roque",
   "uf": "SP",
   "trecho": "COMPARECIMENTO EM CONVOCAÇÃO DE CONCURSO PÚBLICO E PROCESSO SELETIVO O candidato abaixo relacionado foi convocado, porém não compareceu dentro dos prazos, ficando assim excluído do referido concurso público e/ou processo seletivo: NOME CPF/ CIN CLASSIF CARGO/ FUNÇÃO CATEG Júlia Santos Tecchio 388.xx"
+ },
+ {
+  "descartado_em": "2026-08-10",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "criterio": "documento não é concurso (título: \\bnotificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Jaguapitã — EDITAL DE NOTIFICAÇÃO PRELIMINAR DE POSTURAS Nº 09/2026 NOTIFICAÇÃO PARA A LIMPEZA DE TERRENO / IMÓVEL (2026-08-10)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/C16C0D53",
+  "municipio": "Jaguapitã",
+  "uf": "PR",
+  "trecho": "PJ sob nº 75.457.341/0001-90, com sede na Avenida Minas Gerais, 220, centro, CEP: 86.610-000 fone: (43) 3272-1122, neste ato representado pelo Agente Fiscal Tributário, vinculado na divisão de cadastro, fiscalização e tributação, NOTIFICA os(as) proprietários(as) dos terrenos localizados nessa cidad"
+ },
+ {
+  "descartado_em": "2026-08-10",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Flor da Serra do Sul — PORTARIA 297/2026 (2026-08-10)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/67A1CC4C",
+  "municipio": "Flor Da Serra Do Sul",
+  "uf": "PR",
+  "trecho": "trativo 40 Horas “NM” “1” “III” VITÓRIA BROCARDO DE LEON ***.128.529-** Engenheiro Ambiental 20 Horas “NS” “1” “III” JAYNARA JUCHNESKI ***.088.799-** Fiscal de Tributos 40 Horas “NS” “1” “III” EMMANUEL ROBERTO TAVARES ***.458.929-** Médico 20 Horas “NS” “1” “III” THAYANA BIANCA BOURKHARDT ***.528.71"
+ },
+ {
+  "descartado_em": "2026-08-10",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "MUNICIPIO DE SÃO JORGE D'OESTE — EDITAL DE CONVOCAÇÃO DE APROVADOS Nº 016/2026 DO EDITAL º 001/2023 (2026-08-10)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/86D23CD7",
+  "municipio": "São Jorge D'Oeste",
+  "uf": "PR",
+  "trecho": "e o rege, fica impedida a posse do candidato e o exercício do cargo, havendo a então a automática eliminação do candidato do Concurso Público. AGENTE FISCAL TRIBUTÁRIO CLASSIFICAÇÃO GUILHERME RAMOS 4º Este Edital entra em vigor na data de sua publicação Prefeitura do Município de São Jorge D'Oeste, "
+ },
+ {
+  "descartado_em": "2026-08-10",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Doutor Ulysses — PORTARIA Nº 085/2026     SÚMULA: DISPÕE SOBRE O REGIME FUNCIONAL DE EXECUÇÃO DAS ATIVIDADES E A FORMA DE COMPROVAÇÃO DO CUMPRIMENTO DA JORNADA DE TRABALHO PELO OCUPANTE DA FUNÇÃO DE CONTROLADOR INTERNO MUNICIPAL, E DÁ OUTRAS PROVIDÊNCIAS. (2026-08-10)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/205CA678",
+  "municipio": "Doutor Ulysses",
+  "uf": "PR",
+  "trecho": "DEPARTAMENTO DE ADMINISTRAÇÃO PORTARIA Nº 085/2026 SÚMULA: DISPÕE SOBRE O REGIME FUNCIONAL DE EXECUÇÃO DAS ATIVIDADES E A FORMA DE COMPROVAÇÃO DO CUMPRIMENTO DA JORNADA DE TRABALHO PELO OCUPANTE DA FUNÇÃO DE CONTROLADOR INTERNO MUNICIPAL, E DÁ OUTRAS PROVIDÊNCIAS. PORTARIA Nº 085/2026 SÚMULA: Dispõe"
  }
 ]
