@@ -2219,5 +2219,43 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-10",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Santana de Pirapama (MG) abre mais de 70 vagas",
+  "url": "https://concursosnobrasil.com/concursos/mg/2026/08/10/concurso-prefeitura-de-santana-de-pirapama-mg-abre-mais-de-70-vagas/",
+  "orgao": "Prefeitura de Santana de Pirapama",
+  "municipio": "Santana de Pirapama",
+  "uf": "MG",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "página",
+     "https://www.exameconsultores.com.br/informacoes/544/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-12",
+   "inscricoes_fim": "2026-11-10",
+   "site_inscricao": "https://www.exameconsultores.com.br/informacoes/544/",
+   "banca": "Exame Auditores e Consultores",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "12.10.2026 a 10.11.2026",
+    "vagas": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Santana de Pirapama (MG) publica edital de concurso para a reposição de 73 vagas com salários de até R$ 6,2 mil.",
+    "criterio": "evidência de inscrição (\\bpublica (o )?edita(l|is)\\b) + termo forte (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

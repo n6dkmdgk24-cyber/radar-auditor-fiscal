@@ -1,18 +1,96 @@
 {
- "executado_em": "2026-08-10T12:53:28",
+ "executado_em": "2026-08-10T16:52:51",
  "itens": [
   {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Porto Alegre do Norte - MT divulga retificação de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-porto-alegre-do-norte-mt-divulga-retificacao-de-concurso-publico",
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Santana de Pirapama (MG) abre mais de 70 vagas",
+   "url": "https://concursosnobrasil.com/concursos/mg/2026/08/10/concurso-prefeitura-de-santana-de-pirapama-mg-abre-mais-de-70-vagas/",
    "categoria_filtro": "tributario",
    "termos": [
     "fiscal de tributos"
    ],
-   "regras": "suspensao",
-   "regras_motivo": "suspensão/cancelamento detectado (\\bsuspensao\\b)",
+   "regras": "abertura",
+   "regras_motivo": "evidência de inscrição (\\bpublica (o )?edita(l|is)\\b) + termo forte (fiscal de tributos)",
    "verificador": null,
-   "destino": "publicado (regras: suspensao)"
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Forquilhinha — PORTARIA Nº 831, DE 04 DE AGOSTO DE 2026 (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8593733",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Timbó — EDITAL DE NOTIFICAÇÃO DE LANÇAMENTO COMPLEMENTAR - TAXA DE LICENÇA PARA LOCALIZAÇÃO E FUNCIONAMENTO – ANO FISCAL 2026 (2026-08-1",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8593591",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Timbó — EDITAL DE NOTIFICAÇÃO DE LANÇAMENTO COMPLEMENTAR - TAXA DOS ATOS DA VIGILÂNCIA SANITÁRIA MUNICIPAL - ANO FISCAL 2026 (2026-08-10",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8593565",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Videira — 25.094/2026 (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8588835",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "ato de pessoal sobre servidor (\\bocupante d[eo] cargo\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Formosa do Sul — DECRETO MUNICIPAL N. 7190, DE 07 DE AGOSTO DE 2026 (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8587467",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Xaxim — DECRETO N.º 0278/2026, DE 07 DE AGOSTO DE 2026 (2026-08-10)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8588410",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "qd",
@@ -25,7 +103,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   },
   {
    "fonte": "domsc",
@@ -38,7 +116,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +129,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "domsc",
@@ -64,7 +142,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 17)"
+   "destino": "pendente (tentativa 18)"
   }
  ]
 }
