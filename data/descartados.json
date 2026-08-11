@@ -3584,5 +3584,68 @@
   "municipio": "Palmeira",
   "uf": "PR",
   "trecho": "JOSIMAR DE JESUS VITOR DO NASCIMENTO PROFESSOR - 2016 SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL Presidente 204037 CARLA DAIANA DE SOUZA KAVALKEVISKI FISCAL TRIBUTÁRIO I Membro 203589 OLAIR DE JESUS FREITAS PEDAGOGO Membro 203949 MICHELE APARECIDA BATISTA EDUCADOR SOCIAL II Suplente 203874 MARLANA S"
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Vinhedo/SP — 2026-08-10",
+  "url": "https://data.queridodiario.ok.org.br/3556701/2026-08-10/a1e90bac03682ea6edecf489810d111724c54bbc.pdf",
+  "municipio": "Vinhedo",
+  "uf": "SP",
+  "trecho": "do Município de Vinhedo/SP https://www.vinhedo.sp.gov.br/diario-oficial/2621/ SECRETARIA MUNICIPAL DE RECURSOS HUMANOS Prefeitura Municipal de Vinhedo Estado de São Paulo PROCESSO SELETIVO SIMPLIFICADO Nº 01/2024 - CONVOCAÇÃO N.º"
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Flor da Serra do Sul — EDITAL 30/2026 CONVOCAÇÃO CONCURSO PÙBLICO 01/2026 (2026-08-11)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/F7318BA7",
+  "municipio": "Flor Da Serra Do Sul",
+  "uf": "PR",
+  "trecho": "Trabalho onde consta o número, série e a qualificação da mesma ou CTPS Digital; v) Carteira Nacional de Habilitação (CNH) exigido para os cargos: 1- Fiscal de Tributos: Categoria AB/ 2- Operador de máquina: Categoria C 3- Motorista: Categoria D ou superior w) Identidade e CPF cônjuge (quando casado "
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Campo do Tenente — PORTARIA Nº275/2026 (2026-08-11)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/C1060A7F",
+  "municipio": "Campo Do Tenente",
+  "uf": "PR",
+  "trecho": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO E FINANÇAS PORTARIA Nº275/2026 INSTITUI A COMISSÃO ESPECIAL DE AVALIAÇÃO DE IMÓVEIS E DÁ OUTRAS PROVIDÊNCIAS. WEVERTON WILLIAN VIZENTIN, Prefeito do Município de Campo do Tenente, Estado do Paraná, no uso de suas atribuições legais e, CONSIDERANDO a competência "
  }
 ]

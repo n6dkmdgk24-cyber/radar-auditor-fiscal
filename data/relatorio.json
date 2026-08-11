@@ -1,13 +1,52 @@
 {
- "executado_em": "2026-08-11T08:43:21",
+ "executado_em": "2026-08-11T12:53:45",
  "itens": [
   {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Almirante Tamandaré — EDITAL DE CONVOCAÇÃO Nº 055/2026 – CONCURSO PÚBLICO 2022 (2026-08-11)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/2F32B5C6",
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Vinhedo/SP — 2026-08-10",
+   "url": "https://data.queridodiario.ok.org.br/3556701/2026-08-10/a1e90bac03682ea6edecf489810d111724c54bbc.pdf",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Rio Verde de Mato Grosso - MS abre concurso público com salários até R$ 9.526,98",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-verde-de-mato-grosso-ms-abre-concurso-publico-com-salarios-ate-9526",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Rio Verde de Mato Grosso (MS) oferta mais de 400 vagas",
+   "url": "https://concursosnobrasil.com/concursos/ms/2026/08/11/concurso-prefeitura-de-rio-verde-de-mato-grosso-ms-oferta-mais-de-400-vagas/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Flor da Serra do Sul — EDITAL 30/2026 CONVOCAÇÃO CONCURSO PÙBLICO 01/2026 (2026-08-11)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/F7318BA7",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
    ],
    "regras": "descarte",
    "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
@@ -16,14 +55,14 @@
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Palmeira — DECRETO Nº 19.468, DE 10 DE AGOSTO DE 2026 - CONSTITUI SUBCOMISSÕES, VISANDO AUXILIAR A COMISSÃO DE AVALIAÇÃO HORIZONTAL REFE",
-   "url": "https://www.diariomunicipal.com.br/amp/load/7105E7D7",
+   "titulo": "Prefeitura Municipal de Campo do Tenente — PORTARIA Nº275/2026 (2026-08-11)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/C1060A7F",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal tributario"
+    "fiscal municipal"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -38,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "domsc",
@@ -51,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "domsc",
@@ -64,7 +103,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 16)"
+   "destino": "pendente (tentativa 17)"
   },
   {
    "fonte": "domsc",
@@ -77,7 +116,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 20)"
+   "destino": "pendente (tentativa 21)"
   }
  ]
 }

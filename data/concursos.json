@@ -2298,5 +2298,46 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-11",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Rio Verde de Mato Grosso - MS abre concurso público com salários até R$ 9.526,98",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-rio-verde-de-mato-grosso-ms-abre-concurso-publico-com-salarios-ate-9526",
+  "orgao": "Prefeitura de Rio Verde de Mato Grosso",
+  "municipio": "Rio Verde de Mato Grosso",
+  "uf": "MS",
+  "data_publicacao": "2026-08-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Rio Verde de Mato Grosso",
+     "https://www.rioverde.ms.gov.br/"
+    ],
+    [
+     "aplims.selecao.net.br",
+     "https://aplims.selecao.net.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-09-07",
+   "site_inscricao": "https://aplims.selecao.net.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor de tributos",
+    "inscricoes": "12.8.2026 a 7.9.2026",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Rio Verde de Mato Grosso , em Mato Grosso do Sul, divulgou o edital do Concurso Público destinado ao preenchimento de vagas efetivas e à formação de cadastro de reserva para profissionais de nível fundamental, médio e supe…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
