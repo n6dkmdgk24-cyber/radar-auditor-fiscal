@@ -1,7 +1,7 @@
 [
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 1,
+  "tentativas": 2,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -24,7 +24,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "tributario",
   "termos": [
    "auditor de tributos"
@@ -54,7 +54,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -79,7 +79,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -102,7 +102,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 18,
+  "tentativas": 19,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -125,7 +125,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

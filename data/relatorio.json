@@ -1,83 +1,16 @@
 {
- "executado_em": "2026-08-11T16:59:32",
+ "executado_em": "2026-08-11T20:34:56",
  "itens": [
   {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Vidal Ramos - SC abre concurso público com salários de até R$ 5.760,69",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vidal-ramos-sc-abre-concurso-publico-com-salarios-de-ate-5760",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Rio do Sul — PORTARIA N. 1723/DGP (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593520",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Itapema — EDITAL DE INTIMAÇÃO FISCAL Nº 002 DE 10 DE AGOSTO DE 2026 (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593054",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bintimacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Tubarão — PORTARIA PMT Nº 3.007, DE 07 DE AGOSTO DE 2026. HOMOLOGA ESTÁGIO PROBATÓRIO DO CARGO PÚBLICO DE AUDITOR FISCAL TRIBUTÁRIO (202",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593473",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor fiscal",
-    "fiscal tributario",
-    "auditor fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Guarujá do Sul — DECRETO MUNICIPAL Nº 198/2026 (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8598338",
+   "titulo": "Prefeitura municipal de Irani — LEI COMPLEMENTAR Nº 216/2026, DE 11 DE AGOSTO DE 2026. ALTERA A LEI COMPLEMENTAR MUNICIPAL Nº 155/2022, RECLASSIFICANDO SERVIDOR",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8599125",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de São Lourenço do Oeste — PORTARIAS 1140 A 1143 (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8592913",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "ato de pessoal sobre servidor (\\bocupante d[eo] cargo\\b)",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -92,20 +25,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Imbituba — PORTARIA PMI/SEGED Nº 1902/2026 (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8594829",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "auditor de controle interno"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "cnb",
@@ -118,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "qd",
@@ -131,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "domsc",
@@ -144,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 17)"
+   "destino": "pendente (tentativa 18)"
   },
   {
    "fonte": "domsc",
@@ -157,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 18)"
+   "destino": "pendente (tentativa 19)"
   },
   {
    "fonte": "domsc",
@@ -170,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 22)"
+   "destino": "pendente (tentativa 23)"
   }
  ]
 }

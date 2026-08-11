@@ -3773,5 +3773,26 @@
   "municipio": "Imbituba",
   "uf": "SC",
   "trecho": "18374 - 1 Auditor de Controle Interno 1 2 35983 / 2026 Art. 2º Esta Portaria entra em vigor na data de sua $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var target = $link.data('tar"
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\blei\\b)",
+   "criterio": "documento não é concurso (título: \\blei\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Irani — LEI COMPLEMENTAR Nº 216/2026, DE 11 DE AGOSTO DE 2026. ALTERA A LEI COMPLEMENTAR MUNICIPAL Nº 155/2022, RECLASSIFICANDO SERVIDORES E ATUALIZANDO ANEXO I (2026-08-11)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8599125",
+  "municipio": "Irani",
+  "uf": "SC",
+  "trecho": "1. Fiscal de Tributos 01 1. Fisioterapeuta"
  }
 ]
