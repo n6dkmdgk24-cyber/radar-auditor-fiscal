@@ -2339,5 +2339,46 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-11",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Vidal Ramos - SC abre concurso público com salários de até R$ 5.760,69",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vidal-ramos-sc-abre-concurso-publico-com-salarios-de-ate-5760",
+  "orgao": "Prefeitura de Vidal Ramos",
+  "municipio": "Vidal Ramos",
+  "uf": "SC",
+  "data_publicacao": "2026-08-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Vidal Ramos",
+     "https://vidalramos.sc.gov.br/"
+    ],
+    [
+     "portal.actio.srv.br",
+     "https://portal.actio.srv.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-09-17",
+   "site_inscricao": "https://portal.actio.srv.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "12.8.2026 a 17.9.2026",
+    "vagas": "1 vaga",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Vidal Ramos , em Santa Catarina, publicou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível alfabetizado, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
