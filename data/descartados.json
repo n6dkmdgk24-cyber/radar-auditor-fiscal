@@ -3542,5 +3542,47 @@
   "municipio": "Luiz Alves",
   "uf": "SC",
   "trecho": "RESOLVE: Art. 1º Conceder férias a servidora ANA LETICIA HENZ ZERMIANI, ocupante do cargo de Fiscal de Tributos, vinculada a Secretaria Municipal de Finanças, no período de 17 de agosto de 2026 a 26 de agosto de 2026. Art. 2º Esta Portaria entra em vigor na data de sua publicação. PREFEITURA MUNICIP"
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Almirante Tamandaré — EDITAL DE CONVOCAÇÃO Nº 055/2026 – CONCURSO PÚBLICO 2022 (2026-08-11)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/2F32B5C6",
+  "municipio": "Almirante Tamandaré",
+  "uf": "PR",
+  "trecho": "nformidade com a legislação vigente, resolve: TORNAR PÚBLICO O RESULTADO da avaliação de documentos contidos no Anexo I deste Edital, para o cargo de AUDITOR FISCAL EM NUTRIÇÃO conforme item 14.3 e 14.4 do Edital nº 003/2022 CONVOCAR os candidatos contidos no Anexo II deste Edital, considerados APTO"
+ },
+ {
+  "descartado_em": "2026-08-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bdecreto\\b)",
+   "criterio": "documento não é concurso (título: \\bdecreto\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Palmeira — DECRETO Nº 19.468, DE 10 DE AGOSTO DE 2026 - CONSTITUI SUBCOMISSÕES, VISANDO AUXILIAR A COMISSÃO DE AVALIAÇÃO HORIZONTAL REFERENTE AO PRIMEIRO SEMESTRE DE 2026 E DÁ OUTRAS PROVIDÊNCIAS. (2026-08-11)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/7105E7D7",
+  "municipio": "Palmeira",
+  "uf": "PR",
+  "trecho": "JOSIMAR DE JESUS VITOR DO NASCIMENTO PROFESSOR - 2016 SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL Presidente 204037 CARLA DAIANA DE SOUZA KAVALKEVISKI FISCAL TRIBUTÁRIO I Membro 203589 OLAIR DE JESUS FREITAS PEDAGOGO Membro 203949 MICHELE APARECIDA BATISTA EDUCADOR SOCIAL II Suplente 203874 MARLANA S"
  }
 ]

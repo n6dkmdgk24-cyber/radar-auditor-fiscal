@@ -1,42 +1,29 @@
 {
- "executado_em": "2026-08-10T20:30:04",
+ "executado_em": "2026-08-11T08:43:21",
  "itens": [
   {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Bariri - SP publica edital de concurso com salários de até R$ 19.593,52",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bariri-sp-publica-edital-de-concurso-com-salarios-de-ate-19593",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal fazendario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal fazendario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de São Ludgero — EXTRATO DE PUBLICAÇÃO - PORTARIA 650/2026 - PROCESSO ADMINISTRATIVO DISCIPLINAR (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8594711",
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Almirante Tamandaré — EDITAL DE CONVOCAÇÃO Nº 055/2026 – CONCURSO PÚBLICO 2022 (2026-08-11)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/2F32B5C6",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal de tributos"
+    "auditor fiscal"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Luiz Alves — PORTARIA N.º 702/2026 (2026-08-10)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8594668",
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Palmeira — DECRETO Nº 19.468, DE 10 DE AGOSTO DE 2026 - CONSTITUI SUBCOMISSÕES, VISANDO AUXILIAR A COMISSÃO DE AVALIAÇÃO HORIZONTAL REFE",
+   "url": "https://www.diariomunicipal.com.br/amp/load/7105E7D7",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal de tributos"
+    "fiscal tributario"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -51,7 +38,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "domsc",
@@ -64,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "domsc",
@@ -77,7 +64,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "domsc",
@@ -90,7 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 19)"
+   "destino": "pendente (tentativa 20)"
   }
  ]
 }

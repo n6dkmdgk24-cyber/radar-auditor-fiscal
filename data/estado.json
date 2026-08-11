@@ -1,22 +1,14 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-10T23:22:35"
+   "scraped_since": "2026-08-11T11:34:10"
   },
   "pci": {
    "lastmod_max": "2026-08-10"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-10T22:12:44",
+   "ultimo_pub": "2026-08-11T11:34:09",
    "guids": [
-    "https://concursosnobrasil.com/?p=381475",
-    "https://concursosnobrasil.com/?p=381451",
-    "https://concursosnobrasil.com/?p=381463",
-    "https://concursosnobrasil.com/?p=381447",
-    "https://concursosnobrasil.com/?p=381439",
-    "https://concursosnobrasil.com/?p=381430",
-    "https://concursosnobrasil.com/?p=381424",
-    "https://concursosnobrasil.com/?p=381414",
     "https://concursosnobrasil.com/?p=381412",
     "https://concursosnobrasil.com/?p=381397",
     "https://concursosnobrasil.com/?p=381377",
@@ -408,17 +400,25 @@
     "https://concursosnobrasil.com/?p=383969",
     "https://concursosnobrasil.com/?p=384043",
     "https://concursosnobrasil.com/?p=384037",
-    "https://concursosnobrasil.com/?p=384030"
+    "https://concursosnobrasil.com/?p=384030",
+    "https://concursosnobrasil.com/?p=384076",
+    "https://concursosnobrasil.com/?p=384080",
+    "https://concursosnobrasil.com/?p=384072",
+    "https://concursosnobrasil.com/?p=384061",
+    "https://concursosnobrasil.com/?p=384068",
+    "https://concursosnobrasil.com/?p=384057",
+    "https://concursosnobrasil.com/?p=384059",
+    "https://concursosnobrasil.com/?p=384051"
    ]
   },
   "dou": {
-   "ultima_data": "2026-08-10"
+   "ultima_data": "2026-08-11"
   },
   "sigpub": {
-   "ultima_data": "2026-08-10"
+   "ultima_data": "2026-08-11"
   },
   "domsc": {
-   "ultima_data": "2026-08-10"
+   "ultima_data": "2026-08-11"
   },
   "selecao": {
    "vistos": [
