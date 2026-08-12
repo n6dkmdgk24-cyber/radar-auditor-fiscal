@@ -1,31 +1,68 @@
 {
- "executado_em": "2026-08-12T12:53:49",
+ "executado_em": "2026-08-12T17:02:33",
  "itens": [
   {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Valinhos/SP — 2026-08-11",
-   "url": "https://data.queridodiario.ok.org.br/3556206/2026-08-11/35bbce2220b6cf8fe70e06e9589e65b48450d1db.pdf",
+   "fonte": "pci",
+   "titulo": "Prefeitura de Bom Jardim de Minas - MG reabre inscrições para Agente Comunitário de Saúde",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-bom-jardim-de-minas-mg-reabre-inscricoes-para-agente-comunitario-de-saude",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal"
+    "controlador interno"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Irineópolis — PORTARIA N.º 309/2026 (2026-08-12)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8601905",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Campinas/SP — 2026-08-11",
-   "url": "https://data.queridodiario.ok.org.br/3509502/2026-08-11/dc970ce23d4692434767ecba318be5638f58f870.pdf",
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Ibirama — LEI COMPLEMENTAR Nº 242, DE 11 DE AGOSTO DE 2026 (2026-08-12)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8597754",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal",
-    "fiscal tributario",
-    "auditor fiscal tributario"
+    "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bresultado\\b)",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Biguaçu — PORTARIA Nº 4430/2026 (2026-08-12)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8597996",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Bom Jesus do Oeste — PORTARIA Nº 207/2026, DE 12 DE AGOSTO DE 2026 (2026-08-12)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8601994",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -40,33 +77,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-08-11",
-   "url": "https://data.queridodiario.ok.org.br/3304557/2026-08-11/d33b532f23c04c35ceb24dbd2dcd51cc2933088b.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de rendas"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Casimiro de Abreu/RJ — 2026-08-11",
-   "url": "https://data.queridodiario.ok.org.br/3301306/2026-08-11/5d545ab4238a5e3380b791fd244f07470acd782c.pdf",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "agente fazendario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bnomear\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "qd",
@@ -80,72 +91,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 583, DE 07 DE MAIO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCAL",
-   "url": "https://www.diariomunicipal.com.br/amp/load/3E875A2D",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 614, DE 14 DE MAIO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCAL",
-   "url": "https://www.diariomunicipal.com.br/amp/load/6E2C1BCD",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Guaira — TERMO DE INTIMAÇÃO FISCAL (2026-08-12)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/D095F571",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bintimacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 691, DE 28 DE MAIO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCAL",
-   "url": "https://www.diariomunicipal.com.br/amp/load/07C5498D",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Reserva do Iguaçu — LEI 1366/2026 - REFIS 2026 (2026-08-12)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/840EB79C",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal municipal"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "domsc",
@@ -158,7 +104,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   },
   {
    "fonte": "cnb",
@@ -171,7 +117,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "qd",
@@ -184,7 +130,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 17)"
+   "destino": "pendente (tentativa 18)"
   },
   {
    "fonte": "domsc",
@@ -197,7 +143,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 20)"
+   "destino": "pendente (tentativa 21)"
   },
   {
    "fonte": "domsc",
@@ -210,7 +156,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 21)"
+   "destino": "pendente (tentativa 22)"
   },
   {
    "fonte": "domsc",
@@ -223,7 +169,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 25)"
+   "destino": "pendente (tentativa 26)"
   }
  ]
 }
