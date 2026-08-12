@@ -2380,5 +2380,46 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-12",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Arraias - TO prorroga inscrições de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-arraias-to-prorroga-inscricoes-de-concurso-publico",
+  "orgao": "Prefeitura de Arraias",
+  "municipio": "Arraias",
+  "uf": "TO",
+  "data_publicacao": "2026-08-12",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Arraias",
+     "https://www.arraias.to.gov.br/"
+    ],
+    [
+     "www.icap-to.com.br",
+     "https://www.icap-to.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-08-31",
+   "site_inscricao": "https://www.icap-to.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "12.8.2026 a 31.8.2026",
+    "vagas": "2 vagas",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Arraias , no estado de Tocantins, publicou um edital de Concurso Público para o preenchimento de vagas em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bprorroga(cao)? (de |das |o prazo de )?inscricoes?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
