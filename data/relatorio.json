@@ -1,122 +1,658 @@
 {
- "executado_em": "2026-08-13T12:53:02",
+ "executado_em": "2026-08-13T17:38:15",
  "itens": [
   {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Jundiaí/SP — 2026-08-12",
+   "url": "https://data.queridodiario.ok.org.br/3525904/2026-08-12/db9860c4cb030e8defa6a10a9aa554aede7dc11d.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fazendario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Rio de Janeiro/RJ — 2026-08-12",
+   "url": "https://data.queridodiario.ok.org.br/3304557/2026-08-12/77eb2338357cb85df4be152f2dbd3e405b37ec61.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de rendas"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bresultado\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "qd",
+   "titulo": "Diário Oficial de Campo Largo/PR — 2026-08-12",
+   "url": "https://data.queridodiario.ok.org.br/4104204/2026-08-12/825b51ab241b24fb701b702a454f69d8fc56d7b2.pdf",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
    "fonte": "pci",
-   "titulo": "Prefeitura de São Miguel do Araguaia - GO retifica edital de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-miguel-do-araguaia-go-retifica-edital-de-concurso-publico",
+   "titulo": "Prefeitura de Estrela - RS abre concurso público com salários de até R$ 8.058,13",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-estrela-rs-abre-concurso-publico-com-salarios-de-ate-8058",
    "categoria_filtro": "tributario",
    "termos": [
-    "fiscal de tributos"
+    "auditor fiscal"
    ],
    "regras": "abertura",
-   "regras_motivo": "retificação com inscrições abertas até 2026-09-09",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Cachoeira do Sul - RS abre concurso com salários de até R$ 19.535,28",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cachoeira-do-sul-rs-abre-concurso-com-salarios-de-ate-19535",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal fazendario"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Cachoeira do Sul (RS) oferta 49 vagas",
-   "url": "https://concursosnobrasil.com/concursos/rs/2026/08/13/concurso-prefeitura-de-cachoeira-do-sul-rs-oferta-49-vagas/",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (controlador interno)",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 761, DE 10 DE JUNHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
-   "url": "https://www.diariomunicipal.com.br/amp/load/746EFD75",
+   "titulo": "Prefeitura Municipal de Erechim — EDITAL DE NOTIFICAÇÃO DE DECISÃO/LANÇAMENTO (2026-08-10)",
+   "url": "https://www.diariomunicipal.com.br/famurs/load/75E7B709",
    "categoria_filtro": "conferir",
    "termos": [
+    "auditor fiscal",
     "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 830, DE 17 DE JUNHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
-   "url": "https://www.diariomunicipal.com.br/amp/load/7BECFCE7",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 864, DE 26 DE JUNHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
-   "url": "https://www.diariomunicipal.com.br/amp/load/F44FE7EB",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 892, DE 02 DE JULHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
-   "url": "https://www.diariomunicipal.com.br/amp/load/B6C5260D",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Loanda — PORTARIA 541/2026 (2026-08-13)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/6B7CAE78",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "MUNICIPIO DE ENÉAS MARQUES — EDITAL DE NOTIFICAÇÃO (2026-08-13)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/D93B11FD",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal tributario"
    ],
    "regras": "descarte",
    "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Erechim — EDITAL DE NOTIFICAÇÃO DE LANÇAMENTO (2026-08-10)",
+   "url": "https://www.diariomunicipal.com.br/famurs/load/7A1CAAC0",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Independência — PORTARIA Nº 76, DE 07 DE AGOSTO DE 2026.        NOMEIA OS RESPONSÁVEIS PELOS ÓRGÃOS SETORIAIS DO SISTEMA MUNICIPAL DE AR",
+   "url": "https://www.diariomunicipal.com.br/famurs/load/CD08F824",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Balneário Camboriú — PORTARIA 34.506/2026 (2026-08-13)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8606693",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Rodeio — PORTARIA Nº 18425- CONVALIDA LICENÇA PARA TRATAMENTO DE SAÚDE DE PESSOA DA FAMÍLIA À SERVIDORA PÚBLICA MUNICIPAL (2026-08-13)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8605939",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Campo Erê — DECRETO 4028/26 (2026-08-13)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8602712",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor de tributos",
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Maravilha — LEI COMPLEMENTAR Nº 214, DE 13 DE AGOSTO DE 2026 (2026-08-13)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8600738",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concursos ISS 2026: confira o panorama e prepare-se!",
+   "url": "https://blog.grancursosonline.com.br/concursos-iss/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Auriflama SP: inscrições abertas; 42 vagas! VEJA",
+   "url": "https://blog.grancursosonline.com.br/concurso-auriflama-sp/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Edital TCE SP 2026: retificação prorroga inscrições até 20/08!",
+   "url": "https://blog.grancursosonline.com.br/concurso-tce-sp-edital-publicado-2026/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor de controle externo"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "retificação com inscrições abertas até 2026-08-20",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Santana de Pirapama MG SAIU! Até R$ 6,2 MIL",
+   "url": "https://blog.grancursosonline.com.br/concurso-santana-de-pirapama-mg/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (5 seções: banca, carga, remuneracao, requisitos, taxa) + cargo 'fiscal de tributos' na janela",
+   "destino": "publicado (verificador: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso TCE SP 2026: veja cargos e vagas do edital!",
+   "url": "https://blog.grancursosonline.com.br/concurso-tce-sp-cargos-e-vagas-2026/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor de controle externo"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (7 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes, vagas) + cargo 'auditor de controle externo' na janela",
+   "destino": "publicado (verificador: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Rio Verde de Mato Grosso MS: SAIU; 430 vagas.!",
+   "url": "https://blog.grancursosonline.com.br/concurso-rio-verde-de-mato-grosso-ms/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (5 seções: edital, provas, remuneracao, requisitos, taxa) + cargo 'auditor de tributos' na janela",
+   "destino": "publicado (verificador: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Sefaz AL: 100 vagas para Auditor! edital em breve",
+   "url": "https://blog.grancursosonline.com.br/concurso-sefaz-al/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "pre_edital",
+   "regras_motivo": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: pre_edital)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Sefaz AL: documento confirma edital com 100 vagas!",
+   "url": "https://blog.grancursosonline.com.br/concurso-sefaz-al-documento-vagas-2026/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Piraju SP: SAIU; inscrições abertas. Confira!",
+   "url": "https://blog.grancursosonline.com.br/concurso-piraju-sp/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de rendas"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de rendas)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso CGU: 60 vagas para Auditor, banca em definição!",
+   "url": "https://blog.grancursosonline.com.br/concurso-cgu/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor federal de financas e controle"
+   ],
+   "regras": "pre_edital",
+   "regras_motivo": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor federal de financas e controle)",
+   "verificador": null,
+   "destino": "publicado (regras: pre_edital)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso CGU: EXCLUSIVO, contratação da banca até dezembro!",
+   "url": "https://blog.grancursosonline.com.br/concurso-cgu-exclusivo-banca-pode-sair-em-dezembro/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor federal de financas e controle"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Receita Federal forma equipe para contratação da banca",
+   "url": "https://blog.grancursosonline.com.br/concurso-receita-federal/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "analista tributario"
+   ],
+   "regras": "suspensao",
+   "regras_motivo": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+   "verificador": null,
+   "destino": "publicado (regras: suspensao)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Receita Federal: EXCLUSIVO, banca em definição!",
+   "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-exclusivo-banca-em-definicao/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "analista tributario"
+   ],
+   "regras": "pre_edital",
+   "regras_motivo": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: pre_edital)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concursos Administrativos: quase 800 vagas abertas hoje. Até R$19 mil!",
+   "url": "https://blog.grancursosonline.com.br/concursos-administrativos/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Câmara Rifaina SP: inscrições abertas; até R$ 7 mil!",
+   "url": "https://blog.grancursosonline.com.br/concurso-camara-rifaina-sp/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso TCDF 2026 para Analista oferta iniciais de R$14,9 mil!",
+   "url": "https://blog.grancursosonline.com.br/concurso-tcdf/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concursos Prefeituras 2026: Confira os editais com centenas de vagas",
+   "url": "https://blog.grancursosonline.com.br/concursos-prefeituras/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Bunda na cadeira",
+   "url": "https://blog.grancursosonline.com.br/bunda-na-cadeira/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de rendas",
+    "agente fiscal de rendas"
+   ],
+   "regras": "suspensao",
+   "regras_motivo": "suspensão/cancelamento detectado (\\badiad[oa]\\b)",
+   "verificador": null,
+   "destino": "publicado (regras: suspensao)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso CGE AL: locais de prova divulgados em 14/08!",
+   "url": "https://blog.grancursosonline.com.br/concurso-cge-al/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "analista de controle interno"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso CGE AL: locais de prova saem dia 14 de agosto",
+   "url": "https://blog.grancursosonline.com.br/concurso-cge-al-locais-de-prova-saem-dia-14-de-agosto/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "analista de controle interno"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (6 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'analista de controle interno' na janela",
+   "destino": "publicado (verificador: abertura)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concursos DF 2026: confira os editais abertos e previstos",
+   "url": "https://blog.grancursosonline.com.br/concursos-distrito-federal-df/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concursos Abertos: 50 mil vagas abertas esperam por você! Até R$ 27 mil!",
+   "url": "https://blog.grancursosonline.com.br/concursos-abertos/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso TCE MA: confira as vagas para Engenharia!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-ma-2026-vagas-engenharia/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor estadual de controle"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Auto de infração e apreensão para SEFAZ/DF",
+   "url": "https://www.estrategiaconcursos.com.br/blog/auto-infracao-apreensao-sefaz-df/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Tapejara PR: histórico da Prefeitura",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tapejara/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (7 seções: banca, carga, cronograma, provas, remuneracao, requisitos, taxa) + cargo 'auditor fiscal' na janela",
+   "destino": "publicado (verificador: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Rancho Alegre D’Oeste PR: inscrições abertas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-rancho-alegre-doeste/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Quatro Pontes PR: inscrições abertas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-quatro-pontes/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Cuité de Mamanguape PB: edital 2026",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-cuite-de-mamanguape/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor de tributos",
+    "fiscal de tributos"
+   ],
+   "regras": "suspensao",
+   "regras_motivo": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+   "verificador": null,
+   "destino": "publicado (regras: suspensao)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Córrego Fundo MG: inscrições abertas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-corrego-fundo/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Itarana ES: edital 2026 tem 43 vagas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-itarana/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (6 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'fiscal de tributos' na janela",
+   "destino": "descartado (inscrições encerradas)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Riachão do Jacuípe BA: inscrições abertas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-riachao-do-jacuipe/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Sefaz AL: número de vagas passa para 100; Cebraspe é a banca!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-al/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso TCE SP 2026: salário de R$ 20,9 mil; inscreva-se!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-sp/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor de controle externo"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\binscreva-se\\b) + cargo (auditor de controle externo)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Levantamento fiscal em fiscalização do ICMS para SEFAZ/DF",
+   "url": "https://www.estrategiaconcursos.com.br/blog/fiscal-fiscalizacao-icms-sefaz-df/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concursos Nordeste: oportunidades ATUALIZADAS para a região",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concursos-nordeste/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concursos Federais 2026: panorama dos próximos editais",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concursos-federais/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor federal de financas e controle"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso TCE RN 2026: resultado final é homologado!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-rn/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor de controle externo"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "ibam",
+   "titulo": "Camara Municipal de Blumenau — IBAM",
+   "url": "https://www.ibam-concursos.org.br/?status=1#collapse-368",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "abertura: anatomia de edital (7 seções: banca, edital, provas, remuneracao, requisitos, secao_inscricoes, taxa) + cargo 'controlador interno' na janela",
+   "destino": "publicado (verificador: abertura)"
   },
   {
    "fonte": "qd",
@@ -129,7 +665,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "qd",
@@ -143,7 +679,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "domsc",
@@ -156,7 +692,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "cnb",
@@ -166,10 +702,10 @@
    "termos": [
     "auditor de tributos"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 9)"
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
   },
   {
    "fonte": "qd",
@@ -182,7 +718,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 21)"
+   "destino": "pendente (tentativa 22)"
   },
   {
    "fonte": "domsc",
@@ -195,7 +731,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 24)"
+   "destino": "pendente (tentativa 25)"
   },
   {
    "fonte": "domsc",
@@ -208,7 +744,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 25)"
+   "destino": "pendente (tentativa 26)"
   },
   {
    "fonte": "domsc",
@@ -221,7 +757,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   }
  ]
 }

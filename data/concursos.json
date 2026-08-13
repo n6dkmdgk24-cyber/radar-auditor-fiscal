@@ -2703,5 +2703,889 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Estrela - RS abre concurso público com salários de até R$ 8.058,13",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-estrela-rs-abre-concurso-publico-com-salarios-de-ate-8058",
+  "orgao": "Prefeitura de Estrela",
+  "municipio": "Estrela",
+  "uf": "RS",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Instituto Objetiva",
+     "https://www.objetivas.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-18",
+   "inscricoes_fim": "2026-09-18",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "18.8.2026 a 18.9.2026",
+    "vagas": "2 vagas + CR",
+    "remuneracao": "até R$ 8.058,13",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Estrela, no Estado do Rio Grande do Sul, divulgou um edital de Concurso Público para o provimento de vagas imediatas e formação de cadastro de reserva, abrangendo os níveis médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Auriflama SP: inscrições abertas; 42 vagas! VEJA",
+  "url": "https://blog.grancursosonline.com.br/concurso-auriflama-sp/",
+  "orgao": "Auriflama",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Auriflama SP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/06190603/Edital-Auriflama-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-01",
+   "site_inscricao": "https://www.inepam.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "10.8.2026 a 1.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 6.502,13",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "De acordo com o cronograma, as inscrições permanecerão abertas até o dia 1º de setembro de 2026.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "gran",
+  "titulo": "Edital TCE SP 2026: retificação prorroga inscrições até 20/08!",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-sp-edital-publicado-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital TCE SP 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/04084943/Edital-TCE-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-13",
+   "inscricoes_fim": "2026-08-20",
+   "banca": "Professor Vitor Kessler No Dia 4 de Julho",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "13.7.2026 a 20.8.2026",
+    "vagas": "",
+    "remuneracao": "R$ 20.940,20",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O edital TCE SP foi retificado, e o prazo de inscrições foi prorrogado.",
+    "criterio": "retificação com inscrições abertas até 2026-08-20",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Santana de Pirapama MG SAIU! Até R$ 6,2 MIL",
+  "url": "https://blog.grancursosonline.com.br/concurso-santana-de-pirapama-mg/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Edital publicado",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/10183844/Edital-Santana-de-Pirapama-MG-2026.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/10183844/Edital-Santana-de-Pirapama-MG-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-12",
+   "inscricoes_fim": "2026-11-10",
+   "banca": "Area do Candidato",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "12.10.2026 a 10.11.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 6.200,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Santana de Pirapama, em Minas Gerais oferta 79 vagas imediatas para cargos de níveis fundamental, médio, técnico e superior.",
+    "criterio": "anatomia de edital (5 seções: banca, carga, remuneracao, requisitos, taxa) + cargo 'fiscal de tributos' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE SP 2026: veja cargos e vagas do edital!",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-sp-cargos-e-vagas-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Faça download do edital do Concurso TCE SP",
+     "https://www.tce.sp.gov.br/sites/default/files/concursos/TCESP%20-%20Edital%20de%20Abertura%20de%20Inscri%C3%A7%C3%B5es.pdf"
+    ]
+   ],
+   "inscricoes_fim": "2026-08-20",
+   "banca": "Fundacao Vunesp",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "até 20.8.2026",
+    "vagas": "",
+    "remuneracao": "R$ 20.940,20",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso TCE SP está com edital publicado para 50 vagas no cargo de Auditor de Controle Externo – DIPE, com exigência de nível superior e remuneração inicial de R$ 20.940,20.",
+    "criterio": "anatomia de edital (7 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes, vagas) + cargo 'auditor de controle externo' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Rio Verde de Mato Grosso MS: SAIU; 430 vagas.!",
+  "url": "https://blog.grancursosonline.com.br/concurso-rio-verde-de-mato-grosso-ms/",
+  "orgao": "Rio Verde de Mato Grosso",
+  "municipio": "",
+  "uf": "MS",
+  "data_publicacao": "2026-08-12",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Rio Verde de Mato Grosso",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/11102259/Edital-Rio-Verde-de-Mato-Grosso-MS-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-09-07",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "12.8.2026 a 7.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 9.526,98",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso da Prefeitura de Rio Verde de Mato Grosso MS está com edital publicado.",
+    "criterio": "anatomia de edital (5 seções: edital, provas, remuneracao, requisitos, taxa) + cargo 'auditor de tributos' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Sefaz AL: 100 vagas para Auditor! edital em breve",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-al/",
+  "orgao": "Sefaz",
+  "municipio": "",
+  "uf": "AL",
+  "data_publicacao": "2026-08-12",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital do concurso Sefaz AL",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/07/08095631/edital-sefaz-al-2021.pdf"
+    ],
+    [
+     "comissão alterada",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/08061057/concurso-sefaz-al-comissao-alterada-2026.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 32.300,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A comissão responsável pelo edital se reuniu e autorizou a contratação de banca organizadora.",
+    "criterio": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Piraju SP: SAIU; inscrições abertas. Confira!",
+  "url": "https://blog.grancursosonline.com.br/concurso-piraju-sp/",
+  "orgao": "Piraju",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-12",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Piraju SP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/29115808/Edital-Piraju-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-29",
+   "inscricoes_fim": "2026-08-30",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de rendas",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "29.7.2026 a 30.8.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 4.351,47",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Prefeitura de Piraju SP está com inscrições abertas.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de rendas)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "auditor federal de financas e controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CGU: 60 vagas para Auditor, banca em definição!",
+  "url": "https://blog.grancursosonline.com.br/concurso-cgu/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital do concurso CGU",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/12/23081356/Edital-CGU-2021.pdf"
+    ],
+    [
+     "Portaria Normativa CGU Nº 244, de 19 de janeiro de 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/01/21120326/Concurso-CGU-Portaria-dispoe-sobre-os-criterios-e-procedimentos-para-estagio-probatorio.pdf"
+    ]
+   ],
+   "banca": "Fundacao Getulio Vargas",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "controle",
+    "cargo": "auditor federal de financas e controle",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 36.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O prazo para contratação da instituição que será responsável pelo novo certame é dezembro.",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor federal de financas e controle)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal forma equipe para contratação da banca",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ],
+    [
+     "autorização para 146 vagas",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/03230616/concurso-receita-federal-autorizado-2026.pdf"
+    ],
+    [
+     "convocação para curso de formação",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/02/28031056/concurso-receita-federal-convocacao.pdf"
+    ],
+    [
+     "autorizada nomeação de 520 candidatos aprovados",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2024/12/05120837/Concurso-Receita-Federal-Autorizacao-para-nomeacao-de-520-excedentes.pdf"
+    ],
+    [
+     "Autorização para 697 nomeações",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/12/28141539/Concurso-Receita-Federal-Autorizacao-para-nomeacao-de-697-aprovados.pdf"
+    ],
+    [
+     "resultado definitivo do curso de formação",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/12/19104606/Concurso-Receita-Federal-Resultado-definitivo-do-curso-de-formacao.pdf"
+    ],
+    [
+     "relação de vagas disponíveis",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/11/22114903/Concurso-Receita-Federal-Relacao-de-vagas-disponiveis.pdf"
+    ],
+    [
+     "Resultado definitivo da prova objetiva (Auditor-Fiscal)",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/05/26181700/Concurso-Receita-Federal-resultado-final.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 16.935,99",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal avançou nos preparativos para o novo edital.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: EXCLUSIVO, banca em definição!",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-exclusivo-banca-em-definicao/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Faça download do último edital do concurso Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/05011454/Edital-Receita-Federal-2022-Concurso.pdf"
+    ],
+    [
+     "Faça download do último edital do concurso Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/05011454/Edital-Receita-Federal-2022-Concurso.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso Receita Federal deu mais um passo rumo ao novo edital.",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Câmara Rifaina SP: inscrições abertas; até R$ 7 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-camara-rifaina-sp/",
+  "orgao": "Câmara Rifaina",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Câmara Rifaina SP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/31192514/Edital-%EF%BB%BFCamara-Rifaina-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-08-24",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "3.8.2026 a 24.8.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 7.018,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Estão abertas as inscrições do concurso da Câmara Municipal de Rifaina, em São Paulo.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de rendas",
+   "agente fiscal de rendas"
+  ],
+  "fonte": "gran",
+  "titulo": "Bunda na cadeira",
+  "url": "https://blog.grancursosonline.com.br/bunda-na-cadeira/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Alguns anos atrás, havia em Belo Horizonte um homem que estudava com dores terríveis na coluna.",
+    "criterio": "suspensão/cancelamento detectado (\\badiad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CGE AL: locais de prova saem dia 14 de agosto",
+  "url": "https://blog.grancursosonline.com.br/concurso-cge-al-locais-de-prova-saem-dia-14-de-agosto/",
+  "orgao": "CGE",
+  "municipio": "",
+  "uf": "AL",
+  "data_publicacao": "2026-08-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o edital de convocação para consulta aos locais de prova",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/10073849/concurso-cge-al-local-prova.pdf"
+    ],
+    [
+     "Faça download do edital do Concurso CGE AL",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/03/19094331/concurso-cge-al-edital-publicado-2026-1.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 6.831,54",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso CGE AL (Controladoria-Geral do Estado de Alagoas) deu mais um passo importante no cronograma.",
+    "criterio": "anatomia de edital (6 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'analista de controle interno' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Tapejara PR: histórico da Prefeitura",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tapejara/",
+  "orgao": "Tapejara",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "inscricoes_fim": "2026-09-08",
+   "banca": "Instituto Omni",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "08/09/2026",
+    "vagas": "",
+    "remuneracao": "até R$ 3.976,65",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso da Prefeitura de Tapejara (PR) para professores teve 11 vagas imediatas e remuneração de até R$ 3.976,65.",
+    "criterio": "anatomia de edital (7 seções: banca, carga, cronograma, provas, remuneracao, requisitos, taxa) + cargo 'auditor fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Rancho Alegre D’Oeste PR: inscrições abertas",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-rancho-alegre-doeste/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 14.322,64",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso da Prefeitura de Rancho Alegre D’Oeste (PR) recebe inscrições em agosto para cargos efetivos.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Quatro Pontes PR: inscrições abertas",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-quatro-pontes/",
+  "orgao": "Quatro Pontes",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "inscricoes_inicio": "2026-09-08",
+   "inscricoes_fim": "2026-09-08",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "8.9.2026 a 8.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 15.970,05",
+    "validade": "2 anos",
+    "cadastro_reserva": false,
+    "resumo": "O concurso da Prefeitura de Quatro Pontes (PR) recebe inscrições até 8 de setembro de 2026 para cargos efetivos de níveis fundamental, médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor de tributos",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Cuité de Mamanguape PB: edital 2026",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-cuite-de-mamanguape/",
+  "orgao": "Cuité de Mamanguape",
+  "municipio": "",
+  "uf": "PB",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "inscricoes_fim": "2026-09-13",
+   "banca": "Advise",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "até 13.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 11.975,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso de Cuité de Mamanguape (PB) segue em andamento após o encerramento das inscrições do edital de 2026.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Córrego Fundo MG: inscrições abertas",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-corrego-fundo/",
+  "orgao": "Córrego Fundo",
+  "municipio": "",
+  "uf": "MG",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 4.368,63",
+    "validade": "1 ano",
+    "cadastro_reserva": false,
+    "resumo": "O concurso da Prefeitura de Córrego Fundo (MG) recebe inscrições até 19/08/2026 para Auditor Fiscal de Tributos e Técnico em Informática.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Riachão do Jacuípe BA: inscrições abertas",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-riachao-do-jacuipe/",
+  "orgao": "Riachão do Jacuípe",
+  "municipio": "",
+  "uf": "BA",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "inscricoes_fim": "2026-08-13",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "até 13.8.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 2.565,31",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso público de 2026 da Prefeitura de Riachão do Jacuípe está com inscrições em andamento para cargos efetivos de níveis médio e superior.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso TCE SP 2026: salário de R$ 20,9 mil; inscreva-se!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-sp/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-12",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Vunesp",
+     "https://www.vunesp.com.br/TCSP2501"
+    ],
+    [
+     "TCE SP 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/10135513/edital-concurso-tce-sp-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "Retificação 1",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/06121947/edital-retificado.pdf"
+    ],
+    [
+     "Confira as remunerações reais diretamente no Portal da Transparência do TCE SP",
+     "https://www.tce.sp.gov.br/transparencia-tcesp/gestao-pessoas/remuneracao/tabela"
+    ],
+    [
+     "inscritos",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/05/06111515/tcsp2403_310_20250505100819-pdf-1.pdf"
+    ],
+    [
+     "homologado",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/06164454/tcsp2403_306_20251009091353-pdf-1.pdf"
+    ],
+    [
+     "TCE SP 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/10135513/edital-concurso-tce-sp-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "TCE SP 2025",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/03/11113533/njcyota5ng-1.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-13",
+   "inscricoes_fim": "2026-08-20",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "13.7.2026 a 20.8.2026",
+    "vagas": "",
+    "remuneracao": "R$ 20.900,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "São contempladas 50 vagas no concurso TCE SP para o cargo de Auditor de Controle Externo Foi publicado o edital do mais novo concurso público do Tribunal de Contas do Estado de São Paulo (TCE SP).",
+    "criterio": "manchete de abertura (\\binscreva-se\\b) + cargo (auditor de controle externo)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "ibam",
+  "titulo": "Camara Municipal de Blumenau — IBAM",
+  "url": "https://www.ibam-concursos.org.br/?status=1#collapse-368",
+  "orgao": "Camara Municipal de Blumenau",
+  "municipio": "Blumenau",
+  "uf": "",
+  "data_publicacao": "",
+  "detalhes": {
+   "banca": "IBAM",
+   "id": "368",
+   "base": "https://www.ibam-concursos.org.br",
+   "edital_url": "https://www.ibam-concursos.org.br/documento/edit3.cmblu26.pdf",
+   "site_inscricao": "https://www.ibam-concursos.org.br/inscricao.asp?task=novo&cod=368&car=1641",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "27/09/26",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "anatomia de edital (7 seções: banca, edital, provas, remuneracao, requisitos, secao_inscricoes, taxa) + cargo 'controlador interno' na janela",
+    "criterio": "anatomia de edital (7 seções: banca, edital, provas, remuneracao, requisitos, secao_inscricoes, taxa) + cargo 'controlador interno' na janela",
+    "origem": "verificador"
+   }
+  }
  }
 ]
