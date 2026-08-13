@@ -1,19 +1,6 @@
 {
- "executado_em": "2026-08-12T20:35:45",
+ "executado_em": "2026-08-13T08:44:51",
  "itens": [
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Arraias - TO prorroga inscrições de concurso público",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-arraias-to-prorroga-inscricoes-de-concurso-publico",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\bprorroga(cao)? (de |das |o prazo de )?inscricoes?\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
   {
    "fonte": "pci",
    "titulo": "Prefeitura de Bom Jardim de Minas - MG reabre inscrições para Agente Comunitário de Saúde",
@@ -28,6 +15,32 @@
    "destino": "publicado (regras: abertura)"
   },
   {
+   "fonte": "dou",
+   "titulo": "EDITAL (Retificação (de Edital))",
+   "url": "https://www.in.gov.br/web/dou/-/edital-725176809",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Cafelândia — PORTARIA Nº. 415/2026-DRH (2026-08-13)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/386DB084",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
    "fonte": "qd",
    "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-11",
    "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-11/192799c1a8adf41cd5fee0dbd36c4eb733ea5ceb.pdf",
@@ -38,7 +51,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "qd",
@@ -52,7 +65,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "domsc",
@@ -65,7 +78,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   },
   {
    "fonte": "cnb",
@@ -78,7 +91,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "qd",
@@ -91,7 +104,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 19)"
+   "destino": "pendente (tentativa 20)"
   },
   {
    "fonte": "domsc",
@@ -104,7 +117,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 22)"
+   "destino": "pendente (tentativa 23)"
   },
   {
    "fonte": "domsc",
@@ -117,7 +130,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 23)"
+   "destino": "pendente (tentativa 24)"
   },
   {
    "fonte": "domsc",
@@ -130,7 +143,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 27)"
+   "destino": "pendente (tentativa 28)"
   }
  ]
 }

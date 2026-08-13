@@ -4214,5 +4214,47 @@
   "municipio": "Bom Jesus do Oeste",
   "uf": "SC",
   "trecho": "de Fiscal Tributário, Agente de Vigilância Sanitária e Engenheiro Civil, constantes do Anexo da Lei Complementar Municipal nº 755, de 08 de dezembro de 2010, a atribuição de “Exercer atividades de fiscalização ambiental, nos termos da legislação vigente”; CONSIDERANDO a necessidade de organização e "
+ },
+ {
+  "descartado_em": "2026-08-13",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bretificacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "dou",
+  "titulo": "EDITAL (Retificação (de Edital))",
+  "url": "https://www.in.gov.br/web/dou/-/edital-725176809",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-13",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "inscricoes": "",
+   "vagas": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Cafelândia — PORTARIA Nº. 415/2026-DRH (2026-08-13)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/386DB084",
+  "municipio": "Cafelândia",
+  "uf": "PR",
+  "trecho": "SECRETARIA MUNICIPAL DE GOVERNO PORTARIA Nº. 415/2026-DRH PORTARIA Nº. 415/2026-DRH SÚMULA: Concede Quinquênio aos Servidores Ocupantes de Cargo de Provimento Efetivo. O Prefeito Municipal de Cafelândia, Estado do Paraná, no uso de suas atribuições legais, R E S O L V E Art.1º CONCEDER aos servidore"
  }
 ]
