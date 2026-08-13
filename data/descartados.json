@@ -4862,5 +4862,29 @@
   "municipio": "Rio Verde de Mato Grosso",
   "uf": "MS",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-13",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Município de Águas Lindas de Goiás — EDITAL DE CONVOCAÇÃO PARA POSSE 05/2026 REFERENTE AO CONCURSO PÚBLICO Nº01/2023 (2026-08-12)",
+  "url": "https://www.diariomunicipal.com.br/agm/load/53119E57",
+  "municipio": "Águas Lindas de Goiás",
+  "uf": "GO",
+  "trecho": "SILVA MARTINS, 5 446706 FIS WAGNER LUIZ DAS NEVES, CARGO: FISCAL DE ATIVIDADES URBANAS (SEC. HABITAÇÃO) 4 481148 FIS LÁZARO DA SILVA OLIVEIRA CARGO: FISCAL DE TRIBUTOS MUNICIPAIS (SEC. ECONOMIA) 7 508945 FIS JARDHEL HENRIQUE OLIVEIRA FERNANDES, 8 499726 FIS WELTON VINICIUS MOURA SANTOS, 9 447467 FIS"
  }
 ]

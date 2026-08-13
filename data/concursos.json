@@ -3587,5 +3587,49 @@
     "origem": "verificador"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "pci",
+  "titulo": "TCE-SP divulga retificação do concurso público para Auditor de Controle Externo",
+  "url": "https://www.pciconcursos.com.br/noticias/tce-sp-divulga-retificacao-do-concurso-publico-para-auditor-de-controle-externo",
+  "orgao": "TCE",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "TCE-SP",
+     "https://www.tce.sp.gov.br/"
+    ],
+    [
+     "www.vunesp.com.br/TCSP2501",
+     "https://www.vunesp.com.br/TCSP2501"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-13",
+   "inscricoes_fim": "2026-08-20",
+   "site_inscricao": "https://www.vunesp.com.br/TCSP2501",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "13.7.2026 a 20.8.2026",
+    "vagas": "50 vagas",
+    "remuneracao": "R$ 20.940,20",
+    "validade": "24 meses, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Tribunal de Contas do Estado de São Paulo ( TCE-SP ) publicou um edital de concurso público para preencher vagas no cargo de Auditor de Controle Externo - DIPE, com exigência de nível superior.",
+    "criterio": "retificação com inscrições abertas até 2026-08-20",
+    "origem": "regras"
+   }
+  }
  }
 ]
