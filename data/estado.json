@@ -7,26 +7,8 @@
    "lastmod_max": "2026-08-13"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-13T11:35:02",
+   "ultimo_pub": "2026-08-13T15:27:54",
    "guids": [
-    "https://concursosnobrasil.com/?p=380864",
-    "https://concursosnobrasil.com/?p=380860",
-    "https://concursosnobrasil.com/?p=380867",
-    "https://concursosnobrasil.com/?p=380845",
-    "https://concursosnobrasil.com/?p=380850",
-    "https://concursosnobrasil.com/?p=380840",
-    "https://concursosnobrasil.com/?p=380831",
-    "https://concursosnobrasil.com/?p=380833",
-    "https://concursosnobrasil.com/?p=380816",
-    "https://concursosnobrasil.com/?p=380793",
-    "https://concursosnobrasil.com/?p=380809",
-    "https://concursosnobrasil.com/?p=380797",
-    "https://concursosnobrasil.com/?p=380802",
-    "https://concursosnobrasil.com/?p=380791",
-    "https://concursosnobrasil.com/?p=380789",
-    "https://concursosnobrasil.com/?p=380777",
-    "https://concursosnobrasil.com/?p=380771",
-    "https://concursosnobrasil.com/?p=380767",
     "https://concursosnobrasil.com/?p=380761",
     "https://concursosnobrasil.com/?p=380754",
     "https://concursosnobrasil.com/?p=380757",
@@ -408,7 +390,25 @@
     "https://concursosnobrasil.com/?p=384570",
     "https://concursosnobrasil.com/?p=384560",
     "https://concursosnobrasil.com/?p=384553",
-    "https://concursosnobrasil.com/?p=384545"
+    "https://concursosnobrasil.com/?p=384545",
+    "https://concursosnobrasil.com/?p=384702",
+    "https://concursosnobrasil.com/?p=384692",
+    "https://concursosnobrasil.com/?p=384690",
+    "https://concursosnobrasil.com/?p=384682",
+    "https://concursosnobrasil.com/?p=384684",
+    "https://concursosnobrasil.com/?p=384642",
+    "https://concursosnobrasil.com/?p=384649",
+    "https://concursosnobrasil.com/?p=384640",
+    "https://concursosnobrasil.com/?p=384653",
+    "https://concursosnobrasil.com/?p=384638",
+    "https://concursosnobrasil.com/?p=384636",
+    "https://concursosnobrasil.com/?p=384624",
+    "https://concursosnobrasil.com/?p=384628",
+    "https://concursosnobrasil.com/?p=384615",
+    "https://concursosnobrasil.com/?p=384594",
+    "https://concursosnobrasil.com/?p=384599",
+    "https://concursosnobrasil.com/?p=384587",
+    "https://concursosnobrasil.com/?p=384581"
    ]
   },
   "dou": {
@@ -446,6 +446,7 @@
   }
  },
  "fontes_com_falha": [
+  "qd",
   "selecao"
  ]
 }

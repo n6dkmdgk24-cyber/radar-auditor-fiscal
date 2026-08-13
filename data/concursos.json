@@ -2421,5 +2421,132 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de São Miguel do Araguaia - GO retifica edital de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-miguel-do-araguaia-go-retifica-edital-de-concurso-publico",
+  "orgao": "Prefeitura de São Miguel do Araguaia",
+  "municipio": "São Miguel do Araguaia",
+  "uf": "GO",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de São Miguel do Araguaia",
+     "https://saomigueldoaraguaia.go.gov.br/"
+    ],
+    [
+     "www.institutoverbena.ufg.br",
+     "https://www.institutoverbena.ufg.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-12",
+   "inscricoes_fim": "2026-09-09",
+   "site_inscricao": "https://www.institutoverbena.ufg.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "inscricoes": "12.8.2026 a 9.9.2026",
+    "vagas": "5 vagas",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de São Miguel do Araguaia , no estado de Goiás, divulgou o edital do Concurso Público visando à contratação de profissionais de nível fundamental, médio-técnico e superior.",
+    "criterio": "retificação com inscrições abertas até 2026-09-09",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal fazendario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cachoeira do Sul - RS abre concurso com salários de até R$ 19.535,28",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cachoeira-do-sul-rs-abre-concurso-com-salarios-de-ate-19535",
+  "orgao": "Prefeitura de Cachoeira do Sul",
+  "municipio": "Cachoeira do Sul",
+  "uf": "RS",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Cachoeira do Sul",
+     "https://www.cachoeiradosul.rs.gov.br/"
+    ],
+    [
+     "Instituto Objetiva",
+     "https://www.objetivas.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-18",
+   "inscricoes_fim": "2026-09-15",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal fazendario",
+    "inscricoes": "18.8.2026 a 15.9.2026",
+    "vagas": "1 vaga + CR",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O município de Cachoeira do Sul , no Rio Grande do Sul, abriu um Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para diversos cargos de profissionais de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-13",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Cachoeira do Sul (RS) oferta 49 vagas",
+  "url": "https://concursosnobrasil.com/concursos/rs/2026/08/13/concurso-prefeitura-de-cachoeira-do-sul-rs-oferta-49-vagas/",
+  "orgao": "Prefeitura de Cachoeira do Sul",
+  "municipio": "Cachoeira do Sul",
+  "uf": "RS",
+  "data_publicacao": "2026-08-13",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "site",
+     "https://concursos.objetivas.com.br/informacoes/2603/"
+    ],
+    [
+     "página",
+     "https://concursos.objetivas.com.br/informacoes/2603/"
+    ],
+    [
+     "Fale Conosco",
+     "https://concursos.objetivas.com.br/faleconosco/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-18",
+   "inscricoes_fim": "2026-09-15",
+   "site_inscricao": "https://concursos.objetivas.com.br/informacoes/2603/",
+   "banca": "banca Instituto Objetiva",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "inscricoes": "18.8.2026 a 15.9.2026",
+    "vagas": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Prefeitura de Cachoeira do Sul, no estado do Rio Grande do Sul, está sendo organizado pela banca Instituto Objetiva.",
+    "criterio": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
