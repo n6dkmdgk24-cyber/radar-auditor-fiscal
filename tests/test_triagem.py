@@ -303,3 +303,62 @@ def test_resumo_do_cartao_nunca_e_o_regex_da_regra(monkeypatch):
     assert "\\b" not in ia["resumo"], "regex vazou para o resumo do cartão"
     assert ia["resumo"].startswith("A Prefeitura de Exemplo")
     assert "manchete de abertura" in ia["criterio"]
+
+
+# --- v6: matérias-lista e pré-edital (13.8.2026) ---------------------------
+
+CASOS_AGREGADOR = [
+    "Concursos Abertos: 50 mil vagas abertas esperam por você! Até R$ 27 mil!",
+    "Concursos Prefeituras 2026: Confira os editais com centenas de vagas",
+    "Concursos DF 2026: confira os editais abertos e previstos",
+    "Concursos Nordeste: oportunidades ATUALIZADAS para a região",
+    "Concursos Administrativos: quase 800 vagas abertas hoje. Até R$19 mil!",
+]
+
+
+@pytest.mark.parametrize("titulo", CASOS_AGREGADOR, ids=lambda t: t[:40])
+def test_materia_lista_nao_vira_cartao(titulo):
+    """Portal de concurso publica matéria-agregadora citando dezenas de
+    certames — casa o cargo-alvo mas não é a abertura de UM concurso
+    (apareceu no primeiro dry-run com Gran/Estratégia)."""
+    a = Achado(fonte="gran", titulo=titulo, url="https://x",
+               cargo_texto="texto citando auditor fiscal e vários outros cargos")
+    veredito, motivo = regras.triar(a, "tributario", ["auditor fiscal"])
+    assert veredito == "descarte", motivo
+    assert "matéria-lista" in motivo
+
+
+CASOS_PRE_EDITAL = [
+    "Concurso Receita Federal: EXCLUSIVO, banca em definição!",
+    "Concurso CGU: 60 vagas para Auditor, banca em definição!",
+    "Concurso Sefaz AL: comissão formada para novo certame",
+]
+
+
+@pytest.mark.parametrize("titulo", CASOS_PRE_EDITAL, ids=lambda t: t[:40])
+def test_pre_edital_tem_classe_propria(titulo):
+    """Concurso autorizado/com banca definida interessa para começar a
+    estudar, mas não há o que se inscrever: bloco separado no painel."""
+    a = Achado(fonte="gran", titulo=titulo, url="https://x",
+               cargo_texto="cargo de auditor fiscal citado no texto")
+    veredito, _motivo = regras.triar(a, "tributario", ["auditor fiscal"])
+    assert veredito == "pre_edital"
+
+
+def test_abertura_vence_mencao_a_edital_futuro():
+    """'edital em breve' no meio de uma manchete de ABERTURA não rebaixa o
+    item para pré-edital."""
+    a = Achado(fonte="gran", titulo="Prefeitura de X abre concurso; edital em breve para o 2º cargo",
+               url="https://x", cargo_texto="auditor fiscal")
+    veredito, _ = regras.triar(a, "tributario", ["auditor fiscal"])
+    assert veredito == "abertura"
+
+
+def test_pre_edital_publica_com_classe_e_sem_prazo(monkeypatch):
+    _sem_rede(monkeypatch)
+    a = Achado(fonte="gran", titulo="Concurso Sefaz AL: banca definida para o certame",
+               url="https://exemplo/pre", uf="AL",
+               cargo_texto="O concurso da Sefaz AL terá 100 vagas para Auditor Fiscal.")
+    r = triagem.triar([(a, "tributario", ["auditor fiscal"])], [], {})
+    assert len(r.publicar) == 1
+    assert a.detalhes["ia"]["classe"] == "pre_edital"

@@ -105,14 +105,34 @@ Inocência e Macaé) estão congelados em `tests/` como regressão. O workflow
 
 ## Painel
 
-O painel (GitHub Pages) organiza os cartões por proximidade de Maringá/PR —
-**Paraná**, **vizinhos (SC · SP · MS)**, **demais estados** — e, dentro de cada
-grupo, quem encerra inscrição primeiro aparece primeiro. Cada cartão traz as
-datas de abertura e encerramento das inscrições (com contagem de dias), as
-vagas reais do cargo ("1 vaga + CR"), banca, validade do concurso e o link do
-site de inscrição. Concursos com inscrições encerradas ou suspensos ficam numa
-caixa recolhida no fim; a fila "aguardando confirmação" fica numa caixa
-recolhida no topo.
+O painel (GitHub Pages) organiza os cartões por **distância real de
+Maringá/PR**, calculada com as coordenadas do município (`radar/geo.py` +
+`data/municipios.csv`), não por sigla de UF:
+
+| Bloco | O que entra |
+|---|---|
+| 🎯 Perto de Maringá | Paraná a até 40 km, **mais os de prova remota** (servem de qualquer lugar) |
+| 📍 Paraná | resto do estado, do mais perto ao mais longe |
+| 🗺️ Estados vizinhos | SP · SC · MS, do mais perto ao mais longe |
+| 🌎 Demais estados | idem |
+| 🗄 Encerrados e suspensos | recolhido, no fim |
+| 🔎 Aguardando confirmação | recolhido, no topo |
+
+Dentro de cada bloco, quem está com **inscrição correndo** vem antes de quem
+ainda vai abrir; depois disso vale a proximidade. Todas as seções são
+recolhíveis e os cartões ficam em **duas colunas** em tela larga (uma no
+celular).
+
+Cada cartão traz: área com esfera ("Tributário municipal"), vagas reais do
+cargo, distância de Maringá, validade, **remuneração em destaque**, prazo com
+contagem regressiva, resumo, banca e os links de **edital (PDF)**, inscrição e
+notícia.
+
+Três coisas ficam guardadas no navegador dela (`localStorage`, sem servidor):
+
+- **ocultar** um concurso que não interessa (com contador para reexibir);
+- **selo de novidade** nos cartões que apareceram desde a última visita;
+- **filtros rápidos**: inscrições abertas, com vaga imediata, perto de Maringá.
 
 ## Uso local
 

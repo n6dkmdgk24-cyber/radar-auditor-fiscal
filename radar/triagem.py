@@ -66,14 +66,18 @@ class Resultado:
     expirados: int = 0
 
 
-def _veredito(classe, area, cargo, motivo, origem, extracao=None, cadastro_reserva=False):
+def _veredito(classe, area, cargo, motivo, origem, extracao=None, cadastro_reserva=False,
+              esfera="", prova_remota=False):
     ex = extracao or {}
     return {
         "classe": classe,
         "area": area,
         "cargo": cargo,
+        "esfera": esfera,
+        "prova_remota": prova_remota,
         "inscricoes": ex.get("inscricoes_texto", ""),
         "vagas": ex.get("vagas_texto", ""),
+        "remuneracao": ex.get("remuneracao", ""),
         "validade": ex.get("validade", ""),
         "cadastro_reserva": cadastro_reserva,
         # resumo é o texto HUMANO do cartão; o critério técnico (regex da
@@ -96,7 +100,37 @@ def _area_do_ambiguo(cargo, texto_norm):
     return "conferir"
 
 
+# Esfera do ente, para o selo do painel dizer "Tributário municipal" em vez de
+# só "Tributário" (feedback do Danilo, 12.8.2026: as etiquetas eram boas mas a
+# separação podia ser melhor). Decidida pelo órgão/título, nunca pelo cargo.
+_ESFERAS = (
+    ("federal", r"\breceita federal\b|\bministerio\b|\btcu\b|\bcgu\b|\bagencia nacional\b|"
+                r"\bpolicia federal\b|\buniversidade federal\b|\binstituto federal\b"),
+    ("estadual", r"\bsefaz\b|\bsefa\b|\bsecretaria de estado\b|\bgoverno do estado\b|"
+                 r"\btribunal de contas do estado\b|\btce\b|\bdetran\b|\bassembleia legislativa\b|"
+                 r"\bpolicia civil\b|\bpolicia militar\b|\bdefensoria publica do estado\b"),
+    ("municipal", r"\bprefeitura\b|\bmunicipio\b|\bcamara municipal\b|\bcamara de\b|"
+                  r"\bsaae\b|\bsamae\b|\bautarquia municipal\b|\bconsorcio intermunicipal\b"),
+)
+_RX_ESFERAS = [(nome, re.compile(padrao)) for nome, padrao in _ESFERAS]
+
+# Prova aplicada a distância: o concurso serve mesmo morando longe, então o
+# painel o mostra junto com os do raio de Maringá. Exige a palavra "prova"
+# perto de "online/remota" — "inscrição online" é o padrão e não conta.
+_RX_PROVA_REMOTA = re.compile(
+    r"\bprovas?\b[^.;]{0,60}?\b(?:online|on-line|remotas?|a distancia|telepresencial)\b"
+    r"|\b(?:online|on-line|remota|a distancia|telepresencial)[^.;]{0,30}?\bprovas?\b"
+)
+
 _RX_DATA_BR = re.compile(r"(\d{1,2})/(\d{1,2})/(\d{4})")
+
+
+def _esfera(achado):
+    alvo = normalizar(f"{achado.orgao} {achado.municipio} {achado.titulo}")
+    for nome, rx in _RX_ESFERAS:
+        if rx.search(alvo):
+            return nome
+    return ""
 
 
 def _fim_do_texto_de_inscricao(texto):
@@ -178,16 +212,19 @@ def triar(candidatos, pendentes_antigos, cfg, hoje=None):
             achado.detalhes["ia"] = _veredito(
                 classe, area_final, cargo, motivo, origem,
                 extracao=ex, cadastro_reserva=ex["cr_somente"],
+                esfera=_esfera(achado),
+                prova_remota=bool(_RX_PROVA_REMOTA.search(texto_norm)),
             )
             r.publicar.append((achado, categoria_final, termos, de_pendentes))
             return f"publicado ({origem}: {classe})"
 
         def _encerrado():
-            """Guarda: abertura com fim extraído no passado não é aviso."""
+            """Guarda: abertura com fim extraído no passado não é aviso.
+            Suspensão e pré-edital não têm prazo corrente a vencer."""
             return (
                 ex["inscricoes_fim"]
                 and ex["inscricoes_fim"] < hoje.isoformat()
-                and veredito_r != "suspensao"
+                and veredito_r not in ("suspensao", "pre_edital")
             )
 
         if veredito_r == "descarte":
@@ -199,7 +236,7 @@ def triar(candidatos, pendentes_antigos, cfg, hoje=None):
             r.relatorio.append(linha)
             continue
 
-        if veredito_r in ("abertura", "suspensao"):
+        if veredito_r in ("abertura", "suspensao", "pre_edital"):
             if veredito_r == "abertura" and _encerrado():
                 r.descartar.append(
                     (

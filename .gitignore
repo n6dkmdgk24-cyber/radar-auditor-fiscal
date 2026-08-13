@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .DS_Store
 Gmail*
+
+# e-mails da newsletter usados só como referência de conteúdo (o repo é público)
+Emails/
+emails/

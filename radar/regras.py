@@ -161,8 +161,10 @@ _SUSPENSAO = [
 ]
 
 # Fontes cujo título é manchete editorial (diz o que aconteceu); diários
-# oficiais brutos (qd/sigpub/domsc/dou) ficam de fora.
-FONTES_DE_NOTICIA = {"pci", "cnb", "selecao"}
+# oficiais brutos (qd/sigpub/domsc/dou) e páginas de banca (selecao/fafipa/
+# ibam, cujo título é o nome do certame) ficam de fora — nelas o título não
+# afirma nada e quem decide é o verificador, lendo o documento.
+FONTES_DE_NOTICIA = {"pci", "cnb", "gran", "estrategia"}
 
 # Prorrogação/reabertura DE INSCRIÇÕES (a palavra precisa estar amarrada a
 # "inscri..." na mesma oração). "Concurso terá validade de 2 anos, podendo
@@ -174,7 +176,44 @@ _RX_PRORROGACAO = re.compile(
     r"|novo (?:prazo|periodo) de inscric"
 )
 
+# Matéria-agregadora dos portais de concurso: lista dezenas de certames de uma
+# vez ("Concursos Abertos: 50 mil vagas", "Concursos Prefeituras 2026") ou é
+# conteúdo de estudo/motivação. Cita todo cargo do mundo, inclusive os nossos,
+# mas não é a abertura de UM concurso — viraria cartão sem ente nem prazo.
+# Descoberto no primeiro dry-run com Gran/Estratégia (13.8.2026).
+_AGREGADOR = [
+    r"^concursos\b",
+    r"\bconcursos (abertos|previstos|programados|autorizados|iminentes)\b",
+    r"\b(lista|resumo|balanco|panorama|guia) (dos |de )?concursos\b",
+    r"\bmelhores concursos\b",
+    r"\bconcursos (para|de|do|da|em|no|na) [\w\s]{0,20}20\d\d\b",
+    r"\bmais de \d+ (mil )?vagas\b",
+    r"\bconcursos? da semana\b",
+    r"\boportunidades da semana\b",
+]
+
+# Fase ANTERIOR ao edital: a newsletter que o Danilo assina trata isso como
+# categoria própria ("Banca Escolhida", "Comissão Formada", "Inscrições em
+# Breve") e faz sentido — é o momento de começar a estudar. Não é abertura
+# (não há o que se inscrever), então vai para um bloco separado do painel.
+_PRE_EDITAL = [
+    r"\bbanca (definida|escolhida|contratada|em definicao)\b",
+    r"\bdefine (a )?banca\b",
+    r"\bescolhe (a )?banca\b",
+    r"\bcontrata (a )?banca\b",
+    r"\bcomissao (formada|organizadora|constituida|designada)\b",
+    r"\bforma comissao\b",
+    r"\bedital (sai|previsto|em breve|iminente|autorizado)\b",
+    r"\bautorizad[oa] (o )?(novo )?concurso\b",
+    r"\bconcurso autorizado\b",
+    r"\bpedido de concurso\b",
+    r"\bsolicita (a )?abertura\b",
+    r"\bem breve\b",
+]
+
 _RX_RETIFICACAO = [re.compile(p) for p in (r"\bretifica\w*\b", r"\berrata\b")]
+_RX_AGREGADOR = [re.compile(p) for p in _AGREGADOR]
+_RX_PRE_EDITAL = [re.compile(p) for p in _PRE_EDITAL]
 _RX_DOC = [re.compile(p) for p in _DOC_NAO_CONCURSO]
 _RX_FASE = [re.compile(p) for p in _FASE_SEM_INSCRICAO]
 _RX_ABERTURA = [re.compile(p) for p in _EVIDENCIA_ABERTURA]
@@ -221,9 +260,23 @@ def triar(achado, categoria, termos, extracao=None, hoje=None):
     fase_titulo = _casados(_RX_FASE, titulo)
     fase_trecho = _casados(_RX_FASE, trecho)
 
+    # matéria-agregadora não é concurso: encerra antes de qualquer outra regra
+    if noticia:
+        agregador = _casados(_RX_AGREGADOR, titulo)
+        if agregador:
+            return "descarte", f"matéria-lista de vários concursos (título: {agregador[0]})"
+
     if suspensao and "concurso" in tudo:
         motivo = f"suspensão/cancelamento detectado ({suspensao[0]})"
         return ("suspensao", motivo) if forte else ("incerto", motivo)
+
+    # Pré-edital só é reconhecido em fonte de notícia e quando o título NÃO
+    # anuncia abertura: "Prefeitura abre concurso; edital em breve para o 2º
+    # cargo" é abertura, não pré-edital.
+    if noticia and forte and not _casados(_RX_ABERTURA, titulo):
+        pre = _casados(_RX_PRE_EDITAL, titulo)
+        if pre and not fase_titulo:
+            return "pre_edital", f"concurso ainda sem edital ({pre[0]}) + cargo ({cargo})"
 
     # O tipo do documento tem precedência sobre menções soltas a abertura:
     # portaria/decreto/lei não abrem concurso, mesmo citando o cargo.

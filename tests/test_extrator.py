@@ -440,3 +440,229 @@ def test_banca_nao_sai_cortada_quando_o_texto_tem_reticencias():
     )
     banca = extrator.extrair(achado, ["auditor fiscal"], hoje=HOJE)["banca"]
     assert banca.lower().startswith("funda"), banca
+
+
+# --- campos novos: remuneração e edital_url (feedback do Danilo, 12.8.2026) -
+
+def test_remuneracao_coronel_vivida_teto_da_faixa_do_certame():
+    """Coronel Vivida/PR não amarra salário ao cargo-alvo (Fiscal Tributário);
+    só há a faixa do certame inteiro ('remuneração inicial de R$ 2.565,32 a
+    R$ 21.525,56') — usa o TETO, marcado 'até'."""
+    ex = _extrair("coronel_vivida_artigo", ["fiscal tributario"])
+    assert ex["remuneracao"] == "até R$ 21.525,56"
+    assert ex["remuneracao_valor"] == 21525.56
+
+
+def test_remuneracao_cuite_ignora_cargo_auxiliar_na_mesma_frase():
+    """Cuité de Mamanguape/PB: a lista de cargos (com 'Auxiliar de Saúde
+    Bucal') e a frase de remuneração caem na MESMA sentença, sem ponto entre
+    elas — a exclusão de auxílio-alimentação não pode cortar a frase em
+    'auxiliar' e apagar a remuneração inteira."""
+    ex = _extrair("cuite_mamanguape_artigo", ["auditor de tributos", "fiscal de tributos"])
+    assert ex["remuneracao"] == "até R$ 11.975,00"
+    assert ex["remuneracao_valor"] == 11975.00
+
+
+def test_remuneracao_tcesp_valor_unico_do_cargo_sem_prefixo_ate():
+    """TCE-SP: 'com remuneração mensal de R$ 20.940,20' é um valor ÚNICO
+    (não uma faixa) para o único cargo do artigo — sai sem 'até'."""
+    ex = _extrair("tcesp_prorrogacao_artigo", ["auditor de controle externo"])
+    assert ex["remuneracao"] == "R$ 20.940,20"
+    assert ex["remuneracao_valor"] == 20940.20
+
+
+def test_remuneracao_ipua_teto_da_faixa():
+    ex = _extrair("ipua_reabertura_artigo", ["fiscal municipal"])
+    assert ex["remuneracao"] == "até R$ 6.536,19"
+    assert ex["remuneracao_valor"] == 6536.19
+
+
+def test_remuneracao_marialva_ignora_auxilio_alimentacao():
+    """'R$ 6.768,66, acrescidos de auxílio-alimentação de R$ 730,00' não pode
+    devolver R$ 730 nem confundir o teto com o valor do auxílio."""
+    ex = _extrair("marialva_artigo", ["agente fiscal"])
+    assert ex["remuneracao"] == "até R$ 6.768,66"
+    assert ex["remuneracao_valor"] == 6768.66
+
+
+def test_remuneracao_auriflama_teto_da_faixa():
+    ex = _extrair("auriflama_cnb_artigo", ["auditor fiscal"])
+    assert ex["remuneracao"] == "até R$ 6.502,13"
+    assert ex["remuneracao_valor"] == 6502.13
+
+
+def test_remuneracao_quatro_pontes_teto_da_faixa():
+    ex = _extrair("quatro_pontes_artigo", ["fiscal de tributos"])
+    assert ex["remuneracao"] == "até R$ 15.970,05"
+    assert ex["remuneracao_valor"] == 15970.05
+
+
+def test_remuneracao_cajueiro_teto_da_faixa():
+    ex = _extrair("cajueiro_reabertura_artigo", ["auditor tributario"])
+    assert ex["remuneracao"] == "até R$ 4.000,00"
+    assert ex["remuneracao_valor"] == 4000.00
+
+
+def test_remuneracao_piraju_teto_da_faixa():
+    ex = _extrair("piraju_retificacao_artigo", ["fiscal de rendas"])
+    assert ex["remuneracao"] == "até R$ 4.351,47"
+    assert ex["remuneracao_valor"] == 4351.47
+
+
+def test_remuneracao_meridiano_teto_da_faixa():
+    ex = _extrair("meridiano_retificacao_artigo", ["fiscal municipal"])
+    assert ex["remuneracao"] == "até R$ 9.722,52"
+    assert ex["remuneracao_valor"] == 9722.52
+
+
+def test_remuneracao_do_cargo_alvo_tem_prioridade_sobre_a_faixa_do_certame():
+    """Quando o artigo lista salário POR CARGO ('Fiscal de Tributos (R$
+    4.500,00)'), o valor do cargo-alvo vence a faixa geral dos demais cargos
+    — não pode virar 'até R$ 10.000,00' (teto de outro cargo)."""
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x",
+        cargo_texto=(
+            "Segundo o edital, as oportunidades são para os cargos de: "
+            "Fiscal de Tributos (R$ 4.500,00) Contador (R$ 3.200,00). "
+            "A remuneração dos demais cargos varia de R$ 1.500,00 a R$ 10.000,00."
+        ),
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["remuneracao"] == "R$ 4.500,00"
+    assert ex["remuneracao_valor"] == 4500.0
+
+
+def test_remuneracao_mil_abreviado_vira_valor_cheio():
+    """'R$ 6,5 mil' e 'R$ 22,8 mil' são o formato usado por alguns artigos do
+    cnb no lugar do valor por extenso — 6,5 mil = 6500.0."""
+    achado = Achado(
+        fonte="cnb", titulo="", url="https://x",
+        cargo_texto="O salário do cargo é de R$ 6,5 mil, conforme o edital.",
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["remuneracao"] == "R$ 6.500,00"
+    assert ex["remuneracao_valor"] == 6500.0
+
+    achado2 = Achado(
+        fonte="cnb", titulo="", url="https://x",
+        cargo_texto="Os salários chegam a R$ 22,8 mil para o cargo.",
+    )
+    ex2 = extrator.extrair(achado2, ["fiscal de tributos"], hoje=HOJE)
+    assert ex2["remuneracao"] == "R$ 22.800,00"
+    assert ex2["remuneracao_valor"] == 22800.0
+
+
+def test_remuneracao_ate_explicito_no_texto_mantem_prefixo():
+    """'salários de até R$ X' já vem com 'até' no artigo, mesmo sendo um
+    valor só (sem faixa) — o prefixo tem que ser preservado."""
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x",
+        cargo_texto="Segundo o edital, os salários serão de até R$ 21.525,56, conforme o cargo.",
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["remuneracao"] == "até R$ 21.525,56"
+    assert ex["remuneracao_valor"] == 21525.56
+
+
+def test_remuneracao_taxa_de_inscricao_nao_vira_remuneracao():
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x",
+        cargo_texto="A taxa de inscrição é de R$ 150,00 para o cargo de Fiscal de Tributos.",
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["remuneracao"] == "" and ex["remuneracao_valor"] is None
+
+
+def test_remuneracao_sem_valor_no_texto_fica_vazia():
+    achado = Achado(
+        fonte="pci", titulo="Título qualquer", url="https://x",
+        cargo_texto="Texto sem nenhuma informação de concurso.",
+    )
+    ex = extrator.extrair(achado, ["auditor fiscal"], hoje=HOJE)
+    assert ex["remuneracao"] == "" and ex["remuneracao_valor"] is None
+
+
+def test_vazio_inclui_remuneracao_e_edital_url():
+    v = extrator.vazio()
+    assert v["remuneracao"] == "" and v["remuneracao_valor"] is None
+    assert v["edital_url"] == ""
+
+
+def test_edital_url_extraido_do_link_do_artigo():
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).",
+        detalhes={"links_artigo": [
+            ["Edital de Abertura", "https://exemplo.org.br/editais/edital-abertura-001-2026.pdf"],
+            ["Inscrições", "https://exemplo.org.br/inscricoes"],
+        ]},
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == "https://exemplo.org.br/editais/edital-abertura-001-2026.pdf"
+
+
+def test_edital_url_ignora_retificacao_e_acha_o_edital_original():
+    """O link mais citado no corpo costuma ser o da retificação mais
+    recente — mesmo vindo ANTES na lista de links, não pode vencer o edital
+    de abertura de verdade."""
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).",
+        detalhes={"links_artigo": [
+            ["1ª Retificação do Edital", "https://exemplo.org.br/retificacao-001.pdf"],
+            ["Edital completo", "https://exemplo.org.br/edital-completo-001.pdf"],
+        ]},
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == "https://exemplo.org.br/edital-completo-001.pdf"
+
+
+def test_edital_url_rejeita_todas_as_fases_posteriores():
+    links = [
+        ["Gabarito Preliminar", "https://x.org/gabarito.pdf"],
+        ["Resultado Final", "https://x.org/resultado.pdf"],
+        ["Convocação para posse", "https://x.org/convocacao.pdf"],
+        ["Homologação do concurso", "https://x.org/homologacao.pdf"],
+        ["Anexo I - Cronograma", "https://x.org/anexo-cronograma.pdf"],
+        ["Errata do edital", "https://x.org/errata.pdf"],
+    ]
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).",
+        detalhes={"links_artigo": links},
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == ""
+
+
+def test_edital_url_exige_pdf():
+    """Link de texto 'edital de abertura' sem ser .pdf (página HTML de
+    índice, por exemplo) não vira edital_url — o campo é para o PDF."""
+    achado = Achado(
+        fonte="pci", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).",
+        detalhes={"links_artigo": [
+            ["Edital de Abertura", "https://exemplo.org.br/edital-abertura"],
+        ]},
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == ""
+
+
+def test_edital_url_do_coletor_tem_precedencia():
+    """Coletor de banca (ex.: selecao.net.br) já lê o edital_url da própria
+    página de detalhe — o extrator não pode sobrescrever com um link pior
+    achado no texto do artigo."""
+    achado = Achado(
+        fonte="selecao", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).",
+        detalhes={
+            "edital_url": "https://banca.selecao.net.br/edital-oficial.pdf",
+            "links_artigo": [
+                ["Edital de Abertura", "https://outro-dominio.org/edital-errado.pdf"],
+            ],
+        },
+    )
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == "https://banca.selecao.net.br/edital-oficial.pdf"
+
+
+def test_edital_url_vazio_quando_nao_ha_links():
+    achado = Achado(fonte="pci", titulo="", url="https://x", cargo_texto="Fiscal de Tributos (1 vaga).")
+    ex = extrator.extrair(achado, ["fiscal de tributos"], hoje=HOJE)
+    assert ex["edital_url"] == ""

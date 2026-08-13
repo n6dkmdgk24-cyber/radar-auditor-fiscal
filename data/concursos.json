@@ -20,7 +20,10 @@
     "inscricoes": "27.7.2026 a 25.8.2026",
     "cadastro_reserva": false,
     "resumo": "A Câmara Municipal de Blumenau , em Santa Catarina, anunciou um concurso público para preencher 3 vagas de nível superior em seu quadro de pessoal, sob a organização do IBAM .",
-    "vagas": "1 vaga"
+    "vagas": "1 vaga",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 9.025,07",
+    "remuneracao_valor": 9025.07
    },
    "links_artigo": [
     [
@@ -59,7 +62,10 @@
     "cadastro_reserva": false,
     "resumo": "A Câmara Municipal de Itararé , no estado de São Paulo, anunciou a abertura de um concurso público para preencher uma vaga efetiva e formar cadastro de reserva no cargo de Controlador Interno, com exigência de nível superior nas áreas de…",
     "vagas": "1 vaga + CR",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 8.500,00",
+    "remuneracao_valor": 8500.0
    },
    "links_artigo": [
     [
@@ -98,7 +104,10 @@
     "cadastro_reserva": false,
     "resumo": "A Câmara Municipal de Monções , no estado de São Paulo, divulgou a abertura do Concurso Público destinado ao preenchimento de 2 vagas para funções de nível superior.",
     "vagas": "1 vaga",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 6.000,00",
+    "remuneracao_valor": 6000.0
    },
    "links_artigo": [
     [
@@ -168,7 +177,9 @@
     "cadastro_reserva": false,
     "resumo": "A Fundação Caixa Beneficente dos Servidores da Universidade de Taubaté ( FUNCABES ), no estado de São Paulo, abriu inscrições para o Processo Seletivo destinado ao preenchimento de uma vaga e à formação de cadastro de reserva para profis…",
     "vagas": "1 vaga",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "remuneracao": "até R$ 3.542,75",
+    "remuneracao_valor": 3542.75
    },
    "links_artigo": [
     [
@@ -207,7 +218,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura de Cezarina , no estado de Goiás, publicou o edital do Concurso Público nº 01/2026, realizado pela ITAME - Instituto de Consultoria e Concursos , para preencher uma vaga de nível superior e formar cadastro de reserva.",
     "vagas": "1 vaga",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 3.556,18",
+    "remuneracao_valor": 3556.18
    },
    "links_artigo": [
     [
@@ -247,7 +261,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura de Doutor Pedrinho , em Santa Catarina, publicou o edital de Concurso Público nº 02/2026 para o preenchimento de 1 vaga e a formação de cadastro de reserva no cargo de Fiscal de Tributos, com exigência de nível superior comp…",
     "vagas": "1 vaga + CR",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 4.442,93",
+    "remuneracao_valor": 4442.93
    },
    "links_artigo": [
     [
@@ -286,7 +303,10 @@
     "cadastro_reserva": false,
     "resumo": "O Município de Guarulhos , no estado de São Paulo, por meio da Secretaria de Gestão, divulgou um Concurso Público para o preenchimento de 10 vagas no cargo de Auditor(a) Fiscal VI, com exigência de nível superior completo em qualquer áre…",
     "validade": "2 anos, prorrogável",
-    "vagas": "10 vagas"
+    "vagas": "10 vagas",
+    "esfera": "municipal",
+    "remuneracao": "R$ 7.213,33",
+    "remuneracao_valor": 7213.33
    },
    "links_artigo": [
     [
@@ -325,7 +345,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de Guimarânia , no estado de Minas Gerais, publicou um edital de Concurso Público para preencher 1 vaga de Fiscal Tributário, com exigência de nível superior.",
     "vagas": "1 vaga",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 3.145,52",
+    "remuneracao_valor": 3145.52
    },
    "links_artigo": [
     [
@@ -365,7 +388,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura de Manaus , no Amazonas, por meio da Secretaria Municipal de Finanças, Planejamento e Tecnologia da Informação (SEMEF), lançou um concurso público para o preenchimento de 20 vagas imediatas e para a formação de cadastro de r…",
     "vagas": "20 vagas + CR",
-    "validade": "1 ano, prorrogável"
+    "validade": "1 ano, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 27.270,61",
+    "remuneracao_valor": 27270.61
    },
    "links_artigo": [
     [
@@ -404,7 +430,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de São Vicente de Minas , no estado de Minas Gerais, abriu inscrições para o Processo Seletivo Simplificado que visa preencher três vagas de nível superior.",
     "vagas": "1 vaga",
-    "validade": "1 ano, prorrogável"
+    "validade": "1 ano, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 5.589,75",
+    "remuneracao_valor": 5589.75
    },
    "links_artigo": [
     [
@@ -439,7 +468,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de Taubaté , no estado de São Paulo, publicou o edital do Concurso Público nº 02 com o objetivo de preencher 2 vagas para Auditor Fiscal de Tributos Municipais.",
     "vagas": "2 vagas",
-    "validade": "2 anos, prorrogável"
+    "validade": "2 anos, prorrogável",
+    "esfera": "municipal",
+    "remuneracao": "R$ 10.653,91",
+    "remuneracao_valor": 10653.91
    },
    "links_artigo": [
     [
@@ -478,7 +510,10 @@
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de Tavares , no Rio Grande do Sul, publicou o edital do Processo Seletivo Simplificado nº 13/2026 visando à contratação temporária de Auditor(a) da Receita Municipal.",
     "validade": "12 meses, prorrogável",
-    "vagas": "1 vaga"
+    "vagas": "1 vaga",
+    "esfera": "municipal",
+    "remuneracao": "R$ 4.364,40",
+    "remuneracao_valor": 4364.4
    },
    "links_artigo": [
     [
@@ -511,7 +546,8 @@
     "inscricoes": "",
     "cadastro_reserva": false,
     "resumo": "A Secretaria de Estado da Fazenda do Mato Grosso (SEFAZ-MT) suspendeu o concurso público que tinha como objetivo preencher 30 vagas no cargo de Fiscal de Tributos Estaduais - FTE.",
-    "origem": "auditoria-manual-29.7.2026"
+    "origem": "auditoria-manual-29.7.2026",
+    "esfera": "estadual"
    },
    "links_artigo": [
     [
@@ -544,7 +580,10 @@
     "resumo": "O Tribunal de Contas do Estado de São Paulo ( TCESP ) publicou um edital de concurso público para preencher vagas no cargo de Auditor de Controle Externo - DIPE, com exigência de nível superior.",
     "vagas": "50 vagas",
     "validade": "24 meses, prorrogável",
-    "prazo_atualizado_em": "2026-08-09"
+    "prazo_atualizado_em": "2026-08-09",
+    "esfera": "estadual",
+    "remuneracao": "R$ 20.940,20",
+    "remuneracao_valor": 20940.2
    },
    "links_artigo": [
     [
@@ -584,7 +623,8 @@
     "cargo": "Fiscal Tributário",
     "inscricoes": "18/07/2026 a 17/08/2026",
     "cadastro_reserva": false,
-    "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026."
+    "resumo": "Edital aberto para Fiscal Tributário em Nova Santa Rita-RS, inscrições de 18/07 a 17/08/2026.",
+    "esfera": "municipal"
    },
    "inscricoes_inicio": "2026-07-18",
    "inscricoes_fim": "2026-08-17"
@@ -616,7 +656,8 @@
     "resumo": "O Município de Nova Aurora , no Paraná, publicou o edital do Concurso para Emprego Público, organizado pela Fundação FAFIPA , para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio/técnic…",
     "origem": "auditoria-manual-29.7.2026",
     "vagas": "cadastro de reserva",
-    "criterio": "Abertura com vagas somente em cadastro de reserva"
+    "criterio": "Abertura com vagas somente em cadastro de reserva",
+    "esfera": "municipal"
    },
    "inscricoes_inicio": "2026-07-28",
    "inscricoes_fim": "2026-08-26"
@@ -646,7 +687,8 @@
     "cargo": "Auditor Fiscal de Tributos",
     "inscricoes": "",
     "cadastro_reserva": false,
-    "resumo": "Edital de abertura publicado para Auditor Fiscal de Tributos em Contenda/PR."
+    "resumo": "Edital de abertura publicado para Auditor Fiscal de Tributos em Contenda/PR.",
+    "esfera": "municipal"
    }
   }
  },
@@ -674,7 +716,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.500,00",
+    "remuneracao_valor": 4500.0
    },
    "links_artigo": [
     [
@@ -715,7 +760,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.000,00",
+    "remuneracao_valor": 4000.0
    },
    "links_artigo": [
     [
@@ -755,7 +803,10 @@
     "resumo": "A Câmara Municipal de Rifaina , no Estado de São Paulo, abriu um concurso público com o objetivo de preencher 4 vagas para profissionais de nível médio e superior.",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 7.018,00",
+    "remuneracao_valor": 7018.0
    },
    "links_artigo": [
     [
@@ -796,7 +847,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 2.800,00",
+    "remuneracao_valor": 2800.0
    },
    "links_artigo": [
     [
@@ -836,7 +890,10 @@
     "resumo": "A Prefeitura Municipal de Abaetetuba , no Pará, abriu um Concurso Público para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio/técnico e superior.",
     "origem": "regras",
     "vagas": "3 vagas",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 3.242,00",
+    "remuneracao_valor": 3242.0
    },
    "links_artigo": [
     [
@@ -877,7 +934,10 @@
     "origem": "regras",
     "vagas": "1 vaga + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 6.502,13",
+    "remuneracao_valor": 6502.13
    },
    "links_artigo": [
     [
@@ -918,7 +978,10 @@
     "resumo": "A Prefeitura de Balneário Piçarras , no estado de Santa Catarina, divulgou os editais do Concurso Público (Edital nº 01/2026), do Concurso Público (Edital nº 02/2026) e do Processo Seletivo Público (Edital nº 03/2026), realizados pelo IB…",
     "origem": "regras",
     "vagas": "1 vaga + CR",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 22.936,56",
+    "remuneracao_valor": 22936.56
    },
    "links_artigo": [
     [
@@ -959,7 +1022,10 @@
     "resumo": "O Município de Belo Vale , no Estado de Minas Gerais, divulgou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio, técnico e superior.",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 8.000,00",
+    "remuneracao_valor": 8000.0
    },
    "links_artigo": [
     [
@@ -999,7 +1065,10 @@
     "resumo": "A Prefeitura de Bom Jardim de Minas , no estado de Minas Gerais, divulgou editais de Concurso Público e Processo Seletivo, visando preencher vagas imediatas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e s…",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 14.263,17",
+    "remuneracao_valor": 14263.17
    },
    "links_artigo": [
     [
@@ -1040,7 +1109,10 @@
     "resumo": "A Prefeitura de Chapada dos Guimarães , no estado de Mato Grosso, em conjunto com o Serviço Autônomo de Água e Esgoto (SAAE), anunciou a abertura de um concurso público com o objetivo de preencher vagas e formar cadastro de reserva para …",
     "origem": "regras",
     "vagas": "Fiscal de Tributos: 4 vagas · Agente de Arrecadação: 5 vagas",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 6.265,16",
+    "remuneracao_valor": 6265.16
    },
    "links_artigo": [
     [
@@ -1081,7 +1153,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 13.692,14",
+    "remuneracao_valor": 13692.14
    },
    "links_artigo": [
     [
@@ -1121,7 +1196,10 @@
     "resumo": "O Município de Conceição do Almeida , na Bahia, abriu o Concurso Público nº 01/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental incompleto e completo, médio, técnico e superior, conforme edital de ab…",
     "origem": "regras",
     "vagas": "1 vaga + CR",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 3.000,00",
+    "remuneracao_valor": 3000.0
    },
    "links_artigo": [
     [
@@ -1161,7 +1239,10 @@
     "resumo": "A Prefeitura Municipal de Cosmópolis , no estado de São Paulo, anunciou a abertura do Concurso Público nº 001/2026 destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para funções de nível fundamental, médio…",
     "origem": "verificador",
     "vagas": "Agente Fiscal em Enfermagem I: 1 vaga + CR · Agente Fiscal em Engenharia Sanitária I: 1 vaga + CR",
-    "criterio": "anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela"
+    "criterio": "anatomia de edital (5 seções: cronograma, provas, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 9.652,63",
+    "remuneracao_valor": 9652.63
    },
    "links_artigo": [
     [
@@ -1201,7 +1282,10 @@
     "resumo": "O Município de Delfinópolis , em Minas Gerais, divulgou dois editais coordenados pelo Instituto Brasileiro de Gestão e Pesquisa (IBGP) para Concurso Público e Processo Seletivo, visando ao preenchimento de vagas imediatas e à formação de…",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)"
+    "criterio": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (fiscal tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 18.831,45",
+    "remuneracao_valor": 18831.45
    },
    "links_artigo": [
     [
@@ -1242,7 +1326,10 @@
     "resumo": "A Prefeitura de Jaborandi , na Bahia, divulgou o edital do Concurso Público para o preenchimento de vagas em funções de nível fundamental, médio/técnico e superior.",
     "origem": "regras",
     "vagas": "Fiscal de Tributos: 5 vagas · Agente de Arrecadação: 3 vagas",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 7.888,55",
+    "remuneracao_valor": 7888.55
    },
    "links_artigo": [
     [
@@ -1284,7 +1371,10 @@
     "origem": "regras",
     "vagas": "Auditor Fiscal: 1 vaga + CR · Fiscal Tributário: 1 vaga + CR",
     "validade": "1 ano",
-    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)"
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 12.873,46",
+    "remuneracao_valor": 12873.46
    },
    "links_artigo": [
     [
@@ -1325,7 +1415,10 @@
     "resumo": "A Prefeitura Municipal de Mairiporã , no estado de São Paulo, em parceria com o Instituto de Educação e Desenvolvimento Social Nosso Rumo , abriu um concurso público para preencher vagas e formar cadastro de reserva em funções de nível m…",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 5.574,03",
+    "remuneracao_valor": 5574.03
    },
    "links_artigo": [
     [
@@ -1366,7 +1459,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 6.768,66",
+    "remuneracao_valor": 6768.66
    },
    "links_artigo": [
     [
@@ -1407,7 +1503,10 @@
     "origem": "regras",
     "vagas": "1 vaga + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 3.000,00",
+    "remuneracao_valor": 3000.0
    },
    "links_artigo": [
     [
@@ -1448,7 +1547,10 @@
     "origem": "regras",
     "vagas": "4 vagas",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.650,00",
+    "remuneracao_valor": 4650.0
    },
    "links_artigo": [
     [
@@ -1488,7 +1590,10 @@
     "resumo": "A Prefeitura de Pedro Teixeira , no Estado de Minas Gerais, publicou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de níveis fundamental, médio, técnico e superior.",
     "origem": "regras",
     "vagas": "1 vaga",
-    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 5.494,76",
+    "remuneracao_valor": 5494.76
    },
    "links_artigo": [
     [
@@ -1528,7 +1633,10 @@
     "resumo": "No Paraná, o Município de Quatro Pontes divulgou o edital do Concurso Público destinado a preencher vagas e formar cadastro de reserva para profissionais de nível fundamental, médio/técnico e superior.",
     "origem": "regras",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 15.970,05",
+    "remuneracao_valor": 15970.05
    },
    "links_artigo": [
     [
@@ -1569,7 +1677,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 14.322,64",
+    "remuneracao_valor": 14322.64
    },
    "links_artigo": [
     [
@@ -1610,7 +1721,10 @@
     "origem": "regras",
     "vagas": "3 vagas + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\banuncia (o )?concurso\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 2.212,36",
+    "remuneracao_valor": 2212.36
    },
    "links_artigo": [
     [
@@ -1650,7 +1764,10 @@
     "resumo": "A Prefeitura Municipal de Rincão , em São Paulo, divulgou o edital do Concurso Público nº 001/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental, médio e superior.",
     "origem": "regras",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 2.786,56",
+    "remuneracao_valor": 2786.56
    },
    "links_artigo": [
     [
@@ -1690,7 +1807,10 @@
     "resumo": "O município de Salto Veloso , em Santa Catarina, publicou o edital do Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.",
     "origem": "regras",
     "vagas": "1 vaga + CR",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico em tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 9.151,71",
+    "remuneracao_valor": 9151.71
    },
    "links_artigo": [
     [
@@ -1731,7 +1851,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 15.142,28",
+    "remuneracao_valor": 15142.28
    },
    "links_artigo": [
     [
@@ -1769,7 +1892,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)"
+    "criterio": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.000,00",
+    "remuneracao_valor": 4000.0
    },
    "links_artigo": [
     [
@@ -1806,7 +1932,10 @@
     "origem": "regras",
     "vagas": "1 vaga + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 10.524,03",
+    "remuneracao_valor": 10524.03
    },
    "links_artigo": [
     [
@@ -1860,7 +1989,10 @@
     "cadastro_reserva": false,
     "resumo": "O Município da Estância Turística de Piraju , em São Paulo, divulgou o edital do Concurso Público nº 01/2026 para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
     "criterio": "retificação com inscrições abertas até 2026-08-30 (republicado em 6.8.2026 após correção da regra de retificação)",
-    "origem": "regras"
+    "origem": "regras",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.351,47",
+    "remuneracao_valor": 4351.47
    }
   }
  },
@@ -1889,7 +2021,10 @@
     "origem": "regras",
     "vagas": "Auditor de Tributos: 1 vaga · Fiscal de Tributos: 1 vaga",
     "validade": "1 ano, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de tributos)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 11.975,00",
+    "remuneracao_valor": 11975.0
    },
    "links_artigo": [
     [
@@ -1926,7 +2061,9 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "remuneracao": "até R$ 7.104,30",
+    "remuneracao_valor": 7104.3
    },
    "links_artigo": [
     [
@@ -1966,7 +2103,10 @@
     "origem": "regras",
     "vagas": "1 vaga",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "esfera": "municipal",
+    "remuneracao": "R$ 7.846,71",
+    "remuneracao_valor": 7846.71
    },
    "links_artigo": [
     [
@@ -2007,7 +2147,10 @@
     "origem": "regras",
     "vagas": "2 vagas + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (auditor tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 4.000,00",
+    "remuneracao_valor": 4000.0
    },
    "links_artigo": [
     [
@@ -2045,7 +2188,10 @@
     "origem": "regras",
     "vagas": "10 vagas",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 3.750,00",
+    "remuneracao_valor": 3750.0
    },
    "links_artigo": [
     [
@@ -2086,7 +2232,10 @@
     "origem": "regras",
     "vagas": "3 vagas",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 21.138,26",
+    "remuneracao_valor": 21138.26
    },
    "links_artigo": [
     [
@@ -2127,7 +2276,10 @@
     "origem": "regras",
     "vagas": "1 vaga + CR",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)"
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 21.525,56",
+    "remuneracao_valor": 21525.56
    },
    "links_artigo": [
     [
@@ -2166,7 +2318,10 @@
     "origem": "regras",
     "vagas": "Fiscal Municipal: cadastro de reserva · Controlador Interno: cadastro de reserva",
     "validade": "2 anos, prorrogável",
-    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)"
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal municipal)",
+    "esfera": "municipal",
+    "remuneracao": "até R$ 6.536,19",
+    "remuneracao_valor": 6536.19
    },
    "links_artigo": [
     [

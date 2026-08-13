@@ -12,9 +12,45 @@ fontes:
   pci: true                 # PCI Concursos (sitemap de notícias)
   cnb: true                 # Concursos no Brasil (RSS)
   dou: true                 # DOU Seção 3 (busca in.gov.br)
-  sigpub: true              # Diário Oficial dos Municípios do PR (AMP/SIGPub)
+  sigpub: true              # Diários Oficiais dos Municípios via SIGPub (ver sigpub_bases)
   domsc: true               # Diário Oficial dos Municípios de SC (DOM/SC)
-  selecao: true             # bancas na plataforma selecao.net.br (FAFIPA, AOCP...)
+  selecao: true             # bancas na plataforma selecao.net.br (AOCP, IDECAN...)
+  gran: true                # Gran Cursos (RSS) — 17 de 170 notícias/3 dias no alvo
+  estrategia: true          # Estratégia Concursos (RSS) — cobertura baixa, mas traz o PDF do edital
+  fafipa: true              # Fundação FAFIPA (banca do PR) — link direto do edital
+  ibam: true                # IBAM (RJ) e IBAM-SP — link direto do edital
+
+# Bases do SIGPub verificadas ao vivo em 13.8.2026 (respondem E têm resultado).
+# Ficaram de fora: ms, appm, amurc e "bahia" (respondem 200 mas devolvem zero
+# registro), aemerj e maceio (não verificadas). Atenção: "fgm" é de GOIÁS,
+# apesar da sigla — conferido no dropdown de municípios da própria base.
+# A primeira base roda sempre; as demais entram por rodízio, para o run do
+# Actions não estourar o tempo (cada base leva ~1-2 min).
+sigpub_bases:
+  - amp        # PR — prioridade máxima (Maringá)
+  - famurs     # RS
+  - amupe      # PE
+  - agm        # GO
+  - aprece     # CE
+  - ama        # AL
+  - famep      # PA
+  - arom       # RO
+  - femurn     # RN
+  - aam        # AM
+  - amr        # RR
+  - famup      # PB
+  - fgm        # GO (2ª base do estado)
+sigpub_extras_por_execucao: 2   # além da primeira; 4 execuções/dia cobrem tudo em ~2 dias
+
+# A FAFIPA saiu daqui: ganhou coletor próprio (fonte "fafipa"), que traz o PDF
+# do edital de abertura. Mantê-la nas duas fontes faria o mesmo concurso ser
+# coletado duas vezes na mesma execução e o cartão sem edital poderia vencer.
+bancas_selecao:
+  - https://ameosc.selecao.net.br
+  - https://institutoaocp.selecao.net.br
+  - https://idecan.selecao.net.br
+  - https://fundep.selecao.net.br
+  - https://access.selecao.net.br
 
 termos:
   # Homônimos: são MASCARADOS do texto antes de testar a inclusão, então

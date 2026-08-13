@@ -1,77 +1,234 @@
 """Gera o painel estático (docs/index.html), publicado via GitHub Pages.
 
-Desenho do painel (feedback do Danilo, 6.8.2026):
-- fila "aguardando confirmação" no TOPO, como caixa clicável/expansível;
-- agrupamento geográfico por proximidade de Maringá/PR: Paraná primeiro,
-  depois vizinhos (SC/SP/MS), depois o resto — dentro de cada grupo, quem
-  encerra inscrição primeiro aparece primeiro;
-- cartão mostra datas de abertura e encerramento das inscrições, vagas
-  reais do cargo ("1 vaga + CR" em vez de selo genérico), banca, validade
-  e link do site de inscrição — nunca o regex interno da triagem;
-- encerrados/suspensos saem da vitrine principal para uma caixa recolhida.
+Desenho (feedback do Danilo, 6 e 12.8.2026):
+
+- ORDEM GEOGRÁFICA por distância REAL de Maringá, não por sigla de UF: o
+  primeiro bloco é o raio de 40 km (mais um concurso de prova remota, que
+  serve de qualquer lugar), depois o resto do Paraná, depois os vizinhos
+  (SP/SC/MS) e por fim os demais — sempre do mais perto para o mais longe.
+- DUAS COLUNAS em tela larga, uma no celular. A lista é de varredura, não de
+  leitura corrida: o olho precisa varrer muitos cartões e parar no que
+  interessa.
+- HIERARQUIA DENTRO DO CARTÃO, que é o que resolvia a "bagunça": a linha de
+  etiquetas diz o QUE é (área, status, vagas, distância), o título diz ONDE,
+  a remuneração fica em destaque à direita, o prazo tem contagem regressiva
+  e o resto (resumo, banca, links) vem em corpo menor.
+- SEÇÕES RECOLHÍVEIS (details/summary), como a fila de pendentes já era.
+- OCULTAR CARTÃO: o que não interessa some da vitrine com um clique e fica
+  contabilizado num botão de "mostrar ocultos". Estado no localStorage do
+  navegador dela — o painel é estático, não há login nem servidor.
+- NOVIDADES: cartão descoberto depois da última visita ganha selo e borda
+  destacada; a lista de vistos também mora no localStorage.
+
+Nada disso muda a regra do produto: o cartão só mostra o que o artigo
+sustenta. Campo sem dado simplesmente não aparece.
 """
 
 import datetime as dt
+import hashlib
 import html
 
-from .. import tempo
+from .. import geo, tempo
 from ..extrator import titulo_cargo
 
-CATEGORIAS = {
+# Área do cargo -> (rótulo do selo, cor). O feedback pediu separação melhor
+# que "Tributário/Controle/Conferir": esfera e natureza ficam explícitas.
+AREAS = {
     "tributario": ("Tributário", "#0a6"),
     "controle": ("Controle", "#06b"),
     "conferir": ("Conferir área", "#b70"),
 }
 
-UFS_VIZINHAS = ("SC", "SP", "MS")
+# distância a partir da qual o número deixa de ajudar (a UF já diz tudo)
+_DISTANCIA_MAX_EXIBIDA = 400
 
 CSS = """
-:root { color-scheme: light dark; }
+:root {
+  color-scheme: light dark;
+  --fundo: #f6f7f9; --papel: #fff; --borda: #e3e5e9; --texto: #1c1f24;
+  --suave: #5d646e; --tenue: #878e98; --acento: #0a66c2;
+  --verde: #0a7d55; --vermelho: #b3261e; --ambar: #8a5a00; --novo: #6d28d9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fundo: #14161a; --papel: #1c1f25; --borda: #2f333a; --texto: #e8eaed;
+    --suave: #a2a9b3; --tenue: #7e8590; --acento: #58a6ff;
+    --verde: #4cc38a; --vermelho: #ff7b72; --ambar: #d9a53f; --novo: #a78bfa;
+  }
+}
 * { box-sizing: border-box; }
 body { font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-       margin: 0 auto; max-width: 860px; padding: 24px 16px; line-height: 1.5;
-       background: #fafafa; color: #1c1c1c; }
-h1 { font-size: 1.5rem; margin-bottom: 4px; }
-.sub { color: #666; font-size: .9rem; margin-bottom: 20px; }
-.item { background: #fff; border: 1px solid #e3e3e3; border-radius: 10px;
-        padding: 14px 16px; margin-bottom: 12px; }
-.item a.titulo { color: inherit; text-decoration: none; font-weight: 600; }
-.item a.titulo:hover { text-decoration: underline; }
-.meta { color: #666; font-size: .85rem; margin-top: 6px; }
-.trecho { color: #555; font-size: .85rem; margin-top: 6px; font-style: italic; }
-.nota { color: #8a5a00; font-size: .82rem; margin-top: 6px; }
-.badge { display: inline-block; color: #fff; border-radius: 6px;
-         font-size: .75rem; font-weight: 600; padding: 2px 8px; margin-right: 6px; }
-.chip { display: inline-block; color: #444; border: 1px solid #c9c9c9;
-        border-radius: 6px; font-size: .75rem; font-weight: 600;
-        padding: 1px 8px; margin-right: 6px; background: transparent; }
-.tags { margin-bottom: 6px; }
-.prazo { font-weight: 700; color: #0a6; }
-.prazo-curto { font-weight: 700; color: #b00; }
-.links { margin-top: 6px; font-size: .85rem; }
-.links a { color: #06b; text-decoration: none; margin-right: 14px; }
-.links a:hover { text-decoration: underline; }
-h2 { font-size: 1.05rem; margin: 26px 0 12px; }
-details { margin: 14px 0; }
-details > summary { cursor: pointer; font-weight: 600; font-size: .95rem;
-                    padding: 10px 14px; background: #f0f0f2; border: 1px solid #e0e0e3;
-                    border-radius: 10px; list-style: none; }
-details > summary::before { content: "▸ "; }
-details[open] > summary::before { content: "▾ "; }
-details > summary::-webkit-details-marker { display: none; }
-details > .conteudo { margin-top: 12px; }
-@media (prefers-color-scheme: dark) {
-  body { background: #16181c; color: #e6e6e6; }
-  .item { background: #1f2228; border-color: #33363d; }
-  .sub, .meta { color: #9aa0a8; }
-  .trecho { color: #8a9099; }
-  .nota { color: #d9a53f; }
-  .chip { color: #cfd3d9; border-color: #4a4e57; }
-  .prazo { color: #4cc38a; }
-  .prazo-curto { color: #ff7b72; }
-  .links a { color: #58a6ff; }
-  details > summary { background: #1f2228; border-color: #33363d; }
+       margin: 0 auto; max-width: 1180px; padding: 20px 16px 60px;
+       line-height: 1.45; background: var(--fundo); color: var(--texto); }
+h1 { font-size: 1.45rem; margin: 0 0 4px; }
+.sub { color: var(--suave); font-size: .88rem; margin-bottom: 14px; }
+.sub b { color: var(--texto); }
+
+/* barra de controles */
+.controles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+             margin: 0 0 18px; }
+.filtro { border: 1px solid var(--borda); background: var(--papel);
+          color: var(--suave); border-radius: 999px; padding: 5px 12px;
+          font-size: .8rem; font-weight: 600; cursor: pointer; }
+.filtro[aria-pressed="true"] { background: var(--acento); border-color: var(--acento);
+                               color: #fff; }
+.filtro:hover { border-color: var(--acento); }
+
+/* seções */
+section { margin: 0 0 10px; }
+section > summary { cursor: pointer; list-style: none; padding: 11px 14px;
+  background: var(--papel); border: 1px solid var(--borda); border-radius: 10px;
+  font-weight: 650; font-size: .95rem; display: flex; align-items: center; gap: 8px; }
+section > summary::-webkit-details-marker { display: none; }
+section > summary::before { content: "▸"; color: var(--tenue); font-size: .8rem; }
+section[open] > summary::before { content: "▾"; }
+section > summary .conta { color: var(--tenue); font-weight: 500; font-size: .85rem; }
+section > summary .dica { color: var(--tenue); font-weight: 400; font-size: .78rem;
+                          margin-left: auto; }
+.grade { display: grid; gap: 12px; margin: 12px 0 22px;
+         grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); }
+
+/* cartão */
+.item { background: var(--papel); border: 1px solid var(--borda);
+        border-radius: 12px; padding: 13px 15px 12px; position: relative;
+        display: flex; flex-direction: column; }
+.item.novo { border-color: var(--novo); box-shadow: 0 0 0 1px var(--novo) inset; }
+.topo { display: flex; align-items: flex-start; gap: 10px; }
+.topo-esq { flex: 1; min-width: 0; }
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 7px; }
+.badge { display: inline-block; color: #fff; border-radius: 6px; font-size: .7rem;
+         font-weight: 700; padding: 2px 7px; letter-spacing: .01em; }
+.chip { display: inline-block; color: var(--suave); border: 1px solid var(--borda);
+        border-radius: 6px; font-size: .7rem; font-weight: 600; padding: 1px 7px; }
+.chip.forte { color: var(--texto); border-color: var(--tenue); }
+a.titulo { color: inherit; text-decoration: none; font-weight: 650; font-size: .98rem;
+           display: block; }
+a.titulo:hover { text-decoration: underline; }
+.salario { text-align: right; font-weight: 700; font-size: .95rem; white-space: nowrap; }
+.salario small { display: block; font-weight: 500; font-size: .68rem; color: var(--tenue); }
+.prazo { font-size: .84rem; margin-top: 7px; font-weight: 600; }
+.prazo.aberto { color: var(--verde); }
+.prazo.urgente { color: var(--vermelho); }
+.prazo.futuro { color: var(--acento); }
+.prazo.frio { color: var(--suave); font-weight: 500; }
+.resumo { color: var(--suave); font-size: .82rem; margin-top: 7px;
+          display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+          overflow: hidden; }
+.nota { color: var(--ambar); font-size: .78rem; margin-top: 7px; }
+.rodape { display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+          margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--borda);
+          font-size: .78rem; color: var(--tenue); }
+.rodape a { color: var(--acento); text-decoration: none; font-weight: 600; }
+.rodape a:hover { text-decoration: underline; }
+.ocultar { margin-left: auto; background: none; border: none; color: var(--tenue);
+           font-size: .78rem; cursor: pointer; padding: 2px 4px; }
+.ocultar:hover { color: var(--vermelho); }
+.item[data-oculto="1"] { display: none; }
+body.ver-ocultos .item[data-oculto="1"] { display: flex; opacity: .55; }
+body.so-vaga .item[data-cr="1"],
+body.so-abertas .item:not([data-situacao="em_curso"]),
+body.so-perto .item:not([data-faixa="raio"]) { display: none; }
+.vazio { color: var(--tenue); font-size: .85rem; padding: 6px 2px 18px; }
+footer { color: var(--tenue); font-size: .78rem; margin-top: 26px;
+         border-top: 1px solid var(--borda); padding-top: 12px; }
+@media (max-width: 620px) {
+  .grade { grid-template-columns: 1fr; }
+  .salario { font-size: .85rem; }
 }
+"""
+
+JS = """
+(function () {
+  var CHAVE_OCULTOS = 'radar:ocultos', CHAVE_VISTOS = 'radar:vistos', CHAVE_FILTROS = 'radar:filtros';
+  function ler(chave) {
+    try { return JSON.parse(localStorage.getItem(chave)) || []; } catch (e) { return []; }
+  }
+  function gravar(chave, valor) {
+    try { localStorage.setItem(chave, JSON.stringify(valor)); } catch (e) {}
+  }
+
+  // --- ocultos ---------------------------------------------------------
+  var ocultos = ler(CHAVE_OCULTOS);
+  function aplicarOcultos() {
+    var n = 0;
+    document.querySelectorAll('.item[data-id]').forEach(function (el) {
+      var esconder = ocultos.indexOf(el.dataset.id) !== -1;
+      el.dataset.oculto = esconder ? '1' : '0';
+      if (esconder) n++;
+    });
+    var botao = document.getElementById('btn-ocultos');
+    botao.hidden = n === 0;
+    botao.textContent = (document.body.classList.contains('ver-ocultos') ? 'esconder de novo' : 'mostrar ocultos') + ' (' + n + ')';
+    document.querySelectorAll('section[data-secao]').forEach(function (sec) {
+      var visiveis = sec.querySelectorAll('.item[data-oculto="0"]').length;
+      var conta = sec.querySelector('.conta');
+      if (conta) conta.textContent = visiveis + (visiveis === 1 ? ' concurso' : ' concursos');
+      sec.hidden = visiveis === 0 && !document.body.classList.contains('ver-ocultos');
+    });
+  }
+  document.addEventListener('click', function (ev) {
+    var botao = ev.target.closest('.ocultar');
+    if (!botao) return;
+    var id = botao.closest('.item').dataset.id;
+    var i = ocultos.indexOf(id);
+    if (i === -1) { ocultos.push(id); } else { ocultos.splice(i, 1); }
+    gravar(CHAVE_OCULTOS, ocultos);
+    aplicarOcultos();
+  });
+  document.getElementById('btn-ocultos').addEventListener('click', function () {
+    document.body.classList.toggle('ver-ocultos');
+    aplicarOcultos();
+  });
+
+  // --- novidades desde a última visita ---------------------------------
+  // guarda os ids já vistos (mais confiável que carimbo de tempo: um cartão
+  // que muda de prazo continua sendo o mesmo cartão)
+  var vistos = ler(CHAVE_VISTOS), primeiraVisita = vistos.length === 0, novos = 0;
+  document.querySelectorAll('.item[data-id]').forEach(function (el) {
+    if (!primeiraVisita && vistos.indexOf(el.dataset.id) === -1) {
+      el.classList.add('novo');
+      var tags = el.querySelector('.tags');
+      var selo = document.createElement('span');
+      selo.className = 'badge';
+      selo.style.background = 'var(--novo)';
+      selo.textContent = 'novo';
+      tags.insertBefore(selo, tags.firstChild);
+      novos++;
+    }
+  });
+  var aviso = document.getElementById('aviso-novos');
+  if (novos > 0) {
+    aviso.hidden = false;
+    aviso.textContent = novos === 1 ? '1 concurso novo desde a sua última visita.'
+                                    : novos + ' concursos novos desde a sua última visita.';
+  }
+  // só registra como visto ao sair, para o selo sobreviver a um F5 acidental
+  window.addEventListener('pagehide', function () {
+    var ids = [];
+    document.querySelectorAll('.item[data-id]').forEach(function (el) { ids.push(el.dataset.id); });
+    gravar(CHAVE_VISTOS, ids);
+  });
+
+  // --- filtros ---------------------------------------------------------
+  var filtros = ler(CHAVE_FILTROS);
+  document.querySelectorAll('.filtro').forEach(function (botao) {
+    var classe = botao.dataset.classe;
+    if (filtros.indexOf(classe) !== -1) {
+      document.body.classList.add(classe);
+      botao.setAttribute('aria-pressed', 'true');
+    }
+    botao.addEventListener('click', function () {
+      var ligado = document.body.classList.toggle(classe);
+      botao.setAttribute('aria-pressed', ligado ? 'true' : 'false');
+      filtros = filtros.filter(function (c) { return c !== classe; });
+      if (ligado) filtros.push(classe);
+      gravar(CHAVE_FILTROS, filtros);
+      aplicarOcultos();
+    });
+  });
+
+  aplicarOcultos();
+})();
 """
 
 
@@ -83,14 +240,15 @@ def _data(iso):
 
 
 def _fmt_data(iso):
-    """AAAA-MM-DD -> d.m.aaaa (sem zero à esquerda)."""
     d = _data(iso)
     return f"{d.day}.{d.month}.{d.year}" if d else (iso or "")
 
 
+def _id(item):
+    return hashlib.sha1(item.get("url", "").encode()).hexdigest()[:12]
+
+
 def _local(item):
-    """Município/UF (ou órgão/UF). Sem município nem órgão, retorna '' —
-    UF sozinha não identifica nada e o título original é melhor."""
     lugar = item.get("municipio") or item.get("orgao") or ""
     if not lugar:
         return ""
@@ -98,16 +256,14 @@ def _local(item):
     return f"{lugar}/{uf}" if uf and uf not in lugar else lugar
 
 
-def _status(item, hoje):
-    """em_curso | futuro | encerrado | suspenso | sem_prazo.
-
-    em_curso e futuro ficam na vitrine; o cabeçalho os conta separado — dizer
-    "41 com inscrições abertas" incluindo 14 que ainda vão abrir é mentira.
-    """
+def _situacao(item, hoje):
+    """em_curso | futuro | encerrado | suspenso | sem_prazo."""
     det = item.get("detalhes") or {}
     ia = det.get("ia") or {}
     if ia.get("classe") == "suspensao":
         return "suspenso"
+    if ia.get("classe") == "pre_edital":
+        return "pre_edital"
     fim, inicio = _data(det.get("inscricoes_fim")), _data(det.get("inscricoes_inicio"))
     if fim:
         if fim < hoje:
@@ -118,80 +274,137 @@ def _status(item, hoje):
 
 VITRINE = ("em_curso", "futuro", "sem_prazo")
 ARQUIVO = ("encerrado", "suspenso")
+# pré-edital tem bloco próprio: interessa para começar a estudar, mas não há
+# o que se inscrever ainda (inspiração da newsletter que o Danilo assina)
+PRE_EDITAL = ("pre_edital",)
 
 
-def _grupo(item):
-    uf = item.get("uf") or ""
-    if uf == "PR":
-        return 0
-    if uf in UFS_VIZINHAS:
-        return 1
-    return 2
+def _faixa(item):
+    """Bloco geográfico do cartão. Prova remota entra no bloco do raio: serve
+    de qualquer cidade, então é tão boa quanto um concurso ao lado de casa."""
+    if ((item.get("detalhes") or {}).get("ia") or {}).get("prova_remota"):
+        return "raio"
+    return geo.faixa(item.get("municipio") or item.get("orgao", ""), item.get("uf", ""))
 
 
-def _linha_inscricoes(item, hoje):
+def _distancia(item):
+    return geo.distancia_km(item.get("municipio") or item.get("orgao", ""), item.get("uf", ""))
+
+
+def _ordem(item, hoje):
+    """Dentro do bloco: primeiro quem tem inscrição correndo, depois quem vai
+    abrir, e dentro disso o mais perto de Maringá; empate desempata pelo
+    prazo mais curto."""
+    situacao = _situacao(item, hoje)
+    peso = {"em_curso": 0, "futuro": 1, "sem_prazo": 2}.get(situacao, 3)
+    dist = _distancia(item)
+    fim = _data((item.get("detalhes") or {}).get("inscricoes_fim"))
+    return (
+        peso,
+        dist if dist is not None else 99999,
+        fim.isoformat() if fim else "9999",
+        item.get("municipio") or "",
+    )
+
+
+def _linha_prazo(item, hoje):
     det = item.get("detalhes") or {}
     ia = det.get("ia") or {}
     ini, fim = _data(det.get("inscricoes_inicio")), _data(det.get("inscricoes_fim"))
     texto = ia.get("inscricoes", "")
+    if ia.get("classe") == "suspensao":
+        base = f"edital original: {html.escape(texto)}" if texto else "concurso suspenso"
+        return f'<div class="prazo frio">⚠️ {base}</div>'
     if not (ini or fim or texto):
         return ""
     periodo = (
-        f"{_fmt_data(ini.isoformat())} a {_fmt_data(fim.isoformat())}"
-        if ini and fim else
-        (f"até {_fmt_data(fim.isoformat())}" if fim else
-         f"a partir de {_fmt_data(ini.isoformat())}" if ini else html.escape(texto))
+        f"{_fmt_data(ini.isoformat())} a {_fmt_data(fim.isoformat())}" if ini and fim
+        else f"até {_fmt_data(fim.isoformat())}" if fim
+        else f"a partir de {_fmt_data(ini.isoformat())}" if ini
+        else html.escape(texto)
     )
-    # concurso suspenso não tem contagem regressiva — o prazo do edital
-    # original não está correndo
-    if ia.get("classe") == "suspensao":
-        return f"🗓 inscrições no edital original: {periodo}"
     if fim and fim < hoje:
-        return f"🗓 inscrições encerradas em {_fmt_data(fim.isoformat())}"
+        return f'<div class="prazo frio">encerrado em {_fmt_data(fim.isoformat())}</div>'
     if ini and ini > hoje:
-        ate = f" (até {_fmt_data(fim.isoformat())})" if fim else ""
-        return f"🗓 inscrições abrem em {_fmt_data(ini.isoformat())}{ate}"
+        dias = (ini - hoje).days
+        quando = "amanhã" if dias == 1 else f"em {dias} dias"
+        return f'<div class="prazo futuro">🗓 inscrições abrem {quando} · {periodo}</div>'
     if fim:
         dias = (fim - hoje).days
-        classe = "prazo-curto" if dias <= 7 else "prazo"
-        return f'🗓 inscrições: <span class="{classe}">{periodo} · falta(m) {dias} dia(s)</span>'
-    return f"🗓 inscrições: {periodo}"
+        classe = "urgente" if dias <= 7 else "aberto"
+        resta = "último dia" if dias == 0 else ("falta 1 dia" if dias == 1 else f"faltam {dias} dias")
+        return f'<div class="prazo {classe}">🗓 {resta} · {periodo}</div>'
+    return f'<div class="prazo aberto">🗓 {periodo}</div>'
 
 
-def _render_item(item, hoje):
+def _selos(item, hoje, situacao):
     det = item.get("detalhes") or {}
     ia = det.get("ia") or {}
-    nome, cor = CATEGORIAS.get(item["categoria"], ("Outro", "#777"))
+    nome, cor = AREAS.get(item["categoria"], ("Outro", "#777"))
+    esfera = ia.get("esfera") or ""
+    if esfera and item["categoria"] != "conferir":
+        nome = f"{nome} {esfera}"
+    selos = [f'<span class="badge" style="background:{cor}">{html.escape(nome)}</span>']
+    if situacao == "suspenso":
+        selos.append('<span class="badge" style="background:var(--vermelho)">Suspenso</span>')
+    elif situacao == "pre_edital":
+        selos.append('<span class="badge" style="background:var(--ambar)">Sem edital ainda</span>')
 
-    # selos e etiquetas: categoria, suspensão, vagas reais do cargo
-    tags = [f'<span class="badge" style="background:{cor}">{nome}</span>']
-    if ia.get("classe") == "suspensao":
-        tags.append('<span class="badge" style="background:#c0392b">⚠️ Suspenso</span>')
     vagas = (ia.get("vagas") or "").strip()
     if vagas:
-        tags.append(f'<span class="chip">{html.escape(vagas)}</span>')
+        classe = "chip" if ia.get("cadastro_reserva") else "chip forte"
+        selos.append(f'<span class="{classe}">{html.escape(vagas)}</span>')
     elif ia.get("cadastro_reserva"):
-        tags.append('<span class="chip">cadastro de reserva</span>')
-    if ia.get("validade"):
-        tags.append(f'<span class="chip">validade {html.escape(ia["validade"])}</span>')
+        selos.append('<span class="chip">cadastro de reserva</span>')
 
-    # título padronizado: "Município/UF — Cargo"; sem cargo extraído, cai no título original
+    if ia.get("prova_remota"):
+        selos.append('<span class="chip forte">prova remota</span>')
+    else:
+        dist = _distancia(item)
+        if dist is not None and dist <= _DISTANCIA_MAX_EXIBIDA:
+            selos.append(f'<span class="chip">{round(dist)} km de Maringá</span>')
+
+    if ia.get("validade"):
+        selos.append(f'<span class="chip">validade {html.escape(ia["validade"])}</span>')
+    return "".join(selos)
+
+
+def _links(item):
+    det = item.get("detalhes") or {}
+    partes = []
+    edital = det.get("edital_url", "")
+    if edital:
+        partes.append(f'<a href="{html.escape(edital, quote=True)}">📄 edital</a>')
+    site = det.get("site_inscricao", "")
+    if site and site != item.get("url"):
+        partes.append(f'<a href="{html.escape(site, quote=True)}">↗ inscrição</a>')
+    url = item.get("url", "")
+    if url:
+        rotulo = "notícia" if item.get("fonte") in ("pci", "cnb", "estrategia", "gran") else "fonte"
+        partes.append(f'<a href="{html.escape(url, quote=True)}">↗ {rotulo}</a>')
+    return " ".join(partes)
+
+
+def _cartao(item, hoje):
+    det = item.get("detalhes") or {}
+    ia = det.get("ia") or {}
+    situacao = _situacao(item, hoje)
+
     local = _local(item)
     cargo = titulo_cargo((ia.get("cargo") or "").strip())
     titulo = f"{local} — {cargo}" if local and cargo else item.get("titulo", "")
 
-    meta = [m for m in (_linha_inscricoes(item, hoje),) if m]
-    rodape = []
-    if det.get("banca"):
-        rodape.append(f"banca: {html.escape(det['banca'])}")
-    rodape.append(f"fonte: {html.escape(item.get('fonte', ''))}")
-    rodape.append(f"descoberto em {_fmt_data(item.get('descoberto_em', ''))}")
-    if ia.get("prazo_atualizado_em"):
-        rodape.append(f"prazo atualizado em {_fmt_data(ia['prazo_atualizado_em'])}")
-    meta.append(" · ".join(rodape))
+    remuneracao = ia.get("remuneracao") or ""
+    bloco_salario = ""
+    if remuneracao:
+        rotulo = "remuneração" if not remuneracao.lower().startswith("até") else "até"
+        valor = remuneracao[3:].strip() if remuneracao.lower().startswith("até") else remuneracao
+        bloco_salario = (
+            f'<div class="salario">{html.escape(valor)}<small>{rotulo}</small></div>'
+        )
 
     resumo = ia.get("resumo") or det.get("trecho", "")
-    bloco_resumo = f'<div class="trecho">{html.escape(resumo[:300])}</div>' if resumo else ""
+    bloco_resumo = f'<div class="resumo">{html.escape(resumo[:320])}</div>' if resumo else ""
 
     nota = ""
     if item["categoria"] == "conferir":
@@ -200,57 +413,62 @@ def _render_item(item, hoje):
             "o artigo não diz se a atribuição é tributária — conferir no edital.</div>"
         )
 
-    links = []
-    site = det.get("site_inscricao", "")
-    if site and site != item.get("url"):
-        links.append(f'<a href="{html.escape(site, quote=True)}">↗ site de inscrição</a>')
-    if item.get("url", "").lower().endswith(".pdf"):
-        links.append(f'<a href="{html.escape(item["url"], quote=True)}">edital (PDF)</a>')
-    bloco_links = f'<div class="links">{"".join(links)}</div>' if links else ""
+    rodape = []
+    if det.get("banca"):
+        rodape.append(f"banca {html.escape(det['banca'])}")
+    rodape.append(f"{html.escape(item.get('fonte', ''))} · {_fmt_data(item.get('descoberto_em', ''))}")
 
-    metas = "".join(f'<div class="meta">{m}</div>' for m in meta)
     return (
-        '<div class="item">'
-        f'<div class="tags">{"".join(tags)}</div>'
+        f'<article class="item" data-id="{_id(item)}" data-situacao="{situacao}" '
+        f'data-faixa="{_faixa(item)}" data-cr="{1 if ia.get("cadastro_reserva") and not ia.get("vagas") else 0}">'
+        '<div class="topo"><div class="topo-esq">'
+        f'<div class="tags">{_selos(item, hoje, situacao)}</div>'
         f'<a class="titulo" href="{html.escape(item.get("url", ""), quote=True)}">{html.escape(titulo)}</a>'
-        f"{metas}{bloco_resumo}{nota}{bloco_links}"
         "</div>"
+        f"{bloco_salario}</div>"
+        f"{_linha_prazo(item, hoje)}{bloco_resumo}{nota}"
+        f'<div class="rodape">{_links(item)}'
+        f'<span>{" · ".join(rodape)}</span>'
+        '<button class="ocultar" title="ocultar este concurso">ocultar</button>'
+        "</div></article>"
     )
 
 
-def _ordem_vitrine(item, hoje):
-    """Dentro do grupo: quem encerra primeiro no topo; sem prazo, mais
-    recente primeiro."""
-    det = item.get("detalhes") or {}
-    fim = _data(det.get("inscricoes_fim"))
-    if fim:
-        return (0, fim.isoformat(), "")
-    # inverte a data de descoberta para ordenar decrescente com chave única
-    desc = item.get("descoberto_em", "")
-    return (1, "", "".join(chr(255 - ord(c)) for c in desc))
+def _secao(chave, titulo, dica, itens, hoje, aberta=True):
+    if not itens:
+        return ""
+    cartoes = "".join(_cartao(c, hoje) for c in itens)
+    plural = "concurso" if len(itens) == 1 else "concursos"
+    return (
+        f'<details class="secao" data-secao="{chave}"{" open" if aberta else ""}><summary>'
+        f"<span>{titulo}</span>"
+        f'<span class="conta">{len(itens)} {plural}</span>'
+        + (f'<span class="dica">{dica}</span>' if dica else "")
+        + f'</summary><div class="grade">{cartoes}</div></details>'
+    )
 
 
-def _bloco_pendentes(pendentes):
+def _secao_pendentes(pendentes):
+    if not pendentes:
+        return ""
     itens = []
     for achado, _categoria, _termos, meta in pendentes:
         trecho = achado.detalhes.get("trecho", "")
-        bloco_trecho = f'<div class="trecho">{html.escape(trecho[:300])}</div>' if trecho else ""
+        bloco = f'<div class="resumo">{html.escape(trecho[:300])}</div>' if trecho else ""
         itens.append(
-            '<div class="item">'
-            '<div class="tags"><span class="badge" style="background:#777">🔎 Sem veredito</span></div>'
+            '<article class="item">'
+            '<div class="tags"><span class="badge" style="background:#777">Sem veredito</span></div>'
             f'<a class="titulo" href="{html.escape(achado.url, quote=True)}">{html.escape(achado.titulo)}</a>'
-            f'<div class="meta">fonte: {html.escape(achado.fonte)} · na fila desde '
-            f"{_fmt_data(meta.get('enfileirado_em', ''))}</div>"
-            f"{bloco_trecho}"
-            "</div>"
+            f"{bloco}"
+            f'<div class="rodape"><span>{html.escape(achado.fonte)} · na fila desde '
+            f"{_fmt_data(meta.get('enfileirado_em', ''))}</span></div></article>"
         )
-    n = len(pendentes)
+    plural = "item" if len(itens) == 1 else "itens"
     return (
-        "<details>"
-        f"<summary>🔎 {n} item(ns) aguardando confirmação — a triagem automática "
-        "não decidiu; reavaliados a cada execução, expiram sozinhos</summary>"
-        f'<div class="conteudo">{"".join(itens)}</div>'
-        "</details>"
+        '<details class="secao"><summary><span>🔎 Aguardando confirmação</span>'
+        f'<span class="conta">{len(itens)} {plural}</span>'
+        '<span class="dica">a triagem não decidiu; expiram sozinhos</span></summary>'
+        f'<div class="grade">{"".join(itens)}</div></details>'
     )
 
 
@@ -259,53 +477,55 @@ def gerar(estado, cfg, caminho, hoje=None):
     limite = (hoje - dt.timedelta(days=cfg.get("painel_dias", 60))).isoformat()
     itens = [c for c in estado.concursos if c.get("descoberto_em", "") >= limite]
 
-    situacao = {id(c): _status(c, hoje) for c in itens}
-    vitrine = [c for c in itens if situacao[id(c)] in VITRINE]
-    arquivo = [c for c in itens if situacao[id(c)] in ARQUIVO]
-    em_curso = sum(1 for c in vitrine if situacao[id(c)] == "em_curso")
-    futuros = sum(1 for c in vitrine if situacao[id(c)] == "futuro")
+    situacoes = {id(c): _situacao(c, hoje) for c in itens}
+    vitrine = [c for c in itens if situacoes[id(c)] in VITRINE]
+    arquivo = [c for c in itens if situacoes[id(c)] in ARQUIVO]
+    pre_edital = [c for c in itens if situacoes[id(c)] in PRE_EDITAL]
+    pre_edital.sort(key=lambda c: _ordem(c, hoje))
+    em_curso = sum(1 for c in vitrine if situacoes[id(c)] == "em_curso")
+    futuros = sum(1 for c in vitrine if situacoes[id(c)] == "futuro")
 
-    blocos = []
+    blocos = {"raio": [], "pr": [], "vizinho": [], "distante": [], "desconhecido": []}
+    for c in vitrine:
+        blocos[_faixa(c)].append(c)
+    for lista in blocos.values():
+        lista.sort(key=lambda c: _ordem(c, hoje))
 
     pendentes = estado.pendentes_carregados() if hasattr(estado, "pendentes_carregados") else []
-    if pendentes:
-        blocos.append(_bloco_pendentes(pendentes))
-
-    grupos = (
-        (0, "📍 Paraná"),
-        (1, "🗺️ Vizinhos — SC · SP · MS"),
-        (2, "🌎 Demais estados"),
-    )
-    for chave, rotulo in grupos:
-        do_grupo = sorted(
-            (c for c in vitrine if _grupo(c) == chave),
-            key=lambda c: _ordem_vitrine(c, hoje),
+    partes = [
+        # a fila fica no TOPO por pedido do Danilo (6.8.2026), recolhida
+        _secao_pendentes(pendentes),
+        _secao("raio", "🎯 Perto de Maringá", "até 40 km, mais os de prova remota",
+               blocos["raio"], hoje),
+        _secao("pr", "📍 Paraná", "demais cidades do estado", blocos["pr"], hoje),
+        _secao("vizinho", "🗺️ Estados vizinhos", "SP · SC · MS, do mais perto ao mais longe",
+               blocos["vizinho"], hoje),
+        _secao("distante", "🌎 Demais estados", "", blocos["distante"], hoje),
+    ]
+    if blocos["desconhecido"]:
+        partes.append(
+            _secao("desconhecido", "❔ Sem localização identificada",
+                   "o coletor não conseguiu o município", blocos["desconhecido"], hoje)
         )
-        if not do_grupo:
-            continue
-        blocos.append(f"<h2>{rotulo} ({len(do_grupo)})</h2>")
-        blocos.extend(_render_item(c, hoje) for c in do_grupo)
-
     if not vitrine:
-        blocos.append("<p>Nenhuma descoberta com inscrições em aberto no período.</p>")
+        partes.append('<p class="vazio">Nenhuma descoberta com inscrições em aberto no período.</p>')
 
-    if arquivo:
-        arquivo.sort(
-            key=lambda c: (c.get("detalhes", {}).get("inscricoes_fim") or c.get("descoberto_em", "")),
-            reverse=True,
-        )
-        blocos.append(
-            "<details>"
-            f"<summary>🗄 {len(arquivo)} concurso(s) com inscrições encerradas ou suspensos</summary>"
-            f'<div class="conteudo">{"".join(_render_item(c, hoje) for c in arquivo)}</div>'
-            "</details>"
-        )
+    arquivo.sort(
+        key=lambda c: (c.get("detalhes", {}).get("inscricoes_fim") or c.get("descoberto_em", "")),
+        reverse=True,
+    )
+    partes.append(
+        _secao("pre_edital", "⏳ No radar, sem edital ainda",
+               "banca definida, comissão formada ou edital anunciado", pre_edital, hoje,
+               aberta=False)
+    )
+    partes.append(
+        _secao("arquivo", "🗄 Encerrados e suspensos", "histórico recente", arquivo, hoje, aberta=False)
+    )
 
     sub = (
-        "Concursos de fiscalização tributária e controle — federal, estadual e municipal. "
-        f"Atualizado em {tempo.agora().strftime('%d.%m.%Y %H:%M')} · "
-        f"{em_curso} com inscrições em curso · {futuros} com inscrições a abrir · "
-        f"{len(itens)} descoberto(s) nos últimos {cfg.get('painel_dias', 60)} dias."
+        f"<b>{em_curso}</b> com inscrições em curso · <b>{futuros}</b> vão abrir · "
+        f"{len(itens)} descobertos nos últimos {cfg.get('painel_dias', 60)} dias"
     )
 
     pagina = f"""<!doctype html>
@@ -319,7 +539,20 @@ def gerar(estado, cfg, caminho, hoje=None):
 <body>
 <h1>📡 Radar Auditor Fiscal</h1>
 <div class="sub">{sub}</div>
-{"".join(blocos)}
+<div class="sub" id="aviso-novos" hidden></div>
+<div class="controles">
+  <button class="filtro" data-classe="so-abertas" aria-pressed="false">inscrições abertas</button>
+  <button class="filtro" data-classe="so-vaga" aria-pressed="false">com vaga imediata</button>
+  <button class="filtro" data-classe="so-perto" aria-pressed="false">perto de Maringá</button>
+  <button class="filtro" id="btn-ocultos" hidden></button>
+</div>
+{"".join(p for p in partes if p)}
+<footer>
+Concursos de fiscalização tributária e controle — federal, estadual e municipal.
+Atualizado em {tempo.agora().strftime("%d.%m.%Y às %H:%M")}.
+Ocultos e novidades ficam guardados neste navegador.
+</footer>
+<script>{JS}</script>
 </body>
 </html>"""
 

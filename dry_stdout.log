@@ -1,0 +1,70 @@
+[gran] 171 achados brutos
+[estrategia] aviso: marco não alcançado em 12 páginas do feed
+[estrategia] aviso: página 2 idêntica à anterior (?paged= não pagina neste feed), parando
+[estrategia] 130 achados brutos
+[banca] aviso: 2 links casaram como edital de abertura em https://fundacaofafipa.org.br, ambíguo, deixando vazio (fail-closed)
+[fafipa] 15 achados brutos
+[ibam] 24 achados brutos
+[coleta] 8 item(ns) já conhecido(s) do mesmo ente
+[triagem] 8 descartado(s) — data/descartados.json
+[triagem] 11 pendente(s) na fila — data/pendentes.json
+[triagem] publicado (verificador: abertura) regras=incerto   Concurso Rio Verde de Mato Grosso MS: SAIU; 430 vagas.!
+[triagem] publicado (regras: pre_edital)   regras=pre_edital Concurso Sefaz AL: 100 vagas para Auditor! edital em breve
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Sefaz AL: documento confirma edital com 100 vagas!
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Piraju SP: SAIU; inscrições abertas. Confira!
+[triagem] publicado (regras: pre_edital)   regras=pre_edital Concurso CGU: 60 vagas para Auditor, banca em definição!
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso CGU: EXCLUSIVO, contratação da banca até dezembro!
+[triagem] publicado (regras: suspensao)    regras=suspensao Concurso Receita Federal forma equipe para contratação da banca
+[triagem] publicado (regras: pre_edital)   regras=pre_edital Concurso Receita Federal: EXCLUSIVO, banca em definição!
+[triagem] descartado (regras)              regras=descarte  Concursos Administrativos: quase 800 vagas abertas hoje. Até R$19 mil!
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Câmara Rifaina SP: inscrições abertas; até R$ 7 mil!
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso TCDF 2026 para Analista oferta iniciais de R$14,9 mil!
+[triagem] descartado (regras)              regras=descarte  Concursos Prefeituras 2026: Confira os editais com centenas de vagas
+[triagem] publicado (regras: suspensao)    regras=suspensao Bunda na cadeira
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso CGE AL: locais de prova divulgados em 14/08!
+[triagem] publicado (verificador: abertura) regras=incerto   Concurso CGE AL: locais de prova saem dia 14 de agosto
+[triagem] descartado (regras)              regras=descarte  Concursos DF 2026: confira os editais abertos e previstos
+[triagem] descartado (regras)              regras=descarte  Concursos Abertos: 50 mil vagas abertas esperam por você! Até R$ 27 mil!
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso TCE SP: salário de Auditor chega a R$ 20,9 mil
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso ISS Manaus: etapas de prova e inscrições abertas
+[triagem] descartado (regras)              regras=descarte  Auto de infração e apreensão para SEFAZ/DF
+[triagem] publicado (verificador: abertura) regras=incerto   Concurso Tapejara PR: histórico da Prefeitura
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Rancho Alegre D’Oeste PR: inscrições abertas
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Quatro Pontes PR: inscrições abertas
+[triagem] publicado (regras: suspensao)    regras=suspensao Concurso Cuité de Mamanguape PB: edital 2026
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Córrego Fundo MG: inscrições abertas
+[triagem] descartado (inscrições encerradas) regras=incerto   Concurso Itarana ES: edital 2026 tem 43 vagas
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso Riachão do Jacuípe BA: inscrições abertas
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso Sefaz AL: número de vagas passa para 100; Cebraspe é a banca!
+[triagem] publicado (regras: abertura)     regras=abertura  Concurso TCE SP 2026: salário de R$ 20,9 mil; inscreva-se!
+[triagem] pendente (tentativa 1)           regras=incerto   Levantamento fiscal em fiscalização do ICMS para SEFAZ/DF
+[triagem] descartado (regras)              regras=descarte  Concursos Nordeste: oportunidades ATUALIZADAS para a região
+[triagem] descartado (regras)              regras=descarte  Concursos Federais 2026: panorama dos próximos editais
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso TCE RN 2026: resultado final é homologado!
+[triagem] pendente (tentativa 1)           regras=incerto   Concurso Santo Antônio do Aracanguá SP: edital 2026
+[triagem] publicado (verificador: abertura) regras=incerto   Camara Municipal de Blumenau — IBAM
+[triagem] pendente (tentativa 6)           regras=incerto   Diário Oficial de Boa Vista/RR — 2026-08-07
+[triagem] pendente (tentativa 9)           regras=incerto   Prefeitura municipal de Palmitos — PORTARI Nº 603/2026 (2026-08-07)
+[triagem] pendente (tentativa 10)          regras=incerto   Prefeitura municipal de Ibirama — 823/2026 (2026-08-07)
+[triagem] pendente (tentativa 14)          regras=incerto   Prefeitura municipal de Belmonte — 0511/2026 (2026-08-06)
+
+== 19 novidade(s) | fontes com falha: nenhuma ==
+- [tributario] Concurso Rio Verde de Mato Grosso MS: SAIU; 430 vagas.! (Rio Verde de Mato Grosso / MS) <https://blog.grancursosonline.com.br/concurso-rio-verde-de-mato-grosso-ms/> termos=['auditor de tributos']
+- [tributario] Concurso Sefaz AL: 100 vagas para Auditor! edital em breve (Sefaz / AL) <https://blog.grancursosonline.com.br/concurso-sefaz-al/> termos=['auditor fiscal']
+- [tributario] Concurso Piraju SP: SAIU; inscrições abertas. Confira! (Piraju / SP) <https://blog.grancursosonline.com.br/concurso-piraju-sp/> termos=['fiscal de rendas']
+- [controle] Concurso CGU: 60 vagas para Auditor, banca em definição! (local n/d) <https://blog.grancursosonline.com.br/concurso-cgu/> termos=['auditor federal de financas e controle']
+- [tributario] Concurso Receita Federal forma equipe para contratação da banca (local n/d) <https://blog.grancursosonline.com.br/concurso-receita-federal/> termos=['auditor fiscal', 'analista tributario']
+- [tributario] Concurso Receita Federal: EXCLUSIVO, banca em definição! (local n/d) <https://blog.grancursosonline.com.br/concurso-receita-federal-exclusivo-banca-em-definicao/> termos=['auditor fiscal', 'analista tributario']
+- [controle] Concurso Câmara Rifaina SP: inscrições abertas; até R$ 7 mil! (Câmara Rifaina / SP) <https://blog.grancursosonline.com.br/concurso-camara-rifaina-sp/> termos=['controlador interno']
+- [tributario] Bunda na cadeira (local n/d) <https://blog.grancursosonline.com.br/bunda-na-cadeira/> termos=['auditor fiscal', 'fiscal de rendas', 'agente fiscal de rendas']
+- [controle] Concurso CGE AL: locais de prova saem dia 14 de agosto (CGE / AL) <https://blog.grancursosonline.com.br/concurso-cge-al-locais-de-prova-saem-dia-14-de-agosto/> termos=['analista de controle interno']
+- [controle] Concurso TCE SP: salário de Auditor chega a R$ 20,9 mil (TCE / SP) <https://www.estrategiaconcursos.com.br/blog/concurso-tce-sp-dipe-salario/> termos=['auditor de controle externo']
+- [tributario] Concurso ISS Manaus: etapas de prova e inscrições abertas (local n/d) <https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus-etapas-de-prova/> termos=['auditor fiscal', 'fiscal de tributos']
+- [tributario] Concurso Tapejara PR: histórico da Prefeitura (Tapejara / PR) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-tapejara/> termos=['auditor fiscal', 'fiscal tributario', 'auditor fiscal tributario']
+- [controle] Concurso Rancho Alegre D’Oeste PR: inscrições abertas (local n/d) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-rancho-alegre-doeste/> termos=['controlador interno']
+- [tributario] Concurso Quatro Pontes PR: inscrições abertas (Quatro Pontes / PR) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-quatro-pontes/> termos=['fiscal de tributos']
+- [tributario] Concurso Cuité de Mamanguape PB: edital 2026 (Cuité de Mamanguape / PB) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-cuite-de-mamanguape/> termos=['auditor de tributos', 'fiscal de tributos']
+- [tributario] Concurso Córrego Fundo MG: inscrições abertas (Córrego Fundo / MG) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-corrego-fundo/> termos=['auditor fiscal', 'fiscal de tributos']
+- [tributario] Concurso Riachão do Jacuípe BA: inscrições abertas (Riachão do Jacuípe / BA) <https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-riachao-do-jacuipe/> termos=['fiscal de tributos']
+- [controle] Concurso TCE SP 2026: salário de R$ 20,9 mil; inscreva-se! (local n/d) <https://www.estrategiaconcursos.com.br/blog/concurso-tce-sp/> termos=['auditor de controle externo']
+- [controle] Camara Municipal de Blumenau — IBAM (Blumenau) <https://www.ibam-concursos.org.br/?status=1#collapse-368> termos=['controlador interno']

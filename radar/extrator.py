@@ -15,7 +15,9 @@ Motivação (feedback do Danilo, 6.8.2026):
   mesmo quando o cargo-alvo tinha vaga imediata ("1 vaga + CR");
 - retificação era descartada sem olhar se as inscrições seguiam abertas
   (caso Piraju/SP: retificação com inscrições até 30.8 foi descartada);
-- o cartão só linkava a notícia, não o site da banca/inscrição.
+- o cartão só linkava a notícia, não o site da banca/inscrição;
+- o cartão não mostrava salário nem linkava o PDF do edital de abertura
+  (feedback do Danilo, 12.8.2026, inspirado numa newsletter concorrente).
 
 Armadilhas já corrigidas (revisão adversarial de 6.8.2026), todas com teste:
 - vagas do cargo VIZINHO ("Fiscal de Tributos Fonoaudiólogo (1 vaga)");
@@ -104,6 +106,27 @@ _RX_VALIDADE = re.compile(
     r"validade\s+de\s+(\d+|um|uma|dois|duas|tres|quatro)\s+(anos?|mes(?:es)?)"
 )
 _EXTENSO = {"um": "1", "uma": "1", "dois": "2", "duas": "2", "tres": "3", "quatro": "4"}
+
+# REMUNERAÇÃO: campo pedido pelo Danilo (12.8.2026) para pôr o salário em
+# destaque no cartão, como a newsletter que inspirou esta rodada faz. Dois
+# formatos aparecem nos artigos: o cheio "R$ 1.621,00" (ponto de milhar,
+# vírgula decimal) e o abreviado "R$ 6,5 mil"/"R$ 22,8 mil" (vírgula decimal
+# solta, sem ponto de milhar). Alternativas separadas na regex porque, se
+# fossem uma regra só, "6,5" sem ponto de milhar colidiria com o formato
+# cheio ou o cheio teria que aceitar 1-3 dígitos soltos por engano.
+_RX_DINHEIRO = re.compile(
+    r"r\$\s*(\d{1,3}(?:\.\d{3})+(?:,\d{2})?|\d+(?:,\d{1,2})?)\s*(mil)?\b"
+)
+# valor de taxa de inscrição, auxílio-alimentação ou multa não é remuneração,
+# mesmo aparecendo na MESMA frase do salário (caso real Marialva/PR:
+# "R$ 6.768,66, acrescidos de auxílio-alimentação de R$ 730,00" não pode
+# devolver R$ 730 como remuneração do cargo). "auxilios?" e não "auxili\w*":
+# a lista de cargos de Cuité de Mamanguape/PB tem "Auxiliar de Saúde Bucal"
+# na MESMA frase (a lista inteira vira uma frase só, sem ponto entre os
+# cargos) — "auxili\w*" casava "auxiliar" e cortava a frase antes da
+# remuneração, apagando R$ 1.621,00 a R$ 11.975,00 inteiros.
+_RX_DINHEIRO_EXCLUIR = re.compile(r"\btaxas?\b|\bauxilios?\b|\bmultas?\b")
+_RX_REMUNERACAO_KW = re.compile(r"\bremunera\w*|\bsalari\w*")
 
 # Parênteses de VAGAS: precisa falar de vaga/CR/cadastro. Só dígito não basta
 # — "(40 horas semanais)" e "(R$ 3.500,00)" viravam 40 e 3 vagas.
@@ -346,6 +369,76 @@ def _vagas_texto(vagas):
     return " · ".join(f"{titulo_cargo(t)}: {s}" for t, s in partes)
 
 
+def _valor_dinheiro(bruto, mil):
+    """'2.565,32' -> 2565.32; '6,5' com mil=True -> 6500.0. Ponto é sempre
+    separador de milhar e vírgula é sempre decimal (nunca o inverso, é o
+    padrão monetário brasileiro em qualquer um dos dois formatos aceitos)."""
+    limpo = bruto.replace(".", "").replace(",", ".")
+    try:
+        valor = float(limpo)
+    except ValueError:
+        return None
+    return valor * 1000 if mil else valor
+
+
+def _fmt_dinheiro(valor):
+    """2565.32 -> 'R$ 2.565,32' (sempre com centavos, mesmo vindo de '6,5 mil')."""
+    inteiro, centavos = divmod(round(valor * 100), 100)
+    milhar = f"{inteiro:,}".replace(",", ".")
+    return f"R$ {milhar},{centavos:02d}"
+
+
+def _remuneracao(texto_norm, termos):
+    """(texto pronto pro cartão, valor float|None) — vazio quando não há
+    valor confiável (fail-closed).
+
+    Duas fontes, nesta ordem de prioridade (regra do Danilo, 12.8.2026):
+    1. valor AMARRADO AO CARGO-ALVO — "Fiscal de Tributos (R$ 4.500,00)" —,
+       pela mesma mecânica de _vagas_do_cargo: o parêntese só pertence ao
+       termo se o texto entre os dois for continuação do próprio cargo,
+       senão é o valor do cargo VIZINHO (mesma armadilha das vagas);
+    2. só a FAIXA do certame ("remuneração de R$ X a R$ Y", "salários vão
+       de R$ X a R$ Y", "até R$ X") — usa o TETO e marca "até", porque o
+       piso quase sempre é de um cargo de nível fundamental, não do
+       cargo-alvo, e dizer que o cargo-alvo paga o piso seria inventar.
+    """
+    for termo in termos:
+        rx = re.compile(
+            frase_para_regex(termo).pattern + r"([^()]{0,%d}?)\(\s*([^()]{1,60}?)\s*\)"
+            % _JANELA_GAP
+        )
+        for m in rx.finditer(texto_norm):
+            gap, conteudo = m.group(1), m.group(2)
+            if not _gap_e_continuacao(gap) or _RX_DINHEIRO_EXCLUIR.search(conteudo):
+                continue
+            md = _RX_DINHEIRO.search(conteudo)
+            if md:
+                valor = _valor_dinheiro(md.group(1), md.group(2))
+                if valor is not None:
+                    return _fmt_dinheiro(valor), valor
+
+    for frase in re.split(r"(?<=[.!?;])\s+", texto_norm):
+        if not _RX_REMUNERACAO_KW.search(frase):
+            continue
+        m_ex = _RX_DINHEIRO_EXCLUIR.search(frase)
+        trecho = frase[: m_ex.start()] if m_ex else frase
+        valores = []
+        for md in _RX_DINHEIRO.finditer(trecho):
+            valor = _valor_dinheiro(md.group(1), md.group(2))
+            if valor is not None:
+                valores.append((md.start(), valor))
+        if not valores:
+            continue
+        maior = max(v for _, v in valores)
+        # "até" já dito no texto ("salários de até R$ X") ou faixa com 2+
+        # valores (o maior é o teto, o menor não pertence ao cargo-alvo)
+        ate_no_texto = bool(re.search(r"\bate\b", trecho[: valores[0][0]]))
+        if len(valores) > 1 or ate_no_texto:
+            return f"até {_fmt_dinheiro(maior)}", maior
+        return _fmt_dinheiro(maior), maior
+    return "", None
+
+
 def _resumo(texto_original, titulo=""):
     """Primeira frase substancial do corpo do artigo. A quebra de linha
     também separa e o próprio título é pulado (o cnb entrega
@@ -399,6 +492,33 @@ def _site_inscricao(texto_original, links_artigo, banca):
     return ""
 
 
+# EDITAL: link do PDF de abertura citado no artigo (campo pedido pelo
+# Danilo, 12.8.2026). O link mais citado no corpo costuma ser o mais
+# RECENTE, quase sempre uma retificação, não o edital original — por isso a
+# rejeição roda ANTES da aceitação, e qualquer PDF de fase posterior
+# (retificação, errata, gabarito, resultado, convocação, homologação, anexo,
+# cronograma) é descartado mesmo citando "edital" no nome ou no texto do link.
+_RX_EDITAL_ACEITAR = re.compile(r"\bedital\b")
+_RX_EDITAL_REJEITAR = re.compile(
+    r"retificac\w*|errata|gabarito|resultado|convocac\w*|homologac\w*|anexo|cronograma"
+)
+_RX_PDF = re.compile(r"\.pdf(?:[?#]|$)", re.I)
+
+
+def _edital_url(links_artigo):
+    """PDF do edital de abertura entre os links do artigo, ou vazio quando
+    nenhum link do artigo é claramente o edital (fail-closed)."""
+    for texto, href in links_artigo or []:
+        if not _RX_PDF.search(href):
+            continue
+        alvo = normalizar(f"{texto} {href}")
+        if _RX_EDITAL_REJEITAR.search(alvo):
+            continue
+        if _RX_EDITAL_ACEITAR.search(alvo):
+            return href
+    return ""
+
+
 def vazio():
     """Extração neutra — para fontes cujo texto não é artigo de notícia
     (diários oficiais), onde datas e parênteses vêm de contexto alheio."""
@@ -406,6 +526,7 @@ def vazio():
         "inscricoes_inicio": "", "inscricoes_fim": "", "inscricoes_texto": "",
         "vagas": {}, "vagas_texto": "", "cr_somente": False,
         "banca": "", "site_inscricao": "", "validade": "", "resumo": "",
+        "remuneracao": "", "remuneracao_valor": None, "edital_url": "",
     }
 
 
@@ -414,7 +535,8 @@ def extrair(achado, termos, hoje=None):
 
     Devolve dict com: inscricoes_inicio/fim (ISO ou ""), inscricoes_texto,
     vagas (por termo), vagas_texto, cr_somente, banca, site_inscricao,
-    validade, resumo.
+    validade, resumo, remuneracao (texto pronto pro cartão), remuneracao_valor
+    (float|None, para ordenar), edital_url (PDF do edital de abertura).
     """
     hoje = hoje or tempo.hoje()
     original = f"{achado.titulo}\n{achado.cargo_texto}\n{achado.detalhes.get('trecho', '')}"
@@ -426,6 +548,13 @@ def extrair(achado, termos, hoje=None):
 
     inicio, fim = _periodo_inscricoes(texto, hoje.year)
     vagas = _vagas_do_cargo(texto, termos, original, alinhado)
+    remuneracao, remuneracao_valor = _remuneracao(texto, termos)
+    # o coletor de banca (ex.: selecao.net.br) já lê o edital_url da própria
+    # página de detalhe, com muito mais precisão do que o artigo de notícia
+    # — esse valor tem precedência e o extrator não sobrescreve
+    edital_url = achado.detalhes.get("edital_url") or _edital_url(
+        achado.detalhes.get("links_artigo")
+    )
     m_banca = _RX_BANCA.search(texto)
     banca = ""
     if m_banca and not _VETO_BANCA.search(m_banca.group(1)):
@@ -469,4 +598,7 @@ def extrair(achado, termos, hoje=None):
         "resumo": _resumo(
             achado.cargo_texto or achado.detalhes.get("trecho", ""), achado.titulo
         ),
+        "remuneracao": remuneracao,
+        "remuneracao_valor": remuneracao_valor,
+        "edital_url": edital_url,
     }

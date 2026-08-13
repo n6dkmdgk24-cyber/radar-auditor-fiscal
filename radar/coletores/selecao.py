@@ -20,8 +20,11 @@ from bs4 import BeautifulSoup
 
 from ..modelos import Achado
 
+# A FAFIPA saiu daqui em 13.8.2026: ganhou coletor próprio (radar/coletores/
+# fafipa.py), que extrai o PDF do edital de abertura. Se as duas fontes
+# raspassem o mesmo site, o mesmo concurso viria duas vezes na mesma execução
+# e a versão SEM o link do edital poderia vencer a corrida da deduplicação.
 BASES_PADRAO = (
-    "https://fundacaofafipa.org.br",
     "https://ameosc.selecao.net.br",
     "https://institutoaocp.selecao.net.br",
     "https://idecan.selecao.net.br",

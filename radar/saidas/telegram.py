@@ -9,6 +9,8 @@ import time
 
 import requests
 
+from .. import geo
+
 API_URL = "https://api.telegram.org/bot{token}/sendMessage"
 TIMEOUT = 30
 LIMITE_INDIVIDUAL = 12
@@ -47,12 +49,24 @@ def _local(achado):
 def _mensagem_achado(achado, categoria, termos):
     ia = achado.detalhes.get("ia") or {}
 
-    # linha de tags, sempre na mesma ordem: categoria · suspenso · cadastro de reserva
+    # linha de tags, sempre na mesma ordem: área (com esfera) · distância ·
+    # suspenso · vagas. A esfera e a distância entraram na v6 pelo mesmo
+    # motivo do painel: dizer de cara se o concurso é municipal e se é perto.
     nomes = {"tributario": "Tributário", "controle": "Controle", "conferir": "Conferir"}
-    tags = [f"{EMOJI_CATEGORIA.get(categoria, '❓')} {nomes.get(categoria, categoria)}"]
+    area = nomes.get(categoria, categoria)
+    if ia.get("esfera") and categoria != "conferir":
+        area = f"{area} {ia['esfera']}"
+    tags = [f"{EMOJI_CATEGORIA.get(categoria, '❓')} {area}"]
+    dist = geo.distancia_km(achado.municipio or achado.orgao, achado.uf)
+    if ia.get("prova_remota"):
+        tags.append("💻 PROVA REMOTA")
+    elif dist is not None and dist <= 400:
+        tags.append(f"📍 {round(dist)} km de Maringá")
     if ia.get("classe") == "suspensao":
         tags.append("⚠️ SUSPENSO")
-    if ia.get("cadastro_reserva"):
+    if ia.get("vagas"):
+        tags.append(f"🎟 {ia['vagas']}")
+    elif ia.get("cadastro_reserva"):
         tags.append("📋 CADASTRO DE RESERVA")
 
     # título padronizado: "Município/UF — Cargo"; sem local ou cargo, título original
@@ -61,11 +75,16 @@ def _mensagem_achado(achado, categoria, termos):
     titulo = f"{local} — {cargo}" if local and cargo else achado.titulo
 
     linhas = [" · ".join(tags), f"<b>{_escapar(titulo)}</b>"]
+    if ia.get("remuneracao"):
+        linhas.append(f"💰 {_escapar(ia['remuneracao'])}")
     if ia.get("inscricoes"):
         linhas.append(f"🗓 Inscrições: {_escapar(ia['inscricoes'])}")
     resumo = ia.get("resumo") or achado.detalhes.get("trecho", "")
     if resumo:
         linhas.append(f"<i>{_escapar(resumo)}</i>")
+    edital = achado.detalhes.get("edital_url", "")
+    if edital:
+        linhas.append(f"📄 Edital: {_escapar(edital)}")
     linhas.append(f"fonte: {_escapar(achado.fonte)} · {_escapar(achado.url)}")
     return "\n".join(linhas)
 
