@@ -3631,5 +3631,50 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de São João del-Rei - MG abre concurso público com salários de até R$ 15.164,56",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-del-rei-mg-abre-concurso-publico-com-salarios-de-ate-15164",
+  "orgao": "Prefeitura de São João del-Rei",
+  "municipio": "São João del-Rei",
+  "uf": "MG",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de São João del-Rei",
+     "https://www.saojoaodelrei.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-13",
+   "inscricoes_fim": "2026-11-12",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "13.10.2026 a 12.11.2026",
+    "vagas": "Fiscal de Tributos: 3 vagas · Fiscal Tributário: 4 vagas",
+    "remuneracao": "até R$ 15.164,56",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O município de São João del-Rei , no Estado de Minas Gerais, em conjunto com o Instituto Brasileiro de Gestão e Pesquisa (IBGP) , abriu um concurso público (Edital nº 02/2026) para o preenchimento de vagas em funções de nível médio, técn…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]

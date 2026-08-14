@@ -1,29 +1,135 @@
 {
- "executado_em": "2026-08-13T20:42:19",
+ "executado_em": "2026-08-14T08:47:18",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "TCE-SP divulga retificação do concurso público para Auditor de Controle Externo",
-   "url": "https://www.pciconcursos.com.br/noticias/tce-sp-divulga-retificacao-do-concurso-publico-para-auditor-de-controle-externo",
-   "categoria_filtro": "controle",
+   "titulo": "Prefeitura de São João del-Rei - MG abre concurso público com salários de até R$ 15.164,56",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-del-rei-mg-abre-concurso-publico-com-salarios-de-ate-15164",
+   "categoria_filtro": "tributario",
    "termos": [
-    "auditor de controle externo"
+    "fiscal de tributos",
+    "fiscal tributario"
    ],
    "regras": "abertura",
-   "regras_motivo": "retificação com inscrições abertas até 2026-08-20",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
+   "fonte": "dou",
+   "titulo": "EDITAL (Edital)",
+   "url": "https://www.in.gov.br/web/dou/-/edital-725497685",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (trecho: \\bresultado\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "dou",
+   "titulo": "EDITAL(*) (Retificação (de Edital))",
+   "url": "https://www.in.gov.br/web/dou/-/edital-*-725405285",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
    "fonte": "sigpub",
-   "titulo": "Município de Águas Lindas de Goiás — EDITAL DE CONVOCAÇÃO PARA POSSE 05/2026 REFERENTE AO CONCURSO PÚBLICO Nº01/2023 (2026-08-12)",
-   "url": "https://www.diariomunicipal.com.br/agm/load/53119E57",
+   "titulo": "Prefeitura Municipal de Paranavaí — PORTARIA MUNICIPAL Nº 1.496/2026 (2026-08-14)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/F093854B",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Rio Branco do Sul — EDITAL  N . º 28.001/2026  RESULTADO  FINAL  E  CLASSIFICAÇÃO (2026-08-14)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/A983B4BF",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal",
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "fase sem inscrição (título: \\bresultado\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Maribondo — PORTARIA Nº 132 DE 10 DE AGOSTO DE 2026 (2026-08-11)",
+   "url": "https://www.diariomunicipal.com.br/ama/load/593F0F65",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de rendas"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Cunhataí — PORTARIA Nº 208/2026, DE 14 DE AGOSTO DE 2026 (2026-08-14)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8609129",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Bom Jesus do Oeste — PORTARIA Nº 208/2026, DE 14 DE AGOSTO DE 2026 (2026-08-14)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8608954",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso CRESS RO: 123 vagas de níveis médio e superior!",
+   "url": "https://blog.grancursosonline.com.br/concurso-cress-ro/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concursos Federais: MGI autoriza nomeações de aprovados",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concursos-federais-mgi-autoriza-nomeacoes-aprovados/",
+   "categoria_filtro": "controle",
+   "termos": [
+    "auditor federal de financas e controle"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -38,7 +144,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "gran",
@@ -51,7 +157,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "gran",
@@ -64,7 +170,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "estrategia",
@@ -77,7 +183,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "estrategia",
@@ -90,7 +196,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "estrategia",
@@ -103,7 +209,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "estrategia",
@@ -116,7 +222,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "qd",
@@ -129,7 +235,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "qd",
@@ -143,7 +249,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "domsc",
@@ -156,7 +262,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "qd",
@@ -169,7 +275,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 23)"
+   "destino": "pendente (tentativa 24)"
   },
   {
    "fonte": "domsc",
@@ -182,7 +288,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 26)"
+   "destino": "pendente (tentativa 27)"
   },
   {
    "fonte": "domsc",
@@ -195,7 +301,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 27)"
+   "destino": "pendente (tentativa 28)"
   },
   {
    "fonte": "domsc",
@@ -208,7 +314,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 31)"
+   "destino": "pendente (tentativa 32)"
   }
  ]
 }
