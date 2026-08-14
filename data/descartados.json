@@ -5414,5 +5414,29 @@
   "municipio": "",
   "uf": "RN",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-14",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\blei\\b)",
+   "criterio": "documento não é concurso (título: \\blei\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "MUNICÍPIO DE SOSSÊGO — LEI MUNICIPAL N° 3932026GP/PMS (2026-08-12)",
+  "url": "https://www.diariomunicipal.com.br/famup/load/D3DFBB62",
+  "municipio": "Sossêgo",
+  "uf": "PB",
+  "trecho": "NTAL 07 3.242,00 AGENTE DE VIGILÂNCIA SANITÁRIA 03 1.621,00 AUXILIAR DE DENTISTA 05 1.621,00 AUXILIAR DE ENFERMAGEM 02 1.621,00 DIGITADOR 05 1.621,00 FISCAL DE TRIBUTOS 02 1.621,00 TÉCNICO DE ENFERMAGEM 10 1.621,00 TÉCNICO EM SEGURANÇA DO TRABALHO 02 3.000,00 GRUPO OCUPACIONAL – NÍVEL SUPERIOR CARGO"
  }
 ]

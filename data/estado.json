@@ -1,17 +1,14 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-14T19:40:03"
+   "scraped_since": "2026-08-14T23:09:50"
   },
   "pci": {
    "lastmod_max": "2026-08-14"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-14T19:10:54",
+   "ultimo_pub": "2026-08-14T22:01:24",
    "guids": [
-    "https://concursosnobrasil.com/?p=382364",
-    "https://concursosnobrasil.com/?p=382375",
-    "https://concursosnobrasil.com/?p=382359",
     "https://concursosnobrasil.com/?p=382346",
     "https://concursosnobrasil.com/?p=382357",
     "https://concursosnobrasil.com/?p=382337",
@@ -408,7 +405,10 @@
     "https://concursosnobrasil.com/?p=385043",
     "https://concursosnobrasil.com/?p=385028",
     "https://concursosnobrasil.com/?p=385030",
-    "https://concursosnobrasil.com/?p=385018"
+    "https://concursosnobrasil.com/?p=385018",
+    "https://concursosnobrasil.com/?p=385083",
+    "https://concursosnobrasil.com/?p=385077",
+    "https://concursosnobrasil.com/?p=385068"
    ]
   },
   "dou": {
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-13"
    },
-   "proximo_extra": 10,
+   "proximo_extra": 0,
    "amp": {
     "ultima_data": "2026-08-14"
    },
@@ -448,6 +448,12 @@
     "ultima_data": "2026-08-14"
    },
    "amr": {
+    "ultima_data": "2026-08-14"
+   },
+   "famup": {
+    "ultima_data": "2026-08-14"
+   },
+   "fgm": {
     "ultima_data": "2026-08-14"
    }
   },
@@ -479,7 +485,7 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-14T19:43:34",
+   "ultimo_pub": "2026-08-14T22:18:05",
    "guids": [
     "https://blog.grancursosonline.com.br/?p=79965180",
     "https://blog.grancursosonline.com.br/?p=79467401",
@@ -716,11 +722,15 @@
     "https://blog.grancursosonline.com.br/?p=79374675",
     "https://blog.grancursosonline.com.br/?p=76949",
     "https://blog.grancursosonline.com.br/?p=79433313",
-    "https://blog.grancursosonline.com.br/?p=79963534"
+    "https://blog.grancursosonline.com.br/?p=79963534",
+    "https://blog.grancursosonline.com.br/?p=79965526",
+    "https://blog.grancursosonline.com.br/?p=79965519",
+    "https://blog.grancursosonline.com.br/?p=79616447",
+    "https://blog.grancursosonline.com.br/?p=79508993"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-14T19:20:00",
+   "ultimo_pub": "2026-08-14T22:47:35",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -876,7 +886,13 @@
     "https://cj.estrategia.com/portal/?p=29858",
     "https://cj.estrategia.com/portal/?p=194960",
     "https://cj.estrategia.com/portal/?p=29866",
-    "https://cj.estrategia.com/portal/?p=195005"
+    "https://cj.estrategia.com/portal/?p=195005",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1770997",
+    "https://www.estrategiaconcursos.com.br/blog/?p=126596",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1787570",
+    "https://www.estrategiaconcursos.com.br/blog/?p=396882",
+    "https://cj.estrategia.com/portal/?p=1917",
+    "https://cj.estrategia.com/portal/?p=28342"
    ]
   },
   "fafipa": {},

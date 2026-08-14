@@ -2,6 +2,54 @@
  {
   "enfileirado_em": "2026-08-14",
   "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "sigpub",
+   "titulo": "Município de Areia de Baraúnas — COMUNICADO (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/famup/load/4A640A03",
+   "cargo_texto": "SETOR DE TRIBUTOS COMUNICADO COMUNICADO EMISSÃO DE NOTA FISCAL DE SERVIÇOS ELETRÔNICA – NFS-e A Prefeitura Municipal de Areia de Baraúnas/PB , por meio do Setor de Tributos , comunica aos contribuintes enquadrados como Microempresas (ME) e Empresas de Pequeno Porte (EPP) optantes pelo Simples Nacional que, a partir de 1º de setembro de 2026 , a emissão da Nota Fiscal de Serviços Eletrônica – NFS-e deverá ser realizada exclusivamente por meio do Emissor Nacional da NFS-e . A partir dessa data, não será mais permitida a emissão de NFS-e pelo sistema/portal municipal para os contribuintes enquadrados nas condições acima. Dessa forma, recomendamos que todos os contribuintes afetados pela mudança providenciem previamente seu acesso e se familiarizem com o Emissor Nacional da NFS-e , evitando transtornos na emissão de documentos fiscais. Base legal: Resolução CGSN nº 189, de 23 de abril de 2026. Vigência: 01 de setembro de 2026. Para esclarecimentos e demais informações, os contribuintes deverão procurar o Setor de Tributos da Prefeitura Municipal de Areia de Baraúnas/PB . Areia de Baraúnas/PB, 11 de agosto de 2026. EMANUELLE DOS SANTOS LIMA OLIVEIRA Fiscal de Tributos Mat. 000692 Publicado por: Jose Leandro Morais Código Identificador: 4A640A03 Matéria publicada no Diário Oficial dos Municípios do Estado da Paraíba no dia 12/08/2026. Edição 4185 A verificação de autenticidade  da matéria pode ser feita informando o código identificador no site: https://www.diariomunicipal.com.br/famup/",
+   "orgao": "Município de Areia de Baraúnas",
+   "municipio": "Areia de Baraúnas",
+   "uf": "PB",
+   "data_publicacao": "2026-08-12",
+   "detalhes": {
+    "trecho": "o Setor de Tributos da Prefeitura Municipal de Areia de Baraúnas/PB . Areia de Baraúnas/PB, 11 de agosto de 2026. EMANUELLE DOS SANTOS LIMA OLIVEIRA Fiscal de Tributos Mat. 000692 Publicado por: Jose Leandro Morais Código Identificador: 4A640A03 Matéria publicada no Diário Oficial dos Municípios do ",
+    "contexto_fraco": true,
+    "orgao_interno": "SETOR DE TRIBUTOS",
+    "sigpub_base": "famup"
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-14",
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "sigpub",
+   "titulo": "Município de Areia de Baraúnas — COMUNICADO AOS CONTRIBUINTES OPTANTES PELO SIMPLES NACIONAL (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/famup/load/90E6A016",
+   "cargo_texto": "SETOR DE TRIBUTOS COMUNICADO AOS CONTRIBUINTES OPTANTES PELO SIMPLES NACIONAL COMUNICADO AOS CONTRIBUINTES OPTANTES PELO SIMPLES NACIONAL A Prefeitura Municipal de Areia de Baraúnas/PB , por meio do Setor de Tributos, comunica aos contribuintes Microempreendedores, Microempresas (ME) e Empresas de Pequeno Porte (EPP) optantes pelo Simples Nacional que o ISS – Imposto Sobre Serviços de Qualquer Natureza, quando sujeito ao regime do Simples Nacional, é recolhido juntamente com os demais tributos por meio do Documento de Arrecadação do Simples Nacional – DAS. Destarte, não deverá ser efetuado o pagamento do ISS diretamente ao Município de Areia de Baraúnas/PB quando o referido imposto já estiver incluído e sendo regularmente recolhido no DAS. O contribuinte optante pelo Simples Nacional deverá observar as informações constantes da NFS-e, bem como a forma de tributação aplicável à operação. O presente comunicado não caracteriza isenção do ISS. Trata-se apenas de esclarecimento quanto à forma de recolhimento do imposto no âmbito do Simples Nacional. Assim, quando o ISS estiver sendo regularmente recolhido por meio do DAS, o contribuinte não deverá realizar novo pagamento do mesmo imposto diretamente ao Município, evitando duplicidade de recolhimento. Ressalvam-se as situações em que a legislação determina o recolhimento do ISS diretamente ao Município, tais como hipóteses de retenção na fonte, serviços sujeitos à tributação fora do regime do Simples Nacional ou outras situações previstas na legislação aplicável. A Prefeitura Municipal orienta os contribuintes a manterem sua situação cadastral e fiscal regularizada e, em caso de dúvida quanto à incidência ou à forma de recolhimento do ISS, procurarem o Setor de Tributos do Município. Areia de Baraúnas/PB, 11 de agosto de 2026. EMANUELLE DOS SANTOS LIMA OLIVEIRA Fiscal de Tributos Mat. 000692 Publicado por: Jose Leandro Morais Código Identificador: 90E6A016 Matéria publicada no Diário Oficial dos Municípios do Estado da Paraíba no dia 12/08/2026. Edição 4185 A verificação de autenticidade  da matéria pode ser feita informando o código identificador no site: https://www.diariomunicipal.com.br/famup/",
+   "orgao": "Município de Areia de Baraúnas",
+   "municipio": "Areia de Baraúnas",
+   "uf": "PB",
+   "data_publicacao": "2026-08-12",
+   "detalhes": {
+    "trecho": "a de recolhimento do ISS, procurarem o Setor de Tributos do Município. Areia de Baraúnas/PB, 11 de agosto de 2026. EMANUELLE DOS SANTOS LIMA OLIVEIRA Fiscal de Tributos Mat. 000692 Publicado por: Jose Leandro Morais Código Identificador: 90E6A016 Matéria publicada no Diário Oficial dos Municípios do",
+    "contexto_fraco": true,
+    "orgao_interno": "SETOR DE TRIBUTOS",
+    "sigpub_base": "famup"
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-14",
+  "tentativas": 2,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -27,7 +75,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -53,7 +101,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -79,7 +127,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -98,7 +146,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -124,7 +172,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -150,7 +198,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -204,7 +252,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -242,7 +290,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -261,7 +309,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -315,7 +363,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -341,7 +389,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -395,7 +443,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -420,7 +468,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -446,7 +494,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 13,
+  "tentativas": 14,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -469,7 +517,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -494,7 +542,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 29,
+  "tentativas": 30,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -517,7 +565,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -540,7 +588,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

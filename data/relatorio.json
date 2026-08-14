@@ -1,150 +1,83 @@
 {
- "executado_em": "2026-08-14T16:51:14",
+ "executado_em": "2026-08-14T20:20:29",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de Contagem - MG abre concurso público com salários de até R$ 13.305,57",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-contagem-mg-abre-concurso-publico-com-salarios-de-ate-13305",
-   "categoria_filtro": "controle",
-   "termos": [
-    "auditor de controle interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de controle interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "pci",
-   "titulo": "Prefeitura de Heitoraí - GO abre concurso público com vagas para diversas áreas",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-heitorai-go-abre-concurso-publico-com-vagas-para-diversas-areas",
+   "titulo": "Prefeitura de Agudo - RS retifica concurso público com salários de até R$ 13.088,43",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-agudo-rs-retifica-concurso-publico-com-salarios-de-ate-13088",
    "categoria_filtro": "tributario",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+   "regras_motivo": "retificação com inscrições abertas até 2026-08-28",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Toropi - RS abre concurso público com salários de até R$ 8.900,00",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-toropi-rs-abre-concurso-publico-com-salarios-de-ate-8900",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Contagem (MG) anuncia abertura de 272 vagas",
-   "url": "https://concursosnobrasil.com/concursos/mg/2026/08/14/concurso-prefeitura-de-contagem-mg-anuncia-abertura-de-272-vagas/",
-   "categoria_filtro": "controle",
+   "titulo": "Concurso Prefeitura de Toropi (RS) oferece vencimento de até R$ 8.900",
+   "url": "https://concursosnobrasil.com/concursos/rs/2026/08/14/concurso-prefeitura-de-toropi-rs-oferece-vencimento-de-ate-r-8-900/",
+   "categoria_filtro": "tributario",
    "termos": [
-    "auditor de controle interno"
+    "auditor fiscal"
    ],
    "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor de controle interno)",
+   "regras_motivo": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Loanda — PORTARIA 551/2026 (2026-08-14)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/E0099A45",
+   "titulo": "MUNICÍPIO DE SOSSÊGO — LEI MUNICIPAL N° 3932026GP/PMS (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/famup/load/D3DFBB62",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "FUNDO DE PREVIDÊNCIA SOCIAL DO MUNICÍPIO DE MAUÉS — PORTARIA N° 1619, DE 26 DE JUNHO DE 2026. (2026-08-11)",
-   "url": "https://www.diariomunicipal.com.br/aam/load/5A9CA0D5",
+   "titulo": "Município de Areia de Baraúnas — COMUNICADO (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/famup/load/4A640A03",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Irineópolis — PORTARIA N.º 310/2026 (2026-08-14)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8611648",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "gran",
-   "titulo": "Concurso Conceição do Almeida BA: Inscrições abertas; 236 vagas. Veja!",
-   "url": "https://blog.grancursosonline.com.br/concurso-conceicao-do-almeida-ba/",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "gran",
-   "titulo": "Concurso Receita Federal: autorização, prazos e situação atual",
-   "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-autorizacao-prazos-situacao-atual-2026/",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "auditor fiscal",
-    "analista tributario"
-   ],
-   "regras": "suspensao",
-   "regras_motivo": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
-   "verificador": null,
-   "destino": "publicado (regras: suspensao)"
-  },
-  {
-   "fonte": "gran",
-   "titulo": "Concurso Faria Lemos MG: inscrições abertas; 102 vagas!",
-   "url": "https://blog.grancursosonline.com.br/concurso-faria-lemos-mg/",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "controlador interno"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "gran",
-   "titulo": "Concurso Guarabira PB: SAIU; 170 vagas e até R$ 8,4 mil!",
-   "url": "https://blog.grancursosonline.com.br/concurso-guarabira-pb/",
-   "categoria_filtro": "tributario",
-   "termos": [
-    "auditor fiscal",
-    "fiscal de tributos"
-   ],
-   "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor fiscal)",
-   "verificador": null,
-   "destino": "publicado (regras: abertura)"
-  },
-  {
-   "fonte": "gran",
-   "titulo": "Concurso TCE RN: 21,8 mil inscrições; resultado final homologado",
-   "url": "https://blog.grancursosonline.com.br/concurso-tce-rn/",
-   "categoria_filtro": "controle",
-   "termos": [
-    "auditor de controle externo"
    ],
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "abertura: anatomia de edital (7 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes, taxa) + cargo 'auditor de controle externo' na janela",
-   "destino": "descartado (inscrições encerradas)"
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Município de Areia de Baraúnas — COMUNICADO AOS CONTRIBUINTES OPTANTES PELO SIMPLES NACIONAL (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/famup/load/90E6A016",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 1)"
   },
   {
    "fonte": "estrategia",
@@ -157,7 +90,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 1)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "cnb",
@@ -170,7 +103,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "cnb",
@@ -183,7 +116,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, carga, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "estrategia",
@@ -196,7 +129,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "gran",
@@ -209,7 +142,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "gran",
@@ -222,7 +155,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "gran",
@@ -235,7 +168,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "gran",
@@ -248,7 +181,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -261,7 +194,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -274,7 +207,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -287,7 +220,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -300,7 +233,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "qd",
@@ -313,7 +246,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "qd",
@@ -327,7 +260,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "domsc",
@@ -340,7 +273,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "qd",
@@ -353,7 +286,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 26)"
+   "destino": "pendente (tentativa 27)"
   },
   {
    "fonte": "domsc",
@@ -366,7 +299,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "domsc",
@@ -379,7 +312,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 30)"
+   "destino": "pendente (tentativa 31)"
   },
   {
    "fonte": "domsc",
@@ -392,7 +325,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 34)"
+   "destino": "pendente (tentativa 35)"
   }
  ]
 }

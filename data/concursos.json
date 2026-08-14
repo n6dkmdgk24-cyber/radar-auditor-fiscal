@@ -4056,5 +4056,89 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Agudo - RS retifica concurso público com salários de até R$ 13.088,43",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-agudo-rs-retifica-concurso-publico-com-salarios-de-ate-13088",
+  "orgao": "Prefeitura de Agudo",
+  "municipio": "Agudo",
+  "uf": "RS",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Concurso Público nº 01/2025",
+     "https://www.fundatec.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-14",
+   "inscricoes_fim": "2026-08-28",
+   "site_inscricao": "https://www.fundatec.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "14.8.2026 a 28.8.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 13.088,43",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Agudo, no Rio Grande do Sul, publicou o edital do Concurso Público nº 01/2025 , visando ao provimento de vagas e à formação de cadastro de reserva em funções de níveis superior, técnico, médio, fundamental compl…",
+    "criterio": "retificação com inscrições abertas até 2026-08-28",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Toropi - RS abre concurso público com salários de até R$ 8.900,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-toropi-rs-abre-concurso-publico-com-salarios-de-ate-8900",
+  "orgao": "Prefeitura de Toropi",
+  "municipio": "Toropi",
+  "uf": "RS",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Toropi",
+     "https://toropi.rs.gov.br/"
+    ],
+    [
+     "www.institutolegalle.org.br",
+     "https://www.institutolegalle.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-18",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://www.institutolegalle.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "18.8.2026 a 10.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 8.900,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Toropi , no Rio Grande do Sul, publicou um edital de Concurso Público com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
