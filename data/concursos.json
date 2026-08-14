@@ -3807,5 +3807,254 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Contagem - MG abre concurso público com salários de até R$ 13.305,57",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-contagem-mg-abre-concurso-publico-com-salarios-de-ate-13305",
+  "orgao": "Prefeitura de Contagem",
+  "municipio": "Contagem",
+  "uf": "MG",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Contagem",
+     "https://portal.contagem.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-19",
+   "inscricoes_fim": "2026-11-17",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "19.10.2026 a 17.11.2026",
+    "vagas": "4 vagas",
+    "remuneracao": "até R$ 13.305,57",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Contagem , no Estado de Minas Gerais, em conjunto com o Instituto Brasileiro de Gestão e Pesquisa (IBGP) , anunciou a abertura de um Concurso Público destinado ao provimento de vagas para profissionais de nível médio, técn…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Heitoraí - GO abre concurso público com vagas para diversas áreas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-heitorai-go-abre-concurso-publico-com-vagas-para-diversas-areas",
+  "orgao": "Prefeitura de Heitoraí",
+  "municipio": "Heitoraí",
+  "uf": "GO",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Heitoraí",
+     "https://www.heitorai.go.gov.br/"
+    ],
+    [
+     "www.itame.com.br",
+     "https://www.itame.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-20",
+   "inscricoes_fim": "2026-10-20",
+   "site_inscricao": "https://www.itame.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "20.9.2026 a 20.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 9.383,40",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O município de Heitoraí , no Estado de Goiás, anunciou a abertura de Concurso Público para preencher vagas e formar cadastro de reserva em funções de nível fundamental incompleto, fundamental completo, médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Conceição do Almeida BA: Inscrições abertas; 236 vagas. Veja!",
+  "url": "https://blog.grancursosonline.com.br/concurso-conceicao-do-almeida-ba/",
+  "orgao": "Conceição do Almeida",
+  "municipio": "",
+  "uf": "BA",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Edital publicado",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/31174654/Edital-Conceicao-do-Almeida-BA-2026.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital do Concurso Conceição do Almeida BA",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/31174654/Edital-Conceicao-do-Almeida-BA-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-10",
+   "banca": "Instituto Objetiva",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "10.8.2026 a 10.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 3.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Conceição do Almeida BA: Inscrições abertas; 236 vagas.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: autorização, prazos e situação atual",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-autorizacao-prazos-situacao-atual-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal 2026 está oficialmente autorizado e terá banca definida nos próximos dias.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Faria Lemos MG: inscrições abertas; 102 vagas!",
+  "url": "https://blog.grancursosonline.com.br/concurso-faria-lemos-mg/",
+  "orgao": "Faria Lemos",
+  "municipio": "",
+  "uf": "MG",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Faria Lemos MG",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/20191500/Edital-Faria-Lemos-MG-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-05",
+   "inscricoes_fim": "2026-09-04",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "5.8.2026 a 4.9.2026",
+    "vagas": "",
+    "remuneracao": "R$ 1.650,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Estão abertas as inscrições para o Concurso Prefeitura de Faria Lemos, em Minas Gerais.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Guarabira PB: SAIU; 170 vagas e até R$ 8,4 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-guarabira-pb/",
+  "orgao": "Guarabira",
+  "municipio": "",
+  "uf": "PB",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Guarabira PB",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/14111134/Edital-Guarabira-PB-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-19",
+   "inscricoes_fim": "2026-09-21",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "19.8.2026 a 21.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 8.472,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Guarabira na Paraíba oferta 170 vagas imediatas e formação de cadastro de reserva para cargos de níveis médio, técnico, superior e magistério.",
+    "criterio": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
