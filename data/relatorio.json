@@ -1,50 +1,77 @@
 {
- "executado_em": "2026-08-14T08:47:18",
+ "executado_em": "2026-08-14T12:57:51",
  "itens": [
   {
    "fonte": "pci",
-   "titulo": "Prefeitura de São João del-Rei - MG abre concurso público com salários de até R$ 15.164,56",
-   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-sao-joao-del-rei-mg-abre-concurso-publico-com-salarios-de-ate-15164",
-   "categoria_filtro": "tributario",
+   "titulo": "Prefeitura de Relvado - RS abre concurso para diversos cargos com salários de até R$ 8.297,67",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-relvado-rs-abre-concurso-para-diversos-cargos-com-salarios-de-ate-8297",
+   "categoria_filtro": "conferir",
    "termos": [
-    "fiscal de tributos",
-    "fiscal tributario"
+    "fiscal municipal"
    ],
    "regras": "abertura",
-   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal municipal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
   {
-   "fonte": "dou",
-   "titulo": "EDITAL (Edital)",
-   "url": "https://www.in.gov.br/web/dou/-/edital-725497685",
+   "fonte": "pci",
+   "titulo": "Prefeitura de Guarabira - PB abre concurso público com vagas imediatas e cadastro de reserva",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guarabira-pb-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal"
+    "auditor fiscal",
+    "fiscal de tributos"
    ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (trecho: \\bresultado\\b)",
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
    "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "publicado (regras: abertura)"
   },
   {
-   "fonte": "dou",
-   "titulo": "EDITAL(*) (Retificação (de Edital))",
-   "url": "https://www.in.gov.br/web/dou/-/edital-*-725405285",
+   "fonte": "cnb",
+   "titulo": "DAMAE de São João del-Rei (MG) divulga novo edital de concurso",
+   "url": "https://concursosnobrasil.com/concursos/mg/2026/08/14/damae-de-sao-joao-del-rei-mg-divulga-novo-edital-de-concurso/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "agente fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Relvado (RS) tem salário de até R$ 8.297",
+   "url": "https://concursosnobrasil.com/concursos/rs/2026/08/14/concurso-prefeitura-de-relvado-rs-tem-salario-de-ate-r-8-297/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal municipal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, carga, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Guarabira (PB) abre 170 vagas com salários de até R$ 8 mil",
+   "url": "https://concursosnobrasil.com/concursos/pb/2026/08/14/concurso-prefeitura-de-guarabira-pb-abre-170-vagas-com-salarios-de-ate-r-8-mil/",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal"
+    "auditor fiscal",
+    "fiscal de tributos"
    ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bretificacao\\b)",
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre \\d+ vagas?\\b) + cargo (auditor fiscal)",
    "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Paranavaí — PORTARIA MUNICIPAL Nº 1.496/2026 (2026-08-14)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/F093854B",
+   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 951, DE 08 DE JULHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
+   "url": "https://www.diariomunicipal.com.br/amp/load/0B4DC1CE",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
@@ -56,38 +83,115 @@
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Rio Branco do Sul — EDITAL  N . º 28.001/2026  RESULTADO  FINAL  E  CLASSIFICAÇÃO (2026-08-14)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/A983B4BF",
+   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 983, DE 20 DE JULHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
+   "url": "https://www.diariomunicipal.com.br/amp/load/DD15070F",
    "categoria_filtro": "conferir",
    "termos": [
-    "auditor fiscal",
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bresultado\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Maribondo — PORTARIA Nº 132 DE 10 DE AGOSTO DE 2026 (2026-08-11)",
-   "url": "https://www.diariomunicipal.com.br/ama/load/593F0F65",
+   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 993, DE 23 DE JULHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISCA",
+   "url": "https://www.diariomunicipal.com.br/amp/load/5909AB07",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Cerro Azul — PORTARIA Nº 1001, DE 23 DE JULHO DE 2026  CONCEDER AO SERVIDOR PÚBLICO MUNICIPAL CLAUDECI FARIAS, OCUPANTE DO CARGO DE FISC",
+   "url": "https://www.diariomunicipal.com.br/amp/load/9CA59F1B",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Pitangueiras — DECRETO N° 758/2026 (2026-08-14)",
+   "url": "https://www.diariomunicipal.com.br/amp/load/482E7E77",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Porto Velho — DECRETO Nº 22.332, DE 12 DE AGOSTO DE 2026. (2026-08-13)",
+   "url": "https://www.diariomunicipal.com.br/arom/load/78B14A5A",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Porto Velho — EDITAL Nº 49/2026/SEMDEC-DFLO, DE 07 DE AGOSTO DE 2026 (2026-08-11)",
+   "url": "https://www.diariomunicipal.com.br/arom/load/6F28DCBF",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal municipal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "ato de pessoal sobre servidor (\\bauto de infracao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Ariquemes — SEMFAZ - DIREM - GERÊNCIA DE DÍVIDA ATIVA (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/arom/load/250FAAB0",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bdivida ativa\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Governador Jorge Teixeira — DECRETO MUNICIPAL Nº. 12025/GAB/2026 DE 11 DE AGOSTO DE 2026    \"DISPÕE SOBRE LICENÇA PRÊMIO DA SERVIDORA FR",
+   "url": "https://www.diariomunicipal.com.br/arom/load/ED6277F0",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de rendas"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Cunhataí — PORTARIA Nº 208/2026, DE 14 DE AGOSTO DE 2026 (2026-08-14)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8609129",
+   "fonte": "sigpub",
+   "titulo": "Prefeitura Municipal de Currais Novos — PORTARIA Nº 1052, DE 27 DE JULHO DE 2026. (2026-08-12)",
+   "url": "https://www.diariomunicipal.com.br/femurn/load/56B14D6C",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal de tributos"
+    "auditor fiscal"
    ],
    "regras": "descarte",
    "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
@@ -95,17 +199,31 @@
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Bom Jesus do Oeste — PORTARIA Nº 208/2026, DE 14 DE AGOSTO DE 2026 (2026-08-14)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8608954",
+   "fonte": "gran",
+   "titulo": "Concurso Receita Federal 2026: quem pode ser a banca ?",
+   "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-quem-pode-ser-a-banca/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "analista tributario"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Simulados Fim de Semana: programação de 15 e 16/08",
+   "url": "https://www.estrategiaconcursos.com.br/blog/simulados-fim-de-semana/",
    "categoria_filtro": "conferir",
    "termos": [
-    "fiscal tributario"
+    "fiscal municipal"
    ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
+   "destino": "pendente (tentativa 1)"
   },
   {
    "fonte": "gran",
@@ -118,20 +236,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 1)"
-  },
-  {
-   "fonte": "estrategia",
-   "titulo": "Concursos Federais: MGI autoriza nomeações de aprovados",
-   "url": "https://www.estrategiaconcursos.com.br/blog/concursos-federais-mgi-autoriza-nomeacoes-aprovados/",
-   "categoria_filtro": "controle",
-   "termos": [
-    "auditor federal de financas e controle"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "matéria-lista de vários concursos (título: ^concursos\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "gran",
@@ -144,7 +249,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "gran",
@@ -157,7 +262,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "gran",
@@ -170,7 +275,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "estrategia",
@@ -183,7 +288,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "estrategia",
@@ -196,7 +301,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "estrategia",
@@ -209,7 +314,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "estrategia",
@@ -222,7 +327,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "qd",
@@ -235,7 +340,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "qd",
@@ -249,7 +354,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "domsc",
@@ -262,7 +367,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "qd",
@@ -275,7 +380,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 24)"
+   "destino": "pendente (tentativa 25)"
   },
   {
    "fonte": "domsc",
@@ -288,7 +393,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 27)"
+   "destino": "pendente (tentativa 28)"
   },
   {
    "fonte": "domsc",
@@ -301,7 +406,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 28)"
+   "destino": "pendente (tentativa 29)"
   },
   {
    "fonte": "domsc",
@@ -314,7 +419,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 32)"
+   "destino": "pendente (tentativa 33)"
   }
  ]
 }

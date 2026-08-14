@@ -3676,5 +3676,136 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Relvado - RS abre concurso para diversos cargos com salários de até R$ 8.297,67",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-relvado-rs-abre-concurso-para-diversos-cargos-com-salarios-de-ate-8297",
+  "orgao": "Prefeitura de Relvado",
+  "municipio": "Relvado",
+  "uf": "RS",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Relvado",
+     "https://relvado.rs.gov.br/"
+    ],
+    [
+     "www.legalleconcursos.com.br",
+     "https://www.legalleconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-14",
+   "inscricoes_fim": "2026-09-13",
+   "site_inscricao": "https://www.legalleconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "fiscal municipal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "14.8.2026 a 13.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 8.297,67",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O município de Relvado , no Rio Grande do Sul, publicou o edital do Concurso Público 01/2026, com o objetivo de preencher vagas e formar cadastro de reserva para profissionais de nível médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal municipal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Guarabira - PB abre concurso público com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guarabira-pb-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Guarabira",
+  "municipio": "Guarabira",
+  "uf": "PB",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Guarabira",
+     "https://www.guarabira.pb.gov.br/"
+    ],
+    [
+     "sistemas.cpcon.uepb.edu.br",
+     "https://sistemas.cpcon.uepb.edu.br/sigeps-app/login"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-19",
+   "inscricoes_fim": "2026-09-20",
+   "site_inscricao": "https://sistemas.cpcon.uepb.edu.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "19.8.2026 a 20.9.2026",
+    "vagas": "6 vagas + CR",
+    "remuneracao": "até R$ 8.472,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Guarabira , no estado da Paraíba, divulgou o edital do Concurso Público destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para profissionais de nível médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-14",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal 2026: quem pode ser a banca ?",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-quem-pode-ser-a-banca/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-14",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Portaria MGI nº 5.505/2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/03230616/concurso-receita-federal-autorizado-2026.pdf"
+    ],
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso Receita Federal segue sem banca oficialmente definida, mas a FGV aparece como a principal referência neste momento.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
