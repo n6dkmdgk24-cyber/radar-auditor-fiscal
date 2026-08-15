@@ -5654,5 +5654,53 @@
   "municipio": "Trindade",
   "uf": "GO",
   "trecho": "25 /00032/2026 Titular do Órgão da Administração Tributária Municipal responsável pelo ITR Nome: POLLYANA CARVALHO AZEVEDO Matrícula: 00829587 Cargo: FISCAL DE TRIBUTOS / 152011 Assinatura: Publicado por: Larissa Dias de Morais Código Identificador: F46A269E Matéria publicada no Diario Municipal de "
+ },
+ {
+  "descartado_em": "2026-08-15",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "ato de pessoal sobre servidor (\\bauto de infracao\\b)",
+   "criterio": "ato de pessoal sobre servidor (\\bauto de infracao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Porto Velho — EDITAL Nº136/2026/SEMUSA-NUFLIS (2026-08-14)",
+  "url": "https://www.diariomunicipal.com.br/arom/load/1468E0A3",
+  "municipio": "Porto Velho",
+  "uf": "RO",
+  "trecho": "SECRETARIA MUNICIPAL DE SAÚDE - SEMUSA EDITAL Nº136/2026/SEMUSA-NUFLIS Porto Velho, 07 de agosto de 2026. SECRETARIA MUNICIPAL DE SAÚDE - SEMUSA EDITAL N.º 136/2026/DVISA/DVS/SEMUSA, DE 06 DE AGOSTO DE 2026 EDITAL DE INTIMAÇÃO COM PRAZO DE 15 DIAS A SECRETÁRIA MUNICIPAL DE SAÚDE (SEMUSA) , E A DIRET"
+ },
+ {
+  "descartado_em": "2026-08-15",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "criterio": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "origem": "regras"
+  },
+  "fonte": "gran",
+  "titulo": "Concursos 2026: federais mais aguardados do ano",
+  "url": "https://blog.grancursosonline.com.br/concursos-2026-mais-aguardados/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]

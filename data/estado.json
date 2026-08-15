@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-15T19:12:15"
+   "scraped_since": "2026-08-15T23:08:14"
   },
   "pci": {
    "lastmod_max": "2026-08-14"
@@ -412,7 +412,7 @@
    ]
   },
   "dou": {
-   "ultima_data": "2026-08-14"
+   "ultima_data": "2026-08-15"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-15"
    },
-   "proximo_extra": 6,
+   "proximo_extra": 8,
    "amp": {
     "ultima_data": "2026-08-15"
    },
@@ -439,10 +439,10 @@
     "ultima_data": "2026-08-15"
    },
    "arom": {
-    "ultima_data": "2026-08-14"
+    "ultima_data": "2026-08-15"
    },
    "femurn": {
-    "ultima_data": "2026-08-14"
+    "ultima_data": "2026-08-15"
    },
    "aam": {
     "ultima_data": "2026-08-14"
@@ -485,7 +485,7 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-15T17:09:17",
+   "ultimo_pub": "2026-08-15T19:53:01",
    "guids": [
     "https://blog.grancursosonline.com.br/?p=79965180",
     "https://blog.grancursosonline.com.br/?p=79467401",
@@ -730,7 +730,9 @@
     "https://blog.grancursosonline.com.br/?p=79965542",
     "https://blog.grancursosonline.com.br/?p=79965538",
     "https://blog.grancursosonline.com.br/?p=79965549",
-    "http://blog.grancursosonline.com.br/?p=72645"
+    "http://blog.grancursosonline.com.br/?p=72645",
+    "https://blog.grancursosonline.com.br/?p=79965562",
+    "https://blog.grancursosonline.com.br/?p=79823824"
    ]
   },
   "estrategia": {
@@ -948,7 +950,6 @@
   }
  },
  "fontes_com_falha": [
-  "dou",
   "fafipa",
   "selecao"
  ]
