@@ -5438,5 +5438,29 @@
   "municipio": "Sossêgo",
   "uf": "PB",
   "trecho": "NTAL 07 3.242,00 AGENTE DE VIGILÂNCIA SANITÁRIA 03 1.621,00 AUXILIAR DE DENTISTA 05 1.621,00 AUXILIAR DE ENFERMAGEM 02 1.621,00 DIGITADOR 05 1.621,00 FISCAL DE TRIBUTOS 02 1.621,00 TÉCNICO DE ENFERMAGEM 10 1.621,00 TÉCNICO EM SEGURANÇA DO TRABALHO 02 3.000,00 GRUPO OCUPACIONAL – NÍVEL SUPERIOR CARGO"
+ },
+ {
+  "descartado_em": "2026-08-15",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bdivida ativa\\b)",
+   "criterio": "documento não é concurso (título: \\bdivida ativa\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Erechim — EDITAL DE NOTIFICAÇÃO DE DÉBITO INSCRITO EM DÍVIDA ATIVA (2026-08-14)",
+  "url": "https://www.diariomunicipal.com.br/famurs/load/2D14CA23",
+  "municipio": "Erechim",
+  "uf": "RS",
+  "trecho": "Município, com o guarde de seus respectivos comprovantes a fim de que produzam seus efeitos. Erechim, 13 de Agosto de 2026. ADRIANA ARPINI SCHWEITZER Auditor Fiscal de Tributos Municipais Portaria 4551/2025 Publicado por: Itamar Luis Dall Alba Código Identificador: 2D14CA23 Matéria publicada no Diár"
  }
 ]

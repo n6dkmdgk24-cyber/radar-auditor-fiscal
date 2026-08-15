@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-14T23:09:50"
+   "scraped_since": "2026-08-15T11:07:33"
   },
   "pci": {
    "lastmod_max": "2026-08-14"
@@ -417,14 +417,14 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-13"
+    "ultima_data": "2026-08-15"
    },
    "amupe": {
-    "ultima_data": "2026-08-13"
+    "ultima_data": "2026-08-15"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
-    "ultima_data": "2026-08-14"
+    "ultima_data": "2026-08-15"
    },
    "agm": {
     "ultima_data": "2026-08-13"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-08-14"
+   "ultima_data": "2026-08-15"
   },
   "selecao": {
    "vistos": [
@@ -485,7 +485,7 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-14T22:18:05",
+   "ultimo_pub": "2026-08-15T01:41:01",
    "guids": [
     "https://blog.grancursosonline.com.br/?p=79965180",
     "https://blog.grancursosonline.com.br/?p=79467401",
@@ -726,11 +726,13 @@
     "https://blog.grancursosonline.com.br/?p=79965526",
     "https://blog.grancursosonline.com.br/?p=79965519",
     "https://blog.grancursosonline.com.br/?p=79616447",
-    "https://blog.grancursosonline.com.br/?p=79508993"
+    "https://blog.grancursosonline.com.br/?p=79508993",
+    "https://blog.grancursosonline.com.br/?p=79965542",
+    "https://blog.grancursosonline.com.br/?p=79965538"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-14T22:47:35",
+   "ultimo_pub": "2026-08-15T11:02:00",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -892,7 +894,16 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1787570",
     "https://www.estrategiaconcursos.com.br/blog/?p=396882",
     "https://cj.estrategia.com/portal/?p=1917",
-    "https://cj.estrategia.com/portal/?p=28342"
+    "https://cj.estrategia.com/portal/?p=28342",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1787156",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1783175",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1783133",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782873",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782839",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782283",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782223",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782153",
+    "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-nova-candelaria/"
    ]
   },
   "fafipa": {},
@@ -919,6 +930,7 @@
   }
  },
  "fontes_com_falha": [
+  "dou",
   "fafipa",
   "selecao"
  ]
