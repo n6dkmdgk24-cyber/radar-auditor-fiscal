@@ -5702,5 +5702,53 @@
   "municipio": "",
   "uf": "",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-16",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bnomear\\b)",
+   "criterio": "fase sem inscrição (trecho: \\bnomear\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Niterói/RJ — 2026-08-15",
+  "url": "https://data.queridodiario.ok.org.br/3303302/2026-08-15/5795fad11b1337b83f9afca9df91565e952edd62.pdf",
+  "municipio": "Niterói",
+  "uf": "RJ",
+  "trecho": "Considerando: • a Lei Municipal nº 162 de 13 de novembro de 1978, que institui na Secretaria Municipal de Fazenda, o Grupo Fisco, constituído das carreiras de Fiscal de Posturas e de Fiscal de Tributos, atual Auditor Fiscal de Receitas Municipais; • a Lei Municipal nº 961 de 25 de julho de 1991, que"
+ },
+ {
+  "descartado_em": "2026-08-16",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (trecho: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Macaé/RJ — 2026-08-15",
+  "url": "https://data.queridodiario.ok.org.br/3302403/2026-08-15/ba59cb6d29f789e35fe6d2e9ad85c5d365055d4d.pdf",
+  "municipio": "Macaé",
+  "uf": "RJ",
+  "trecho": "para fins de julgamento primeira instancia, de acordo com o art. 449 da lei complementar no 282/2018, a contar da data da publicacao. nome / matricula carolina moreira araujo - 009.552 - fiscal de tributos leonardo dos santos goncalves - 048.442 - auditor fiscal tributario art. 3o esta portaria entr"
  }
 ]

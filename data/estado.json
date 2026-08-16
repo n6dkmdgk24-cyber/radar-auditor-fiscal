@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-16T11:09:01"
+   "scraped_since": "2026-08-16T15:08:46"
   },
   "pci": {
    "lastmod_max": "2026-08-14"
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-15"
    },
-   "proximo_extra": 10,
+   "proximo_extra": 0,
    "amp": {
     "ultima_data": "2026-08-16"
    },
@@ -451,10 +451,10 @@
     "ultima_data": "2026-08-16"
    },
    "famup": {
-    "ultima_data": "2026-08-14"
+    "ultima_data": "2026-08-16"
    },
    "fgm": {
-    "ultima_data": "2026-08-14"
+    "ultima_data": "2026-08-16"
    }
   },
   "domsc": {
@@ -485,7 +485,7 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-15T19:53:01",
+   "ultimo_pub": "2026-08-16T13:32:00",
    "guids": [
     "https://blog.grancursosonline.com.br/?p=79965180",
     "https://blog.grancursosonline.com.br/?p=79467401",
@@ -732,11 +732,12 @@
     "https://blog.grancursosonline.com.br/?p=79965549",
     "http://blog.grancursosonline.com.br/?p=72645",
     "https://blog.grancursosonline.com.br/?p=79965562",
-    "https://blog.grancursosonline.com.br/?p=79823824"
+    "https://blog.grancursosonline.com.br/?p=79823824",
+    "https://blog.grancursosonline.com.br/?p=79965564"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-16T08:29:07",
+   "ultimo_pub": "2026-08-16T14:55:00",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -929,7 +930,11 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1779561",
     "https://www.estrategiaconcursos.com.br/blog/?p=1779381",
     "https://www.estrategiaconcursos.com.br/blog/?p=1776425",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1736936"
+    "https://www.estrategiaconcursos.com.br/blog/?p=1736936",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1774431",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1780993",
+    "https://cj.estrategia.com/portal/?p=195018",
+    "https://cj.estrategia.com/portal/?p=195009"
    ]
   },
   "fafipa": {},
