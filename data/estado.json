@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-16T15:08:46"
+   "scraped_since": "2026-08-16T19:11:09"
   },
   "pci": {
    "lastmod_max": "2026-08-14"
@@ -417,12 +417,12 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-15"
+    "ultima_data": "2026-08-16"
    },
    "amupe": {
-    "ultima_data": "2026-08-15"
+    "ultima_data": "2026-08-16"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
     "ultima_data": "2026-08-16"
    },
@@ -737,7 +737,7 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-16T14:55:00",
+   "ultimo_pub": "2026-08-16T17:02:00",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -934,7 +934,8 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1774431",
     "https://www.estrategiaconcursos.com.br/blog/?p=1780993",
     "https://cj.estrategia.com/portal/?p=195018",
-    "https://cj.estrategia.com/portal/?p=195009"
+    "https://cj.estrategia.com/portal/?p=195009",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1774481"
    ]
   },
   "fafipa": {},
