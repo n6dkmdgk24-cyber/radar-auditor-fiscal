@@ -5870,5 +5870,29 @@
   "municipio": "Rolim de Moura",
   "uf": "RO",
   "trecho": "r ofício no DRH) ; ANEXO I Item Cód. Cargo Requisitos M13 Topógrafo – 40H Ensino Médio Completo, curso de Topografia e/ou experiência comprovada. S07 Auditor Fiscal – 40H Ensino Superior em Administração ou Ciências Contábeis e Registro Profissional. M10 Fiscal Tributário – 40H Ensino Médio completo"
+ },
+ {
+  "descartado_em": "2026-08-17",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "criterio": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "origem": "regras"
+  },
+  "fonte": "cnb",
+  "titulo": "RN: Concurso Prefeitura de Equador edital com mais de 60 vagas",
+  "url": "https://concursosnobrasil.com/concursos/rn/2026/08/17/rn-concurso-prefeitura-de-equador-edital-com-mais-de-60-vagas/",
+  "municipio": "",
+  "uf": "RN",
+  "trecho": ""
  }
 ]

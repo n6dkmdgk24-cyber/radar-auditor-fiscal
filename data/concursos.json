@@ -1674,7 +1674,7 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "29.7.2026 a 19.8.2026",
+    "inscricoes": "18.8.2026 a 22.8.2026",
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de Rancho Alegre D'Oeste , no Paraná, abriu um Concurso Público para preencher vagas efetivas e formar cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
     "origem": "regras",
@@ -1683,7 +1683,8 @@
     "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
     "esfera": "municipal",
     "remuneracao": "até R$ 14.322,64",
-    "remuneracao_valor": 14322.64
+    "remuneracao_valor": 14322.64,
+    "prazo_atualizado_em": "2026-08-17"
    },
    "links_artigo": [
     [
@@ -1696,7 +1697,7 @@
     ]
    ],
    "inscricoes_inicio": "2026-07-29",
-   "inscricoes_fim": "2026-08-19",
+   "inscricoes_fim": "2026-08-22",
    "site_inscricao": "https://www.institutounicampo.com.br"
   }
  },
@@ -4288,6 +4289,282 @@
     "cadastro_reserva": false,
     "resumo": "O município de Hidrolina , no Estado de Goiás, divulgou a abertura de um Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva em funções de nível fundamental incompleto, fundamental completo, médio/téc…",
     "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de São Miguel do Guaporé - RO abre concurso com salários de até R$ 12.022,51",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-sao-miguel-do-guapore-ro-abre-concurso-com-salarios-de-ate-12022",
+  "orgao": "Câmara de São Miguel do Guaporé",
+  "municipio": "São Miguel do Guaporé",
+  "uf": "RO",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de São Miguel do Guaporé",
+     "https://www.saomigueldoguapore.ro.leg.br/"
+    ],
+    [
+     "www.gamaconsult.com.br",
+     "https://www.gamaconsult.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-25",
+   "inscricoes_fim": "2026-09-18",
+   "site_inscricao": "https://www.gamaconsult.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "25.8.2026 a 18.9.2026",
+    "vagas": "cadastro de reserva",
+    "remuneracao": "até R$ 12.022,51",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": true,
+    "resumo": "A Câmara Municipal de São Miguel do Guaporé , no Estado de Rondônia, abriu um Concurso Público destinado ao provimento de cargos efetivos e à formação de cadastro de reserva em funções de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Equador - RN abre concurso público com salários de até R$ 4.875,71",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-equador-rn-abre-concurso-publico-com-salarios-de-ate-4875",
+  "orgao": "Prefeitura de Equador",
+  "municipio": "Equador",
+  "uf": "RN",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Equador",
+     "https://equador.rn.gov.br/"
+    ],
+    [
+     "funcern.br",
+     "https://funcern.br/concursos/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-09-17",
+   "site_inscricao": "https://funcern.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 17.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 4.875,71",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Equador , no Rio Grande do Norte, divulgou o edital do Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva em funções de nível médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Marialva PR: inscrições abertas; até R$ 17 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-marialva-pr/",
+  "orgao": "Marialva",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Marialva PR",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/04191139/Edital-%EF%BB%BFMarialva-PR-2026.pdf"
+    ],
+    [
+     "Emprego",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/04191203/Edital-%EF%BB%BFEmprego-Marialva-PR-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-03",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "10.8.2026 a 3.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 17.082,86",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Marialva, no Paraná, publicou dois editais de seleção.",
+    "criterio": "anatomia de edital (4 seções: banca, provas, remuneracao, requisitos) + cargo 'agente fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Mairiporã SP: SAIU! Até R$ 5,5 mil! Veja aqui",
+  "url": "https://blog.grancursosonline.com.br/concurso-mairipora-sp/",
+  "orgao": "Mairiporã",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Mairiporã SP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/03155951/Edital-Mairipora-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-06",
+   "inscricoes_fim": "2026-09-03",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "6.8.2026 a 3.9.2026",
+    "vagas": "",
+    "remuneracao": "R$ 5.574,03",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Publicado o edital do Concurso Mairiporã, localizada no Estado de São Paulo.",
+    "criterio": "anatomia de edital (6 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'controlador interno' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle externo",
+   "auditor estadual de controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE MA 2026: inscrições abertas, edital retificado!",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-ma/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital TCE MA 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/07150739/edital-tce-ma.pdf"
+    ],
+    [
+     "reenvio da(s) imagem(ns) legível(is) da documentação",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/17142448/concurso-tce-ma-falha-tecnica.pdf"
+    ],
+    [
+     "retificação de edital",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/03161304/concurso-tce-ma-retificacao.pdf"
+    ],
+    [
+     "contrato com a banca publicado",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/06/19152904/concurso-tce-ma-banca-contratada-1.pdf"
+    ],
+    [
+     "regulamento publicado",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/05/13175047/Concurso-TCE-MA-regulamento-publicado.pdf"
+    ],
+    [
+     "aqui",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/04/09123705/Consulta-de-Processos-despacho-tce-ma.pdf"
+    ],
+    [
+     "FGV manifestou interesse participar do próximo concurso.",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/01/31191439/Concurso-TCE-MA-banca-interessada.pdf"
+    ],
+    [
+     "aqui",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/04/09125823/Consulta-de-Processos.pdf"
+    ]
+   ],
+   "banca": "Cebraspe",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 20.112,20",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Com edital publicado e retificado, o concurso TCE MA oferece 40 vagas imediatas para cargos de níveis médio e superior.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (analista de controle externo)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Rincão SP: inscrições abertas! Veja",
+  "url": "https://blog.grancursosonline.com.br/concurso-rincao-sp/",
+  "orgao": "Rincão",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Rincão SP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/31192918/Edital-Rincao-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-10",
+   "inscricoes_fim": "2026-09-03",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "10.8.2026 a 3.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 2.786,56",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Rincão, no estado de São Paulo, publicou o edital do Concurso Rincão SP.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (fiscal de tributos)",
     "origem": "regras"
    }
   }
