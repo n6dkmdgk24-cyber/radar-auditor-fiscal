@@ -4177,5 +4177,72 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Receita Federal 2026: autorizado com 146 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-receita-federal/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Autorização do Concurso Receita Federal",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/03235059/autorizacoes-receita-e-bacen.pdf"
+    ],
+    [
+     "RFB 2022",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/03082443/edital-concurso-receita-federal-2022-estrategia-concursos.pdf"
+    ],
+    [
+     "Autorização do Concurso Receita Federal",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/03235059/autorizacoes-receita-e-bacen.pdf"
+    ],
+    [
+     "A Lei",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/01/15000831/loa-2026.pdf?utm_source=google&utm_medium=cpc&utm_campaign=ec-tri-vd-gsh-guiatjrj-semesp-260525"
+    ],
+    [
+     "Confira no Portal da Transparência do Governo Federal a remuneração real dos ser",
+     "https://portaldatransparencia.gov.br/servidores/consulta?paginacaoSimples=true&tamanhoPagina=&offset=&direcaoOrdenacao=asc&palavraChave=receita+federal+do+brasil&colunasSelecionadas=detalhar%2Ctipo%2Ccpf%2Cnome%2CorgaoServidorLotacao%2Cmatricula%2Csituacao%2Cfuncao%2Ccargo%2Cquantidade&t=7egZPrzFT0QTsQr8ljhA"
+    ],
+    [
+     "2014 (Auditor)",
+     "https://dhg1h5j42swfq.cloudfront.net/2019/03/11115032/Edital-Receita-Federal-2014-Auditor-Fiscal.pdf"
+    ],
+    [
+     "2012 (Analista)",
+     "https://dhg1h5j42swfq.cloudfront.net/2019/03/11122233/Edital-Receita-Federal-2014-Analista-Tribut%C3%A1rio.pdf"
+    ],
+    [
+     "Conhecimentos Gerais",
+     "https://dhg1h5j42swfq.cloudfront.net/2023/03/21092732/auditor-manha.pdf"
+    ]
+   ],
+   "banca": "publicação do edital",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "Auditor-Fiscal da Receita Federal: 30 vagas · Analista Tributário da Receita Federal: 116 vagas",
+    "remuneracao": "até R$ 22.921,71",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Receita Federal: as expectativas para um novo certame ganham força com o encerramento da validade da última seleção no final de 2025.",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
