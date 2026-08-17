@@ -2,6 +2,32 @@
  {
   "enfileirado_em": "2026-08-17",
   "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "controlador interno"
+  ],
+  "achado": {
+   "fonte": "cnb",
+   "titulo": "Concurso Câmara de São Miguel do Guaporé (RO) tem mensais de até R$ 12 mil",
+   "url": "https://concursosnobrasil.com/concursos/ro/2026/08/17/concurso-camara-de-sao-miguel-do-guapore-ro-tem-mensais-de-ate-r-12-mil/",
+   "cargo_texto": "Concurso Câmara de São Miguel do Guaporé (RO) tem mensais de até R$ 12 mil.\nConcurso Câmara de São Miguel do Guaporé, Rondônia, abre oportunidades para oito cargos públicos efetivos. O post Concurso Câmara de São Miguel do Guaporé (RO) tem mensais de até R$ 12 mil apareceu primeiro em Concursos no Brasil .\nConcurso Câmara de São Miguel do Guaporé, Rondônia, abre oportunidades para oito cargos públicos efetivos. Contando com cinco vagas imediatas e 13 voltadas ao cadastro de reserva, está no ar o novo concurso público da Câmara Municipal de São Miguel do Guaporé, no estado de Rondônia . A banca contratada é a Gama Consultoria e o edital normativo é o de número 001/2026. Os cargos que exigem nível fundamental de escolaridade são Auxiliar de Serviços Diversos, Motorista e Vigia. A remuneração prevista para essas ocupações é de R$ 2.252,39 a R$ 2.495,31. Para o nível médio completo, temos somente o cargo de Agente Administrativo (com curso de Informática). A remuneração é de R$ 3.852,74. Quem tiver ensino superior poderá disputar os postos de Procurador Jurídico (remuneração de R$ 12.022,51), Contador , Controlador Interno (ambos têm remuneração de R$ 5.838,64) e Gestor de Tecnologia (remuneração de R$ 4.397,50). As inscrições ficarão abertas a partir de 25 de agosto até 18 de setembro de 2026, apenas via internet no site da Gama Consultoria. A taxa é de R$ 50, R$ 80 ou R$ 120. O período de inscrição poderá ser prorrogado por necessidade de ordem técnica e/ou operacional, a critério da Gama Consultoria. A prova objetiva, única etapa comum a todos os cargos oferecidos, está programada para ser aplicada no dia 18 de outubro de 2026. Também há previsão de ocorrer outras etapas, a saber: Prova discursiva para Procurador, Contador, Controlador, Gestor e Agente Administrativo; Prova prática para Agente Administrativo e Motorista; Teste de aptidão física para Vigia; e Prova de títulos para Procurador, Contador, Controlador e Gestor. A prova discursiva será composta por uma prova subjetiva, podendo consistir em parecer técnico, situação-problema, estudo de caso, peça processual ou outra modalidade compatível com o cargo. A prova prática tem por finalidade aferir as habilidades, competências técnicas e a aptidão do candidato para o desempenho das atribuições inerentes ao respectivo cargo. A validade do concurso será de dois anos, podendo ser prorrogada uma única vez, por igual período, havendo necessidade, conveniência e interesse da Câmara. Compartilhe esse concurso",
+   "orgao": "Câmara de São Miguel do Guaporé",
+   "municipio": "São Miguel do Guaporé",
+   "uf": "RO",
+   "data_publicacao": "2026-08-17",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "site",
+      "https://www.gamaconsult.com.br/informacoes/43/"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-17",
+  "tentativas": 2,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -27,7 +53,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 1,
+  "tentativas": 2,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -82,7 +108,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -116,7 +142,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -166,7 +192,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -192,7 +218,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -218,7 +244,7 @@
  },
  {
   "enfileirado_em": "2026-08-15",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -237,7 +263,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -261,7 +287,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -285,7 +311,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 13,
+  "tentativas": 14,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -311,7 +337,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -337,7 +363,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -363,7 +389,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -382,7 +408,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -408,7 +434,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -434,7 +460,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -488,7 +514,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -526,7 +552,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -545,7 +571,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -599,7 +625,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -625,7 +651,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -679,7 +705,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -704,7 +730,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -730,7 +756,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 25,
+  "tentativas": 26,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -753,7 +779,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 38,
+  "tentativas": 39,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -778,7 +804,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -801,7 +827,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 42,
+  "tentativas": 43,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -824,7 +850,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

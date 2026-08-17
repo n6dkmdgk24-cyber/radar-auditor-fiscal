@@ -4568,5 +4568,139 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Ponta Porã - MS abre concurso público com salários de até R$ 7.999,59",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-ponta-pora-ms-abre-concurso-publico-com-salarios-de-ate-7999",
+  "orgao": "Câmara de Ponta Porã",
+  "municipio": "Ponta Porã",
+  "uf": "MS",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Ponta Porã",
+     "https://camarapontapora.ms.gov.br/"
+    ],
+    [
+     "www.cebraspe.org.br/concursos/camara_municipal_pontapora_ms_26",
+     "https://www.cebraspe.org.br/concursos/camara_municipal_pontapora_ms_26"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-21",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://www.cebraspe.org.br/concursos",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "21.8.2026 a 10.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 7.999,59",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Ponta Porã , no Estado de Mato Grosso do Sul, divulgou o edital de concurso público para o preenchimento de vagas em funções de nível médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "agente de arrecadacao"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Jaborandi BA: SAIU; 180 vagas + 111 CR! Veja",
+  "url": "https://blog.grancursosonline.com.br/concurso-jaborandi-ba/",
+  "orgao": "Jaborandi",
+  "municipio": "",
+  "uf": "BA",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Jaborandi BA",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/03154333/Edital-Jaborandi-BA-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-03",
+   "inscricoes_fim": "2026-09-04",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "3.8.2026 a 4.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 7.888,55",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Prefeitura de Jaborandi BA está com inscrições abertas.",
+    "criterio": "evidência de inscrição (\\binscricoes (estao |estarao )?abertas\\b) + termo forte (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Franco da Rocha: saíram os gabaritos",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-franco-da-rocha/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Gabaritos preliminares",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/17171202/20260817_132915_gabarito-preliminar-franco-da-rocha-sp-16-08-2026.pdf"
+    ],
+    [
+     "Instituto Consulpam",
+     "https://www.consulpam.com.br/index.php?menu=concursos&acao=ver&id=832"
+    ],
+    [
+     "Franco da Rocha 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/26091925/edital-concurso-prefeitura-franco-da-rocha-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "ISS Franco da Rocha 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/26091925/edital-concurso-prefeitura-franco-da-rocha-2026-estrategia-concursos.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 6.067,97",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Foram divulgados os gabaritos das provas do Concurso ISS Franco da Rocha, no estado de São Paulo.",
+    "criterio": "suspensão/cancelamento detectado (\\bsuspensao\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
