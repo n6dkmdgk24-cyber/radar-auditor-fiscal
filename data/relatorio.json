@@ -1,70 +1,82 @@
 {
- "executado_em": "2026-08-17T08:27:52",
+ "executado_em": "2026-08-17T12:27:57",
  "itens": [
   {
+   "fonte": "pci",
+   "titulo": "Prefeitura de Hidrolina - GO abre concurso com vagas imediatas e cadastro de reserva",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-hidrolina-go-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
    "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Rio Branco do Sul — EDITAL N.º 29.001/2026  HOMOLOGAÇÃO DO RESULTADO FINAL E CLASSIFICAÇÃO (2026-08-17)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/E0C86FA2",
+   "titulo": "Prefeitura Municipal de Rolim de Moura — EDITAL DE CONVOCAÇÃO Nº. 022/2026  REFERENTE AO CONCURSO PÚBLICO MUNICIPAL 001/2024/PRM/RO. (2026-08-17)",
+   "url": "https://www.diariomunicipal.com.br/arom/load/0F865AE2",
    "categoria_filtro": "conferir",
    "termos": [
     "auditor fiscal",
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "fase sem inscrição (título: \\bhomologacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Fernandes Pinheiro — PORTARIA Nº 113/2026 *REPUBLICAÇÃO POR ERRO (2026-08-17)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/7FADDE7C",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Palmeira — DECRETO Nº 19.468, DE 10 DE AGOSTO DE 2026 - CONSTITUI SUBCOMISSÕES, VISANDO AUXILIAR A COMISSÃO DE AVALIAÇÃO HORIZONTAL REFE",
-   "url": "https://www.diariomunicipal.com.br/amp/load/6972944B",
-   "categoria_filtro": "conferir",
-   "termos": [
     "fiscal tributario"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bdecreto\\b)",
+   "regras_motivo": "fase sem inscrição (título: \\bconvocacao\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "sigpub",
-   "titulo": "Prefeitura Municipal de Turvo — PORTARIA 591-2026 (2026-08-17)",
-   "url": "https://www.diariomunicipal.com.br/amp/load/CBB6588E",
-   "categoria_filtro": "conferir",
+   "fonte": "gran",
+   "titulo": "Concurso TCE SP 2026: inscrições prorrogadas até 20 de agosto!",
+   "url": "https://blog.grancursosonline.com.br/concurso-tce-sp/",
+   "categoria_filtro": "controle",
    "termos": [
-    "fiscal tributario"
+    "auditor de controle externo"
    ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=6, contra=0, seções: banca, carga, cronograma, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
   },
   {
    "fonte": "estrategia",
-   "titulo": "Concurso Receita Federal 2026: autorizado com 146 vagas!",
-   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-receita-federal/",
+   "titulo": "Concurso Sefaz SC: edital em até 60 dias; 50 vagas!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-sc/",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal",
-    "analista tributario"
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Centrais de compras para fins de ICMS para SEFAZ/SC",
+   "url": "https://www.estrategiaconcursos.com.br/blog/centrais-compras-fins-icms-sefaz-sc/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso CaraguaPrev SP: inscrições abertas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-caraguaprev/",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "controlador interno"
    ],
    "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+   "regras_motivo": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
   },
@@ -79,7 +91,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 1)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "estrategia",
@@ -92,7 +104,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, remuneracao)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "sigpub",
@@ -105,7 +117,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "sigpub",
@@ -118,7 +130,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "estrategia",
@@ -131,7 +143,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "cnb",
@@ -144,7 +156,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "cnb",
@@ -157,7 +169,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, carga, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "estrategia",
@@ -170,7 +182,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "gran",
@@ -183,7 +195,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "gran",
@@ -196,7 +208,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "gran",
@@ -209,7 +221,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "gran",
@@ -222,7 +234,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "estrategia",
@@ -235,7 +247,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "estrategia",
@@ -248,7 +260,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "estrategia",
@@ -261,7 +273,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "estrategia",
@@ -274,7 +286,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "qd",
@@ -287,7 +299,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 20)"
+   "destino": "pendente (tentativa 21)"
   },
   {
    "fonte": "qd",
@@ -301,7 +313,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 20)"
+   "destino": "pendente (tentativa 21)"
   },
   {
    "fonte": "domsc",
@@ -314,7 +326,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 23)"
+   "destino": "pendente (tentativa 24)"
   },
   {
    "fonte": "qd",
@@ -327,7 +339,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 36)"
+   "destino": "pendente (tentativa 37)"
   },
   {
    "fonte": "domsc",
@@ -339,8 +351,8 @@
    ],
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: falha ao obter texto integral (HTTPError('404 Client Error: Not Found for url: https://diariomunicipal.sc.gov.br/atos/8589359'))",
-   "destino": "pendente (tentativa 39)"
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 40)"
   },
   {
    "fonte": "domsc",
@@ -352,8 +364,8 @@
    ],
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: falha ao obter texto integral (HTTPError('404 Client Error: Not Found for url: https://diariomunicipal.sc.gov.br/atos/8588018'))",
-   "destino": "pendente (tentativa 40)"
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 41)"
   },
   {
    "fonte": "domsc",
@@ -365,8 +377,8 @@
    ],
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: falha ao obter texto integral (HTTPError('404 Client Error: Not Found for url: https://diariomunicipal.sc.gov.br/atos/8580752'))",
-   "destino": "pendente (tentativa 44)"
+   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
+   "destino": "pendente (tentativa 45)"
   }
  ]
 }

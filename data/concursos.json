@@ -685,11 +685,14 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "Auditor Fiscal de Tributos",
-    "inscricoes": "",
+    "inscricoes": "3.8.2026 a 31.8.2026",
     "cadastro_reserva": false,
     "resumo": "Edital de abertura publicado para Auditor Fiscal de Tributos em Contenda/PR.",
-    "esfera": "municipal"
-   }
+    "esfera": "municipal",
+    "prazo_atualizado_em": "2026-08-17"
+   },
+   "inscricoes_fim": "2026-08-31",
+   "inscricoes_inicio": "2026-08-03"
   }
  },
  {
@@ -4241,6 +4244,50 @@
     "cadastro_reserva": false,
     "resumo": "Concurso Receita Federal: as expectativas para um novo certame ganham força com o encerramento da validade da última seleção no final de 2025.",
     "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-17",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Hidrolina - GO abre concurso com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-hidrolina-go-abre-concurso-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Hidrolina",
+  "municipio": "Hidrolina",
+  "uf": "GO",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Hidrolina",
+     "https://hidrolina.go.gov.br/"
+    ],
+    [
+     "www.itame.com.br",
+     "https://www.itame.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-20",
+   "inscricoes_fim": "2026-10-20",
+   "site_inscricao": "https://www.itame.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "20.9.2026 a 20.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 3.847,97",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O município de Hidrolina , no Estado de Goiás, divulgou a abertura de um Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva em funções de nível fundamental incompleto, fundamental completo, médio/téc…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
     "origem": "regras"
    }
   }
