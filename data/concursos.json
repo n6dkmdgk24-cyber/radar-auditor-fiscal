@@ -4938,5 +4938,133 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Sefaz SP 2026: comissão designada, edital avança!",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-sp-autorizado-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital Sefaz SP Auditor – 2025",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/11/27100811/Concurso-SEFAZ-SP-edital-FCC.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital Sefaz SP Especialista Contábil – 2025",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/08/20054912/edital-sefaz-sp-2025.pdf"
+    ],
+    [
+     "Confiar o documento na íntegra.",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/05/06085852/concurso-sefaz-sp-apo-autorizacao.pdf"
+    ]
+   ],
+   "banca": "Fundacao Carlos Chagas",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 21.177,10",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso SEFAZ SP avançou com a designação da comissão especial responsável por acompanhar a organização e a execução do novo certame da Secretaria da Fazenda e Planejamento do Estado de São Paulo.",
+    "criterio": "concurso ainda sem edital (\\bcomissao (formada|organizadora|constituida|designada)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Manaus 2026: últimos dias de inscrição!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus-2026-ultimos-dias-inscricao/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "inscricoes_fim": "2026-08-27",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "até 27.8.2026",
+    "vagas": "",
+    "remuneracao": "R$ 27.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Período de inscrição do Concurso ISS Manaus entra na reta final.",
+    "criterio": "evidência de inscrição (\\bperiodo de inscricao\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Barra do Garças MT: banca definida!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-barra-do-garcas/",
+  "orgao": "Barra do Garças",
+  "municipio": "",
+  "uf": "MT",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "448 candidaturas",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/06/15092408/f556b96a-2c46-4bee-abb6-e8728277fe92.pdf"
+    ],
+    [
+     "Instituto Selecon",
+     "https://selecon-mt.selecao.net.br/informacoes/53/"
+    ],
+    [
+     "Edital Barra do Garças 2025",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/06/11135804/8abb5a19-2293-4e59-a73e-3714e5a212d5.pdf"
+    ],
+    [
+     "Edital Barra do Garças",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/05/07181140/barra-do-garcas.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 10.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Barra do Garças terá um novo concurso público!",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
