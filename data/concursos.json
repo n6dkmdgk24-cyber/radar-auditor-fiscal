@@ -5066,5 +5066,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Cafelândia - SP abre concurso público com salários de até R$ 9.028,49",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cafelandia-sp-abre-concurso-publico-com-salarios-de-ate-9028",
+  "orgao": "Prefeitura de Cafelândia",
+  "municipio": "Cafelândia",
+  "uf": "SP",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Cafelândia",
+     "https://www.cafelandia.sp.gov.br/"
+    ],
+    [
+     "www.glconsultoria.com.br",
+     "https://www.glconsultoria.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-19",
+   "inscricoes_fim": "2026-08-31",
+   "site_inscricao": "https://www.glconsultoria.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "19.8.2026 a 31.8.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 9.028,49",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Cafelândia , no Estado de São Paulo, lançou o Concurso Público nº 001/2026 destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para profissionais de níveis fundamental, médio/técnic…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
