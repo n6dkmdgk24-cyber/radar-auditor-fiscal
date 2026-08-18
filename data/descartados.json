@@ -6062,5 +6062,77 @@
   "municipio": "Águas de Chapecó",
   "uf": "SC",
   "trecho": "ULA Nº 23.158. Suplente: GENOR ANTONIO MOTERLE – CONTADOR GERAL – MATRÍCULA Nº 11.305. IV – Módulo Tributário: Titular: VANDERLEI SCHEFFER – FISCAL DE TRIBUTOS, OBRAS E POSTURA – MATRÍCULA Nº 11.267. Suplente: YASSANA HELLEN PISATTO PEDRASSANI – ANALISTA TRIBUTÁRIO –"
+ },
+ {
+  "descartado_em": "2026-08-18",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bresultado\\b)",
+   "criterio": "fase sem inscrição (título: \\bresultado\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Rio Branco do Sul — EDITAL N.º 28.001/2026  RESULTADO FINAL E CLASSIFICAÇÃO- RETIFICAÇÃO E REPUBLICAÇÃO (2026-08-18)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/A1B32D5D",
+  "municipio": "Rio Branco do Sul",
+  "uf": "PR",
+  "trecho": "ADO MODALIDADE 0004383 ADRINEIA TECCHIO GONÇALVES 26/04/1991 13,50 10,50 4,00 2,00 45,00 - 75,00 1º Classificado PcD - Pessoa com Deficiência 915 - AUDITOR FISCAL DE TRIBUTOS MUNICIPAIS - RIO BRANCO DO SUL INSCRIÇÃO NOME NASC. LPO RLO INF CG CE PT NOTA FINAL POSIÇÃO RESULTADO MODALIDADE 0010232 YOSH"
+ },
+ {
+  "descartado_em": "2026-08-18",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bnomeacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bnomeacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Mostardas — EDITAL DE NOMEAÇÃO Nº 024/2026 CONCURSO PÚBLICO N.° 01/2025 (2026-08-18)",
+  "url": "https://www.diariomunicipal.com.br/famurs/load/104E15D6",
+  "municipio": "Mostardas",
+  "uf": "RS",
+  "trecho": "5/2021 e 4336/2021 e suas alterações posteriores: Nome Cargo Classificação Carga horária semanal Portaria de Nomeação Luiza Maria Rodrigues Bauermann Fiscal Tributário 4º Lugar 35 horas semanais 3142/2026 I – A presente NOMEAÇÃO tem validade pelo prazo de 15 (quinze) dias a contar desta data, confor"
+ },
+ {
+  "descartado_em": "2026-08-18",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "criterio": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "origem": "regras"
+  },
+  "fonte": "estrategia",
+  "titulo": "Concurso CREA RO: saíram os gabaritos; mais de 600 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-crea-ro/",
+  "municipio": "",
+  "uf": "RO",
+  "trecho": ""
  }
 ]

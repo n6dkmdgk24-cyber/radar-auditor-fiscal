@@ -4702,5 +4702,46 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Sefaz SC 2026: FCC é contratada; edital em até 60 dias!",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-sc/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-17",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital Sefaz SC 2021",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/10/08161200/edital-Sefaz-SC-2021.pdf"
+    ],
+    [
+     "termo de referência",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/24205718/Concurso-Sefaz-SC-termo-de-referencia.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 22.853,33",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Fundação Carlos Chagas (FCC) foi contratada para organizar o concurso Sefaz SC, da Secretaria de Estado da Fazenda de Santa Catarina.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]

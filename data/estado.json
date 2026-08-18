@@ -1,20 +1,14 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-17T23:10:31"
+   "scraped_since": "2026-08-18T11:13:01"
   },
   "pci": {
-   "lastmod_max": "2026-08-17"
+   "lastmod_max": "2026-08-18"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-17T22:59:09",
+   "ultimo_pub": "2026-08-18T11:10:09",
    "guids": [
-    "https://concursosnobrasil.com/?p=382737",
-    "https://concursosnobrasil.com/?p=382727",
-    "https://concursosnobrasil.com/?p=382729",
-    "https://concursosnobrasil.com/?p=382717",
-    "https://concursosnobrasil.com/?p=382715",
-    "https://concursosnobrasil.com/?p=382700",
     "https://concursosnobrasil.com/?p=382705",
     "https://concursosnobrasil.com/?p=382698",
     "https://concursosnobrasil.com/?p=382703",
@@ -408,23 +402,29 @@
     "https://concursosnobrasil.com/?p=385359",
     "https://concursosnobrasil.com/?p=385349",
     "https://concursosnobrasil.com/?p=385337",
-    "https://concursosnobrasil.com/?p=385339"
+    "https://concursosnobrasil.com/?p=385339",
+    "https://concursosnobrasil.com/?p=385389",
+    "https://concursosnobrasil.com/?p=385393",
+    "https://concursosnobrasil.com/?p=385396",
+    "https://concursosnobrasil.com/?p=385386",
+    "https://concursosnobrasil.com/?p=385381",
+    "https://concursosnobrasil.com/?p=385370"
    ]
   },
   "dou": {
-   "ultima_data": "2026-08-17"
+   "ultima_data": "2026-08-18"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-16"
+    "ultima_data": "2026-08-18"
    },
    "amupe": {
-    "ultima_data": "2026-08-16"
+    "ultima_data": "2026-08-18"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
-    "ultima_data": "2026-08-17"
+    "ultima_data": "2026-08-18"
    },
    "agm": {
     "ultima_data": "2026-08-16"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-08-17"
+   "ultima_data": "2026-08-18"
   },
   "selecao": {
    "vistos": [
@@ -485,7 +485,7 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-17T20:59:18",
+   "ultimo_pub": "2026-08-18T11:16:30",
    "guids": [
     "https://blog.grancursosonline.com.br/?p=79965180",
     "https://blog.grancursosonline.com.br/?p=79467401",
@@ -775,11 +775,20 @@
     "https://blog.grancursosonline.com.br/?p=79965760",
     "https://blog.grancursosonline.com.br/?p=79965701",
     "https://blog.grancursosonline.com.br/?p=79452445",
-    "https://blog.grancursosonline.com.br/?p=79965750"
+    "https://blog.grancursosonline.com.br/?p=79965750",
+    "https://blog.grancursosonline.com.br/?p=79292619",
+    "https://blog.grancursosonline.com.br/?p=79958810",
+    "https://blog.grancursosonline.com.br/?p=79949052",
+    "https://blog.grancursosonline.com.br/?p=79965814",
+    "https://blog.grancursosonline.com.br/?p=79965795",
+    "https://blog.grancursosonline.com.br/?p=79965789",
+    "https://blog.grancursosonline.com.br/?p=79965786",
+    "https://blog.grancursosonline.com.br/?p=81829",
+    "https://blog.grancursosonline.com.br/?p=79965782"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-17T23:11:22",
+   "ultimo_pub": "2026-08-18T10:36:19",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -1017,7 +1026,17 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1793515",
     "https://www.estrategiaconcursos.com.br/blog/?p=1743940",
     "https://www.estrategiaconcursos.com.br/blog/?p=1186499",
-    "https://cj.estrategia.com/portal/?p=195122"
+    "https://cj.estrategia.com/portal/?p=195122",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1793932",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1769044",
+    "https://www.estrategiaconcursos.com.br/blog/?p=439053",
+    "https://www.estrategiaconcursos.com.br/blog/?p=850785",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1721019",
+    "https://www.estrategiaconcursos.com.br/blog/?p=531172",
+    "https://cj.estrategia.com/portal/?p=858",
+    "https://cj.estrategia.com/portal/?p=862",
+    "https://cj.estrategia.com/portal/?p=191129",
+    "https://cj.estrategia.com/portal/?p=187213"
    ]
   },
   "fafipa": {},
