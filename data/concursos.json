@@ -4743,5 +4743,200 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Mirante do Paranapanema - SP abre concurso público para cargos de nível médio e superior",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-mirante-do-paranapanema-sp-abre-concurso-publico-para-cargos-de-nivel-medio-e-superior",
+  "orgao": "Prefeitura de Mirante do Paranapanema",
+  "municipio": "Mirante do Paranapanema",
+  "uf": "SP",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Mirante do Paranapanema",
+     "https://www.mirantedoparanapanema.sp.gov.br/"
+    ],
+    [
+     "www.consesp.com.br",
+     "https://www.consesp.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-17",
+   "inscricoes_fim": "2026-09-07",
+   "site_inscricao": "https://www.consesp.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de rendas",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "17.8.2026 a 7.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 3.242,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Mirante do Paranapanema , no Estado de São Paulo, abriu um Concurso Público visando preencher seis vagas para profissionais de nível médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de rendas)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de rendas"
+  ],
+  "fonte": "cnb",
+  "titulo": "SP: Concurso Prefeitura de Mirante do Paranapanema abre vagas em edital",
+  "url": "https://concursosnobrasil.com/concursos/sp/2026/08/18/sp-concurso-prefeitura-de-mirante-do-paranapanema-abre-vagas-em-edital/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "site",
+     "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4926"
+    ],
+    [
+     "site",
+     "https://sis.consesp.com.br/site/index.php?pg=concursos/info&codigo=4926"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de rendas",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Prefeitura de Mirante do Paranapanema, no estado de São Paulo, tem oportunidades de níveis médio e superior.",
+    "criterio": "manchete de abertura (\\babre vagas?\\b) + cargo (fiscal de rendas)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle externo",
+   "tecnico de controle externo"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE AP: orçamento reforça novo edital",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-ap-orcamento-reforca-novo-edital/",
+  "orgao": "TCE",
+  "municipio": "",
+  "uf": "AP",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "documento oficial com a alteração do QDD de 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/18104449/concurso-tce-ap-previsao-orcamento.pdf"
+    ],
+    [
+     "Clique aqui para ver o último edital do concurso TCE AP",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/03/09193845/Edital-TCE-AP-2011.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Tribunal de Contas do Estado do Amapá incluiu a ação “Realizar concurso público para o TCE” na 7ª alteração do Quadro de Detalhamento da Despesa (QDD) de 2026, com previsão de R$ 50 mil para a iniciativa.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (analista de controle externo)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-18",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Manaus: inscrições abertas; inicial de R$ 27 mil!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-18",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "FCC",
+     "https://www.concursosfcc.com.br/concursos/semef125/index.html"
+    ],
+    [
+     "ISS Manaus-2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/27101711/edital-concurso-iss-manaus-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "nova comissão formada",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/09/15192814/comissao-formada.pdf"
+    ],
+    [
+     "comissão anterior revogada; contrato com a FCC anulado",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/08092044/image-109.png"
+    ],
+    [
+     "nova Equipe de Planejamento formada",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/16094428/image-191.png"
+    ],
+    [
+     "Comissão Especial formada",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/11/12113900/dom-6193-11-11-2025-cad-1-10.pdf"
+    ],
+    [
+     "Retificação 1",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/18102710/ret-iss-manaus.pdf"
+    ],
+    [
+     "FCC",
+     "https://www.concursosfcc.com.br/concursos/semef118/index.html"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-27",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "27.7.2026 a 27.8.2026",
+    "vagas": "",
+    "remuneracao": "R$ 27.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso ISS Manaus 2026 segue com inscrições abertas até 27 de agosto; provas em novembro!",
+    "criterio": "suspensão/cancelamento detectado (\\banulad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
