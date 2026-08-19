@@ -7694,5 +7694,29 @@
   "municipio": "Laguna",
   "uf": "SC",
   "trecho": "/ CPF / CNPJ XX.872.013/0001-XX Ao(s) 16 dia(s) do mês de 7 do ano de 2026, o(s) servidor(es) abaixo qualificado(s), no exercício do cargo de Fiscal Tributário da PREFEITURA DO MUNICÍPIO DE LAGUNA, $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__t"
+ },
+ {
+  "descartado_em": "2026-08-19",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\blei\\b)",
+   "criterio": "documento não é concurso (título: \\blei\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Luzerna — LEI COMPLEMENTAR 321 (2026-08-19)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8626787",
+  "municipio": "Luzerna",
+  "uf": "SC",
+  "trecho": "Auditor Fiscal da Receita Municipal IX 40h 01 R$ 4.839,57 Profissional"
  }
 ]
