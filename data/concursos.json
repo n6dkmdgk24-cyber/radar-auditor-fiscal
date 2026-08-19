@@ -5110,5 +5110,50 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-19",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Conceição da Barra de Minas - MG retifica edital de concurso público com salários de até R$ 16.016,13",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-conceicao-da-barra-de-minas-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-16016",
+  "orgao": "Prefeitura de Conceição da Barra de Minas",
+  "municipio": "Conceição da Barra de Minas",
+  "uf": "MG",
+  "data_publicacao": "2026-08-19",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Conceição da Barra de Minas",
+     "https://www.cbm.mg.gov.br/"
+    ],
+    [
+     "JCM Consultoria Municipal",
+     "https://www.jcmconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-19",
+   "inscricoes_fim": "2026-09-18",
+   "site_inscricao": "https://www.jcmconcursos.com.br",
+   "banca": "JCM Consultoria Municipal",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "19.8.2026 a 18.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 16.016,13",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Conceição da Barra de Minas , no estado de Minas Gerais, por meio da JCM Consultoria Municipal , abriu um concurso público visando preencher vagas para os níveis alfabetizado, fundamental, médio, técnico e super…",
+    "criterio": "retificação com inscrições abertas até 2026-09-18",
+    "origem": "regras"
+   }
+  }
  }
 ]
