@@ -7718,5 +7718,53 @@
   "municipio": "Luzerna",
   "uf": "SC",
   "trecho": "Auditor Fiscal da Receita Municipal IX 40h 01 R$ 4.839,57 Profissional"
+ },
+ {
+  "descartado_em": "2026-08-20",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Câmara Municipal de Paragominas — PORTARIA Nº 501/2026-GAB/PRES/CMP, DE 18 DE AGOSTO DE 2026. CONCEDE DIÁRIA À SRA. MOZIMEIRE PEREIRA DE SOUZA COSTA, VEREADORA NA CÂMARA MUNICIPAL DE PARAGOMINAS, E DÁ OUTRAS PROVIDÊNCIAS. (2026-08-19)",
+  "url": "https://www.diariomunicipal.com.br/famep/load/BA3B3ADF",
+  "municipio": "Paragominas",
+  "uf": "PA",
+  "trecho": "Sra. Mozimeire Pereira de Souza Costa , Vereadora desta Casa de Leis, matrícula Nº 110750-0, para participação de reunião com o Sr. Cleber Mesquita – Auditor de Controle Externo, em visita ao Tribunal de Contas dos Municípios do Estado do Pará (TCM-PA), na cidade de Belém-PA. Com saída no dia 19/08/"
+ },
+ {
+  "descartado_em": "2026-08-20",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Câmara Municipal de Paragominas — PORTARIA Nº 502/2026-GAB/PRES/CMP, DE 18 DE AGOSTO DE 2026. CONCEDE DIÁRIA AO SR. ISAÍAS MAGALHÃES DE BRITO, VEREADOR NA CÂMARA MUNICIPAL DE PARAGOMINAS, E DÁ OUTRAS PROVIDÊNCIAS. (2026-08-19)",
+  "url": "https://www.diariomunicipal.com.br/famep/load/772635F4",
+  "municipio": "Paragominas",
+  "uf": "PA",
+  "trecho": "iária ao Sr. Isaías Magalhães de Brito , matrícula Nº 110628-7, Vereador desta Casa de Leis, para participação de reunião com o Sr. Cleber Mesquita – Auditor de Controle Externo, em visita ao Tribunal de Contas dos Municípios do Estado do Pará (TCM-PA), na cidade de Belém-PA. Com saída no dia 19/08/"
  }
 ]

@@ -1,7 +1,49 @@
 [
  {
-  "enfileirado_em": "2026-08-19",
+  "enfileirado_em": "2026-08-20",
   "tentativas": 1,
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "achado": {
+   "fonte": "dou",
+   "titulo": "EDITAL ENAP Nº 237, De 18 DE agosto DE 2026 (Edital de Concurso Público)",
+   "url": "https://www.in.gov.br/web/dou/-/edital-enap-n-237-de-18-de-agosto-de-2026-726601107",
+   "cargo_texto": "EDITAL ENAP Nº 237, De 18 DE agosto DE 2026 CONCURSO PÚBLICO PARA PROVIMENTO DE CARGOS DE AUDITOR-FISCAL ... impetrado por THIAGO MARMO PINTO, candidato inscrito no concurso público para provimento de cargos de AUDITOR-FISCAL ENAP Nº 237, De 18 DE agosto DE 2026 CONCURSO PÚBLICO PARA PRO...\nMinistério da Gestão e da Inovação em Serviços Públicos/Fundação Escola Nacional de Administração Pública",
+   "orgao": "Fundação Escola Nacional de Administração Pública",
+   "municipio": "",
+   "uf": "",
+   "data_publicacao": "2026-08-20",
+   "detalhes": {
+    "artType": "Edital de Concurso Público",
+    "hierarquia": "Ministério da Gestão e da Inovação em Serviços Públicos/Fundação Escola Nacional de Administração Pública"
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-20",
+  "tentativas": 1,
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "estrategia",
+   "titulo": "Concurso ISS Manaus 2026: quais são os requisitos?",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus-principais-requisitos/",
+   "cargo_texto": "Concurso ISS Manaus 2026: quais são os requisitos?.\nO edital do Concurso ISS Manaus traz oportunidades para o cargo de Auditor Fiscal com remuneração de R$ 27 mil; saiba neste artigo os principais requisitos! O novo Concurso ISS Manaus, promovido pela Secretaria Municipal de Finanças (Semef), está com inscrições abertas para preencher 20 vagas imediatas e formar cadastro reserva. A seleção oferta oportunidades […] O post Concurso ISS Manaus 2026: quais são os requisitos? apareceu primeiro em Estratégia Concursos .\n   O edital do Concurso ISS Manaus traz oportunidades para o cargo de Auditor Fiscal com remuneração de R$ 27 mil; saiba neste artigo os principais requisitos! O novo Concurso ISS Manaus , promovido pela Secretaria Municipal de Finanças (Semef) , está com inscrições abertas para preencher 20 vagas imediatas e formar cadastro reserva. A seleção oferta oportunidades para a carreira de Auditor Fiscal de Tributos Municipais , exigindo formação de nível superior, com salário inicial de R$ 27.270,61 . A organização é da Fundação Carlos Chagas (FCC) . Preparação completa para a carreira! Para concorrer ao cargo de Auditor Fiscal de Tributos Municipais , é necessário possuir diploma, devidamente registrado, de curso superior de graduação concluído ou habilitação legal equivalente, reconhecido pelo Ministério da Educação (MEC), em qualquer área de especialidade . Dessa forma, o edital não exige formação específica. Candidatos com graduação em qualquer área de formação podem concorrer ao cargo , desde que atendam aos demais requisitos previstos no edital. Além da escolaridade exigida, o candidato aprovado deverá atender, na data da posse, às seguintes condições: ser brasileiro nato ou naturalizado, ou gozar das prerrogativas previstas na legislação; ter idade mínima de 18 anos; estar no gozo dos direitos políticos; estar em dia com as obrigações eleitorais; estar em dia com os deveres do Serviço Militar, no caso dos candidatos do sexo masculino; apresentar certidões de antecedentes criminais da Justiça Federal, Eleitoral, Militar (estadual e federal), Justiça Estadual e Polícia Civil dos locais em que tenha residido nos últimos cinco anos; apresentar os documentos comprobatórios da escolaridade e dos demais pré-requisitos exigidos pelo edital; possuir aptidão física e mental para o exercício das atribuições do cargo, comprovada por junta médica de órgão oficial do Município de Manaus; apresentar outros documentos que eventualmente sejam solicitados no momento da posse. O edital estabelece ainda que o candidato que não reunir os requisitos exigidos na data da posse perderá o direito à investidura no cargo. Para ficar por dentro de todas as informações sobre o Concurso ISS Manaus, além dos detalhes dos requisitos do cargo, não deixe de conferir nosso artigo completo sobre a seleção: Concurso ISS Manaus Veja também: Concurso ISS Manaus: passo a passo para realizar a inscrição ; Concurso ISS Manaus: quanto ganha um Auditor Fiscal . Quer estudar para o Concurso ISS Manaus? Assinatura de 1 ano ou 2 anos Quer saber tudo sobre concursos previstos? Confira nossos artigos! Concursos Abertos Concursos Fiscais Concursos 2026 Concursos 2027 Concursos ISS  Fiscal - Municipal (ISS) Últimas notícias   ",
+   "orgao": "",
+   "municipio": "",
+   "uf": "",
+   "data_publicacao": "2026-08-20",
+   "detalhes": {}
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-19",
+  "tentativas": 2,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -24,7 +66,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -49,7 +91,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "conferir",
   "termos": [
    "fiscal de rendas"
@@ -74,7 +116,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 4,
+  "tentativas": 5,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -100,7 +142,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 5,
+  "tentativas": 6,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -124,7 +166,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 7,
+  "tentativas": 8,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -154,7 +196,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 7,
+  "tentativas": 8,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -189,7 +231,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 7,
+  "tentativas": 8,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -243,7 +285,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 7,
+  "tentativas": 8,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -294,7 +336,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 8,
+  "tentativas": 9,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -324,7 +366,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 9,
+  "tentativas": 10,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -350,7 +392,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -376,7 +418,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -431,7 +473,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -465,7 +507,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -515,7 +557,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -541,7 +583,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -567,7 +609,7 @@
  },
  {
   "enfileirado_em": "2026-08-15",
-  "tentativas": 19,
+  "tentativas": 20,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -586,7 +628,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 21,
+  "tentativas": 22,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -610,7 +652,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 21,
+  "tentativas": 22,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -634,7 +676,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -660,7 +702,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -686,7 +728,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -712,7 +754,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -731,7 +773,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 24,
+  "tentativas": 25,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -757,7 +799,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -783,7 +825,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -837,7 +879,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -875,7 +917,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -894,7 +936,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -948,7 +990,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -974,7 +1016,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -1028,7 +1070,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -1053,7 +1095,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -1079,7 +1121,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1102,7 +1144,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 47,
+  "tentativas": 48,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -1127,7 +1169,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 50,
+  "tentativas": 51,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1150,7 +1192,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 51,
+  "tentativas": 52,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1173,7 +1215,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 55,
+  "tentativas": 56,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
