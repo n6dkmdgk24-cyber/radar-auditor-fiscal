@@ -5155,5 +5155,128 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-20",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Mutunópolis - GO abre concurso com salários de até R$ 5.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-mutunopolis-go-abre-concurso-com-salarios-de-ate-5000",
+  "orgao": "Câmara de Mutunópolis",
+  "municipio": "Mutunópolis",
+  "uf": "GO",
+  "data_publicacao": "2026-08-20",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Mutunópolis",
+     "https://mutunopolis.go.leg.br/"
+    ],
+    [
+     "www.institutoverbena.ufg.br",
+     "https://www.institutoverbena.ufg.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-18",
+   "inscricoes_fim": "2026-10-08",
+   "site_inscricao": "https://www.institutoverbena.ufg.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "18.9.2026 a 8.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 5.000,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Mutunópolis , no Estado de Goiás, divulgou o edital de Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-20",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso ISS Blumenau SC: banca definida; R$ 7 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-iss-blumenau-sc/",
+  "orgao": "ISS Blumenau",
+  "municipio": "",
+  "uf": "SC",
+  "data_publicacao": "2026-08-20",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Blumenau SC",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/07/19144928/Edital-02-%EF%BB%BFBlumenau-SC-2023.pdf"
+    ]
+   ],
+   "banca": "Publicacao do Termo de Referencia",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 7.005,99",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso ISS Blumenau SC, em Santa Catarina, avançou com a definição da banca organizadora e a publicação do Termo de Referência.",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-20",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario",
+   "auditor fiscal tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Blumenau SC: banca definida para dois editais!",
+  "url": "https://blog.grancursosonline.com.br/concurso-blumenau-sc-banca-definida-2026/",
+  "orgao": "Blumenau",
+  "municipio": "",
+  "uf": "SC",
+  "data_publicacao": "2026-08-20",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do Concurso Blumenau SC",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/07/19144928/Edital-02-%EF%BB%BFBlumenau-SC-2023.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Blumenau, em Santa Catarina, publicou o Termo de Referência para a contratação da empresa responsável pela organização de novos concursos públicos do município.",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]

@@ -8558,5 +8558,77 @@
   "municipio": "Laguna",
   "uf": "SC",
   "trecho": " CI / CPF / CNPJ XXX.789.879-XX Ao(s) 16 dia(s) do mês de 7 do ano de 2026, o(s) servidor(es) abaixo qualificado(s), no exercício do cargo de Fiscal Tributário da PREFEITURA DO MUNICÍPIO DE LAGUNA, tendo $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo"
+ },
+ {
+  "descartado_em": "2026-08-20",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Município de Jaragua — PORTARIA 260/2026 (2026-08-20)",
+  "url": "https://www.diariomunicipal.com.br/fgm/load/9D3C0708",
+  "municipio": "Jaragua",
+  "uf": "GO",
+  "trecho": "rocesso nº 582/2026. R E S O L V E: Art. 1º - Conceder Licença Prêmio ao servidor VAGNER JOSÉ DE OLIVEIRA, CPF nº 319.027.741-91, ocupando o Cargo de Fiscal de Tributos Municipais N-I Ref. Q lotado(a) na Secretaria Municipal de Finanças, por 03 (três) meses, referente ao período aquisitivo de 31/01/"
+ },
+ {
+  "descartado_em": "2026-08-20",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Guarujá do Sul — PORTARIA 0373/2026 (2026-08-20)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8630978",
+  "municipio": "Guarujá do Sul",
+  "uf": "SC",
+  "trecho": "stáveis, para compor a Comissão de Sindicância Investigativa: I – Francisco Junior Garcia de Mattos, matrícula nº 1381, ocupante do cargo de Fiscal de Tributos, que a presidirá; II – Casiane Cristina Sbardelotto Salles, matrícula nº 2777 , ocupante do cargo de Professora, membro; III – Tatiana Terez"
+ },
+ {
+  "descartado_em": "2026-08-20",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "criterio": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "origem": "regras"
+  },
+  "fonte": "estrategia",
+  "titulo": "Concurso Campina Grande PB: mais de 900 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-campina-grande-pb/",
+  "municipio": "",
+  "uf": "PB",
+  "trecho": ""
  }
 ]

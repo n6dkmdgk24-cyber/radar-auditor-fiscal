@@ -1,10 +1,23 @@
 {
- "executado_em": "2026-08-20T16:32:41",
+ "executado_em": "2026-08-20T20:24:22",
  "itens": [
   {
+   "fonte": "pci",
+   "titulo": "Câmara de Mutunópolis - GO abre concurso com salários de até R$ 5.000,00",
+   "url": "https://www.pciconcursos.com.br/noticias/camara-de-mutunopolis-go-abre-concurso-com-salarios-de-ate-5000",
+   "categoria_filtro": "controle",
+   "termos": [
+    "analista de controle interno"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (analista de controle interno)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
    "fonte": "sigpub",
-   "titulo": "Município de Maués — PORTARIA Nº 1488, DE 16 DE JUNHO DE 2026. (2026-08-20)",
-   "url": "https://www.diariomunicipal.com.br/aam/load/B36922C7",
+   "titulo": "Município de Jaragua — PORTARIA 260/2026 (2026-08-20)",
+   "url": "https://www.diariomunicipal.com.br/fgm/load/9D3C0708",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
@@ -16,8 +29,8 @@
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Zortéa — PORTARIA N.º 0394/2026, DE 10 DE AGOSTO DE 2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8630500",
+   "titulo": "Prefeitura municipal de Guarujá do Sul — PORTARIA 0373/2026 (2026-08-20)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8630978",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
@@ -28,314 +41,74 @@
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 327/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626819",
-   "categoria_filtro": "conferir",
+   "fonte": "gran",
+   "titulo": "Concurso ISS Blumenau SC: banca definida; R$ 7 mil!",
+   "url": "https://blog.grancursosonline.com.br/concurso-iss-blumenau-sc/",
+   "categoria_filtro": "tributario",
    "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "pre_edital",
+   "regras_motivo": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: pre_edital)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Blumenau SC: FURB é a banca; 64 vagas + CR!",
+   "url": "https://blog.grancursosonline.com.br/concurso-blumenau-sc/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "gran",
+   "titulo": "Concurso Blumenau SC: banca definida para dois editais!",
+   "url": "https://blog.grancursosonline.com.br/concurso-blumenau-sc-banca-definida-2026/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
+    "fiscal tributario",
+    "auditor fiscal tributario"
+   ],
+   "regras": "pre_edital",
+   "regras_motivo": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: pre_edital)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso ISS Campina Grande PB: provas adiadas!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-campina-grande-pb/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal",
     "fiscal de tributos"
    ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
+   "regras": "incerto",
+   "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
+   "verificador": "incerto: evidência insuficiente (pontos=6, contra=0, seções: banca, cronograma, provas, remuneracao, requisitos, vagas)",
+   "destino": "pendente (tentativa 1)"
   },
   {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – FUMCBM Nº 548/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626852",
-   "categoria_filtro": "conferir",
+   "fonte": "estrategia",
+   "titulo": "Concurso Campina Grande PB: mais de 900 vagas!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-campina-grande-pb/",
+   "categoria_filtro": "tributario",
    "termos": [
-    "fiscal de tributos"
+    "auditor fiscal"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 835/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626860",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 836/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626863",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 937/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626872",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 826/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626887",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – FUMCBM Nº 513/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8627049",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 328/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626821",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – COSIP Nº 329/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626824",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 546/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626848",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 547/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626850",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – FUMCBM Nº 837/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626865",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 938/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626873",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – COSIP Nº 939/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626875",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 827/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626888",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – COSIP Nº 828/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626891",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – IPTU Nº 511/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8627047",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 512/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8627048",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Navegantes — PORTARIA 3202 DE 18 DE AGOSTO DE 2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626140",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Ipumirim — PORTARIA 589-2026 - EXONERA ROBSOM WESCHENFELDER (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8625782",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Navegantes — PORTARIA 3201 DE 18 DE AGOSTO DE 2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8625988",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Porto Belo — PORTARIA Nº 797 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626026",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 161/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8626847",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
-   "verificador": null,
-   "destino": "descartado (regras)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 154/2026 (2026-08-20)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8627046",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal tributario"
-   ],
-   "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
+   "regras_motivo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
@@ -350,7 +123,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 1)"
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "cnb",
@@ -363,7 +136,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "sigpub",
@@ -376,7 +149,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=1, seções: nenhuma)",
-   "destino": "pendente (tentativa 2)"
+   "destino": "pendente (tentativa 3)"
   },
   {
    "fonte": "dou",
@@ -389,7 +162,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, provas)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "estrategia",
@@ -403,7 +176,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=4, seções: banca, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "domsc",
@@ -416,7 +189,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 4)"
+   "destino": "pendente (tentativa 5)"
   },
   {
    "fonte": "qd",
@@ -429,7 +202,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   },
   {
    "fonte": "qd",
@@ -442,7 +215,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 6)"
+   "destino": "pendente (tentativa 7)"
   },
   {
    "fonte": "gran",
@@ -455,7 +228,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "sigpub",
@@ -468,7 +241,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: edital, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 8)"
+   "destino": "pendente (tentativa 9)"
   },
   {
    "fonte": "pci",
@@ -481,7 +254,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=2, seções: provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "gran",
@@ -495,7 +268,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=1, seções: banca, cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "estrategia",
@@ -508,7 +281,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "estrategia",
@@ -522,7 +295,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "cnb",
@@ -535,7 +308,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 11)"
+   "destino": "pendente (tentativa 12)"
   },
   {
    "fonte": "cnb",
@@ -548,7 +321,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 12)"
+   "destino": "pendente (tentativa 13)"
   },
   {
    "fonte": "gran",
@@ -561,7 +334,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: cronograma, edital, remuneracao, taxa)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "estrategia",
@@ -575,7 +348,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "gran",
@@ -588,7 +361,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=0, seções: banca, carga, cronograma, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "estrategia",
@@ -601,7 +374,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "estrategia",
@@ -614,7 +387,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "estrategia",
@@ -627,7 +400,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 15)"
+   "destino": "pendente (tentativa 16)"
   },
   {
    "fonte": "estrategia",
@@ -640,7 +413,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, remuneracao)",
-   "destino": "pendente (tentativa 22)"
+   "destino": "pendente (tentativa 23)"
   },
   {
    "fonte": "sigpub",
@@ -653,7 +426,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 24)"
+   "destino": "pendente (tentativa 25)"
   },
   {
    "fonte": "sigpub",
@@ -666,7 +439,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 24)"
+   "destino": "pendente (tentativa 25)"
   },
   {
    "fonte": "estrategia",
@@ -679,7 +452,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 25)"
+   "destino": "pendente (tentativa 26)"
   },
   {
    "fonte": "cnb",
@@ -692,7 +465,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 26)"
+   "destino": "pendente (tentativa 27)"
   },
   {
    "fonte": "cnb",
@@ -705,7 +478,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, carga, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 26)"
+   "destino": "pendente (tentativa 27)"
   },
   {
    "fonte": "estrategia",
@@ -718,7 +491,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 26)"
+   "destino": "pendente (tentativa 27)"
   },
   {
    "fonte": "gran",
@@ -731,7 +504,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 27)"
+   "destino": "pendente (tentativa 28)"
   },
   {
    "fonte": "gran",
@@ -744,7 +517,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "gran",
@@ -757,7 +530,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "gran",
@@ -770,7 +543,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "estrategia",
@@ -783,7 +556,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "estrategia",
@@ -796,7 +569,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "estrategia",
@@ -809,7 +582,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "estrategia",
@@ -822,7 +595,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 29)"
+   "destino": "pendente (tentativa 30)"
   },
   {
    "fonte": "qd",
@@ -835,7 +608,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 34)"
+   "destino": "pendente (tentativa 35)"
   },
   {
    "fonte": "qd",
@@ -849,7 +622,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 34)"
+   "destino": "pendente (tentativa 35)"
   },
   {
    "fonte": "domsc",
@@ -862,7 +635,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 37)"
+   "destino": "pendente (tentativa 38)"
   },
   {
    "fonte": "qd",
@@ -875,7 +648,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 50)"
+   "destino": "pendente (tentativa 51)"
   },
   {
    "fonte": "domsc",
@@ -888,7 +661,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "domsc",
@@ -901,7 +674,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 54)"
+   "destino": "pendente (tentativa 55)"
   },
   {
    "fonte": "domsc",
@@ -914,7 +687,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 58)"
+   "destino": "pendente (tentativa 59)"
   }
  ]
 }
