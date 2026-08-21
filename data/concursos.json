@@ -5342,5 +5342,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Beberibe - CE abre processo seletivo para cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-beberibe-ce-abre-processo-seletivo-para-cadastro-de-reserva",
+  "orgao": "Prefeitura de Beberibe",
+  "municipio": "Beberibe",
+  "uf": "CE",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Beberibe",
+     "https://www.beberibe.ce.gov.br/"
+    ],
+    [
+     "www.consulpam.com.br",
+     "https://www.consulpam.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-20",
+   "inscricoes_fim": "2026-09-10",
+   "site_inscricao": "https://www.consulpam.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "20.8.2026 a 10.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 13.929,14",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Beberibe , no Ceará, lançou o Processo Seletivo Simplificado para a formação de cadastro de reserva em funções de nível superior, médio/técnico e fundamental.",
+    "criterio": "manchete de abertura (\\babre (o )?processos? seletivos?\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
