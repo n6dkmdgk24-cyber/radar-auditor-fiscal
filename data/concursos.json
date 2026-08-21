@@ -5278,5 +5278,69 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "controle",
+  "termos": [
+   "auditor estadual de controle"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso TCE MA 2026: último dia de inscrição; não perca!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-ma-2026-ultimo-dia-inscricao/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "inscricoes_fim": "2026-09-15",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor estadual de controle",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "até 15.9.2026",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Prazo final para garantir participação no Concurso TCE MA encerra hoje (21) com oportunidades de nível médio e superior e ganhos iniciais de até R$ 20 mil O Tribunal de Contas do Estado do Maranhão encerra nesta sexta-feira (21) as inscr…",
+    "criterio": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor estadual de controle)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Manaus: como será a prova objetiva?",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus-2026-prova-objetiva/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 27.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O edital do Concurso ISS Manaus traz oportunidades para o cargo de Auditor Fiscal com remuneração de R$ 27 mil; saiba neste artigo como será a prova objetiva!",
+    "criterio": "evidência de inscrição (\\binscricoes (estao |estarao )?abertas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
