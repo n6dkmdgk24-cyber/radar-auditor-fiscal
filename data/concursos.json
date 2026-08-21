@@ -5577,5 +5577,80 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "controle",
+  "termos": [
+   "auditor estadual de controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE MA 2026: inscrições terminam hoje (21/8)",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-ma-ultimo-dia-de-inscricao/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital TCE MA 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/07150739/edital-tce-ma.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor estadual de controle",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 20.112,20",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso TCE MA 2026 chega ao último dia de inscrições nesta sexta-feira, 21 de agosto.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor estadual de controle)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "agente de arrecadacao"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Chapada dos Guimarães MT: até R$ 6,1 mil! Inscreva-se",
+  "url": "https://blog.grancursosonline.com.br/concurso-chapada-dos-guimaraes-mt/",
+  "orgao": "Chapada dos Guimarães",
+  "municipio": "",
+  "uf": "MT",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital Chapada dos Guimarães MT 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/05174712/Edital-Chapada-dos-Guimaraes-MT-2026.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 6.265,16",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O edital da concurso Chapada dos Guimarães MT foi oficialmente publicado com oportunidades tanto para a Prefeitura Municipal de Chapada dos Guimarães MT quanto para o SAAE.",
+    "criterio": "manchete de abertura (\\binscreva-se\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
