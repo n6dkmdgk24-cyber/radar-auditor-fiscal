@@ -5386,5 +5386,196 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de José Bonifácio - SP abre concurso público com salários de até R$ 6.100,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-jose-bonifacio-sp-abre-concurso-publico-com-salarios-de-ate-6100",
+  "orgao": "Câmara de José Bonifácio",
+  "municipio": "José Bonifácio",
+  "uf": "SP",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de José Bonifácio",
+     "https://www.camarajosebonifacio.sp.gov.br/"
+    ],
+    [
+     "www.inepam.org.br",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-28",
+   "inscricoes_fim": "2026-09-16",
+   "site_inscricao": "https://www.inepam.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "28.8.2026 a 16.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 6.100,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de José Bonifácio , em São Paulo, abriu inscrições para o concurso público destinado ao preenchimento de 4 vagas em funções de nível superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Rio Verde (GO) abre vagas para Auditor",
+  "url": "https://concursosnobrasil.com/concursos/go/2026/08/21/concurso-prefeitura-de-rio-verde-go-abre-vagas-para-auditor/",
+  "orgao": "Prefeitura de Rio Verde",
+  "municipio": "Rio Verde",
+  "uf": "GO",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "sítio",
+     "https://www.unirv.edu.br"
+    ],
+    [
+     "site",
+     "https://concurso.vestibularunirv.com.br/pagina/index.php?id=363"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-25",
+   "inscricoes_fim": "2026-10-22",
+   "site_inscricao": "https://www.unirv.edu.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "25.9.2026 a 22.10.2026",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Rio Verde, estado de Goiás, abre concurso público para Auditor Fiscal da Receita Municipal, com inscrições sendo realizadas pelo site da UniRV.",
+    "criterio": "manchete de abertura (\\babre vagas?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Sefaz DF 2026: edital segue em instrução interna",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-df-edital-instrucao-interna/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital Sefaz DF",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/02/01092124/Concurso-SEFAZ-DF-edital-2019-auditor-fiscal.pdf"
+    ]
+   ],
+   "banca": "Cebraspe",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 23.597,07",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Sefaz DF continua em preparação para o cargo de Auditor Fiscal da Receita do Distrito Federal.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-21",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Sefaz DF 2026: edital iminente com 265 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-df/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-21",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "1º Termo Aditivo",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/05/11092211/dodf-105-11-06-2026-integra-44-45.pdf"
+    ],
+    [
+     "Edital Sefaz DF 2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/01/07102150/edital-concurso-sefaz-df-distrito-federal-2019.pdf"
+    ],
+    [
+     "fiscais de contrato são definidos",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/11/12061109/captura-de-tela-2025-11-12-061115.png"
+    ],
+    [
+     "Banca definida",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/03055757/sefaz-df.pdf"
+    ],
+    [
+     "Confira as remunerações reais diretamente no Portal da Transparência do DF",
+     "https://www.transparencia.df.gov.br/#/servidores/remuneracao"
+    ],
+    [
+     "banca",
+     "https://www.cebraspe.org.br/concursos/seec_auditor_19"
+    ],
+    [
+     "Caderno de prova objetiva",
+     "https://dhg1h5j42swfq.cloudfront.net/2020/02/05115919/MATRIZ_504_SEECDF001_JUSTIFICATIVA.pdf"
+    ],
+    [
+     "Conhecimentos Básicos",
+     "https://dhg1h5j42swfq.cloudfront.net/2021/02/16170736/bas.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 23.597,07",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Sefaz DF 2026: edital terá 265 vagas com vencimentos iniciais de mais de R$ 30 mil!",
+    "criterio": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
