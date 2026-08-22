@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-22T15:08:03"
+   "scraped_since": "2026-08-22T19:13:08"
   },
   "pci": {
    "lastmod_max": "2026-08-21"
@@ -417,12 +417,12 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-22"
    },
    "amupe": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-22"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
     "ultima_data": "2026-08-22"
    },
@@ -485,10 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-22T13:28:10",
+   "ultimo_pub": "2026-08-22T18:44:47",
    "guids": [
-    "https://blog.grancursosonline.com.br/?p=79964947",
-    "https://blog.grancursosonline.com.br/?p=81859",
     "https://blog.grancursosonline.com.br/?p=79964940",
     "https://blog.grancursosonline.com.br/?p=79671024",
     "http://blog.grancursosonline.com.br/?p=25292",
@@ -886,7 +884,9 @@
     "https://blog.grancursosonline.com.br/?p=79966665",
     "https://blog.grancursosonline.com.br/?p=79792498",
     "https://blog.grancursosonline.com.br/?p=79283893",
-    "http://blog.grancursosonline.com.br/?p=61188"
+    "http://blog.grancursosonline.com.br/?p=61188",
+    "https://blog.grancursosonline.com.br/?p=79966692",
+    "http://blog.concursosdasaude.com.br/?p=62920"
    ]
   },
   "estrategia": {
