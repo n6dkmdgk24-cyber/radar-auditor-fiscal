@@ -9350,5 +9350,53 @@
   "municipio": "Luiz Alves",
   "uf": "SC",
   "trecho": "Investigativa, composta pelos seguintes servidores públicos estáveis: I – ANA LETICIA HENZ ZERMIANI, servidora efetiva, ocupante do cargo de Fiscal de Tributos, que atuará como Presidente;"
+ },
+ {
+  "descartado_em": "2026-08-22",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Município de Apuí — PORTARIA GPA/PMA-AM N° 624/2026, DE 14 DE AGOSTO DE 2026. (2026-08-21)",
+  "url": "https://www.diariomunicipal.com.br/aam/load/0DB1DF0A",
+  "municipio": "Apuí",
+  "uf": "AM",
+  "trecho": "- Conceder Adicional de PRODUTIVIDADE no percentual 50% do vencimento base, a servidora SUELI DA ANUNCIACAO, matrícula nº 04, concursada no Cargo de FISCAL DE TRIBUTOS, lotada na Secretaria Municipal de Fazenda. Art. 2 0 - Esta Portaria entrará em vigor na data de sua publicação, retroagindo seus ef"
+ },
+ {
+  "descartado_em": "2026-08-22",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "texto integral sem anatomia de edital (pontos=0) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "criterio": "texto integral sem anatomia de edital (pontos=0) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "origem": "verificador"
+  },
+  "fonte": "estrategia",
+  "titulo": "Simulado Especial ISS Manaus 2026 para Auditor Fiscal!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/simulado-especial-concurso-iss-manaus-2026/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]
