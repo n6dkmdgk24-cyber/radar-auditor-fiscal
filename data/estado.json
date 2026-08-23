@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-23T11:09:33"
+   "scraped_since": "2026-08-23T15:09:11"
   },
   "pci": {
    "lastmod_max": "2026-08-21"
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-22"
    },
-   "proximo_extra": 6,
+   "proximo_extra": 8,
    "amp": {
     "ultima_data": "2026-08-23"
    },
@@ -439,10 +439,10 @@
     "ultima_data": "2026-08-23"
    },
    "arom": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-23"
    },
    "femurn": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-23"
    },
    "aam": {
     "ultima_data": "2026-08-22"
@@ -890,7 +890,7 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-22T18:15:22",
+   "ultimo_pub": "2026-08-23T14:04:00",
    "guids": [
     "https://www.estrategiaconcursos.com.br/blog/?p=1790967",
     "https://www.estrategiaconcursos.com.br/blog/?p=1790952",
@@ -1269,7 +1269,8 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=642775",
     "https://www.estrategiaconcursos.com.br/blog/?p=135550",
     "https://cj.estrategia.com/portal/?p=195308",
-    "https://cj.estrategia.com/portal/?p=195384"
+    "https://cj.estrategia.com/portal/?p=195384",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1782508"
    ]
   },
   "fafipa": {},
