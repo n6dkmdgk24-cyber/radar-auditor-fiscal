@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-22T23:08:02"
+   "scraped_since": "2026-08-23T11:09:33"
   },
   "pci": {
    "lastmod_max": "2026-08-21"
@@ -412,7 +412,7 @@
    ]
   },
   "dou": {
-   "ultima_data": "2026-08-22"
+   "ultima_data": "2026-08-23"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,9 +422,9 @@
    "amupe": {
     "ultima_data": "2026-08-22"
    },
-   "proximo_extra": 4,
+   "proximo_extra": 6,
    "amp": {
-    "ultima_data": "2026-08-22"
+    "ultima_data": "2026-08-23"
    },
    "agm": {
     "ultima_data": "2026-08-22"
@@ -433,10 +433,10 @@
     "ultima_data": "2026-08-22"
    },
    "ama": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-23"
    },
    "famep": {
-    "ultima_data": "2026-08-21"
+    "ultima_data": "2026-08-23"
    },
    "arom": {
     "ultima_data": "2026-08-21"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-08-22"
+   "ultima_data": "2026-08-23"
   },
   "selecao": {
    "vistos": [
