@@ -1,7 +1,7 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-23T15:09:11"
+   "scraped_since": "2026-08-23T19:12:22"
   },
   "pci": {
    "lastmod_max": "2026-08-21"
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-22"
    },
-   "proximo_extra": 8,
+   "proximo_extra": 10,
    "amp": {
     "ultima_data": "2026-08-23"
    },
@@ -445,10 +445,10 @@
     "ultima_data": "2026-08-23"
    },
    "aam": {
-    "ultima_data": "2026-08-22"
+    "ultima_data": "2026-08-23"
    },
    "amr": {
-    "ultima_data": "2026-08-22"
+    "ultima_data": "2026-08-23"
    },
    "famup": {
     "ultima_data": "2026-08-22"
