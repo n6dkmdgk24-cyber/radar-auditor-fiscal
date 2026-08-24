@@ -5652,5 +5652,280 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Colômbia - SP abre concurso público com salários de até R$ 7.825,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-colombia-sp-abre-concurso-publico-com-salarios-de-ate-7825",
+  "orgao": "Câmara de Colômbia",
+  "municipio": "Colômbia",
+  "uf": "SP",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Colômbia",
+     "https://www.colombia.sp.leg.br/"
+    ],
+    [
+     "www.institutoaplicativa.org.br",
+     "https://www.institutoaplicativa.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-09-23",
+   "site_inscricao": "https://www.institutoaplicativa.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 23.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 7.825,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Colômbia , em São Paulo, publicou o edital de Concurso Público para o preenchimento de vagas em funções de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Floresta - PE publica edital de concurso público com diversas vagas",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-floresta-pe-publica-edital-de-concurso-publico-com-diversas-vagas",
+  "orgao": "Prefeitura de Floresta",
+  "municipio": "Floresta",
+  "uf": "PE",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Floresta",
+     "https://floresta.pe.gov.br/"
+    ],
+    [
+     "www.facetconcursos.com.br",
+     "https://www.facetconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-10-01",
+   "site_inscricao": "https://www.facetconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 1.10.2026",
+    "vagas": "4 vagas",
+    "remuneracao": "até R$ 15.005,27",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Floresta , em Pernambuco, publicou o edital do Concurso Público destinado ao preenchimento de vagas em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Assis - SP abre concurso público com salários de até R$ 8.510,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-assis-sp-abre-concurso-publico-com-salarios-de-ate-8510",
+  "orgao": "Câmara de Assis",
+  "municipio": "Assis",
+  "uf": "SP",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Assis",
+     "https://www.assis.sp.leg.br/"
+    ],
+    [
+     "Fundação VUNESP",
+     "https://www.vunesp.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-31",
+   "inscricoes_fim": "2026-10-08",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "31.8.2026 a 8.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 8.510,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Assis , no Estado de São Paulo, divulgou um edital de Concurso Público visando preencher vagas imediatas e formar cadastro de reserva para profissionais de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ipaba - MG retifica edital de concurso público com salários de até R$ 5.275,34",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ipaba-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-5275",
+  "orgao": "Prefeitura de Ipaba",
+  "municipio": "Ipaba",
+  "uf": "MG",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Ipaba",
+     "https://www.ipaba.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-09",
+   "inscricoes_fim": "2026-10-08",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "9.9.2026 a 8.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 5.275,34",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O município de Ipaba , no estado de Minas Gerais, e o Instituto Brasileiro de Gestão e Pesquisa (IBGP) abriram Concurso Público visando preencher vagas para profissionais de nível fundamental (incompleto e completo), médio, técnico e sup…",
+    "criterio": "retificação com inscrições abertas até 2026-10-08",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Guaimbê - SP abre concurso público com salários de até R$ 12.565,04",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-guaimbe-sp-abre-concurso-publico-com-salarios-de-ate-12565",
+  "orgao": "Prefeitura de Guaimbê",
+  "municipio": "Guaimbê",
+  "uf": "SP",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Guaimbê",
+     "https://www.guaimbe.sp.gov.br/"
+    ],
+    [
+     "CEMAT",
+     "https://www.cematconcurso.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-09-04",
+   "site_inscricao": "https://www.cematconcurso.com.br/",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 4.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 12.565,04",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Guaimbê , no Estado de São Paulo, divulgou o edital do Concurso Público nº 01/2026 para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Rio Verde GO: edital publicado com 30 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-rio-verde-go/",
+  "orgao": "ISS Rio Verde",
+  "municipio": "",
+  "uf": "GO",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Unirv",
+     "https://concurso.vestibularunirv.com.br/pagina/index.php?id=364"
+    ],
+    [
+     "edital ISS Rio Verde GO 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24114318/edital-concurso-iss-rio-verde-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "mesma lei",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/21104340/plc_n_319-2023_-_dispoe_sobre_o_sistema_de_cargos_e_salarios_da_carreira_de_auditor_fiscal_da_receita_municipal_e_estabelece_outras_providencias_-_executivo-cleaned.pdf"
+    ],
+    [
+     "cargos efetivos",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/21104345/lc-428-2025-rio-verde-go-cleaned.pdf"
+    ],
+    [
+     "edital ISS Rio Verde GO 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24114318/edital-concurso-iss-rio-verde-2026-estrategia-concursos.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-25",
+   "inscricoes_fim": "2026-10-22",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "25.9.2026 a 22.10.2026",
+    "vagas": "",
+    "remuneracao": "R$ 4.809,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso ISS Rio Verde terá inscrições abertas no final de setembro e provas em 2027 O edital do concurso da Prefeitura de Rio Verde, município do estado de Goiás, foi publicado com a oferta de 5 vagas imediatas, além de 25 oportunidades…",
+    "criterio": "manchete de abertura (\\bedital (publicado|liberado|divulgado)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
