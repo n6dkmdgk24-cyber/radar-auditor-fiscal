@@ -6016,5 +6016,73 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Público: 12 editais publicados nesta segunda-feira (24/08)",
+  "url": "https://blog.grancursosonline.com.br/concurso-publico-24-agosto-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira todos os detalhes do Concurso Floresta PE aqui!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24154130/Edital-Floresta-PE-2026.pdf"
+    ],
+    [
+     "Confira todos os detalhes do Concurso Guaimbê SP aqui!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24150807/Edital-Guaimbe-SP-2026.pdf"
+    ],
+    [
+     "Veja mais informações sobre o Concurso Câmara de Assis SP!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24111706/Edital-Camara-de-Assis-SP-2026.pdf"
+    ],
+    [
+     "Confira os detalhes do Concurso Câmara de Colômbia SP!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24111443/Edital-Camara-de-Colombia-SP-2026.pdf"
+    ],
+    [
+     "Confira todos os detalhes do Concurso ISS Rio Verde GO aqui!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24150620/Edital-ISS-Rio-Verde-GO-2026.pdf"
+    ],
+    [
+     "Veja mais informações sobre o Concurso Câmara Cajuri MG!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24140709/Edital-Camara-Cajuri-MG-2026.pdf"
+    ],
+    [
+     "Edital Geral",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24150532/Edital-Buri-SP-2026.pdf"
+    ],
+    [
+     "Edital SME",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24150527/Edital-SME-Buri-SP-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-25",
+   "inscricoes_fim": "2026-09-24",
+   "banca": "Cebraspe",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "25.8.2026 a 24.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 15.005,27",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Pronto para conquistar a sua aprovação no próximo concurso público?",
+    "criterio": "evidência de inscrição (\\binscricoes (estao |estarao )?abertas\\b) + termo forte (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
  }
 ]
