@@ -5927,5 +5927,94 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Tiradentes - MG abre concurso público para Controlador Interno e Tesoureiro",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-tiradentes-mg-abre-concurso-publico-para-controlador-interno-e-tesoureiro",
+  "orgao": "Câmara de Tiradentes",
+  "municipio": "Tiradentes",
+  "uf": "MG",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Tiradentes",
+     "https://www.camaratiradentes.mg.gov.br/"
+    ],
+    [
+     "www.ibdoprojetos.org.br",
+     "https://www.ibdoprojetos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-26",
+   "inscricoes_fim": "2026-11-24",
+   "site_inscricao": "https://www.ibdoprojetos.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "26.10.2026 a 24.11.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "R$ 2.952,86",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Tiradentes , em Minas Gerais, lançou o Concurso Público nº 01/2026 destinado ao provimento de duas vagas para funções de nível superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-24",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso em Tiradentes (MG) abre vagas para Controlador e Tesoureiro",
+  "url": "https://concursosnobrasil.com/concursos/mg/2026/08/24/concurso-em-tiradentes-mg-abre-vagas-para-controlador-e-tesoureiro/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "MG",
+  "data_publicacao": "2026-08-24",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "site",
+     "https://concursos.ibdoprojetos.org.br/informacoes/106/"
+    ],
+    [
+     "nº 01/2026",
+     "https://concursos.ibdoprojetos.org.br/informacoes/106/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-26",
+   "inscricoes_fim": "2026-11-24",
+   "site_inscricao": "https://concursos.ibdoprojetos.org.br/informacoes/106/",
+   "banca": "Instituto IBDO de Gestão e Projetos",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "26.10.2026 a 24.11.2026",
+    "vagas": "",
+    "remuneracao": "R$ 2.952,86",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Câmara de Tiradentes realiza concurso para nível superior, com jornada de 25 horas e salário de R$ 2.952,86.",
+    "criterio": "manchete de abertura (\\babre vagas?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]

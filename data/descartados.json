@@ -9734,5 +9734,77 @@
   "municipio": "Gravatal",
   "uf": "SC",
   "trecho": "lação em vigor, RESOLVE: Art. 1º- CONCEDER 12 (DOZE) dias de férias a(o) Servidor(a) Municipal MARINA DA SILVA PEREIRA, ocupante do cargo de Fiscal de Tributos, com carga horária de 40 horas semanais, referente ao período aquisitivo de 02/04/2024 a 01/04/2025 (12 dias), devendo ser gozadas entre 24/"
+ },
+ {
+  "descartado_em": "2026-08-24",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Peritiba — PORTARIA 738/2026 (2026-08-24)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8636663",
+  "municipio": "Peritiba",
+  "uf": "SC",
+  "trecho": "MATTOS, ocupante do cargo de efetivo de FISCAL DE TRIBUTOS, Grupo 2, Nível 6, Classe “B”, Afastamento Para Tratamento de Saúde, no período vespertino do dia 20 de agosto de 2026, conforme atestado médico em anexo, em conformidade com (o art. 101, Seção II- DA LICENÇA PARA TRATAMENTO DE SAÚDE, Capítu"
+ },
+ {
+  "descartado_em": "2026-08-24",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "criterio": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "origem": "regras"
+  },
+  "fonte": "gran",
+  "titulo": "Concursos Fiscais 2026: previsões e ganhos de até R$ 37 mil!",
+  "url": "https://blog.grancursosonline.com.br/concursos-fiscais/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-08-24",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "criterio": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "origem": "regras"
+  },
+  "fonte": "gran",
+  "titulo": "Concursos Controle 2026: previsão atualizada, editais, vagas",
+  "url": "https://blog.grancursosonline.com.br/concursos-controle/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]
