@@ -9614,5 +9614,53 @@
   "municipio": "Itaporanga",
   "uf": "PB",
   "trecho": "L Nº 001/2026. 1. SERVIDORES COM INSCRIÇÕES DEFERIDAS E INDEFERIDAS Nome Matrícula Cargo Nível Requerido Observação ALDO ANTÔNIO ALVINO SOBRINHO 4418 AUDITOR DE TRIBUTOS II Inscrição Indeferida por descumprimento do item 1.3 do Edital 001/2026 ALUCE VANESSA SOARES NUNES 4413 ASSISTENTE ADMINISTRATIV"
+ },
+ {
+  "descartado_em": "2026-08-24",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Cafeara — PORTARIA Nº 071/2026 (2026-08-24)",
+  "url": "https://www.diariomunicipal.com.br/amp/load/EEB4D082",
+  "municipio": "Cafeara",
+  "uf": "PR",
+  "trecho": "rt. 1º - EXONERAR , a pedido, a partir de 20/08/2026, o (a) Sr. (a) GUILHERME ANGELIN BURIOLA , matrícula nº 12960, do cargo de AGENTE UNIVERSITÁRIO: FISCAL TRIBUTÁRIO II, da Prefeitura do município de Cafeara/PR. Art. 2º - A presente Portaria entrará em vigor na data de sua publicação. R E G I S T "
+ },
+ {
+  "descartado_em": "2026-08-24",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Glorinha — PORTARIA 707/2026 (2026-08-24)",
+  "url": "https://www.diariomunicipal.com.br/famurs/load/29E357A9",
+  "municipio": "Glorinha",
+  "uf": "RS",
+  "trecho": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO PORTARIA 707/2026 inclui membros na comissão permanente de sindicância investigatória, processo administrativo disciplinar e processo administrativo especial. Carlos Leonardo Vargas Carvalho , Prefeito Municipal de Glorinha, Estado do Rio Grande do Sul , no uso "
  }
 ]
