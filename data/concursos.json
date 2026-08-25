@@ -6084,5 +6084,172 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Prefeitura Guarulhos SP: confira os editais!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-guarulhos/",
+  "orgao": "Prefeitura Guarulhos",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "IBAM",
+     "https://www.ibamsp-concursos.org.br/index/todos/?busca=Guarulhos"
+    ],
+    [
+     "5 Fonoaudiólogo",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/19111805/edital-concurso-prefeitura-gru-fono-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "6 Saúde",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/19111809/edital-concurso-prefeitura-gru-saude-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "7 Bibliotecário",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/19111815/edital-concurso-prefeitura-gru-biblio-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "8 Ferreiro",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/19111813/edital-concurso-prefeitura-gru-ferreiro-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "IBAM",
+     "https://www.ibamsp-concursos.org.br/informacoes/182/"
+    ],
+    [
+     "edital GRU Guarda 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/28134927/96e52ba8-1de7-41a9-b089-42470aaa48d7-cleaned.pdf"
+    ],
+    [
+     "Retificação",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/19111026/db22dbf3-bde5-4eed-9c2a-3e69d6133749-cleaned.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-19",
+   "inscricoes_fim": "2026-09-17",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "19.8.2026 a 17.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 4.297,75",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso Prefeitura de Guarulhos SP está com inscrições abertas para alguns editais!",
+    "criterio": "suspensão/cancelamento detectado (\\badia(mento)?\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Aracati: edital oferta 7 vagas para Auditor!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-aracati-ce/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "FCPC",
+     "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/a002ebfb-4239-44e4-aafc-8525b3111e33"
+    ],
+    [
+     "edital ISS Aracati 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24222316/edital-aracati-2026.pdf"
+    ],
+    [
+     "edital ISS Aracati 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24222316/edital-aracati-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-24",
+   "inscricoes_fim": "2026-11-06",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "24.9.2026 a 6.11.2026",
+    "vagas": "",
+    "remuneracao": "R$ 3.347,94",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Um novo Concurso ISS Aracati, no Estado do Ceará, teve seu edital publicado com a oferta de 7 vagas.",
+    "criterio": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso de Prefeitura de Aracati CE: 127 vagas e até R$ 5,4 mil",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-aracati/",
+  "orgao": "Prefeitura de Aracati",
+  "municipio": "Aracati",
+  "uf": "CE",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Acesse agora o Grupo de Estudos para a Prefeitura de Aracati",
+     "https://www.redirectmais.com/wpp/pref-aracati-grupo"
+    ],
+    [
+     "FCPC",
+     "https://centraldeconcursos.fcpc.ufc.br/processo-seletivo/informacoes/a002ebfb-4239-44e4-aafc-8525b3111e33"
+    ],
+    [
+     "edital Aracati 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24222316/edital-aracati-2026.pdf"
+    ],
+    [
+     "edital Aracati 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/24222316/edital-aracati-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-24",
+   "inscricoes_fim": "2026-11-06",
+   "banca": "Banca Acep",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.9.2026 a 6.11.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 5.431,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Está na praça o edital do novo concurso público da Prefeitura de Aracati, no Ceará, com oferta de 127 vagas.",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
