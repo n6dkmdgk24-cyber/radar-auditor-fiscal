@@ -1,7 +1,7 @@
 [
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 1,
+  "tentativas": 2,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo",
@@ -41,7 +41,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 1,
+  "tentativas": 2,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -75,7 +75,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 1,
+  "tentativas": 2,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -101,7 +101,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -131,7 +131,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -161,7 +161,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "controle",
   "termos": [
    "tecnico de controle externo"
@@ -191,7 +191,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 2,
+  "tentativas": 3,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -218,7 +218,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -244,7 +244,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 3,
+  "tentativas": 4,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -270,7 +270,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 6,
+  "tentativas": 7,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -296,7 +296,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 6,
+  "tentativas": 7,
   "categoria": "tributario",
   "termos": [
    "fiscal de tributos"
@@ -322,7 +322,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 7,
+  "tentativas": 8,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -341,7 +341,7 @@
  },
  {
   "enfileirado_em": "2026-08-22",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -395,7 +395,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 16,
+  "tentativas": 17,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -419,7 +419,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -473,7 +473,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 18,
+  "tentativas": 19,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -499,7 +499,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 18,
+  "tentativas": 19,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -518,7 +518,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 20,
+  "tentativas": 21,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -546,7 +546,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 20,
+  "tentativas": 21,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -585,7 +585,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 21,
+  "tentativas": 22,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -611,7 +611,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -645,7 +645,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 22,
+  "tentativas": 23,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -669,7 +669,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -691,7 +691,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -711,7 +711,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 24,
+  "tentativas": 25,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -734,7 +734,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -759,7 +759,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "conferir",
   "termos": [
    "fiscal de rendas"
@@ -784,7 +784,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 27,
+  "tentativas": 28,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -810,7 +810,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 28,
+  "tentativas": 29,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -834,7 +834,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -864,7 +864,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -899,7 +899,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -953,7 +953,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1004,7 +1004,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1034,7 +1034,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 32,
+  "tentativas": 33,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1060,7 +1060,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 33,
+  "tentativas": 34,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1086,7 +1086,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 33,
+  "tentativas": 34,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1141,7 +1141,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -1175,7 +1175,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1225,7 +1225,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1251,7 +1251,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 35,
+  "tentativas": 36,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1277,7 +1277,7 @@
  },
  {
   "enfileirado_em": "2026-08-15",
-  "tentativas": 42,
+  "tentativas": 43,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1296,7 +1296,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1320,7 +1320,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1344,7 +1344,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1370,7 +1370,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1396,7 +1396,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -1422,7 +1422,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -1441,7 +1441,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 47,
+  "tentativas": 48,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1467,7 +1467,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -1493,7 +1493,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1547,7 +1547,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -1585,7 +1585,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1604,7 +1604,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1658,7 +1658,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1684,7 +1684,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -1738,7 +1738,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 54,
+  "tentativas": 55,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -1763,7 +1763,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 54,
+  "tentativas": 55,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -1789,7 +1789,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 57,
+  "tentativas": 58,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1812,7 +1812,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 70,
+  "tentativas": 71,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -1837,7 +1837,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 73,
+  "tentativas": 74,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1860,7 +1860,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 74,
+  "tentativas": 75,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1883,7 +1883,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 78,
+  "tentativas": 79,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"

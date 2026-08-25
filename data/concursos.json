@@ -6390,5 +6390,140 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Público: 11 editais publicados nesta terça-feira (25/08)",
+  "url": "https://blog.grancursosonline.com.br/concurso-publico-25-agosto-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o edital do Concurso Aracati CE!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25133051/Edital-Aracati-CE-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Antônio Prado de Minas MG!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24160430/Antonio-Prado-de-Minas-MG-2026.pdf?utm_source=chatgpt.com"
+    ],
+    [
+     "Veja o edital do Concurso Anhembi SP!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25140904/Edital-Anhembi-SP-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Câmara Bocaina de Minas MG!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25144002/Edital-Camara-Bocaina-de-Minas-MG-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso GC",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25141918/Edital-GCM-Itatinga-SP-2026.pdf"
+    ],
+    [
+     "M",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25141918/Edital-GCM-Itatinga-SP-2026.pdf"
+    ],
+    [
+     "Itatinga SP!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25141918/Edital-GCM-Itatinga-SP-2026.pdf"
+    ],
+    [
+     "Veja o edital do Concurso Uruana GO!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25140243/Edital-Uruana-GO-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-06",
+   "banca": "Fundacao Carlos Chagas",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "5.10.2026 a 6.11.2026",
+    "vagas": "",
+    "remuneracao": "R$ 11.862,19",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Olho no edital: está se preparando para algum concurso público?",
+    "criterio": "evidência de inscrição (\\binscricoes (estao |estarao )?abertas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Sefaz AL 2026: quanto ganha um Auditor Fiscal?",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-al-quanto-ganha-auditor-fiscal/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "inscricoes_inicio": "2026-09-17",
+   "inscricoes_fim": "2026-10-21",
+   "banca": "Banca Cebraspe",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "17.9.2026 a 21.10.2026",
+    "vagas": "",
+    "remuneracao": "R$ 25.270,68",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "[…] O post Concurso Sefaz AL 2026: quanto ganha um Auditor Fiscal?",
+    "criterio": "evidência de inscrição (\\boferece \\d+ vagas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "controle",
+  "termos": [
+   "tecnico de controle externo"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso TCE GO 2026: confira a distribuição das vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-tce-go-2026-distribuicao-das-vagas/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-06",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "tecnico de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "5.10.2026 a 6.11.2026",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O novo edital do Concurso TCE GO oferece oportunidades de nível médio.",
+    "criterio": "evidência de inscrição (\\bedital (publicado|liberado|divulgado)\\b) + termo forte (tecnico de controle externo)",
+    "origem": "regras"
+   }
+  }
  }
 ]

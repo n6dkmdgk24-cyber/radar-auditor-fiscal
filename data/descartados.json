@@ -10166,5 +10166,53 @@
   "municipio": "Imbituba",
   "uf": "SC",
   "trecho": "istrativo Disciplinar, instaurado pelas Portarias PMI/CGM N. 10/2026 e PMI/CGM N. 20/2026 Art. 2º Reconduzir Ângelo Henrique Heinz Salm, Auditor de Controle Interno, matrícula 18.374, Igor Romualdo Sá Rufino, Agente Administrativo, mat. 10.636 e Rosinete Delfino Laurindo, $(document).ready(function("
+ },
+ {
+  "descartado_em": "2026-08-25",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Quixeré — PORTARIA N° 002.07.08/2026 (2026-08-25)",
+  "url": "https://www.diariomunicipal.com.br/aprece/load/E0CE41DC",
+  "municipio": "Quixeré",
+  "uf": "CE",
+  "trecho": "GABINETE DO PREFEITO PORTARIA N° 002.07.08/2026 O PREFEITO MUNICIPAL DE QUIXERE , tendo em vista o que dispõe a Lei Complementar n.° 035/2018 , de 28 de dezembro de 2018 (Plano de Carreira e Remuneração dos servidores públicos do Município de Quixeré, Capítulo III, Seção III, RESOLVE conceder Promoç"
+ },
+ {
+  "descartado_em": "2026-08-25",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Luiz Alves — PORTARIA N.º 743/2026 (2026-08-25)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8650050",
+  "municipio": "Luiz Alves",
+  "uf": "SC",
+  "trecho": "de Fiscal de Tributos, a função de Assessora de Protestos Extrajudiciais; III – Cícero Graf, ocupante do cargo de Assistente Administrativo, a função de Diretor de Cadastramento Biométrico junto ao TSE/SC; IV – Dinoel Freitas Cruz, ocupante do cargo de Operário Braçal, a função de Assessor de Limpez"
  }
 ]
