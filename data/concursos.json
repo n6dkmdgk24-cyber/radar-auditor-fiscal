@@ -6346,5 +6346,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "controle",
+  "termos": [
+   "tecnico de controle externo"
+  ],
+  "fonte": "pci",
+  "titulo": "TCE - GO abre concurso público para técnicos de controle externo",
+  "url": "https://www.pciconcursos.com.br/noticias/tce-go-abre-concurso-publico-para-tecnicos-de-controle-externo",
+  "orgao": "TCE",
+  "municipio": "",
+  "uf": "GO",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Tribunal de Contas do Estado de Goiás (TCE-GO)",
+     "https://www.tce.go.gov.br/"
+    ],
+    [
+     "www.concursosfcc.com.br",
+     "https://www.concursosfcc.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-06",
+   "site_inscricao": "https://www.concursosfcc.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "tecnico de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "5.10.2026 a 6.11.2026",
+    "vagas": "6 vagas",
+    "remuneracao": "R$ 11.862,19",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O Tribunal de Contas do Estado de Goiás (TCE-GO) abriu um concurso público visando o preenchimento de vagas para profissionais de nível médio.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (tecnico de controle externo)",
+    "origem": "regras"
+   }
+  }
  }
 ]

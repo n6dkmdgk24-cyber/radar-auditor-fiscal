@@ -1,26 +1,14 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-25T15:30:40"
+   "scraped_since": "2026-08-25T19:20:28"
   },
   "pci": {
    "lastmod_max": "2026-08-25"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-25T15:08:27",
+   "ultimo_pub": "2026-08-25T18:58:12",
    "guids": [
-    "https://concursosnobrasil.com/?p=384080",
-    "https://concursosnobrasil.com/?p=384072",
-    "https://concursosnobrasil.com/?p=384061",
-    "https://concursosnobrasil.com/?p=384068",
-    "https://concursosnobrasil.com/?p=384057",
-    "https://concursosnobrasil.com/?p=384059",
-    "https://concursosnobrasil.com/?p=384051",
-    "https://concursosnobrasil.com/?p=384202",
-    "https://concursosnobrasil.com/?p=384179",
-    "https://concursosnobrasil.com/?p=384188",
-    "https://concursosnobrasil.com/?p=384167",
-    "https://concursosnobrasil.com/?p=384165",
     "https://concursosnobrasil.com/?p=384146",
     "https://concursosnobrasil.com/?p=384152",
     "https://concursosnobrasil.com/?p=384136",
@@ -408,7 +396,19 @@
     "https://concursosnobrasil.com/?p=386582",
     "https://concursosnobrasil.com/?p=386588",
     "https://concursosnobrasil.com/?p=386586",
-    "https://concursosnobrasil.com/?p=386579"
+    "https://concursosnobrasil.com/?p=386579",
+    "https://concursosnobrasil.com/?p=386766",
+    "https://concursosnobrasil.com/?p=386777",
+    "https://concursosnobrasil.com/?p=386768",
+    "https://concursosnobrasil.com/?p=386761",
+    "https://concursosnobrasil.com/?p=386753",
+    "https://concursosnobrasil.com/?p=386749",
+    "https://concursosnobrasil.com/?p=386748",
+    "https://concursosnobrasil.com/?p=386726",
+    "https://concursosnobrasil.com/?p=386732",
+    "https://concursosnobrasil.com/?p=386730",
+    "https://concursosnobrasil.com/?p=386699",
+    "https://concursosnobrasil.com/?p=386712"
    ]
   },
   "dou": {
@@ -417,12 +417,12 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-24"
+    "ultima_data": "2026-08-25"
    },
    "amupe": {
-    "ultima_data": "2026-08-24"
+    "ultima_data": "2026-08-25"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
     "ultima_data": "2026-08-25"
    },
@@ -485,16 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-25T15:15:53",
+   "ultimo_pub": "2026-08-25T19:04:40",
    "guids": [
-    "http://blog.grancursosonline.com.br/?p=38562",
-    "http://blog.grancursosonline.com.br/?p=66387",
-    "https://blog.grancursosonline.com.br/?p=79827331",
-    "https://blog.grancursosonline.com.br/?p=79964571",
-    "https://blog.grancursosonline.com.br/?p=79193079",
-    "https://blog.grancursosonline.com.br/?p=79964567",
-    "https://blog.grancursosonline.com.br/?p=79203550",
-    "https://blog.grancursosonline.com.br/?p=79848744",
     "https://blog.grancursosonline.com.br/?p=79964547",
     "https://blog.grancursosonline.com.br/?p=79964522",
     "https://blog.grancursosonline.com.br/?p=79964541",
@@ -886,19 +878,20 @@
     "https://blog.grancursosonline.com.br/?p=79966879",
     "https://blog.grancursosonline.com.br/?p=79967007",
     "https://blog.grancursosonline.com.br/?p=79641475",
-    "http://blog.grancursosonline.com.br/?p=74787"
+    "http://blog.grancursosonline.com.br/?p=74787",
+    "https://blog.grancursosonline.com.br/?p=79200884",
+    "https://blog.grancursosonline.com.br/?p=79967161",
+    "https://blog.grancursosonline.com.br/?p=79967160",
+    "https://blog.grancursosonline.com.br/?p=79459152",
+    "https://blog.grancursosonline.com.br/?p=79967126",
+    "https://blog.grancursosonline.com.br/?p=80053",
+    "https://blog.grancursosonline.com.br/?p=79358863",
+    "https://blog.grancursosonline.com.br/?p=79967105"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-25T14:00:00",
+   "ultimo_pub": "2026-08-25T19:00:00",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1782186",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1782137",
-    "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-silveira-martins/",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1780763",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1780728",
-    "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-mariana-pimentel/",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1780195",
     "https://www.estrategiaconcursos.com.br/blog/?p=1780031",
     "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-nova-uniao/",
     "https://www.estrategiaconcursos.com.br/blog/?p=1779317",
@@ -1291,7 +1284,14 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1787377",
     "https://cj.estrategia.com/portal/?p=195564",
     "https://cj.estrategia.com/portal/?p=1058",
-    "https://cj.estrategia.com/portal/?p=195354"
+    "https://cj.estrategia.com/portal/?p=195354",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1802446",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1786575",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1802438",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1781151",
+    "https://www.estrategiaconcursos.com.br/blog/?p=890224",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1802073",
+    "https://cj.estrategia.com/portal/?p=168219"
    ]
   },
   "fafipa": {},
