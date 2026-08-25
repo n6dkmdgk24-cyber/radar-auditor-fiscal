@@ -2979,15 +2979,18 @@
     "cargo": "auditor fiscal",
     "esfera": "estadual",
     "prova_remota": false,
-    "inscricoes": "",
+    "inscricoes": "17.9.2026 a 21.10.2026",
     "vagas": "",
     "remuneracao": "R$ 32.300,00",
     "validade": "",
     "cadastro_reserva": false,
     "resumo": "A comissão responsável pelo edital se reuniu e autorizou a contratação de banca organizadora.",
     "criterio": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor fiscal)",
-    "origem": "regras"
-   }
+    "origem": "regras",
+    "prazo_atualizado_em": "2026-08-25"
+   },
+   "inscricoes_fim": "2026-10-21",
+   "inscricoes_inicio": "2026-09-17"
   }
  },
  {
@@ -6248,6 +6251,98 @@
     "cadastro_reserva": false,
     "resumo": "Está na praça o edital do novo concurso público da Prefeitura de Aracati, no Ceará, com oferta de 127 vagas.",
     "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Aracati - CE abre concurso público com salários de até R$ 5.431,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-aracati-ce-abre-concurso-publico-com-salarios-de-ate-5431",
+  "orgao": "Prefeitura de Aracati",
+  "municipio": "Aracati",
+  "uf": "CE",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Aracati",
+     "https://aracati.ce.gov.br/"
+    ],
+    [
+     "centraldeconcursos.fcpc.ufc.br",
+     "https://centraldeconcursos.fcpc.ufc.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-24",
+   "inscricoes_fim": "2026-11-06",
+   "site_inscricao": "https://centraldeconcursos.fcpc.ufc.br",
+   "banca": "Fundação Cearense de Pesquisa e Cultura",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "24.9.2026 a 6.11.2026",
+    "vagas": "7 vagas",
+    "remuneracao": "até R$ 5.431,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Aracati , no Ceará, por meio da Fundação Cearense de Pesquisa e Cultura (FCPC), publicou um edital de concurso público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-25",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Edital Sefaz AL 2026: 100 vagas e iniciais de R$ 25,2 mil!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-al-2026-edital-publicado/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-25",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Sefaz AL 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/25115547/edital-concurso-sefaz-al-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "Assista a este vídeo no YouTube",
+     "https://youtu.be/Uw4XtMQjc6s"
+    ],
+    [
+     "Sefaz AL 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/25115547/edital-concurso-sefaz-al-2026-estrategia-concursos.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-17",
+   "inscricoes_fim": "2026-10-21",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "17.9.2026 a 21.10.2026",
+    "vagas": "",
+    "remuneracao": "R$ 25.270,68",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O edital do novo Concurso SEFAZ AL acaba de ser divulgado, com oportunidades para nível superior e salário atrativo para a prestigiada carreira fiscal O edital do concurso da Secretaria de Estado da Fazenda de Alagoas (SEFAZ AL) foi publ…",
+    "criterio": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor fiscal)",
     "origem": "regras"
    }
   }

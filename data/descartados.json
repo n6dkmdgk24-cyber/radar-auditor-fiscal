@@ -9902,5 +9902,77 @@
   "municipio": "Alvarães",
   "uf": "AM",
   "trecho": "Práticas de Agrozootecnia 40 h* 31 Pedagogo 40 h* 32 Engenheiro Agrônomo 40 h* 33 Técnico Agrícola 40 h* 34 Guarda Municipal 40 h* 35 Vigia 40 h* 36 Fiscal de Rendas 40 h* * Regra geral do art. 22 da Lei Municipal nº 014/93, ressalvada duração diversa estabelecida em lei específica ou na legislação "
+ },
+ {
+  "descartado_em": "2026-08-25",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bpregao\\b)",
+   "criterio": "documento não é concurso (título: \\bpregao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de São Francisco — GESTOR E FISCAL DO CONTRATO - PREGÃO ELETRÔNICA Nº 00033/2026 (2026-08-24)",
+  "url": "https://www.diariomunicipal.com.br/famup/load/A1A3D437",
+  "municipio": "São Francisco",
+  "uf": "PB",
+  "trecho": "DO MUNICÍPIO DE SÃO FRANCISCO/PB; DESIGNO os servidores Mateus Moreira Batista, Assessor Técnico Nível II, como Gestor; e Geovani de Almeida Santos, Fiscal de Tributos, para Fiscal Técnico do contrato: decorrente da licitação, modalidade Pregão Eletrônico nº 00033/2026, com as competentes atribuiçõe"
+ },
+ {
+  "descartado_em": "2026-08-25",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Palmitos — PORTARIA Nº 629/2026 (2026-08-25)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8648259",
+  "municipio": "Palmitos",
+  "uf": "SC",
+  "trecho": "PORTARIA Nº 629/2026 DE 13 DE AGOSTO DE 2026 INSTITUI MEMBROS DA COMISSÃO ESPECIAL PARA SELEÇÃO SIMPLIFICADA DE FISCAL DE TRIBUTOS, $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var"
+ },
+ {
+  "descartado_em": "2026-08-25",
+  "veredito": {
+   "classe": "andamento",
+   "area": "controle",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "criterio": "matéria-lista de vários concursos (título: ^concursos\\b)",
+   "origem": "regras"
+  },
+  "fonte": "estrategia",
+  "titulo": "Concursos Controle: as principais oportunidades previstas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concursos-controle/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]
