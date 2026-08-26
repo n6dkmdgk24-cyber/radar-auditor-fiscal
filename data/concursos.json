@@ -6525,5 +6525,303 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Nova Independência - SP abre concurso público com salários de até R$ 5.939,53",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-nova-independencia-sp-abre-concurso-publico-com-salarios-de-ate-5939",
+  "orgao": "Prefeitura de Nova Independência",
+  "municipio": "Nova Independência",
+  "uf": "SP",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Nova Independência",
+     "https://www.novaindependencia.sp.gov.br/"
+    ],
+    [
+     "portal.imperioconcursos.com.br",
+     "https://portal.imperioconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-26",
+   "inscricoes_fim": "2026-09-07",
+   "site_inscricao": "https://portal.imperioconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "26.8.2026 a 7.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 5.939,53",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Nova Independência , no Estado de São Paulo, publicou o edital do Concurso Público nº 01/2026 destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental, médi…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Contagem MG: 272 vagas e até R$ 13,3 mil! Confira",
+  "url": "https://blog.grancursosonline.com.br/concurso-contagem-mg/",
+  "orgao": "Contagem",
+  "municipio": "",
+  "uf": "MG",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital do concurso Contagem MG",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/14161952/Edital-Contagem-MG-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-19",
+   "inscricoes_fim": "2026-11-17",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "19.10.2026 a 17.11.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 13.305,57",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Contagem oficializou a abertura da seleção que oferta 272 vagas imediatas, além de formação de cadastro de reserva.",
+    "criterio": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Câmara Rio Verde GO: 272 vagas e até R$ 7,2 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-camara-de-rio-verde-go/",
+  "orgao": "Câmara Rio Verde",
+  "municipio": "",
+  "uf": "GO",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Edital 1 (Nível Fundamental e Médio)",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/17150951/Edital-Camara-Rio-Verde-GO-2026.pdf"
+    ],
+    [
+     "Edital 2 (Nível Superior)",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/17150943/Edital-II-Camara-Rio-Verde-GO-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-21",
+   "inscricoes_fim": "2026-09-21",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "21.8.2026 a 21.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 7.241,14",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Foi oficialmente publicado o edital do concurso Câmara Rio Verde GO, trazendo excelentes oportunidades para quem deseja ingressar no serviço público da Prefeitura Municipal de Rio Verde, Goiás.",
+    "criterio": "anatomia de edital (6 seções: banca, provas, remuneracao, requisitos, secao_inscricoes, vagas) + cargo 'analista de controle interno' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "tecnico de controle externo"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE GO oferta 16 vagas, inicial de R$ 11,8 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-go/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Faça download do edital do Edital TCE GO",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25083748/edital-tce-go-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-06",
+   "banca": "Fundacao Carlos Chagas",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "tecnico de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "5.10.2026 a 6.11.2026",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso TCE GO está com edital publicado para o cargo de Técnico de Controle Externo.",
+    "criterio": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (tecnico de controle externo)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Prefeitura Curitiba PR 2026: edital iminente!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-curitiba/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Acesse agora o Grupo de Estudos para a Prefeitura de Curitiba",
+     "https://www.redirectmais.com/wpp/pref-curitiba-grupo"
+    ],
+    [
+     "Edital 4/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439147"
+    ],
+    [
+     "Edital 6/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439188"
+    ],
+    [
+     "Edital 7/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439194"
+    ],
+    [
+     "Edital 8/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439200"
+    ],
+    [
+     "Edital 9/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439202"
+    ],
+    [
+     "Edital 10/2022",
+     "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=439201"
+    ],
+    [
+     "Edital 1",
+     "https://servicos.nc.ufpr.br/PortalNC/Concurso?concurso=FAS2022"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 6.627,27",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Novo concurso da Prefeitura de Curitiba será para mais de 300 vagas!",
+    "criterio": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Curitiba: edital é previsto para setembro!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-curitiba/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "contratada",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/22092534/concurso-curitiba-2026-contrato.pdf"
+    ],
+    [
+     "Edital ISS Curitiba 2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2019/02/08170924/PublicacaoDocumento.pdf"
+    ],
+    [
+     "Termo de Referência",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/23141735/tr.pdf"
+    ],
+    [
+     "Estudo Técnico Preliminar",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/23141738/etp.pdf"
+    ],
+    [
+     "Lei nº 16.199/2023",
+     "https://leismunicipais.com.br/a/pr/c/curitiba/lei-ordinaria/2023/1620/16199/lei-ordinaria-n-16199-2023-institui-plano-de-carreira-para-os-servidores-integrantes-do-cargo-de-auditor-fiscal-de-tributos-municipais-em-substituicao-ao-instituido-pela-lei-n-13770-de-28-de-junho-de-2011-e-da-outras-providencias#:~:text=Institui%20Plano%20de%20Carreira%20para,2011%2C%20e%20d%C3%A1%20outras%20provid%C3%AAncias."
+    ],
+    [
+     "Confira outro valores diretamente no Portal da Transparência de Curitiba",
+     "https://www.transparencia.curitiba.pr.gov.br/meta4/servidores.aspx?quadro="
+    ],
+    [
+     "vagas criadas",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/01/28120005/vagas_legais_portal_da_transparencia_05082024.pdf"
+    ],
+    [
+     "Edital ISS Curitiba 2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2019/02/08170924/PublicacaoDocumento.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 16.815,41",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Novo Concurso ISS Curitiba vai ofertar 10 vagas para Auditor Fiscal, com iniciais de R$ 16,5 mil Atenção, concurseiro: a Prefeitura de Curitiba, no Paraná, se prepara para realizar um novo concurso para a área fiscal (ISS) em breve!",
+    "criterio": "suspensão/cancelamento detectado (\\bsuspens[oa]\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
