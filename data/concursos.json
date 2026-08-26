@@ -6823,5 +6823,169 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Nova Ponte - MG reabre concurso público para profissionais de nível médio e superior",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-nova-ponte-mg-reabre-concurso-publico-para-profissionais-de-nivel-medio-e-superior",
+  "orgao": "Câmara de Nova Ponte",
+  "municipio": "Nova Ponte",
+  "uf": "MG",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Nova Ponte",
+     "https://www.cmnp.mg.gov.br/"
+    ],
+    [
+     "www.versatilsolucoesadm.com.br",
+     "https://www.versatilsolucoesadm.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-27",
+   "inscricoes_fim": "2026-11-26",
+   "site_inscricao": "https://www.versatilsolucoesadm.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "27.10.2026 a 26.11.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 5.200,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Nova Ponte , no Estado de Minas Gerais, reabriu o Concurso Público destinado ao preenchimento de cinco vagas imediatas e à formação de cadastro de reserva para profissionais de nível médio e superior.",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Jaraguá do Sul (SC) abre editais com cargos de até R$ 15,6 mil",
+  "url": "https://concursosnobrasil.com/concursos/sc/2026/08/26/concurso-prefeitura-de-jaragua-do-sul-sc-abre-editais-com-cargos-de-ate-r-156-mil/",
+  "orgao": "Prefeitura de Jaraguá do Sul",
+  "municipio": "Jaraguá do Sul",
+  "uf": "SC",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "clique aqui",
+     "https://portal.institutotupy.com.br/edital/ver/93"
+    ],
+    [
+     "clique aqui",
+     "https://portal.institutotupy.com.br/edital/ver/94"
+    ]
+   ],
+   "banca": "concurso da Prefeitura de Jaraguá do Sul",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso da Prefeitura de Jaraguá do Sul, em Santa Catarina, tornou público dois editais para vagas em todos os níveis de escolaridade.",
+    "criterio": "manchete de abertura (\\babre (os )?edita(l|is)\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Floresta PE: 432 vagas e salários de até R$ 15 mil. Confira!",
+  "url": "https://blog.grancursosonline.com.br/concurso-floresta-pe/",
+  "orgao": "Floresta",
+  "municipio": "",
+  "uf": "PE",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para a conferir o edital Floresta PE",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24154130/Edital-Floresta-PE-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-10-01",
+   "banca": "Banca Facet Concursos",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 1.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 15.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Floresta PE: 432 vagas e salários de até R$ 15 mil.",
+    "criterio": "evidência de inscrição (\\binscricoes ate\\b) + termo forte (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-26",
+  "categoria": "controle",
+  "termos": [
+   "auditor federal de financas e controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CGU: banca tem orçamento de R$ 5 milhões aprovado",
+  "url": "https://blog.grancursosonline.com.br/concurso-cgu-banca-tem-orcamento-aprovado/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-26",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital do concurso CGU",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/12/23081356/Edital-CGU-2021.pdf"
+    ]
+   ],
+   "banca": "Portaria Mgi No 5",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor federal de financas e controle",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso CGU avançou mais uma etapa: o Plano de Contratações Anual (PCA) de 2026 da Controladoria-Geral da União prevê R$ 5 milhões para os serviços de organização e realização da seleção.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor federal de financas e controle)",
+    "origem": "regras"
+   }
+  }
  }
 ]
