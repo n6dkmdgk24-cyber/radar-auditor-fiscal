@@ -6987,5 +6987,136 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-27",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Auriflama - SP retifica concurso público com vagas para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-retifica-concurso-publico-com-vagas-para-diversos-cargos",
+  "orgao": "Prefeitura de Auriflama",
+  "municipio": "Auriflama",
+  "uf": "SP",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Auriflama",
+     "https://auriflama.sp.gov.br/"
+    ],
+    [
+     "INEPAM",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_fim": "2026-09-03",
+   "inscricoes_inicio": "2026-09-02",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "2.9.2026 a 3.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 6.502,13",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "No Estado de São Paulo, a Prefeitura Municipal de Auriflama divulgou, por meio do INEPAM , a abertura das inscrições para o concurso público visando o preenchimento de vagas e a formação de cadastro de reserva para profissionais de nível…",
+    "criterio": "retificação com inscrições abertas até 2026-09-03",
+    "origem": "regras"
+   },
+   "site_inscricao": "https://www.inepam.org.br",
+   "banca": "INEPAM"
+  }
+ },
+ {
+  "descoberto_em": "2026-08-27",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ibirá - SP abre concurso público com salários de até R$ 5.016,50",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ibira-sp-abre-concurso-publico-com-salarios-de-ate-5016",
+  "orgao": "Prefeitura de Ibirá",
+  "municipio": "Ibirá",
+  "uf": "SP",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal da Estância Turística de Ibirá",
+     "https://www.ibira.sp.gov.br/"
+    ],
+    [
+     "www.aplicativa.net.br",
+     "https://www.aplicativa.net.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-07-27",
+   "inscricoes_fim": "2026-08-28",
+   "site_inscricao": "https://www.aplicativa.net.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "27.7.2026 a 28.8.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 5.016,50",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal da Estância Turística de Ibirá , no estado de São Paulo, divulgou um edital de concurso público destinado ao preenchimento de vagas e à formação de cadastro de reserva em funções dos níveis: alfabetizado, fundament…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-27",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso SEFAZ SP: comissão formada; 60 vagas autorizadas!",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-sp/",
+  "orgao": "SEFAZ",
+  "municipio": "",
+  "uf": "SP",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital Sefaz SP Auditor – 2025",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/11/27100811/Concurso-SEFAZ-SP-edital-FCC.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital Sefaz SP Especialista Contábil – 2025",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2025/08/20054912/edital-sefaz-sp-2025.pdf"
+    ]
+   ],
+   "banca": "Publicacao do Edital",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 21.177,10",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O certame foi autorizado para 60 vagas no cargo de Analista em Planejamento, Orçamento e Finanças Públicas, carreira de nível superior da Secretaria da Fazenda e Planejamento do Estado de São Paulo.",
+    "criterio": "concurso ainda sem edital (\\bcomissao (formada|organizadora|constituida|designada)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
