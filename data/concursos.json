@@ -7118,5 +7118,94 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal fazendario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Belo Jardim - PE abre concurso público com vagas para diversas secretarias",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-belo-jardim-pe-abre-concurso-publico-com-vagas-para-diversas-secretarias",
+  "orgao": "Prefeitura de Belo Jardim",
+  "municipio": "Belo Jardim",
+  "uf": "PE",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Belo Jardim",
+     "https://belojardim.pe.gov.br/"
+    ],
+    [
+     "www.funvapi.com.br",
+     "https://www.funvapi.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-01",
+   "inscricoes_fim": "2026-10-04",
+   "site_inscricao": "https://www.funvapi.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal fazendario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "1.9.2026 a 4.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 4.813,50",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Belo Jardim , em Pernambuco, publicou o edital do Concurso Público nº 001/2026 para o preenchimento de vagas em funções de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal fazendario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Auriflama - SP retifica concurso público com vagas para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-retifica-concurso-publico-com-vagas-para-diversos-cargos",
+  "orgao": "Prefeitura de Auriflama",
+  "municipio": "Auriflama",
+  "uf": "SP",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Auriflama",
+     "https://auriflama.sp.gov.br/"
+    ],
+    [
+     "INEPAM",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_fim": "2026-09-03",
+   "inscricoes_inicio": "2026-09-02",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "2.9.2026 a 3.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 6.502,13",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "No Estado de São Paulo, a Prefeitura Municipal de Auriflama divulgou, por meio do INEPAM , a abertura das inscrições para o concurso público visando o preenchimento de vagas e a formação de cadastro de reserva para profissionais de nível…",
+    "criterio": "retificação com inscrições abertas até 2026-09-03",
+    "origem": "regras"
+   },
+   "site_inscricao": "https://www.inepam.org.br",
+   "banca": "INEPAM"
+  }
  }
 ]

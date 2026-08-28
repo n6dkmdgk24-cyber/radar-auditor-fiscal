@@ -1,15 +1,14 @@
 {
  "cursors": {
   "qd": {
-   "scraped_since": "2026-08-27T04:06:33"
+   "scraped_since": "2026-08-28T06:24:01"
   },
   "pci": {
    "lastmod_max": "2026-08-27"
   },
   "cnb": {
-   "ultimo_pub": "2026-08-27T19:11:50",
+   "ultimo_pub": "2026-08-28T00:53:28",
    "guids": [
-    "https://concursosnobrasil.com/?p=384553",
     "https://concursosnobrasil.com/?p=384545",
     "https://concursosnobrasil.com/?p=384702",
     "https://concursosnobrasil.com/?p=384692",
@@ -408,11 +407,12 @@
     "https://concursosnobrasil.com/?p=387037",
     "https://concursosnobrasil.com/?p=387039",
     "https://concursosnobrasil.com/?p=387035",
-    "https://concursosnobrasil.com/?p=387029"
+    "https://concursosnobrasil.com/?p=387029",
+    "https://concursosnobrasil.com/?p=387242"
    ]
   },
   "dou": {
-   "ultima_data": "2026-08-27"
+   "ultima_data": "2026-08-28"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,15 +422,15 @@
    "amupe": {
     "ultima_data": "2026-08-27"
    },
-   "proximo_extra": 2,
+   "proximo_extra": 4,
    "amp": {
-    "ultima_data": "2026-08-27"
+    "ultima_data": "2026-08-28"
    },
    "agm": {
-    "ultima_data": "2026-08-25"
+    "ultima_data": "2026-08-28"
    },
    "aprece": {
-    "ultima_data": "2026-08-25"
+    "ultima_data": "2026-08-28"
    },
    "ama": {
     "ultima_data": "2026-08-26"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-08-27"
+   "ultima_data": "2026-08-28"
   },
   "selecao": {
    "vistos": [
@@ -485,12 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-08-27T20:51:06",
+   "ultimo_pub": "2026-08-28T05:51:38",
    "guids": [
-    "https://blog.grancursosonline.com.br/?p=79965297",
-    "https://blog.grancursosonline.com.br/?p=79965286",
-    "https://blog.grancursosonline.com.br/?p=79965503",
-    "https://blog.grancursosonline.com.br/?p=79965499",
     "https://blog.grancursosonline.com.br/?p=79965496",
     "https://blog.grancursosonline.com.br/?p=79960747",
     "https://blog.grancursosonline.com.br/?p=79965405",
@@ -886,20 +882,16 @@
     "https://blog.grancursosonline.com.br/?p=79967536",
     "https://blog.grancursosonline.com.br/?p=79967534",
     "https://blog.grancursosonline.com.br/?p=79967514",
-    "https://blog.grancursosonline.com.br/?p=79967502"
+    "https://blog.grancursosonline.com.br/?p=79967502",
+    "https://blog.grancursosonline.com.br/?p=79967727",
+    "https://blog.grancursosonline.com.br/?p=79528802",
+    "https://blog.grancursosonline.com.br/?p=79967709",
+    "https://blog.grancursosonline.com.br/?p=79967688"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-27T20:49:00",
+   "ultimo_pub": "2026-08-28T02:11:52",
    "guids": [
-    "https://cj.estrategia.com/portal/?p=1519",
-    "https://cj.estrategia.com/portal/?p=1612",
-    "https://cj.estrategia.com/portal/?p=192796",
-    "https://cj.estrategia.com/portal/?p=3112",
-    "https://cj.estrategia.com/portal/?p=1843",
-    "https://cj.estrategia.com/portal/?p=28387",
-    "https://cj.estrategia.com/portal/?p=194923",
-    "https://cj.estrategia.com/portal/?p=194940",
     "https://www.estrategiaconcursos.com.br/blog/?p=1791016",
     "https://www.estrategiaconcursos.com.br/blog/?p=1670679",
     "https://www.estrategiaconcursos.com.br/blog/?p=385197",
@@ -1291,7 +1283,15 @@
     "https://cj.estrategia.com/portal/?p=2888",
     "https://cj.estrategia.com/portal/?p=118607",
     "https://cj.estrategia.com/portal/?p=1512",
-    "https://cj.estrategia.com/portal/?p=190721"
+    "https://cj.estrategia.com/portal/?p=190721",
+    "https://www.estrategiaconcursos.com.br/blog/?p=78578",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1804191",
+    "http://blog-estrategia.mystagingwebsite.com/blog/?p=34453",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1287918",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1287645",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1804087",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1804050",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1764525"
    ]
   },
   "fafipa": {},
@@ -1320,7 +1320,6 @@
  },
  "fontes_com_falha": [
   "fafipa",
-  "qd",
   "selecao"
  ]
 }
