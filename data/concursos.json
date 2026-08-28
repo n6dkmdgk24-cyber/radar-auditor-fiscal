@@ -7207,5 +7207,197 @@
    "site_inscricao": "https://www.inepam.org.br",
    "banca": "INEPAM"
   }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Auriflama - SP retifica concurso público com vagas para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-auriflama-sp-retifica-concurso-publico-com-vagas-para-diversos-cargos",
+  "orgao": "Prefeitura de Auriflama",
+  "municipio": "Auriflama",
+  "uf": "SP",
+  "data_publicacao": "2026-08-27",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Auriflama",
+     "https://auriflama.sp.gov.br/"
+    ],
+    [
+     "INEPAM",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_fim": "2026-09-03",
+   "inscricoes_inicio": "2026-09-02",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "2.9.2026 a 3.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 6.502,13",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "No Estado de São Paulo, a Prefeitura Municipal de Auriflama divulgou, por meio do INEPAM , a abertura das inscrições para o concurso público visando o preenchimento de vagas e a formação de cadastro de reserva para profissionais de nível…",
+    "criterio": "retificação com inscrições abertas até 2026-09-03",
+    "origem": "regras"
+   },
+   "site_inscricao": "https://www.inepam.org.br",
+   "banca": "INEPAM"
+  }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Brotas - SP reabre inscrições para o concurso com salários de até R$ 19.354,81",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-brotas-sp-reabre-inscricoes-para-o-concurso-com-salarios-de-ate-19354",
+  "orgao": "Prefeitura de Brotas",
+  "municipio": "Brotas",
+  "uf": "SP",
+  "data_publicacao": "2026-08-28",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Estância Turística de Brotas",
+     "https://brotas.sp.gov.br/"
+    ],
+    [
+     "www.inepam.org.br",
+     "https://www.inepam.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-28",
+   "inscricoes_fim": "2026-09-01",
+   "site_inscricao": "https://www.inepam.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "28.8.2026 a 1.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 19.354,81",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Estância Turística de Brotas , no estado de São Paulo, publicou um edital de Concurso Público nº 001/2026 com o objetivo de preencher vagas e formar cadastro de reserva em funções de nível alfabetizado, fundamental, médio…",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: confira os prazos previstos!",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-prazos-previstos/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-28",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal tem prazos previstos para diferentes etapas da seleção.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-28",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Sefaz CE: divulgação dos resultados é adiada!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-ce/",
+  "orgao": "Sefaz",
+  "municipio": "",
+  "uf": "CE",
+  "data_publicacao": "2026-08-28",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Novo cronograma",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/08/28141012/sface125_edital_n0_05_retificacao_de_cronograma.pdf"
+    ],
+    [
+     "FCC",
+     "https://www.concursosfcc.com.br/concursos/sface125/index.html"
+    ],
+    [
+     "Edital Sefaz CE 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/04/27102204/edital-concurso-sefaz-ce-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "aberto crédito suplementar para o concurso",
+     "https://www.opovo.com.br/noticias/economia/2025/09/25/ceara-abre-credito-de-rs-92426-mil-para-concursos-com-sefaz.html?utm_source=chatgpt.com"
+    ],
+    [
+     "validade prorrogada por 1 ano, até 28 de janeiro de 2024",
+     "https://www.sefaz.ce.gov.br/2022/12/26/edital-prorroga-validade-de-convocacao-do-concurso-publico-da-sefaz/"
+    ],
+    [
+     "1ª retificação",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/05/14100343/ret-1-sefaz-ce-2026.pdf"
+    ],
+    [
+     "2ª retificação",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/05/29104312/sface125_-_edital_n0_02_-_retificacao.pdf"
+    ],
+    [
+     "Confira a Lei Nº 19.453/2025 na íntegra",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/09/18083150/ce.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 28.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "21 mil inscritos disputam 300 vagas no Concurso Sefaz CE aconteceram no início de agosto Com provas aplicadas nos dias 1º e 2 de agosto, os candidatos do Concurso SEFAZ CE (Secretaria da Fazenda do Ceará) aguardam ansiosamente a divulgaç…",
+    "criterio": "suspensão/cancelamento detectado (\\badiad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
