@@ -7399,5 +7399,74 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-29",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Editais publicados da semana ofertam 1.591 vagas!",
+  "url": "https://blog.grancursosonline.com.br/editais-publicados-semana-24-a-28-agosto-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-29",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o edital da SME Teotônio Vilela!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/27180959/Edital-Teotonio-Vilela-AL.pdf"
+    ],
+    [
+     "Confira todos os detalhes do Concurso Aracati CE!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/25133051/Edital-Aracati-CE-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Inaciolândia GO!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/28185053/Edital-Inaciolandia-GO-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso ISS Rio Verde GO!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/24150620/Edital-ISS-Rio-Verde-GO-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Câmara Unaí MG!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/26145055/Edital-Camara-Unai-MG-2026-2.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Belo Jardim PE!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/27192634/Edital-Belo-Jardim-PE-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Alvorada RS!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/28142655/Edital-Alvorada-RS-2026.pdf"
+    ],
+    [
+     "Confira o edital do Concurso Jaraguá do Sul SC e veja todos os cargos!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/26171519/Edital-Jaragua-do-Sul-SC-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-25",
+   "inscricoes_fim": "2026-09-24",
+   "banca": "Cebraspe",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "25.8.2026 a 24.9.2026",
+    "vagas": "",
+    "remuneracao": "R$ 25.270,68",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A última semana de agosto trouxe 26 editais com oportunidades para diversas regiões do país.",
+    "criterio": "evidência de inscrição (\\boferece \\d+ vagas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
