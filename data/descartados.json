@@ -11942,5 +11942,29 @@
   "municipio": "São Domingos",
   "uf": "SC",
   "trecho": "Enfermeiro 27/05/20 a 24/10/21 22/12/23 a 05/07/24 07/10/24 a 31/10/25 3 Eliza Cristina de Oliveira Fiscal de Tributos Obras e Serviços Primeira Anterior 1 2 Próxima Última $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.p"
+ },
+ {
+  "descartado_em": "2026-08-29",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Porto Velho — PORTARIA Nº 1331/2026/CDCS/DGP/SEMAD 24 DE AGOSTO DE 2026 (2026-08-26)",
+  "url": "https://www.diariomunicipal.com.br/arom/load/37C49EAA",
+  "municipio": "Porto Velho",
+  "uf": "RO",
+  "trecho": "SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO - SEMAD PORTARIA Nº 1331/2026/CDCS/DGP/SEMAD 24 DE AGOSTO DE 2026 A SECRETÁRIA MUNICIPAL DE ADMINISTRAÇÃO DA PREFEITURA DO MUNICÍPIO DE PORTO VELHO , no uso de suas atribuições legais, conforme art. 7º, inciso XIX, do Decreto nº 19.048 de 06/06/2023, publicado n"
  }
 ]
