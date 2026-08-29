@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-08-27"
    },
-   "proximo_extra": 10,
+   "proximo_extra": 0,
    "amp": {
     "ultima_data": "2026-08-29"
    },
@@ -451,10 +451,10 @@
     "ultima_data": "2026-08-29"
    },
    "famup": {
-    "ultima_data": "2026-08-27"
+    "ultima_data": "2026-08-29"
    },
    "fgm": {
-    "ultima_data": "2026-08-27"
+    "ultima_data": "2026-08-29"
    }
   },
   "domsc": {
@@ -890,9 +890,8 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-08-29T15:00:00",
+   "ultimo_pub": "2026-08-29T17:39:00",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-nova-candelaria/",
     "https://www.estrategiaconcursos.com.br/blog/?p=1792405",
     "https://www.estrategiaconcursos.com.br/blog/?p=1792427",
     "https://www.estrategiaconcursos.com.br/blog/?p=1784335",
@@ -1291,7 +1290,8 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1668520",
     "https://www.estrategiaconcursos.com.br/blog/?p=117361",
     "https://www.estrategiaconcursos.com.br/blog/?p=1720729",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1804477"
+    "https://www.estrategiaconcursos.com.br/blog/?p=1804477",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1784338"
    ]
   },
   "fafipa": {},

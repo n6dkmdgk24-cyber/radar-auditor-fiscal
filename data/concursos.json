@@ -7468,5 +7468,43 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-29",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Crédito tributário não contencioso para SEFAZ/DF",
+  "url": "https://www.estrategiaconcursos.com.br/blog/credito-tributario-nao-contencioso-sefaz-df/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-29",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Lei nº 4.567/2011",
+     "https://www.legisweb.com.br/legislacao/?id=125663"
+    ]
+   ],
+   "banca": "Lancamento Tributário a Ser Realizado Pela Autoridade Fiscal",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O foco deste artigo do Estratégia Concursos é trazer um tema bastante importante para a prova de Auditor Fiscal do Distrito Federal: crédito tributário não contencioso para SEFAZ/DF de acordo com a legislação nacional e local.",
+    "criterio": "suspensão/cancelamento detectado (\\bsuspens[oa]\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
