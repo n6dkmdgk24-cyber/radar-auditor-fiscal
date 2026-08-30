@@ -2,6 +2,40 @@
  {
   "enfileirado_em": "2026-08-30",
   "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "achado": {
+   "fonte": "estrategia",
+   "titulo": "Produtos Notáveis",
+   "url": "https://www.estrategiaconcursos.com.br/blog/v2-104/",
+   "cargo_texto": "Produtos Notáveis.\nAprenda os conceitos essenciais sobre produtos notáveis com um resumo para as principais provas de concursos. Olá, pessoal! Tudo bem com vocês? Os produtos notáveis são identidades algébricas que permitem desenvolver multiplicações entre expressões de maneira rápida, organizada e sem a necessidade de efetuar todas as distribuições termo a termo. Esse conteúdo é amplamente utilizado […] O post Produtos Notáveis apareceu primeiro em Estratégia Concursos .\n   Aprenda os conceitos essenciais sobre produtos notáveis com um resumo para as principais provas de concursos. Olá, pessoal! Tudo bem com vocês? Os produtos notáveis são identidades algébricas que permitem desenvolver multiplicações entre expressões de maneira rápida, organizada e sem a necessidade de efetuar todas as distribuições termo a termo. Esse conteúdo é amplamente utilizado em álgebra e serve de base para diversos assuntos, como fatoração, equações, funções e simplificação de expressões. Em provas de bancas como FGV , FCC e Cebraspe , é comum encontrar questões que exigem reconhecer rapidamente um produto notável, seja para expandir uma expressão, seja para simplificar cálculos ou resolver problemas envolvendo álgebra. Muitas vezes, o candidato perde tempo realizando multiplicações extensas quando poderia aplicar diretamente uma das identidades. Neste artigo, você conhecerá os principais produtos notáveis, aprenderá quando utilizá-los e verá exemplos comentados semelhantes aos cobrados em concursos públicos. Confira os tópicos que serão abordados: O que são produtos notáveis; Principais produtos notáveis; Exemplos resolvidos. Produtos notáveis são multiplicações entre expressões algébricas que possuem um resultado padronizado. Em vez de desenvolver toda a multiplicação utilizando a propriedade distributiva, podemos aplicar diretamente uma identidade conhecida. Por exemplo: Em vez de calcular: (x + 3)(x + 3) fazendo todas as multiplicações, podemos reconhecer imediatamente que se trata do quadrado da soma de dois termos . Resultado: x² + 6x + 9 Essa economia de tempo é justamente o motivo pelo qual os produtos notáveis são tão importantes. Fórmula: (a + b)² = a² + 2ab + b² Quadrado do primeiro + duas vezes o produto + quadrado do segundo. Exemplo: (x + 5)² = x² + 10x + 25 Fórmula: (a − b)² = a² − 2ab + b² Observe que apenas o termo central muda de sinal. Exemplo: (x − 4)² = x² − 8x + 16 Fórmula: (a + b)(a − b) = a² − b² Esse é um dos produtos notáveis mais cobrados em concursos. Exemplo: (x + 6)(x − 6) = x² − 36 Perceba que o termo do meio desaparece completamente. Fórmula: (a + b)³ = a³ + 3a²b + 3ab² + b³ Exemplo: (x + 2)³ = x³ + 6x² + 12x + 8 Fórmula: (a − b)³ = a³ − 3a²b + 3ab² − b³ Exemplo: (x − 1)³ = x³ − 3x² + 3x − 1 Desenvolva: (2x – 3)² Resolução: O primeiro termo é o “2x” e o segundo termo é o “3”. Aplicando o quadrado da soma: (2x)² – 2·(2x)·3 + 3² = 4x² – 12x + 9 Sempre identifique corretamente quem é o primeiro e quem é o segundo termo antes de aplicar a fórmula. Um terreno quadrado possui lado medindo (x + 4) metros. Qual é a expressão que representa sua área? Resolução: Área do quadrado: (x + 4)² Aplicando o produto notável: x² + 8x + 16 Simplifique a expressão: (x + 2)² − (x − 2)² Resolução: Desenvolvendo os dois produtos notáveis, chegamos em: (x² + 4x + 4) − (x² − 4x + 4) Cancelando termos semelhantes: 8x Para te ajudar a revisar, de forma rápida e estratégia, tudo o que vimos até aqui, preparamos um resumo. Os produtos notáveis constituem uma das ferramentas mais importantes da álgebra, pois permitem desenvolver expressões de forma rápida e eficiente, evitando cálculos repetitivos. Mais do que memorizar fórmulas, o candidato deve aprender a reconhecer os padrões característicos de cada identidade, identificando quando sua aplicação é realmente vantajosa. Com prática , o reconhecimento dessas estruturas torna-se automático, permitindo resolver questões com mais rapidez e segurança. Dominar os produtos notáveis é um passo essencial para construir uma base sólida em álgebra e melhorar significativamente o desempenho em provas de matemática. É importante reforçar que este conteúdo deve ser utilizado como complemento ao material em PDF , onde a abordagem é aprofundada e completa. Além disso, é fundamental praticar com muitas questões, preferencialmente separadas por banca, para entender as diferentes formas de cobrança. Quer se aprofundar no tema? O Estratégia Concursos disponibiliza materiais em PDF completos e atualizados , com teoria detalhada, questões comentadas e videoaulas direcionadas para cada concurso. Com prática e um bom material, você estará preparado para resolver qualquer questão sobre produtos notáveis que aparecer na sua prova. Acesse os cursos do Estratégia Concursos e fortaleça sua preparação com um conteúdo de alto nível. Bons estudos e até a próxima! Prepare-se com o melhor material e com quem mais aprova em Concursos Públicos em todo o país! Concursos Abertos Concursos 2026 Bancária (BB, CEF e Bancos Estaduais) Concursos Públicos Controladorias/Gestão (CGU, CGE, STN, EPPGG) Educação Engenharias e TI Estratégia Militares Executivo (Administrativa) Financeira (BACEN, CVM, SUSEP e BNDES) Fiscal - Estadual (ICMS) Fiscal - Federal (RFB e AFT) Fiscal - Municipal (ISS) Petrobras Policial (Agente, Escrivão e Investigador) Prefeituras Previdenciária (INSS, PREVIC) TECNOLOGIA DA INFORMAÇÃO Tribunais Tribunais Tribunais de Contas (TCU, TCE, TCM) Tribunais Regionais Federais Tribunal de Justiça Tribunal Regional do Trabalho Tribunal Regional Eleitoral   ",
+   "orgao": "",
+   "municipio": "",
+   "uf": "",
+   "data_publicacao": "2026-08-30",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "FGV",
+      "https://conhecimento.fgv.br/concursos"
+     ],
+     [
+      "FCC",
+      "https://www.concursosfcc.com.br/"
+     ],
+     [
+      "Cebraspe",
+      "https://www.cebraspe.org.br/concursos/"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-08-30",
+  "tentativas": 2,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -27,7 +61,7 @@
  },
  {
   "enfileirado_em": "2026-08-28",
-  "tentativas": 6,
+  "tentativas": 7,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -47,7 +81,7 @@
  },
  {
   "enfileirado_em": "2026-08-28",
-  "tentativas": 6,
+  "tentativas": 7,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -78,7 +112,7 @@
  },
  {
   "enfileirado_em": "2026-08-27",
-  "tentativas": 8,
+  "tentativas": 9,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -98,7 +132,7 @@
  },
  {
   "enfileirado_em": "2026-08-27",
-  "tentativas": 8,
+  "tentativas": 9,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -117,7 +151,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -147,7 +181,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -170,7 +204,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -193,7 +227,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -216,7 +250,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 10,
+  "tentativas": 11,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -270,7 +304,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -296,7 +330,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -319,7 +353,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "controle",
   "termos": [
    "auditor federal de controle externo"
@@ -345,7 +379,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 11,
+  "tentativas": 12,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -371,7 +405,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -397,7 +431,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -421,7 +455,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -447,7 +481,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo",
@@ -487,7 +521,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -521,7 +555,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -547,7 +581,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -577,7 +611,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -607,7 +641,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "controle",
   "termos": [
    "tecnico de controle externo"
@@ -637,7 +671,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -664,7 +698,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 16,
+  "tentativas": 17,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -690,7 +724,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 16,
+  "tentativas": 17,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -716,7 +750,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 19,
+  "tentativas": 20,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -742,7 +776,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 19,
+  "tentativas": 20,
   "categoria": "tributario",
   "termos": [
    "fiscal de tributos"
@@ -768,7 +802,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 20,
+  "tentativas": 21,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -787,7 +821,7 @@
  },
  {
   "enfileirado_em": "2026-08-22",
-  "tentativas": 27,
+  "tentativas": 28,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -841,7 +875,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 29,
+  "tentativas": 30,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -865,7 +899,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -919,7 +953,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -945,7 +979,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -964,7 +998,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 33,
+  "tentativas": 34,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -992,7 +1026,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 33,
+  "tentativas": 34,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1031,7 +1065,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 34,
+  "tentativas": 35,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1057,7 +1091,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 35,
+  "tentativas": 36,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -1091,7 +1125,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 35,
+  "tentativas": 36,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1115,7 +1149,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 36,
+  "tentativas": 37,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1137,7 +1171,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 36,
+  "tentativas": 37,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1157,7 +1191,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 37,
+  "tentativas": 38,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1180,7 +1214,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 39,
+  "tentativas": 40,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1205,7 +1239,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 39,
+  "tentativas": 40,
   "categoria": "conferir",
   "termos": [
    "fiscal de rendas"
@@ -1230,7 +1264,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1256,7 +1290,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1280,7 +1314,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 43,
+  "tentativas": 44,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1310,7 +1344,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 43,
+  "tentativas": 44,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -1345,7 +1379,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 43,
+  "tentativas": 44,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -1399,7 +1433,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 43,
+  "tentativas": 44,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1450,7 +1484,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1480,7 +1514,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1506,7 +1540,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1532,7 +1566,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1587,7 +1621,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 47,
+  "tentativas": 48,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -1621,7 +1655,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 47,
+  "tentativas": 48,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1671,7 +1705,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 47,
+  "tentativas": 48,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1697,7 +1731,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 48,
+  "tentativas": 49,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1723,7 +1757,7 @@
  },
  {
   "enfileirado_em": "2026-08-15",
-  "tentativas": 55,
+  "tentativas": 56,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1742,7 +1776,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 57,
+  "tentativas": 58,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1766,7 +1800,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 57,
+  "tentativas": 58,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -1790,7 +1824,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 58,
+  "tentativas": 59,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1816,7 +1850,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 59,
+  "tentativas": 60,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1842,7 +1876,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 59,
+  "tentativas": 60,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -1868,7 +1902,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 59,
+  "tentativas": 60,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -1887,7 +1921,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 60,
+  "tentativas": 61,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1913,7 +1947,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -1939,7 +1973,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1993,7 +2027,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -2031,7 +2065,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -2050,7 +2084,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2104,7 +2138,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2130,7 +2164,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 62,
+  "tentativas": 63,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -2184,7 +2218,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 67,
+  "tentativas": 68,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -2209,7 +2243,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 67,
+  "tentativas": 68,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -2235,7 +2269,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 70,
+  "tentativas": 71,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2258,7 +2292,7 @@
  },
  {
   "enfileirado_em": "2026-08-08",
-  "tentativas": 83,
+  "tentativas": 84,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -2283,7 +2317,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 86,
+  "tentativas": 87,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2306,7 +2340,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 87,
+  "tentativas": 88,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2329,7 +2363,7 @@
  },
  {
   "enfileirado_em": "2026-08-07",
-  "tentativas": 91,
+  "tentativas": 92,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
