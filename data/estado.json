@@ -417,14 +417,14 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-08-27"
+    "ultima_data": "2026-08-30"
    },
    "amupe": {
-    "ultima_data": "2026-08-27"
+    "ultima_data": "2026-08-30"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
-    "ultima_data": "2026-08-29"
+    "ultima_data": "2026-08-30"
    },
    "agm": {
     "ultima_data": "2026-08-28"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-08-29"
+   "ultima_data": "2026-08-30"
   },
   "selecao": {
    "vistos": [
