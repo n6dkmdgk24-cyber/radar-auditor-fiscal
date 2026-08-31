@@ -12494,5 +12494,29 @@
   "municipio": "Garopaba",
   "uf": "SC",
   "trecho": "1º. CONCEDER ELEVAÇÃO DE GRAU ao (a) servidor (a) WESLEY DA SILVA GARCIA, matrícula funcional nº. 10592-01, cargo efetivo em carreira de AUDITOR DE CONTROLE INTERNO, do Grupo de Ensino $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', funct"
+ },
+ {
+  "descartado_em": "2026-08-31",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Correia Pinto — PORTARIA CONTROLE NUMERAÇÃO RH Nº 566/2026 (2026-08-31)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8669171",
+  "municipio": "Correia Pinto",
+  "uf": "SC",
+  "trecho": " a Junta Comercial do Estado de Santa Catarina – JUCESC: I – BRUNA SALLES WIGGERS, servidora pública municipal efetiva, ocupante do cargo de Fiscal de Tributos; II – EONICE FAÉ MORAES, servidora pública municipal"
  }
 ]

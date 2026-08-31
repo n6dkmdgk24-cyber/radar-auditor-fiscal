@@ -7761,5 +7761,93 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Princesa - SC abre processo seletivo com salários de até R$ 23.457,36",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-princesa-sc-abre-processo-seletivo-com-salarios-de-ate-23457",
+  "orgao": "Prefeitura de Princesa",
+  "municipio": "Princesa",
+  "uf": "SC",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Princesa",
+     "https://princesa.atende.net/cidadao"
+    ],
+    [
+     "ameosc.org.br",
+     "https://ameosc.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-31",
+   "inscricoes_fim": "2026-09-28",
+   "site_inscricao": "https://ameosc.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "31.8.2026 a 28.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 23.457,36",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Princesa , em Santa Catarina, publicou o edital do Processo Seletivo 001/2026 com o objetivo de formar cadastro de reserva para profissionais de nível fundamental, médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?processos? seletivos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "controle",
+  "termos": [
+   "auditor interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Ponte Alta - SC abre concurso público com salários de até R$ 5.905,61",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-ponte-alta-sc-abre-concurso-publico-com-salarios-de-ate-5905",
+  "orgao": "Câmara de Ponte Alta",
+  "municipio": "Ponte Alta",
+  "uf": "SC",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Ponte Alta",
+     "https://www.camarapontealta.sc.gov.br/"
+    ],
+    [
+     "gamdconcursos.selecao.net.br",
+     "https://gamdconcursos.selecao.net.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-03",
+   "inscricoes_fim": "2026-10-04",
+   "site_inscricao": "https://gamdconcursos.selecao.net.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "3.9.2026 a 4.10.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 5.905,61",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Ponte Alta , em Santa Catarina, publicou o edital do Concurso Público nº 01/2026 visando preencher 3 vagas imediatas e formar cadastro de reserva para profissionais de nível superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
