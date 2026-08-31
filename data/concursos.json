@@ -7506,5 +7506,260 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Santana do Mundaú - AL abre concurso com salários de até R$ 8.354,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santana-do-mundau-al-abre-concurso-com-salarios-de-ate-8354",
+  "orgao": "Prefeitura de Santana do Mundaú",
+  "municipio": "Santana do Mundaú",
+  "uf": "AL",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura do Município de Santana do Mundaú",
+     "https://www.santanadomundau.al.gov.br/"
+    ],
+    [
+     "www.institutoiacp.net.br",
+     "https://www.institutoiacp.net.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-05",
+   "inscricoes_fim": "2026-10-05",
+   "site_inscricao": "https://www.institutoiacp.net.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "5.9.2026 a 5.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 8.354,00",
+    "validade": "1 ano, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura do Município de Santana do Mundaú , em Alagoas, abriu inscrições para um concurso público visando preencher vagas para profissionais de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Horizonte - CE abre concurso público com salários de até R$ 5.620,27",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-horizonte-ce-abre-concurso-publico-com-salarios-de-ate-5620",
+  "orgao": "Prefeitura de Horizonte",
+  "municipio": "Horizonte",
+  "uf": "CE",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Horizonte",
+     "https://www.horizonte.ce.gov.br/"
+    ],
+    [
+     "Instituto Consulpam",
+     "https://www.consulpam.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-29",
+   "inscricoes_fim": "2026-09-20",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "fiscal municipal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "29.8.2026 a 20.9.2026",
+    "vagas": "6 vagas",
+    "remuneracao": "até R$ 5.620,27",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Horizonte , no Ceará, divulgou a abertura de um concurso público destinado ao preenchimento de vagas para profissionais de níveis médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal municipal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Lagoa da Prata - MG altera período de inscrições do concurso público com salários de até R$ 21 mil",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-lagoa-da-prata-mg-altera-periodo-de-inscricoes-do-concurso-publico-com-salarios-de-ate-21-mil",
+  "orgao": "Prefeitura de Lagoa da Prata",
+  "municipio": "Lagoa da Prata",
+  "uf": "MG",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Lagoa da Prata",
+     "https://www.lagoadaprata.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-05",
+   "inscricoes_fim": "2026-11-03",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "5.10.2026 a 3.11.2026",
+    "vagas": "2 vagas",
+    "remuneracao": "até R$ 21.000,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Lagoa da Prata , em Minas Gerais, e o Instituto Brasileiro de Gestão e Pesquisa (IBGP) publicaram o edital retificado do Concurso Público destinado ao provimento de vagas e à formação de cadastro de reserva para cargos do…",
+    "criterio": "anatomia de edital (6 seções: banca, provas, remuneracao, requisitos, secao_inscricoes, taxa) + cargo 'agente fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Tanguá - RJ abre novo concurso público com salários de até R$ 2.992,50",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tangua-rj-abre-novo-concurso-publico-com-salarios-de-ate-2992",
+  "orgao": "Prefeitura de Tanguá",
+  "municipio": "Tanguá",
+  "uf": "RJ",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Tanguá",
+     "https://tangua.rj.gov.br/"
+    ],
+    [
+     "www.ibdoprojetos.org.br",
+     "https://www.ibdoprojetos.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-01",
+   "inscricoes_fim": "2026-10-12",
+   "site_inscricao": "https://www.ibdoprojetos.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "1.9.2026 a 12.10.2026",
+    "vagas": "2 vagas",
+    "remuneracao": "até R$ 2.992,50",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "O município de Tanguá , no estado do Rio de Janeiro, publicou o edital do Concurso Público 01/2026 visando preencher vagas imediatas e formar cadastro de reserva para profissionais de nível médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\bnovo concurso\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Carta aos Assinantes do Estratégia Concursos – 305",
+  "url": "https://www.estrategiaconcursos.com.br/blog/carta-aos-assinantes-305/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "",
+     "https://mkt.estrategia.com/concursos/operacao-pre-edital-petrobras/"
+    ],
+    [
+     "Não espere o edital sair: inscreva-se e participe!",
+     "https://mkt.estrategia.com/concursos/operacao-pre-edital-petrobras/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-25",
+   "inscricoes_fim": "2026-10-22",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "25.9.2026 a 22.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 23.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Diego Cerqueira em nossa trecentésima quinta Carta aos Assinantes do Estratégia Concursos.",
+    "criterio": "evidência de inscrição (\\binscricoes (estao |estarao )?abertas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-08-31",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Mercadoria sem documento fiscal para SEFAZ/SC",
+  "url": "https://www.estrategiaconcursos.com.br/blog/mercadoria-documento-fiscal-sefaz-sc/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-08-31",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Lei estadual nº 10.297/1996",
+     "https://legislacao.sef.sc.gov.br/html/leis/1996/lei_96_10297.htm"
+    ]
+   ],
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Neste presente artigo do Estratégia Concursos vamos analisar um assunto muito importante para a prova de Auditor Fiscal catarinense: mercadoria sem documento fiscal para SEFAZ/SC de acordo com a legislação nacional e estadual.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancelad[oa]\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
