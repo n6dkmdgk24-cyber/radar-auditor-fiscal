@@ -1368,7 +1368,7 @@
     "classe": "abertura",
     "area": "tributario",
     "cargo": "auditor fiscal",
-    "inscricoes": "31.7.2026 a 31.8.2026",
+    "inscricoes": "31.7.2026 a 21.9.2026",
     "cadastro_reserva": false,
     "resumo": "A Prefeitura Municipal de Limeira , no Estado de São Paulo, publicou os editais dos Concursos Públicos 01/2026 e 02/2026, organizados pela AvançaSP .",
     "origem": "regras",
@@ -1377,7 +1377,8 @@
     "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (auditor fiscal)",
     "esfera": "municipal",
     "remuneracao": "até R$ 12.873,46",
-    "remuneracao_valor": 12873.46
+    "remuneracao_valor": 12873.46,
+    "prazo_atualizado_em": "2026-09-01"
    },
    "links_artigo": [
     [
@@ -1390,7 +1391,7 @@
     ]
    ],
    "inscricoes_inicio": "2026-07-31",
-   "inscricoes_fim": "2026-08-31",
+   "inscricoes_fim": "2026-09-21",
    "site_inscricao": "https://www.avancasp.org.br",
    "banca": "AvançaSP"
   }
@@ -7846,6 +7847,194 @@
     "cadastro_reserva": false,
     "resumo": "A Câmara Municipal de Ponte Alta , em Santa Catarina, publicou o edital do Concurso Público nº 01/2026 visando preencher 3 vagas imediatas e formar cadastro de reserva para profissionais de nível superior.",
     "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Capinópolis - MG abre concurso público com salários de até R$ 5.800,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-capinopolis-mg-abre-concurso-publico-com-salarios-de-ate-5800",
+  "orgao": "Câmara de Capinópolis",
+  "municipio": "Capinópolis",
+  "uf": "MG",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Capinópolis",
+     "https://www.capinopolis.mg.leg.br/vereadores"
+    ],
+    [
+     "portal.fenix.selecao.site",
+     "https://portal.fenix.selecao.site/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-10-01",
+   "inscricoes_fim": "2026-10-16",
+   "site_inscricao": "https://portal.fenix.selecao.site",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "1.10.2026 a 16.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 5.800,00",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Capinópolis , no Estado de Minas Gerais, divulgou a abertura de inscrições para o Concurso Público nº 01/2026, que visa preencher cinco vagas para profissionais de níveis fundamental e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Arealva - SP abre concurso público com salários de até R$ 9.826,50",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-arealva-sp-abre-concurso-publico-com-salarios-de-ate-9826",
+  "orgao": "Prefeitura de Arealva",
+  "municipio": "Arealva",
+  "uf": "SP",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Arealva",
+     "https://www.arealva.sp.gov.br/"
+    ],
+    [
+     "www.consesp.com.br",
+     "https://www.consesp.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-01",
+   "inscricoes_fim": "2026-10-12",
+   "site_inscricao": "https://www.consesp.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "1.9.2026 a 12.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 9.826,50",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Arealva , no Estado de São Paulo, lançou o Concurso Público nº 001/2026 para preencher vagas e formar cadastro de reserva em funções de nível fundamental incompleto, fundamental completo, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "conferir",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Oliveira Fortes - MG publica retificação de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-oliveira-fortes-mg-publica-retificacao-de-concurso-publico",
+  "orgao": "Prefeitura de Oliveira Fortes",
+  "municipio": "Oliveira Fortes",
+  "uf": "MG",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Oliveira Fortes",
+     "https://oliveirafortes.mg.gov.br/"
+    ],
+    [
+     "www.auctorconsultoria.com.br",
+     "https://www.auctorconsultoria.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-31",
+   "inscricoes_fim": "2026-09-29",
+   "site_inscricao": "https://www.auctorconsultoria.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "fiscal municipal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "31.8.2026 a 29.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 10.331,93",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Oliveira Fortes , em Minas Gerais, divulgou o Concurso Público nº 01/2026 visando o provimento de vagas e a formação de cadastro de reserva para funções de níveis elementar, fundamental, médio/técnico e superior.",
+    "criterio": "retificação com inscrições abertas até 2026-09-29",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Novo Hamburgo: veja os gabaritos!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-novo-hamburgo/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Gabaritos preliminares!",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/01080758/1105_edital_11-2026_gabaritos_preliminaresdasprovasto_6a95940b1a2da-cleaned.pdf"
+    ],
+    [
+     "Fundatec",
+     "https://www.fundatec.org.br/portal/concursos/index_concursos.php?concurso=1105"
+    ],
+    [
+     "Novo Hamburgo 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/06/30094037/edital-concurso-prefeitura-novo-hamburgo-2026-estrategia-concursos.pdf"
+    ],
+    [
+     "Retificação 1",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/29083849/1105-edital03-2026-retificativoeadendo__6a55274f85bcf-cleaned.pdf"
+    ],
+    [
+     "Novo Hamburgo 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/06/30094037/edital-concurso-prefeitura-novo-hamburgo-2026-estrategia-concursos.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-06-29",
+   "inscricoes_fim": "2026-07-28",
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "29.6.2026 a 28.7.2026",
+    "vagas": "",
+    "remuneracao": "R$ 8.200,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso ISS Novo Hamburgo (RS) oferece vagas para o cargo de Auditor Fiscal!",
+    "criterio": "suspensão/cancelamento detectado (\\bsuspensao\\b)",
     "origem": "regras"
    }
   }
