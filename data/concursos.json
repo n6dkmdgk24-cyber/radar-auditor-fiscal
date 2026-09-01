@@ -8038,5 +8038,195 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Massaranduba - SC abre concurso com salários de até R$ 24.722,94",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-massaranduba-sc-abre-concurso-com-salarios-de-ate-24722",
+  "orgao": "Prefeitura de Massaranduba",
+  "municipio": "Massaranduba",
+  "uf": "SC",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Massaranduba",
+     "https://massaranduba.atende.net/autoatendimento/"
+    ],
+    [
+     "institutotupy.com.br",
+     "https://institutotupy.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-08",
+   "inscricoes_fim": "2026-10-09",
+   "site_inscricao": "https://institutotupy.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "8.9.2026 a 9.10.2026",
+    "vagas": "cadastro de reserva",
+    "remuneracao": "até R$ 24.722,94",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": true,
+    "resumo": "O Município de Massaranduba , em Santa Catarina, lançou o Concurso Público Edital 001/2026 para o preenchimento de vagas e a formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Itaipulândia - PR abre concurso público com salários de até R$ 15.073,26",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-itaipulandia-pr-abre-concurso-publico-com-salarios-de-ate-15073",
+  "orgao": "Prefeitura de Itaipulândia",
+  "municipio": "Itaipulândia",
+  "uf": "PR",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Itaipulândia",
+     "https://www.itaipulandia.pr.gov.br/"
+    ],
+    [
+     "www.unioeste.br/portal/cogeps/correntes",
+     "https://www.unioeste.br/portal/cogeps/correntes"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-03",
+   "inscricoes_fim": "2026-09-28",
+   "site_inscricao": "https://www.unioeste.br/portal",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "3.9.2026 a 28.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 15.073,26",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "No Paraná, a Prefeitura de Itaipulândia lançou o Concurso Público nº 001/2026 destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Massaranduba (SC) abre 47 vagas e paga até R$ 24,7 mil",
+  "url": "https://concursosnobrasil.com/concursos/sc/2026/09/01/concurso-massaranduba-sc-abre-47-vagas-e-paga-ate-r-247-mil/",
+  "orgao": "Massaranduba",
+  "municipio": "",
+  "uf": "SC",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "site",
+     "https://portal.institutotupy.com.br/edital/ver/97"
+    ],
+    [
+     "site",
+     "https://portal.institutotupy.com.br/edital/ver/97"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-08",
+   "inscricoes_fim": "2026-10-09",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "8.9.2026 a 9.10.2026",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "Prefeitura de Massaranduba recebe inscrições para cargos de níveis fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre \\d+ vagas?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-01",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Curitiba PR: banca contratada e comissão formada!",
+  "url": "https://blog.grancursosonline.com.br/concurso-curitiba-pr/",
+  "orgao": "Curitiba",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-09-01",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "comissão foi formada",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/01175221/Concurso-Curitiba-PR-comissao-formada.pdf"
+    ],
+    [
+     "contrato com a banca",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/01151131/Concurso-Curitiba-PR-contrato-banca.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital do último Concurso FAS Curitiba PR",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/08/15154944/Edital-FAS-Curitiba-PR-2022.pdf"
+    ],
+    [
+     "Clique aqui para fazer o download do último edital do Concurso SME Curitiba PR",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/07/21134408/edital-curitiba-pr-professor-educacao-infantil-2022.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/07/07114117/Concurso_camara_municipal_de_curitiba_concurso_retomado.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital do Concurso FAS PR",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/08/15154944/Edital-FAS-Curitiba-PR-2022.pdf"
+    ]
+   ],
+   "banca": "Fundacao Fafipa",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 4.999,55",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Atenção, concurseiros: o Concurso Curitiba PR está com certames iminentes!",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
