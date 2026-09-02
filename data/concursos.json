@@ -8416,5 +8416,90 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CRM PR: edital publicado; iniciais até R$ 6,9 mil!",
+  "url": "https://blog.grancursosonline.com.br/concurso-crm-pr/",
+  "orgao": "CRM",
+  "municipio": "",
+  "uf": "PR",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "",
+     "https://bit.ly/4z5MVtC"
+    ],
+    [
+     "Edital CRM PR 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02094652/edital-crm-pr-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-01",
+   "inscricoes_fim": "2026-10-18",
+   "banca": "Instituto Access e Foi Destinado a Cargos de Niveis Medio",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "1.9.2026 a 18.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 6.994,40",
+    "validade": "2 anos",
+    "cadastro_reserva": false,
+    "resumo": "O Conselho Regional de Medicina do Paraná oferta 2 vagas imediatas, além de formação de cadastro de reserva, para cargos de níveis médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bedital (publicado|liberado|divulgado)\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso AL PB: comissão formada. Edital em 2026!",
+  "url": "https://blog.grancursosonline.com.br/concurso-al-pb/",
+  "orgao": "AL",
+  "municipio": "",
+  "uf": "PB",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Previsão de concurso na LOA 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/02/12150510/Concursos-Paraiba-PB-previsoes-LOA.pdf"
+    ],
+    [
+     "Clique AQUI para fazer o download do edital AL PB 2012",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2020/02/17112637/Edital-AL-PB-2012.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 27.505,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso AL PB está oficialmente confirmado para 2026, com provas previstas para o primeiro semestre de 2027.",
+    "criterio": "concurso ainda sem edital (\\bcomissao (formada|organizadora|constituida|designada)\\b) + cargo (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]

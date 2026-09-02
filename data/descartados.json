@@ -13262,5 +13262,53 @@
   "municipio": "Paraíso",
   "uf": "SC",
   "trecho": " servidor(a) público(a) municipal DANIELA APARECIDA BONDAN, matrícula funcional nº 1783-01, titular do cargo público de provimento efetivo de Fiscal Tributário, lotado(a) na Secretaria de Gestão e Desenvolvimento, do Município de Paraíso (SC), referente ao período aquisitivo compreendido entre 01/09"
+ },
+ {
+  "descartado_em": "2026-09-02",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "ato de pessoal sobre servidor (\\bmatricula\\b)",
+   "criterio": "ato de pessoal sobre servidor (\\bmatricula\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Bombinhas — NOTIFICAÇÕES SEFIN SETEMBRO DE 2026 (2026-09-02)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8672698",
+  "municipio": "Bombinhas",
+  "uf": "SC",
+  "trecho": "Fiscal de Tributos Matrícula 7801 Secretaria"
+ },
+ {
+  "descartado_em": "2026-09-02",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Ipumirim — PORTARIA 606-2026 - NOMEIA MARCOS GIOVANI COSER (2026-09-02)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8673378",
+  "municipio": "Ipumirim",
+  "uf": "SC",
+  "trecho": " DE SANTA CATARINA PREFEITURA MUNICIPAL DE IPUMIRIM PORTARIA Nº. 606/2026 DE 01 DE SETEMBRO DE 2026. NOMEIA POR CONCURSO PUBLICO NO CARGO DE FISCAL DE TRIBUTOS E DA OUTRAS PROVIDENCIAS VOLNEI $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle'"
  }
 ]
