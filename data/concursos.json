@@ -8228,5 +8228,193 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Campanário - MG retifica edital de concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-campanario-mg-retifica-edital-de-concurso-publico",
+  "orgao": "Prefeitura de Campanário",
+  "municipio": "Campanário",
+  "uf": "MG",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "www.msmconsultoria.com.br",
+     "https://www.msmconsultoria.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-02",
+   "inscricoes_fim": "2026-10-02",
+   "site_inscricao": "https://www.msmconsultoria.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "2.9.2026 a 2.10.2026",
+    "vagas": "2 vagas",
+    "remuneracao": "até R$ 3.820,21",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Campanário, no Estado de Minas Gerais, divulgou o edital do Concurso Público nº 001/2026, com o objetivo de preencher vagas para profissionais de níveis alfabetizado, fundamental, médio, técnico e superior.",
+    "criterio": "retificação com inscrições abertas até 2026-10-02",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Câmara Petrolina PE: IDECAN é a banca para 17 vagas",
+  "url": "https://blog.grancursosonline.com.br/concurso-camara-petrolina-pe/",
+  "orgao": "Câmara Petrolina",
+  "municipio": "",
+  "uf": "PE",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Banca definida",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02103650/Concurso-Camara-Petrolina-PE-Banca-definida-2026.pdf"
+    ],
+    [
+     "Clique aqui para fazer o download do último edital do concurso Câmara Petrolina ",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02110420/edital-camara-petrolina-pe-2019.pdf"
+    ]
+   ],
+   "banca": "Termo de Ratificacao da Dispensa de",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 8.561,42",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Câmara Petrolina PE deu um passo decisivo para ser realizado.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (analista de controle interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle externo"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso TCE SP divulga listas de PCD, negros e desempate!",
+  "url": "https://blog.grancursosonline.com.br/concurso-tce-sp-listas-de-pcd-negros-e-desempate/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Resultado da análise dos requerimentos para participação na lista PCD e atendime",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02090815/concurso-tce-sp-Resultado-Analise-Requerimentos-participacao-lista-PCD.pdf"
+    ],
+    [
+     "Lista dos candidatos autodeclarados pretos ou pardos",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02090845/concurso-tce-sp-Divulgacao-lista-candidatos-pretos-pardos.pdf"
+    ],
+    [
+     "Resultado da análise dos requerimentos para critério de desempate",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/02090904/concurso-tce-sp-solicitacao-analise-requerimento-criterios-desempate.pdf"
+    ],
+    [
+     "Clique aqui para ver o edital TCE SP 2026",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/04084943/Edital-TCE-SP-2026.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle externo",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso TCE SP teve uma nova movimentação nesta quarta-feira, 2 de setembro de 2026.",
+    "criterio": "anatomia de edital (6 seções: banca, cronograma, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'auditor de controle externo' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "controle",
+  "termos": [
+   "analista de controle interno"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Câmara de Petrolina PE: IDECAN é a banca!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-camara-de-petrolina-pe/",
+  "orgao": "Câmara de Petrolina",
+  "municipio": "Petrolina",
+  "uf": "PE",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "banca organizadora definida",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/02092029/publica__o_adjudica__o__homologa__o_e_ratifica__o.pdf"
+    ],
+    [
+     "CM Petrolina PE-2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/02/03173437/edital-cm-petrolina-pe-2019.pdf"
+    ],
+    [
+     "Aviso de Contratação",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/02092141/dispensa_n__002-2026_-_banca_concurso_p_blico_c_mara_petrolina.pdf"
+    ],
+    [
+     "Padrão remuneratório CM Petrolina PE",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/02/03175104/padrao-remuneratorio-2025.pdf"
+    ],
+    [
+     "Idib",
+     "https://concurso.idib.org.br/Concurso.aspx?ID=167"
+    ],
+    [
+     "CM Petrolina PE-2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/02/03173437/edital-cm-petrolina-pe-2019.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "analista de controle interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 8.561,42",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Um novo concurso da Câmara de Petrolina PE é previsto para 2026.",
+    "criterio": "evidência de inscrição (\\bedital (publicado|liberado|divulgado)\\b) + termo forte (analista de controle interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
