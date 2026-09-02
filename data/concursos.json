@@ -8501,5 +8501,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-02",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Areia - PB publica edital de concurso público com salários de até R$ 4.782,72",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-areia-pb-publica-edital-de-concurso-publico-com-salarios-de-ate-4782",
+  "orgao": "Prefeitura de Areia",
+  "municipio": "Areia",
+  "uf": "PB",
+  "data_publicacao": "2026-09-02",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Areia",
+     "https://areia.pb.gov.br/"
+    ],
+    [
+     "sistemas.cpcon.uepb.edu.br",
+     "https://sistemas.cpcon.uepb.edu.br/sigeps-app/login"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-10-12",
+   "site_inscricao": "https://sistemas.cpcon.uepb.edu.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 12.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 4.782,72",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Areia , no estado da Paraíba, publicou um edital de Concurso Público com o objetivo de preencher vagas para profissionais de nível fundamental (incompleto e completo), médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
