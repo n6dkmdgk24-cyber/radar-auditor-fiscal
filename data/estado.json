@@ -7,12 +7,8 @@
    "lastmod_max": "2026-09-02"
   },
   "cnb": {
-   "ultimo_pub": "2026-09-02T21:07:19",
+   "ultimo_pub": "2026-09-03T00:02:49",
    "guids": [
-    "https://concursosnobrasil.com/?p=385435",
-    "https://concursosnobrasil.com/?p=385424",
-    "https://concursosnobrasil.com/?p=385417",
-    "https://concursosnobrasil.com/?p=385398",
     "https://concursosnobrasil.com/?p=385407",
     "https://concursosnobrasil.com/?p=385588",
     "https://concursosnobrasil.com/?p=385584",
@@ -408,7 +404,11 @@
     "https://concursosnobrasil.com/?p=388162",
     "https://concursosnobrasil.com/?p=388156",
     "https://concursosnobrasil.com/?p=388150",
-    "https://concursosnobrasil.com/?p=388135"
+    "https://concursosnobrasil.com/?p=388135",
+    "https://concursosnobrasil.com/?p=388182",
+    "https://concursosnobrasil.com/?p=388178",
+    "https://concursosnobrasil.com/?p=388176",
+    "https://concursosnobrasil.com/?p=388169"
    ]
   },
   "dou": {
@@ -417,14 +417,14 @@
   "sigpub": {
    "ultima_data": "2026-08-13",
    "famurs": {
-    "ultima_data": "2026-09-01"
+    "ultima_data": "2026-09-03"
    },
    "amupe": {
-    "ultima_data": "2026-09-01"
+    "ultima_data": "2026-09-03"
    },
-   "proximo_extra": 0,
+   "proximo_extra": 2,
    "amp": {
-    "ultima_data": "2026-09-02"
+    "ultima_data": "2026-09-03"
    },
    "agm": {
     "ultima_data": "2026-09-01"
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-09-02"
+   "ultima_data": "2026-09-03"
   },
   "selecao": {
    "vistos": [
@@ -890,12 +890,8 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-02T20:58:00",
+   "ultimo_pub": "2026-09-03T00:21:08",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1572901",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1794172",
-    "https://www.estrategiaconcursos.com.br/blog/?p=462922",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1793458",
     "https://cj.estrategia.com/portal/?p=195189",
     "https://www.estrategiaconcursos.com.br/blog/?p=1794292",
     "https://www.estrategiaconcursos.com.br/blog/?p=1794235",
@@ -1291,7 +1287,11 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1599642",
     "https://www.estrategiaconcursos.com.br/blog/?p=1069957",
     "https://www.estrategiaconcursos.com.br/blog/?p=1805417",
-    "https://www.estrategiaconcursos.com.br/blog/?p=122912"
+    "https://www.estrategiaconcursos.com.br/blog/?p=122912",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1805474",
+    "https://www.estrategiaconcursos.com.br/blog/?p=365267",
+    "https://www.estrategiaconcursos.com.br/blog/?p=366816",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1805463"
    ]
   },
   "fafipa": {},
@@ -1321,6 +1321,7 @@
   }
  },
  "fontes_com_falha": [
+  "dou",
   "fafipa",
   "qd",
   "selecao"
