@@ -13910,5 +13910,77 @@
   "municipio": "Caçador",
   "uf": "SC",
   "trecho": "Período de aquisição 15199 Daniele Ariatti Auditor de Controle Interno 18/02/2018 a 17/02/2023 II - $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var target = $link.data('target'); "
+ },
+ {
+  "descartado_em": "2026-09-03",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "criterio": "fase sem inscrição (título: \\bconvocacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Porto Velho — EDITAL DE CONVOCAÇÃO Nº 01/2026 (2026-09-03)",
+  "url": "https://www.diariomunicipal.com.br/arom/load/98BECC9F",
+  "municipio": "Porto Velho",
+  "uf": "RO",
+  "trecho": "ITAS 1º CARGO ARQUITETO QUANT. MODALIDADE DA VAGA CANDIDATO AMPLA CONCORRÊNCIA PCD NEGRO 1 AMPLA JESSICA ADRIANE NOCRATO FERREIRA PARAGUASSU 1º CARGO AUDITOR DE CONTROLE INTERNO QUANT. MODALIDADE DA VAGA CANDIDATO AMPLA CONCORRÊNCIA PCD NEGRO 1 AMPLA LUIZA MASCARENHAS ANDERSON 1º CARGO PROCURADOR QU"
+ },
+ {
+  "descartado_em": "2026-09-03",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "PREFEITURA MUNICIPAL DE JARDIM DE PIRANHAS — PORTARIA Nº 418/2026 - GP/PMJP (2026-09-02)",
+  "url": "https://www.diariomunicipal.com.br/femurn/load/F8524CE2",
+  "municipio": "Jardim de Piranhas",
+  "uf": "RN",
+  "trecho": "SANTOS VIGILANTE MARIA DOLORES SOARES DUTRA A.S.G MARIA DOS AFLITOS ARAUJO A.S.G MARIA DOS AFLITOS JALES ATENDENTE MARIA DOS AFLITOS PEREIRA DA SILVA FISCAL DE TRIBUTOS MARIA JOSÉ DE MEDEIROS TÉCNICO EM ENFERMAGEM MAYKEL GOMES BEZERRA A.S.G MICAEL KELLIS CAVALCANTI AUXILIAR DE ESCRITURÁRIO NILSON JO"
+ },
+ {
+  "descartado_em": "2026-09-03",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Balneário Camboriú — PORTARIA 34.585/2026 (2026-09-03)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8682098",
+  "municipio": "Balneário Camboriú",
+  "uf": "SC",
+  "trecho": "D 14. 40604 CLAUDIA HULLER AUDITOR FISCAL DE TRIBUTOS MUNICIPAIS"
  }
 ]

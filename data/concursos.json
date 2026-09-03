@@ -8545,5 +8545,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-03",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Rio das Pedras - SP abre concurso com salários de até R$ 5.856,50.",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-rio-das-pedras-sp-abre-concurso-com-salarios-de-ate-5856-50",
+  "orgao": "Câmara de Rio das Pedras",
+  "municipio": "Rio das Pedras",
+  "uf": "SP",
+  "data_publicacao": "2026-09-03",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Rio das Pedras",
+     "https://www.camarariodaspedras.sp.gov.br/"
+    ],
+    [
+     "www.omniinstituto.org.br",
+     "https://www.omniinstituto.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-04",
+   "inscricoes_fim": "2026-10-06",
+   "site_inscricao": "https://www.omniinstituto.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "4.9.2026 a 6.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 5.856,50",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Rio das Pedras , no Estado de São Paulo, divulgou um concurso público para o preenchimento de 4 vagas imediatas e a formação de cadastro de reserva em funções de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
