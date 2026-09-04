@@ -8709,5 +8709,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal tributario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Canguçu - RS abre concurso público com salários de até R$ 7.470,46",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-cangucu-rs-abre-concurso-publico-com-salarios-de-ate-7470",
+  "orgao": "Prefeitura de Canguçu",
+  "municipio": "Canguçu",
+  "uf": "RS",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "município de Canguçu",
+     "https://www.cangucu.rs.gov.br/"
+    ],
+    [
+     "www.objetivas.com.br",
+     "https://www.objetivas.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-10-02",
+   "site_inscricao": "https://www.objetivas.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal tributario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 2.10.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 7.470,46",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O município de Canguçu , no Rio Grande do Sul, publicou o edital do Concurso Público nº 001/2026 destinado ao preenchimento de vagas imediatas e à formação de cadastro de reserva para profissionais de nível fundamental (incompleto e comp…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal tributario)",
+    "origem": "regras"
+   }
+  }
  }
 ]
