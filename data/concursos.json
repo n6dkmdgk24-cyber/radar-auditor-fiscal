@@ -8753,5 +8753,133 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Jaguaribe - CE abre concursos públicos com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-jaguaribe-ce-abre-concursos-publicos-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Jaguaribe",
+  "municipio": "Jaguaribe",
+  "uf": "CE",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Jaguaribe",
+     "https://www.jaguaribe.ce.gov.br/"
+    ],
+    [
+     "www.consulpam.com.br",
+     "https://www.consulpam.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-04",
+   "inscricoes_fim": "2026-09-21",
+   "site_inscricao": "https://www.consulpam.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "4.9.2026 a 21.9.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 12.948,01",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Jaguaribe , no Ceará, divulgou editais de Concurso Público destinados ao preenchimento de vagas e à formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Jaguaribe (CE) abre 242 vagas com salário até R$ 12.948",
+  "url": "https://concursosnobrasil.com/concursos/ce/2026/09/04/concurso-jaguaribe-ce-abre-242-vagas-com-salario-ate-r-12-948/",
+  "orgao": "Jaguaribe",
+  "municipio": "",
+  "uf": "CE",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "001",
+     "https://consulpam.com.br/index.php?menu=concursos&acao=ver&id=874"
+    ],
+    [
+     "002",
+     "https://consulpam.com.br/index.php?menu=concursos&acao=ver&id=877"
+    ],
+    [
+     "003",
+     "https://consulpam.com.br/index.php?menu=concursos&acao=ver&id=878"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 12.948,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Prefeitura de Jaguaribe, estado do Ceará, tem oportunidades para profissionais em diferentes áreas de atuação, por meio de três editais.",
+    "criterio": "manchete de abertura (\\babre \\d+ vagas?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "controle",
+  "termos": [
+   "auditor federal de financas e controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CGU deve ser realizado no menor prazo possível!",
+  "url": "https://blog.grancursosonline.com.br/concurso-cgu-deve-ser-realizado-no-menor-prazo-possivel/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital do concurso CGU",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/12/23081356/Edital-CGU-2021.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor federal de financas e controle",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Controladoria-Geral da União informou que a unidade técnica responsável pelo concurso CGU está realizando estudos e adotando as providências necessárias para a continuidade do certame.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor federal de financas e controle)",
+    "origem": "regras"
+   }
+  }
  }
 ]

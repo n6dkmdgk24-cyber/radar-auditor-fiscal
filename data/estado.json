@@ -7,14 +7,8 @@
    "lastmod_max": "2026-09-04"
   },
   "cnb": {
-   "ultimo_pub": "2026-09-04T17:46:42",
+   "ultimo_pub": "2026-09-04T20:38:34",
    "guids": [
-    "https://concursosnobrasil.com/?p=385872",
-    "https://concursosnobrasil.com/?p=385870",
-    "https://concursosnobrasil.com/?p=385868",
-    "https://concursosnobrasil.com/?p=385914",
-    "https://concursosnobrasil.com/?p=385912",
-    "https://concursosnobrasil.com/?p=385910",
     "https://concursosnobrasil.com/?p=385904",
     "https://concursosnobrasil.com/?p=385898",
     "https://concursosnobrasil.com/?p=385891",
@@ -408,7 +402,13 @@
     "https://concursosnobrasil.com/?p=388522",
     "https://concursosnobrasil.com/?p=388518",
     "https://concursosnobrasil.com/?p=388512",
-    "https://concursosnobrasil.com/?p=388502"
+    "https://concursosnobrasil.com/?p=388502",
+    "https://concursosnobrasil.com/?p=388590",
+    "https://concursosnobrasil.com/?p=388582",
+    "https://concursosnobrasil.com/?p=388575",
+    "https://concursosnobrasil.com/?p=388571",
+    "https://concursosnobrasil.com/?p=388559",
+    "https://concursosnobrasil.com/?p=388554"
    ]
   },
   "dou": {
@@ -422,15 +422,15 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 2,
+   "proximo_extra": 4,
    "amp": {
     "ultima_data": "2026-09-04"
    },
    "agm": {
-    "ultima_data": "2026-09-03"
+    "ultima_data": "2026-09-04"
    },
    "aprece": {
-    "ultima_data": "2026-09-03"
+    "ultima_data": "2026-09-04"
    },
    "ama": {
     "ultima_data": "2026-09-03"
@@ -485,12 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-09-04T16:57:40",
+   "ultimo_pub": "2026-09-04T20:29:32",
    "guids": [
-    "https://blog.grancursosonline.com.br/?p=79652136",
-    "https://blog.grancursosonline.com.br/?p=79966363",
-    "https://blog.grancursosonline.com.br/?p=79214091",
-    "https://blog.grancursosonline.com.br/?p=79966377",
     "https://blog.grancursosonline.com.br/?p=79966366",
     "http://blog.grancursosonline.com.br/?p=55272",
     "https://blog.grancursosonline.com.br/?p=79966360",
@@ -886,19 +882,16 @@
     "https://blog.grancursosonline.com.br/?p=79618513",
     "https://blog.grancursosonline.com.br/?p=79968891",
     "https://blog.grancursosonline.com.br/?p=79968976",
-    "https://blog.grancursosonline.com.br/?p=79968980"
+    "https://blog.grancursosonline.com.br/?p=79968980",
+    "https://blog.grancursosonline.com.br/?p=79969020",
+    "https://blog.grancursosonline.com.br/?p=79969019",
+    "https://blog.grancursosonline.com.br/?p=79969016",
+    "https://blog.grancursosonline.com.br/?p=79969001"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-04T17:49:00",
+   "ultimo_pub": "2026-09-04T21:12:32",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1796156",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1796246",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1796217",
-    "https://www.estrategiaconcursos.com.br/blog/?p=479054",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1733400",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1319127",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1215858",
     "https://www.estrategiaconcursos.com.br/blog/?p=403490",
     "https://cj.estrategia.com/portal/?p=137",
     "https://cj.estrategia.com/portal/?p=36277",
@@ -1291,7 +1284,14 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1442836",
     "https://cj.estrategia.com/portal/?p=197073",
     "https://cj.estrategia.com/portal/?p=197115",
-    "https://cj.estrategia.com/portal/?p=28342"
+    "https://cj.estrategia.com/portal/?p=28342",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806144",
+    "https://www.estrategiaconcursos.com.br/blog/?p=533532",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806149",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1521673",
+    "https://www.estrategiaconcursos.com.br/blog/?p=128490",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806062",
+    "http://blog-estrategia.mystagingwebsite.com/blog/?p=35255"
    ]
   },
   "fafipa": {},
