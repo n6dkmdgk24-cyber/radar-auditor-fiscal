@@ -8589,5 +8589,125 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal municipal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Poço Dantas - PB abre concurso público com salários de até R$ 15.000,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-poco-dantas-pb-abre-concurso-publico-com-salarios-de-ate-15000",
+  "orgao": "Prefeitura de Poço Dantas",
+  "municipio": "Poço Dantas",
+  "uf": "PB",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Poço Dantas",
+     "https://www.pocodantas.pb.gov.br/"
+    ],
+    [
+     "www.igecap.org.br",
+     "https://www.igecap.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-08",
+   "inscricoes_fim": "2026-09-30",
+   "site_inscricao": "https://www.igecap.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal municipal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "8.9.2026 a 30.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 15.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Poço Dantas , no Estado da Paraíba, abriu um concurso público destinado ao preenchimento de vagas para profissionais de níveis fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal municipal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Dores do Indaiá - MG retifica edital de concurso público com salários de até R$ 18.702,17",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-dores-do-indaia-mg-retifica-edital-de-concurso-publico-com-salarios-de-ate-18702",
+  "orgao": "Prefeitura de Dores do Indaiá",
+  "municipio": "Dores do Indaiá",
+  "uf": "MG",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Dores do Indaiá",
+     "https://www.doresdoindaia.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-02",
+   "inscricoes_fim": "2026-10-02",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "2.9.2026 a 2.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 18.702,17",
+    "validade": "1 ano, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Dores do Indaiá , em Minas Gerais, e o Instituto Brasileiro de Gestão e Pesquisa (IBGP) divulgaram um edital de Concurso Público para preencher vagas no quadro permanente de pessoal.",
+    "criterio": "retificação com inscrições abertas até 2026-10-02",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-04",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "fiscal de tributos"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Manaus: o que faz um Auditor Fiscal?",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-manaus-atribuicoes-auditor-fiscal/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-04",
+  "detalhes": {
+   "ia": {
+    "classe": "suspensao",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 27.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O novo Concurso ISS Manaus, promovido pela Secretaria Municipal de Finanças (Semef), está com inscrições abertas para preencher 20 vagas imediatas e formar cadastro reserva.",
+    "criterio": "suspensão/cancelamento detectado (\\bcancela(mento)?\\b)",
+    "origem": "regras"
+   }
+  }
  }
 ]
