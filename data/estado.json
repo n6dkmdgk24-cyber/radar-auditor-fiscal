@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 8,
+   "proximo_extra": 10,
    "amp": {
     "ultima_data": "2026-09-05"
    },
@@ -485,10 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-09-05T13:42:15",
+   "ultimo_pub": "2026-09-05T14:25:33",
    "guids": [
-    "https://blog.grancursosonline.com.br/?p=79966353",
-    "https://blog.grancursosonline.com.br/?p=79966407",
     "https://blog.grancursosonline.com.br/?p=79966403",
     "https://blog.grancursosonline.com.br/?p=79966514",
     "https://blog.grancursosonline.com.br/?p=79452841",
@@ -886,20 +884,14 @@
     "https://blog.grancursosonline.com.br/?p=79969064",
     "https://blog.grancursosonline.com.br/?p=79969050",
     "https://blog.grancursosonline.com.br/?p=79750742",
-    "https://blog.grancursosonline.com.br/?p=79806763"
+    "https://blog.grancursosonline.com.br/?p=79806763",
+    "https://blog.grancursosonline.com.br/?p=79523193",
+    "http://blog.grancursosonline.com.br/?p=69000"
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-05T12:54:07",
+   "ultimo_pub": "2026-09-05T16:10:00",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1750848",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1771434",
-    "https://www.estrategiaconcursos.com.br/blog/?p=479966",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1784886",
-    "https://www.estrategiaconcursos.com.br/blog/?p=442019",
-    "https://www.estrategiaconcursos.com.br/blog/?p=642775",
-    "https://www.estrategiaconcursos.com.br/blog/?p=135550",
-    "https://cj.estrategia.com/portal/?p=195308",
     "https://cj.estrategia.com/portal/?p=195384",
     "https://www.estrategiaconcursos.com.br/blog/?p=1782508",
     "https://www.estrategiaconcursos.com.br/blog/?p=1800967",
@@ -1291,7 +1283,15 @@
     "https://cj.estrategia.com/portal/?p=197290",
     "https://cj.estrategia.com/portal/?p=187074",
     "https://cj.estrategia.com/portal/?p=197137",
-    "https://cj.estrategia.com/portal/?p=239"
+    "https://cj.estrategia.com/portal/?p=239",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806035",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806057",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806048",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1805409",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1783772",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1755683",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1316359",
+    "https://cj.estrategia.com/portal/?p=197175"
    ]
   },
   "fafipa": {},
@@ -1323,6 +1323,7 @@
  "fontes_com_falha": [
   "fafipa",
   "qd",
-  "selecao"
+  "selecao",
+  "sigpub"
  ]
 }
