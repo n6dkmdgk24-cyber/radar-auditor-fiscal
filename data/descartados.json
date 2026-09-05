@@ -14486,5 +14486,101 @@
   "municipio": "São Domingos",
   "uf": "SC",
   "trecho": "André Aniba Sartori Servidor: Guilherme Gabriel Scheffer Graciolli – Auditor de Controle Interno E-mail administracao@saodomingos.sc.gov.br Telefone 49 $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var "
+ },
+ {
+  "descartado_em": "2026-09-05",
+  "veredito": {
+   "classe": "andamento",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "fase sem inscrição (trecho: \\bhomologacao\\b)",
+   "criterio": "fase sem inscrição (trecho: \\bhomologacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Cruzeta — CONCURSO PÚBLICO PREFEITURA MUNICIPAL DE CRUZETA – RN EDITAL Nº 01/2026, DE 03 DE SETEMBRO DE 2026 (2026-09-04)",
+  "url": "https://www.diariomunicipal.com.br/femurn/load/8BA96832",
+  "municipio": "Cruzeta",
+  "uf": "RN",
+  "trecho": "RO RESERVA VAGAS AMPLA CONCORRÊNCIA VAGAS PCD VAGAS PPIQ FORMAÇÃO EXIGIDA Agente de Trânsito R$ 1.621,00 40H 0 02 0 0 0 ENSINO MÉDIO COMPLETO. Agente Fiscal de Tributos R$ 1.621,00 40H 02 04 02 0 0 ENSINO MÉDIO COMPLETO. Assistente Administrativo R$ 1.621,00 40H 01 08 01 0 0 ENSINO MÉDIO COMPLETO. A"
+ },
+ {
+  "descartado_em": "2026-09-05",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "sigpub",
+  "titulo": "Prefeitura Municipal de Ceará-Mirim — PORTARIA N.º 074 DE 02 DE SETEMBRO DE 2026 (2026-09-04)",
+  "url": "https://www.diariomunicipal.com.br/femurn/load/3BE288AB",
+  "municipio": "Ceará-Mirim",
+  "uf": "RN",
+  "trecho": "INSTITUTO DE PREVIDÊNCIA MUNICIPAL DE CEARÁ-MIRIM PORTARIA N.º 074 DE 02 DE SETEMBRO DE 2026 PORTARIA N.º 074 DE 02 DE SETEMBRO DE 2026 O PRESIDENTE DO INSTITUTO DE PREVIDÊNCIA MUNICIPAL DE CEARÁ-MIRIM/RN , No uso da atribuição que lhe confere o art. 116, V, da Lei Municipal nº 1.637, de 12 de julho"
+ },
+ {
+  "descartado_em": "2026-09-05",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "texto integral sem anatomia de edital (pontos=1) e com 10 sinal(is) de ato de pessoal/fase posterior",
+   "criterio": "texto integral sem anatomia de edital (pontos=1) e com 10 sinal(is) de ato de pessoal/fase posterior",
+   "origem": "verificador"
+  },
+  "fonte": "estrategia",
+  "titulo": "Programação completa do fim de semana: dias 5 e 6/9!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/programacao-fim-de-semana-estrategia/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-09-05",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "texto integral sem anatomia de edital (pontos=0) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "criterio": "texto integral sem anatomia de edital (pontos=0) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "origem": "verificador"
+  },
+  "fonte": "estrategia",
+  "titulo": "Simulado Final ISS Guarulhos para Auditor Fiscal!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/simulado-final-concurso-iss-guarulhos-2026/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]
