@@ -8881,5 +8881,70 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Fez a prova SEDES DF? Veja quais concursos DF estudar agora!",
+  "url": "https://blog.grancursosonline.com.br/concursos-df-oportunidades-apos-sedes-df/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-07",
+  "detalhes": {
+   "inscricoes_fim": "2026-09-17",
+   "banca": "Cebraspe e Exige Nivel Superior em Qualquer Area",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "até 17.9.2026",
+    "vagas": "",
+    "remuneracao": "R$ 14.990,41",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A prova do concurso SEDES DF foi aplicada neste domingo (6), encerrando uma etapa importante para milhares de candidatos.",
+    "criterio": "evidência de inscrição (\\boferta \\d+ vagas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-07",
+  "categoria": "controle",
+  "termos": [
+   "auditor estadual de controle"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Procurador MPC MA: Comissão alterada; edital iminente",
+  "url": "https://cj.estrategia.com/portal/concurso-procurador-mpc-ma-comissao-alterada-edital-iminente/",
+  "orgao": "Procurador MPC",
+  "municipio": "",
+  "uf": "MA",
+  "data_publicacao": "2026-09-07",
+  "detalhes": {
+   "banca": "S Redes Sociais",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "controle",
+    "cargo": "auditor estadual de controle",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 35.462,28",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A expectativa pelo novo concurso do Tribunal de Contas do Estado do Maranhão (TCE MA) aumentou nesta segunda-feira,… O post Concurso Procurador MPC MA: Comissão alterada; edital iminente apareceu primeiro em Blog - Carreiras Jurídicas - …",
+    "criterio": "concurso ainda sem edital (\\bedital (sai|previsto|em breve|iminente|autorizado)\\b) + cargo (auditor estadual de controle)",
+    "origem": "regras"
+   }
+  }
  }
 ]
