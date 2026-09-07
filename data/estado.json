@@ -412,7 +412,7 @@
    ]
   },
   "dou": {
-   "ultima_data": "2026-09-06"
+   "ultima_data": "2026-09-07"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 8,
+   "proximo_extra": 10,
    "amp": {
     "ultima_data": "2026-09-05"
    },
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-09-06"
+   "ultima_data": "2026-09-07"
   },
   "selecao": {
    "vistos": [
@@ -485,9 +485,8 @@
    ]
   },
   "gran": {
-   "ultimo_pub": "2026-09-06T19:13:47",
+   "ultimo_pub": "2026-09-06T22:39:28",
    "guids": [
-    "https://blog.grancursosonline.com.br/?p=79966509",
     "https://blog.grancursosonline.com.br/?p=79467835",
     "https://blog.grancursosonline.com.br/?p=79966473",
     "https://blog.grancursosonline.com.br/?p=79204599",
@@ -886,7 +885,8 @@
     "https://blog.grancursosonline.com.br/?p=79969087",
     "https://blog.grancursosonline.com.br/?p=79968747",
     "https://blog.grancursosonline.com.br/?p=79968998",
-    "https://blog.grancursosonline.com.br/?p=79938341"
+    "https://blog.grancursosonline.com.br/?p=79938341",
+    "https://blog.grancursosonline.com.br/?p=79969015"
    ]
   },
   "estrategia": {
