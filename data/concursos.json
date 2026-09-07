@@ -8946,5 +8946,37 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-07",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Receita Federal: contratação da banca registra movimentações",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-receita-federal-contratacao-banca-movimentacoes/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-07",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Movimentações indicam avanço no processo de escolha da banca do próximo Concurso Receita Federal; serão ofertadas 146 vagas!",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
