@@ -14654,5 +14654,53 @@
   "municipio": "Belmonte",
   "uf": "SC",
   "trecho": "s legais e vigentes. RESOLVE: Art. 1º - ADMITIR POR CONCURSO o Sr. Guilherme Luiz Sartori, CPF: ***709*****, brasileiro (a), para o cargo de Fiscal de Tributos, com 40 horas semanais, Classe A, de acordo com a Lei Complementar nº. 016/2015, a partir de 29/07/2026, por concurso público, conforme edit"
+ },
+ {
+  "descartado_em": "2026-09-08",
+  "veredito": {
+   "classe": "andamento",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "criterio": "matéria-lista de vários concursos (título: \\bmais de \\d+ (mil )?vagas\\b)",
+   "origem": "regras"
+  },
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura de Trindade (PE) está com mais de 350 vagas abertas",
+  "url": "https://concursosnobrasil.com/concursos/pe/2026/09/08/concurso-prefeitura-de-trindade-pe-estao-com-mais-de-350-vagas-abertas/",
+  "municipio": "Trindade",
+  "uf": "PE",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-09-08",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "criterio": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "origem": "fila"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
+  "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.pdf",
+  "municipio": "Boa Vista",
+  "uf": "RR",
+  "trecho": "(Represen- tante da Secretaria Municipal de Administração e Gestão de Pessoas - SMAG); IV - Ezequiel Ferreira da Silva - Membro (Guarda Civil Municipal mais antigo da GCM, admitido por meio de concurso público); V - Jocimar da Silva Araújo Júnior - Membro (Repre- sentante do Sindicato dos Guardas Ci"
  }
 ]

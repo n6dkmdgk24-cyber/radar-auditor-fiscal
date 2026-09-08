@@ -1,7 +1,171 @@
 [
  {
-  "enfileirado_em": "2026-09-07",
+  "enfileirado_em": "2026-09-08",
   "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "achado": {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Ibirama — 927/2026 (2026-09-08)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8686932",
+   "cargo_texto": "927/2026\n1 132 Guilherme Wilde Ristow 23/08/2026 à 01/09/2026 Estagiário Educação 10 133 Guilherme Machado 17/08/2026 à 20/08/2026 Professor Educação 4 134 Guilherme Machado 20/08/2026 à 24/08/2026 Professor Educação 5 135 Heitor Koprowski 18/08/2026 Fiscal de Tributos ADM 1 136 Isileia Estevão 12/08/2026 Ag. Com. Saúde Saúde 1 137 Ivana Pinheiro Chaves 04/08/2026 Professor Educação 1 138 Ivana Pinheiro Chaves 26/08/2026 Professor Educação 1 139 Iverene de Souza 26/08/2026 Serv./Merendeira $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var target = $link.data('target'); var $box = $(target); $box.toggleClass('is-open'); if ($box.hasClass('is-open')) { $link.text($link.data('close-text')); } else { $link.text($link.data('open-text')); } }); // if ($(\"#listaConsulta li\").length { // $('#termosConsulta').popover('show'); // }, 1500); // setTimeout(() => { // $('#termosConsulta').popover('hide'); // }, 5000); // } }); Provedor da plataforma Consórcio de Inovação na Gestão Pública Suporte técnico Ciga 48 98406-1060 - dom@consorciociga.gov.br Endereço R. General Liberato Bittencourt, 1885 — Sala 102 CEP 88070-800 - Florianópolis/SC Apoio Diário Oficial Conheça o DOM/SC Dúvidas Frequentes LAI e LGPD © 2025 - Todos os direitos reservados /* */",
+   "orgao": "Prefeitura municipal de Ibirama",
+   "municipio": "Ibirama",
+   "uf": "SC",
+   "data_publicacao": "2026-09-08",
+   "detalhes": {
+    "categoria": "Portarias",
+    "trecho": "08/2026 à 20/08/2026 Professor Educação 4 134 Guilherme Machado 20/08/2026 à 24/08/2026 Professor Educação 5 135 Heitor Koprowski 18/08/2026 Fiscal de Tributos ADM 1 136 Isileia Estevão 12/08/2026 Ag. Com. Saúde Saúde 1 137 Ivana Pinheiro Chaves 04/08/2026 Professor Educação 1 138 Ivana Pinheiro Cha",
+    "contexto_fraco": true
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-09-08",
+  "tentativas": 1,
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "achado": {
+   "fonte": "gran",
+   "titulo": "Concurso CREMERS: Iniciais de R$ 18,8 mil; 60 vagas!",
+   "url": "https://blog.grancursosonline.com.br/concurso-cremers/",
+   "cargo_texto": "Concurso CREMERS: Iniciais de R$ 18,8 mil; 60 vagas!.\nAs provas do Concurso CREMERS estão previstas para o dia 20 de setembro de 2026! O Conselho Regional de Medicina do Rio Grande do Sul oferta 60 vagas (sendo 2 efetivas e 58 para cadastro de reserva) de nível médio/técnico e superior. A remuneração inicial é de R$ 4.844,28 a R$ 18.847,08. Sob organização do…\nAs provas do Concurso CREMERS estão previstas para o dia 20 de setembro de 2026! O Conselho Regional de Medicina do Rio Grande do Sul oferta 60 vagas (sendo 2 efetivas e 58 para cadastro de reserva) de nível médio/técnico e superior. A remuneração inicial é de R$ 4.844,28 a R$ 18.847,08. Sob organização do Instituto Ibest, o certame recebeu inscrições até o dia 31 de agosto de 2026. Clique aqui para seguir o canal do Gran no Whatsapp! Veja abaixo o índice com informações sobre o Concurso Cremers: Situação atual Remuneração e benefícios Inscições Cargos e vagas Carreira Último concurso Materiais gratuitos Resumo do concurso Assinatura Ilimitada 24 de julho e 31 de agosto de 2026 : período de inscrições 24 de julho de 2026: edital publicado 03 de julho de 2026: banca definida O concurso CREMERS oferece remunerações atrativas para os cargos de Agente Fiscal e Médico Fiscal , além de um pacote de benefícios que complementa os vencimentos mensais. Confira os valores: As inscrições no concurso CREMERS foram realizadas entre os dias 24 de julho e 31 de agosto de 2026 , exclusivamente pelo site da banca organizadora, Instituto Ibest . Para confirmar a participação no concurso CREMERS , os candidatos tiveram que efetuar o pagamento da taxa de inscrição até o dia 1º de setembro de 2026 . Os valores foram os seguintes: Nível médio (Agente Fiscal): R$ 58,00; Nível superior (Médico Fiscal): R$ 70,00. De acordo com o edital do concurso CREMERS , os pedidos de isenção da taxa de inscrição puderam ser realizados nos dias 25 e 26 de julho de 2026 . O benefício foi concedido aos candidatos que se enquadravam em um dos seguintes critérios: inscritos no CadÚnico , como membros de família de baixa renda; doadores de medula óssea devidamente cadastrados no REDOME . Agente Fiscal Escolaridade: Nível Médio/Técnico Jornada de trabalho: 200 horas mensais Vagas: 1 vaga efetiva + 29 para cadastro de reserva (CR), totalizando 30 vagas Escolaridade: Nível Médio/Técnico Jornada de trabalho: 200 horas mensais Vagas: 1 vaga efetiva + 29 para cadastro de reserva (CR), totalizando 30 vagas Médico Fiscal Escolaridade: Nível Superior Jornada de trabalho: 150 horas mensais Vagas: 1 vaga efetiva + 29 para cadastro de reserva (CR), totalizando 30 vagas Escolaridade: Nível Superior Jornada de trabalho: 150 horas mensais Vagas: 1 vaga efetiva + 29 para cadastro de reserva (CR), totalizando 30 vagas Requisitos: Diploma ou certificado de nível médio acrescido de curso técnico em Secretariado, Administração, Assistente Jurídico ou equivalente (ou graduação concluída em qualquer área); CNH categoria “B” ou superior. Atribuições resumidas: Realizar fiscalização proativa/reativa sob orientação; auxiliar em vistorias de estabelecimentos de saúde; conduzir veículo do órgão; emitir notificações; dar suporte administrativo e atender ao público. Requisitos : Graduação em Medicina; Residência Médica completa em qualquer especialidade; registro no Conselho Regional de Medicina; CNH categoria “B” ou superior. Atribuições resumidas : Realizar vistorias e fiscalizações em estabelecimentos de saúde; notificar irregularidades; apresentar indicativos de interdição ética; conduzir veículo do órgão; emitir relatórios técnicos e autos de interdição. Para planejar a sua preparação rumo ao novo edital, vale a pena analisar o histórico recente da autarquia. O último concurso CREMERS foi realizado no ano de 2024 e contou com a organização da banca Fundatec. Naquela ocasião, foram disponibilizadas 11 vagas de preenchimento imediato além de oportunidades para a formação de cadastro reserva, abrangendo carreiras de níveis médio, técnico e superior. Os candidatos daquela seleção enfrentaram exames de múltipla escolha com cinco alternativas cada, exigindo conhecimentos nas áreas administrativa, fiscal, contábil, jurídica e de tecnologia da informação. Portanto, tomar como base os parâmetros e o conteúdo programático do edital de 2024 é um excelente ponto de partida enquanto o Instituto IBEST elabora as novas regras do certame. Assine agora e receba acesso IMEDIATO a plataforma que mais aprova em concursos públicos e, o melhor, com acesso às 5 novidades da plataforma: Cronograma com 1 clique, Raio-X, Jornada do Aprovado, Legislação Comentada e a Revisão Inteligente . Faça o teste por 7 dias. O Gran está comprometido com a sua preparação! Satisfação garantida ou seu dinheiro de volta! *Os cursos para OAB, CFC e Residências não estão disponíveis na Assinatura Ilimitada. CONCURSOS FEDERAIS CONCURSOS 2026 CONCURSOS ABERTOS QUESTÕES DE CONCURSOS Receba gratuitamente no seu celular as principais notícias do mundo dos concursos. Clique no link abaixo e inscreva-se: WHATSAPP TELEGRAM ",
+   "orgao": "",
+   "municipio": "",
+   "uf": "",
+   "data_publicacao": "2026-09-08",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "Clique aqui para ver o edital CREMERS",
+      "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/07/24111223/edital-cremers-2026-1.pdf"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-09-08",
+  "tentativas": 1,
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "auditor de rendas"
+  ],
+  "achado": {
+   "fonte": "gran",
+   "titulo": "Concurso Sefaz TO: novo edital está em análise!",
+   "url": "https://blog.grancursosonline.com.br/concurso-sefaz-to/",
+   "cargo_texto": "Concurso Sefaz TO: novo edital está em análise!.\nO concurso Sefaz TO voltou a ser discutido no estado. A viabilidade de um novo certame para o Fisco estadual foi tratada em reunião entre representantes da Secretaria da Fazenda do Estado do Tocantins, da Secretaria da Administração (Secad), da Procuradoria-Geral do Estado (PGE) e do sindicato da categoria. Vale relembrar que em fevereiro deste…\nO concurso Sefaz TO voltou a ser discutido no estado. A viabilidade de um novo certame para o Fisco estadual foi tratada em reunião entre representantes da Secretaria da Fazenda do Estado do Tocantins , da Secretaria da Administração (Secad), da Procuradoria-Geral do Estado (PGE) e do sindicato da categoria. Vale relembrar que em fevereiro deste ano (2026) o Governo do Tocantins autorizou a realização de concurso com 200 vagas para Auditor Fiscal, sendo 100 imediatas e 100 para cadastro de reserva. Saiba todos os detalhes do concurso Sefaz TO navegando no índice abaixo: Resumo do concurso SEFAZ TO Situação atual Remuneração Cargos e requisitos Último edital Depoimentos de aprovados Concurso Sefaz TO: veja aqui o curso para aprovação Clique aqui para saber tudo sobre a Assinatura Ilimitada A Sefaz TO está autorizado e nos estágios iniciais de planejamento para novo edital de concurso público em 2026. O Último certame foi realizado em 1993. Entenda o histórico de novidades: 08 de setembro de 2026: Governo discute vagas e salários 21 de fevereiro de 2026: Concurso autorizado 15 de dezembro de 2025 : A Diretoria de Gestão de Pessoas da Sefaz TO informou que ainda não há dados sobre oferta de vagas nem previsão de edital para 2026. 21 de novembro de 2024: por meio da Secretaria da Administração do Estado do Tocantins (SECAD), a equipe do Gran teve a informação sobre a possibilidade de novo edital. Confira na íntegra a resposta cedida a equipe do Gran : “Reiteramos que a demanda de realização de concurso para a Secretaria da Fazenda (Sefaz) que está sendo analisada no momento é relacionada a cargos do Quadro Geral do Poder Executivo do Estado do Tocantins, que possui comissão instituída responsável pela análise da viabilidade de realização de certame”. Segundo a SECAD, em 7 de novembro de 2023 foi publicado no Diário Oficial um grupo de trabalho para avaliar a necessidade de concurso no Quadro Geral do Poder Executivo do Estado do Tocantins. Clique aqui para ver o documento. Em 29 de agosto de 2024 houve prorrogação do prazo para o grupo de trabalho finalizar o estudo, conforme publicação no Diário Oficial em . Clique aqui para ver o documento. A portaria n° 772/2024 de 3 de maio de 2024 aborda os valores atualizados para o cargo de Auditor Fiscal da Receita Estadual. Segundo a portaria, o cargo de Auditor Fiscal tem remuneração inicial de R$ 23 mil podendo chegar a R$ 39 mil no topo da carreira. Entenda os valores: A Lei n° 1.609, de 23 de setembro de 2005 aborda os critérios para progressão e promoção na carreira fiscal. Entenda os requisitos: Progressão Tenha cumprido 24 meses de efetivo exercício no padrão em que se encontra; Obtenha conceito igual ou superior a 70% dos pontos possíveis em todos os procedimentos de APD; Esteja em efetivo exercício nas unidades da Secretaria da Fazenda; Não tenha mais de cinco faltas injustificadas por exercício referente ao período avaliado; Não ter sofrido, nos últimos dois anos, pena disciplinar, excetuada a de advertência. Promoção Esteja em efetivo exercício funcional na Secretaria da Fazenda; Conte no mínimo com 5 anos de efetivo exercício na classe a que pertencer; Obtenha conceito igual ou superior a 50% dos pontos possíveis em todos os procedimentos da APD; Não tenha nos últimos 2 anos, estado em licença para tratar de interesse particular ou se afastado, a qualquer título, sem ônus aos cofres públicos; Não ter sofrido, nos últimos dois anos, pena disciplinar, excetuada a de advertência; Não tenha mais de cinco faltas injustificadas por exercício, no período avaliado. De acordo com a Lei n° 1.609, de 23 de setembro de 2005, foram extintos os cargos de Agente de Fiscalização e Arrecadação e Auditor de Rendas. A Lei também aborda os requisitos e atribuições do cargo de Auditor Fiscal da Receita Estadual. Entenda: Auditor Fiscal da Receita Estadual Requisitos: nível superior em ciências contábeis, direito, administração, ciências econômicas, ciências da computação ou sistema de informação Veja as atribuições do cargo de Auditor Fiscal da Receita Estadual: Praticar todos os atos de tributação, arrecadação e fiscalização de obrigação tributária estadual, inclusive a constituição de crédito; Fiscalizar mercadorias em trânsito ou em estabelecimentos irregulares perante o cadastro de contribuintes, inclusive a constituição do crédito tributário; Exercer representação fazendária e julgar processo administrativo tributário; Realizar tarefas de corregedoria e ouvidoria no âmbito da Secretaria da Fazenda; Emitir parecer em processo administrativo tributário; Praticar os demais atos administrativos inerentes à administração tributária. O órgão informou, em dezembro de 2025, que a carreira de Agente do Fisco possui atualmente 173 cargos vagos e 427 cargos preenchidos. O total de vagas livres não indica necessariamente novas oportunidades de concurso, pois outros fatores, como demandas de trabalho, tecnologia e orçamento, também são considerados. Em 1993 a Sefaz TO publicou edital de concurso público com 720 vagas. Na ocasião o certame foi organizado pela Universidade Estadual do Tocantins (Unitins). Entenda a distribuição dos cargos: É importante destacar que os valores da remuneração na época eram em cruzeiro CR$. Agente Arrecador: 150 Agente de Fiscalização e Arrecadação: 450 Auditor de Renda: 120 Os candidatos foram avaliados somente por uma prova objetiva de caráter eliminatório e classificatório. Veja as disciplinas que foram cobradas: Auditor de Renda Português Matemática História Geografia Direito tributário Contabilidade geral Legislação tributária Organização fazendária Técnica fiscal Agente de Fiscalização e Arrecadação e Agente Arrecador Português Matemática História Geografia Noções de direito tributário Noções de legislação tributária Noções de organização fazendária Técnica fiscal Assine agora e receba acesso IMEDIATO a plataforma que mais aprova em concursos públicos e, o melhor, com acesso às 5 novidades da plataforma: Cronograma com 1 clique, Ra",
+   "orgao": "Sefaz",
+   "municipio": "",
+   "uf": "TO",
+   "data_publicacao": "2026-09-08",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "Clique aqui para ver o último edital do concurso Sefaz TO",
+      "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/07/21150152/Sefaz-TO-edital-1993.pdf"
+     ],
+     [
+      "Clique aqui",
+      "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2024/11/21154713/Comissao-formada-para-o-quadro-geral-do-Tocantins.pdf"
+     ],
+     [
+      "Clique aqui",
+      "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2024/11/21154718/Prorrogacao-do-prazo-para-conclusao-dos-trabalhos-da-comissao-do-quadro-geral-do-Tocantins.pdf"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-09-08",
+  "tentativas": 1,
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "achado": {
+   "fonte": "gran",
+   "titulo": "Concurso Sefaz TO: governo discute 200 vagas e salários",
+   "url": "https://blog.grancursosonline.com.br/concurso-sefaz-to-governo-vagas-salarios/",
+   "cargo_texto": "Concurso Sefaz TO: governo discute 200 vagas e salários.\nO Concurso Sefaz TO voltou a ser discutido pelo governo do Tocantins. Representantes da Secretaria da Fazenda do Estado do Tocantins (Sefaz TO), da Secretaria da Administração (Secad), da Procuradoria-Geral do Estado (PGE) e de entidades dos auditores fiscais se reuniram para tratar da recomposição do quadro do Fisco e do cumprimento de uma decisão…\nO Concurso Sefaz TO voltou a ser discutido pelo governo do Tocantins. Representantes da Secretaria da Fazenda do Estado do Tocantins (Sefaz TO) , da Secretaria da Administração (Secad), da Procuradoria-Geral do Estado (PGE) e de entidades dos auditores fiscais se reuniram para tratar da recomposição do quadro do Fisco e do cumprimento de uma decisão judicial sobre a tabela remuneratória da carreira. A autorização para elaboração do concurso foi anunciada pelo Governo do Tocantins em fevereiro. A previsão apresentada é de 200 vagas para Auditor Fiscal , sendo 100 imediatas e 100 para cadastro de reserva . A realização de um novo concurso para o Fisco tocantinense é discutida há meses. Em março, o secretário da Fazenda, Donizeth Silva, informou ao Sindifiscal que uma comissão estava sendo organizada para conduzir o certame e que a previsão era de 200 oportunidades . A proposta prevê a divisão entre 100 vagas para contratação imediata e outras 100 para formação de cadastro de reserva . O quantitativo ainda precisa ser confirmado no edital, que será o documento responsável por definir oficialmente cargos, requisitos, etapas e critérios de classificação. Em junho, a Sefaz também informou que havia encaminhado alterações na Lei nº 1.609 para análise da PGE. A legislação trata do plano de carreira, cargos e subsídios do Auditor Fiscal da Receita Estadual. A medida é apontada como uma das providências necessárias para viabilizar a seleção. O concurso é aguardado porque o Tocantins está há mais de três décadas sem realizar uma seleção para a carreira de auditor fiscal. Segundo as entidades representativas, parte dos servidores já está em abono de permanência, o que reforça a necessidade de renovação do quadro da Administração Tributária. A reunião também tratou do cumprimento de uma decisão judicial transitada em julgado sobre a tabela de vencimentos dos auditores fiscais. A ação foi apresentada pelo Sindicato dos Auditores Fiscais da Receita Estadual do Tocantins (Sindare) e teve decisão definitiva favorável à categoria após tramitação no Superior Tribunal de Justiça. De acordo com o Sindare, a correção defendida no processo representa cerca de 23% na estrutura das tabelas das classes de Auditor Fiscal I, II, III e IV. O percentual corresponde à interpretação da entidade no cumprimento da sentença e não significa, neste momento, que um novo reajuste já tenha sido implementado. Como referência vigente, o projeto do concurso registra remuneração de R$ 23.874,34 no início da carreira e de até R$ 39.102,17 no topo , valores que devem ser conferidos na legislação atualizada e no futuro edital. A autorização do concurso foi anunciada pelo Governo do Tocantins, que informou a retomada da seleção para auditor fiscal após 32 anos e a previsão de 100 vagas imediatas e 100 para cadastro de reserva. Enquanto o edital não é publicado, os interessados podem acompanhar todos os detalhes do concurso Sefaz TO , incluindo informações sobre remuneração, carreira, requisitos e histórico do último certame. Assine agora e receba acesso IMEDIATO a plataforma que mais aprova em concursos públicos e, o melhor, com acesso às 5 novidades da plataforma: Cronograma com 1 clique, Raio-X, Jornada do Aprovado, Legislação Comentada e a Revisão Inteligente . Faça o teste por 7 dias. O Gran está comprometido com a sua preparação! Satisfação garantida ou seu dinheiro de volta! *Os cursos para OAB, CFC e Residências não estão disponíveis na Assinatura Ilimitada. CONCURSOS FEDERAIS CONCURSOS 2026 CONCURSOS ABERTOS QUESTÕES DE CONCURSOS Receba gratuitamente no seu celular as principais notícias do mundo dos concursos. Clique no link abaixo e inscreva-se: WHATSAPP TELEGRAM",
+   "orgao": "Sefaz",
+   "municipio": "",
+   "uf": "TO",
+   "data_publicacao": "2026-09-08",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "Faça download do último edital do concurso Sefaz TO",
+      "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/07/21150152/Sefaz-TO-edital-1993.pdf"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-09-08",
+  "tentativas": 1,
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "achado": {
+   "fonte": "estrategia",
+   "titulo": "Concurso Sefaz TO: edital e provas em 2026; até R$ 33 mil!",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-to/",
+   "cargo_texto": "Concurso Sefaz TO: edital e provas em 2026; até R$ 33 mil!.\nConcurso da Sefaz TO ofertará 100 vagas imediatas + 100 CR! É o fim da lenda! Após mais de 30 anos sem concurso público, a Secretaria da Fazenda do Estado do Tocantins (Sefaz TO) está autorizada a realizar um novo certame em 2026! O Governo do Tocantins, inclusive, voltou a discutir a realização da seleção. […] O post Concurso Sefaz TO: edital e provas em 2026; até R$ 33 mil! apareceu primeiro em Estratégia Concursos .\n   Concurso da Sefaz TO ofertará 100 vagas imediatas + 100 CR! É o fim da lenda! Após mais de 30 anos sem concurso público, a Secretaria da Fazenda do Estado do Tocantins ( Sefaz TO ) está autorizada a realizar um novo certame em 2026 ! O Governo do Tocantins, inclusive, voltou a discutir a realização da seleção. Em reunião realizada no dia 1º de setembro, representantes da Sefaz , Administração , PGE e entidades da categoria trataram do tema e de questões relacionadas à recomposição do quadro do Fisco e à remuneração dos auditores. Serão ofertadas 100 vagas imediatas mais 100 em cadastro de reserva para o cargo de Auditor Fiscal. Além disso, segundo informações exclusivas , fomos informados de que o edital e as provas acontecerão ainda em 2026. No entanto, ainda faltam os próximos passos: a publicação da autorização no Diário Oficial e a formação da comissão, que ficará responsável pela elaboração do projeto básico e contratação da banca organizadora. A Sefaz TO oferece uma excelente remuneração para os Auditores. O salário base é de R$ 23.874,34 e, com o adicional de Ressarcimento de Despesas de Atividade Fiscal, a remuneração pode chegar a quase R$ 33 mil! Secretaria da Fazenda do Estado do Tocantins Status: autorizado/edital em 2026 Banca: a definir Vagas: 100 + 100 CR Salário inicial: R$ 23.874,34 Salário inicial real: aproximadamente R$ 33 mil (bruto) Último edital : Edital Sefaz TO 93 Enquanto um novo certame não é publicado, confira mais informações sobre o concurso Sefaz TO através dos tópicos abaixo: Situação atual PL visava alterar graduações aceitas PL visava alterar graduações aceitas Carreira Cargos vagos Remuneração Requisitos Atribuições Cargos vagos Remuneração Requisitos Atribuições Último concurso Prova objetiva Prova objetiva Assinatura e cursos Ficha Técnica Aprovação em peso: Estratégia é referência na área fiscal! Prepare-se com quem mais aprova! Em novembro de 2023 foi publicado no Diário Oficial do Estado um grupo de trabalho com o objetivo de avaliar a necessidade de concursos no Quadro Geral do Poder Executivo do Estado do Tocantins. Em 29 de agosto de 2024 houve prorrogação do prazo para que o grupo de trabalho finalizasse o estudo. Em junho de 2025, um Projeto de Lei de autoria do deputado Cleiton Cardoso visava ampliar a quantidade de graduações aceitas para ingresso no cargo de Auditor Fiscal. Entretanto, o PL foi arquivado em 25 de novembro do mesmo ano pela Comissão de Constituição, Justiça e Redação da Assembleia Legislativa do Tocantins. O autor do Projeto foi notificado oficialmente e, caso tivesse interesse em dar seguimento à proposta, poderia apresentar recurso. Atualmente, são aceitas as seguintes formações: Ciências Contábeis, Direito, Administração de Empresas ou Pública, Ciências Econômicas, Ciências da Computação ou Sistema de Informação. No entanto, segundo informações obtidas de forma exclusiva pelo Estratégia, por mudança recente na lei, o próximo certame será para nível superior em qualquer área de formação . Segundo dados de dezembro de 2025 obtidos via e-SIC, existem 853 cargos vagos de Auditor distribuídos entre as quatro classes: Obs.¹: o quantitativo total de vagas livres não é um indicativo exato de uma possível vaga para concurso, pois, há outros fatores a serem levado em conta quando se faz um levantamento para concurso (como processos a serem atendidos, força de trabalho, tecnologia empregada na atualidade, orçamento/financeiro, etc); Obs.²: à medida em que os atuais ocupantes da 3ª Classe foram promovidos para a 4ª Classe, foram extintas as respectivas vagas da classe em que se encontravam. O Auditor Fiscal do Tocantins pode receber um salário inicial de aproximadamente R$ 33 mil , valor composto pelo subsídio + Ressarcimento de Despesas de Atividade Fiscal (extra teto, disciplinado pela Lei 1.209/2001). Subsídio: R$ 23.874,34 Ressarcimento de Despesas de Atividade Fiscal – REDAF (IV): R$ 9.228,62 Total bruto: R$ 33.102,96 Total líquido: R$ 26.643,24 No final da carreira, a remuneração pode alcançar R$ 37 mil, após os descontos obrigatórios. Subsídio: R$ 39.102,17 Ressarcimento de Despesas de Atividade Fiscal – REDAF (IV): R$ 9.228,62 Total bruto: R$ 48.330,79 Total líquido: R$ 37.683,41 Para exemplificar ainda melhor, trouxemos abaixo o valor real recebido por servidores ativos no cargo . Conforme o detalhamento abaixo, é possível verificar que um servidor admitido através do último concurso recebe R$ 34 mil , já com os descontos: Confira as remunerações reais diretamente no Portal da Transparência do Tocantins Para ingressar no cargo de Auditor Fiscal é necessário possuir diploma de graduação em nível superior, devidamente registrado, em Ciências Contábeis, Direito, Administração de Empresas ou Pública, Ciências Econômicas, Ciências da Computação ou Sistema de Informação, reconhecido pelo MEC. Conforme mencionado no início do artigo, o PL nº 207/2025 visa aumentar a quantidade de graduações, aceitando também formações nas áreas de Estatística, Matemática, Ciências Atuariais, Engenharias, Relações Internacionais, Comércio Exterior, Gestão Pública e Políticas Públicas. Praticar todos os atos de tributação, arrecadação e fiscalização de obrigação tributária estadual, inclusive a constituição de crédito; exercer representação fazendária e julgar processo administrativo-tributário no Contencioso Administrativo-Tributário – CAT; realizar tarefas de corregedoria e ouvidoria no âmbito da Secretaria da Fazenda; praticar os demais atos administrativos inerentes à administração tributária. Praticar todos os atos de tributação, arrecadação e fiscalização de obrigação tributária estadual, inclusive a constituição do crédito; fiscalizar mercadorias em trânsito ou em estabelecimentos irregulares perante o Cadastro de Contribuintes, inclusive a constituição do crédito tributário, independentemente do limite da receita bruta anual estabelecida na alínea “a” do item anterior; emitir parecer em processo administrativo-tributário; executar tarefas ",
+   "orgao": "Sefaz",
+   "municipio": "",
+   "uf": "TO",
+   "data_publicacao": "2026-09-08",
+   "detalhes": {
+    "links_artigo": [
+     [
+      "Edital Sefaz TO 93",
+      "https://dhg1h5j42swfq.cloudfront.net/2023/04/04154849/sefaz-to-edital-1993.pdf"
+     ],
+     [
+      "grupo de trabalho",
+      "https://dhg1h5j42swfq.cloudfront.net/2025/03/27162726/7.pdf"
+     ],
+     [
+      "prorrogação",
+      "https://dhg1h5j42swfq.cloudfront.net/2025/03/27162723/24.pdf"
+     ],
+     [
+      "PL foi arquivado",
+      "https://sapl.al.to.leg.br/materia/12297"
+     ],
+     [
+      "Confira as remunerações reais diretamente no Portal da Transparência do Tocantin",
+      "https://transparencia.to.gov.br/#!servidores"
+     ],
+     [
+      "PL nº 207/2025",
+      "https://dhg1h5j42swfq.cloudfront.net/2025/07/31090822/to.pdf"
+     ],
+     [
+      "Sefaz TO",
+      "https://www.to.gov.br/sefaz"
+     ],
+     [
+      "Edital Sefaz TO 93",
+      "https://dhg1h5j42swfq.cloudfront.net/2023/04/04154849/sefaz-to-edital-1993.pdf"
+     ]
+    ]
+   }
+  }
+ },
+ {
+  "enfileirado_em": "2026-09-07",
+  "tentativas": 2,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -55,7 +219,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 12,
+  "tentativas": 13,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -93,7 +257,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 14,
+  "tentativas": 15,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -119,7 +283,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -149,7 +313,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -173,7 +337,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "controle",
   "termos": [
    "analista de controle externo"
@@ -227,7 +391,7 @@
  },
  {
   "enfileirado_em": "2026-09-04",
-  "tentativas": 15,
+  "tentativas": 16,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -281,7 +445,7 @@
  },
  {
   "enfileirado_em": "2026-09-03",
-  "tentativas": 17,
+  "tentativas": 18,
   "categoria": "conferir",
   "termos": [
    "auditor interno"
@@ -331,7 +495,7 @@
  },
  {
   "enfileirado_em": "2026-09-03",
-  "tentativas": 18,
+  "tentativas": 19,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -357,7 +521,7 @@
  },
  {
   "enfileirado_em": "2026-09-02",
-  "tentativas": 21,
+  "tentativas": 22,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -381,7 +545,7 @@
  },
  {
   "enfileirado_em": "2026-09-02",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -411,7 +575,7 @@
  },
  {
   "enfileirado_em": "2026-09-02",
-  "tentativas": 23,
+  "tentativas": 24,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -465,7 +629,7 @@
  },
  {
   "enfileirado_em": "2026-09-01",
-  "tentativas": 25,
+  "tentativas": 26,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -491,7 +655,7 @@
  },
  {
   "enfileirado_em": "2026-09-01",
-  "tentativas": 25,
+  "tentativas": 26,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -514,7 +678,7 @@
  },
  {
   "enfileirado_em": "2026-09-01",
-  "tentativas": 25,
+  "tentativas": 26,
   "categoria": "controle",
   "termos": [
    "auditor federal de controle externo"
@@ -568,7 +732,7 @@
  },
  {
   "enfileirado_em": "2026-09-01",
-  "tentativas": 26,
+  "tentativas": 27,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -594,7 +758,7 @@
  },
  {
   "enfileirado_em": "2026-08-30",
-  "tentativas": 30,
+  "tentativas": 31,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -628,7 +792,7 @@
  },
  {
   "enfileirado_em": "2026-08-30",
-  "tentativas": 31,
+  "tentativas": 32,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -654,7 +818,7 @@
  },
  {
   "enfileirado_em": "2026-08-28",
-  "tentativas": 36,
+  "tentativas": 37,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -674,7 +838,7 @@
  },
  {
   "enfileirado_em": "2026-08-28",
-  "tentativas": 36,
+  "tentativas": 37,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -705,7 +869,7 @@
  },
  {
   "enfileirado_em": "2026-08-27",
-  "tentativas": 38,
+  "tentativas": 39,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -725,7 +889,7 @@
  },
  {
   "enfileirado_em": "2026-08-27",
-  "tentativas": 38,
+  "tentativas": 39,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -744,7 +908,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -774,7 +938,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -797,7 +961,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -820,7 +984,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -843,7 +1007,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 40,
+  "tentativas": 41,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -897,7 +1061,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -923,7 +1087,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -946,7 +1110,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "controle",
   "termos": [
    "auditor federal de controle externo"
@@ -972,7 +1136,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 41,
+  "tentativas": 42,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -998,7 +1162,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 42,
+  "tentativas": 43,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1024,7 +1188,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 42,
+  "tentativas": 43,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -1048,7 +1212,7 @@
  },
  {
   "enfileirado_em": "2026-08-26",
-  "tentativas": 42,
+  "tentativas": 43,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1074,7 +1238,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo",
@@ -1114,7 +1278,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1148,7 +1312,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 44,
+  "tentativas": 45,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1174,7 +1338,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1204,7 +1368,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1234,7 +1398,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "controle",
   "termos": [
    "tecnico de controle externo"
@@ -1264,7 +1428,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 45,
+  "tentativas": 46,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -1291,7 +1455,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1317,7 +1481,7 @@
  },
  {
   "enfileirado_em": "2026-08-25",
-  "tentativas": 46,
+  "tentativas": 47,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1343,7 +1507,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1369,7 +1533,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 49,
+  "tentativas": 50,
   "categoria": "tributario",
   "termos": [
    "fiscal de tributos"
@@ -1395,7 +1559,7 @@
  },
  {
   "enfileirado_em": "2026-08-24",
-  "tentativas": 50,
+  "tentativas": 51,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1414,7 +1578,7 @@
  },
  {
   "enfileirado_em": "2026-08-22",
-  "tentativas": 57,
+  "tentativas": 58,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -1468,7 +1632,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 59,
+  "tentativas": 60,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -1492,7 +1656,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 60,
+  "tentativas": 61,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1546,7 +1710,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 61,
+  "tentativas": 62,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1572,7 +1736,7 @@
  },
  {
   "enfileirado_em": "2026-08-21",
-  "tentativas": 61,
+  "tentativas": 62,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1591,7 +1755,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 63,
+  "tentativas": 64,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1619,7 +1783,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 63,
+  "tentativas": 64,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1658,7 +1822,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 64,
+  "tentativas": 65,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1684,7 +1848,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 65,
+  "tentativas": 66,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -1718,7 +1882,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 65,
+  "tentativas": 66,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1742,7 +1906,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 66,
+  "tentativas": 67,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -1764,7 +1928,7 @@
  },
  {
   "enfileirado_em": "2026-08-20",
-  "tentativas": 66,
+  "tentativas": 67,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -1784,7 +1948,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 67,
+  "tentativas": 68,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1807,7 +1971,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 69,
+  "tentativas": 70,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal"
@@ -1832,7 +1996,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 69,
+  "tentativas": 70,
   "categoria": "conferir",
   "termos": [
    "fiscal de rendas"
@@ -1857,7 +2021,7 @@
  },
  {
   "enfileirado_em": "2026-08-19",
-  "tentativas": 70,
+  "tentativas": 71,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1883,7 +2047,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 71,
+  "tentativas": 72,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -1907,7 +2071,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 73,
+  "tentativas": 74,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -1937,7 +2101,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 73,
+  "tentativas": 74,
   "categoria": "controle",
   "termos": [
    "analista de controle externo",
@@ -1972,7 +2136,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 73,
+  "tentativas": 74,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -2026,7 +2190,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 73,
+  "tentativas": 74,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -2077,7 +2241,7 @@
  },
  {
   "enfileirado_em": "2026-08-18",
-  "tentativas": 74,
+  "tentativas": 75,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -2107,7 +2271,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 75,
+  "tentativas": 76,
   "categoria": "conferir",
   "termos": [
    "controlador interno"
@@ -2133,7 +2297,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 76,
+  "tentativas": 77,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -2159,7 +2323,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 76,
+  "tentativas": 77,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal",
@@ -2214,7 +2378,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 77,
+  "tentativas": 78,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -2248,7 +2412,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 77,
+  "tentativas": 78,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2298,7 +2462,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 77,
+  "tentativas": 78,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2324,7 +2488,7 @@
  },
  {
   "enfileirado_em": "2026-08-17",
-  "tentativas": 78,
+  "tentativas": 79,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2350,7 +2514,7 @@
  },
  {
   "enfileirado_em": "2026-08-15",
-  "tentativas": 85,
+  "tentativas": 86,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -2369,7 +2533,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 87,
+  "tentativas": 88,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2393,7 +2557,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 87,
+  "tentativas": 88,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2417,7 +2581,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 88,
+  "tentativas": 89,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2443,7 +2607,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 89,
+  "tentativas": 90,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -2469,7 +2633,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 89,
+  "tentativas": 90,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -2495,7 +2659,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 89,
+  "tentativas": 90,
   "categoria": "conferir",
   "termos": [
    "fiscal municipal"
@@ -2514,7 +2678,7 @@
  },
  {
   "enfileirado_em": "2026-08-14",
-  "tentativas": 90,
+  "tentativas": 91,
   "categoria": "conferir",
   "termos": [
    "agente fiscal"
@@ -2540,7 +2704,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "controle",
   "termos": [
    "auditor federal de financas e controle"
@@ -2566,7 +2730,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2620,7 +2784,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "controle",
   "termos": [
    "analista de controle interno"
@@ -2658,7 +2822,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "controle",
   "termos": [
    "auditor estadual de controle"
@@ -2677,7 +2841,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2731,7 +2895,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "tributario",
   "termos": [
    "auditor fiscal"
@@ -2757,7 +2921,7 @@
  },
  {
   "enfileirado_em": "2026-08-13",
-  "tentativas": 92,
+  "tentativas": 93,
   "categoria": "controle",
   "termos": [
    "auditor de controle externo"
@@ -2811,7 +2975,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 97,
+  "tentativas": 98,
   "categoria": "conferir",
   "termos": [
    "fiscal tributario"
@@ -2836,7 +3000,7 @@
  },
  {
   "enfileirado_em": "2026-08-12",
-  "tentativas": 97,
+  "tentativas": 98,
   "categoria": "conferir",
   "termos": [
    "auditor fiscal",
@@ -2862,7 +3026,7 @@
  },
  {
   "enfileirado_em": "2026-08-11",
-  "tentativas": 100,
+  "tentativas": 101,
   "categoria": "conferir",
   "termos": [
    "fiscal de tributos"
@@ -2879,31 +3043,6 @@
    "detalhes": {
     "categoria": "Edital",
     "trecho": "mos da legislação tributária municipal. Este Edital entra em vigor na data de sua publicação. Indaial/SC, 10 de Agosto de 2026. ALTAIR SIMÃO FISCAL DE TRIBUTOS Município de Indaial ANEXO I – $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle',",
-    "contexto_fraco": true
-   }
-  }
- },
- {
-  "enfileirado_em": "2026-08-08",
-  "tentativas": 113,
-  "categoria": "conferir",
-  "termos": [
-   "fiscal tributario"
-  ],
-  "achado": {
-   "fonte": "qd",
-   "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-07",
-   "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.pdf",
-   "cargo_texto": "(Represen-\ntante da Secretaria Municipal de Administração e Gestão de \nPessoas - SMAG);\n\n IV - Ezequiel Ferreira da Silva - Membro (Guarda \nCivil Municipal mais antigo da GCM, admitido por meio de \nconcurso público);\n\n V - Jocimar da Silva Araújo Júnior - Membro (Repre-\nsentante do Sindicato dos Guardas Civis Municipais);\n\n VI - Tiago dos Santos Ribeiro - Membro (Represen-\ntante da Associação dos Guardas\n2023/2026 01/07/2026\n\n4 25454 Cadson Igo Ramos Barata Auxiliar/Auxiliar de Serviços Diversos Ext. 03/05/2005 C-07 D-07 2023/2026 01/07/2026\n\n5 14701 Carlos Alberto Vieira Cabral Fiscal Municipal - Fiscal Tributário 01/07/1996 C-11 D-11 2023/2026 01/07/2026\n\n6 27602 Carlos Sergio da Silva Cruz Assistente/Assistente Administrativo 13/02/2009 D-04 E-04 2023/2026 01/07/2026\n\n7 27607 Chirlene Lima da Silva A",
-   "orgao": "",
-   "municipio": "Boa Vista",
-   "uf": "RR",
-   "data_publicacao": "2026-08-07",
-   "detalhes": {
-    "txt_url": "https://data.queridodiario.ok.org.br/1400100/2026-08-07/1214881e17b6cd30723e7261a2fe27db082a04d5.txt",
-    "edition": "6650",
-    "scraped_at": "2026-08-08T01:00:57.214061",
-    "trecho": "(Represen- tante da Secretaria Municipal de Administração e Gestão de Pessoas - SMAG); IV - Ezequiel Ferreira da Silva - Membro (Guarda Civil Municipal mais antigo da GCM, admitido por meio de concurso público); V - Jocimar da Silva Araújo Júnior - Membro (Repre- sentante do Sindicato dos Guardas Ci",
     "contexto_fraco": true
    }
   }

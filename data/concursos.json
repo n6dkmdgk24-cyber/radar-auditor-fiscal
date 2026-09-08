@@ -8978,5 +8978,80 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-08",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Faria Lemos - MG divulga retificação e prorroga as inscrições do concurso público",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-faria-lemos-mg-divulga-retificacao-e-prorroga-as-inscricoes-do-concurso-publico",
+  "orgao": "Prefeitura de Faria Lemos",
+  "municipio": "Faria Lemos",
+  "uf": "MG",
+  "data_publicacao": "2026-09-08",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Faria Lemos",
+     "https://www.farialemos.mg.gov.br/"
+    ],
+    [
+     "Instituto Brasileiro de Gestão e Pesquisa (IBGP)",
+     "https://www.ibgpconcursos.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-05",
+   "inscricoes_fim": "2026-09-08",
+   "site_inscricao": "https://www.ibgpconcursos.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "5.8.2026 a 8.9.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 16.803,20",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Faria Lemos , em Minas Gerais, em conjunto com o Instituto Brasileiro de Gestão e Pesquisa (IBGP) , abriu um Concurso Público para preencher vagas em funções de níveis alfabetizado, fundamental, médio, técnico e superior.",
+    "criterio": "retificação com inscrições abertas até 2026-09-08",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-08",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso SEFAZ TO: sindicato e governo discutem edital",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-to-sindicato-e-governo-discutem-edital/",
+  "orgao": "SEFAZ",
+  "municipio": "",
+  "uf": "TO",
+  "data_publicacao": "2026-09-08",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A publicação do edital do Concurso SEFAZ TO pautou a recente reunião entre o governo estadual e o sindicato para acelerar a seleção O andamento do novo Concurso Sefaz TO foi o foco de recente reunião entre o governo estadual e representa…",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
