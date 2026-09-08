@@ -9053,5 +9053,50 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-08",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos",
+   "agente de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Trindade - PE publica edital de concurso com vagas para diversos níveis",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-trindade-pe-publica-edital-de-concurso-com-vagas-para-diversos-niveis",
+  "orgao": "Prefeitura de Trindade",
+  "municipio": "Trindade",
+  "uf": "PE",
+  "data_publicacao": "2026-09-08",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura do Município de Trindade",
+     "https://trindade.pe.gov.br/"
+    ],
+    [
+     "igeduc.selecao.net.br",
+     "https://igeduc.selecao.net.br/informacoes/188/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-10-19",
+   "site_inscricao": "https://igeduc.selecao.net.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 19.10.2026",
+    "vagas": "Fiscal de Tributos: 7 vagas · Agente de Tributos: 3 vagas",
+    "remuneracao": "até R$ 6.600,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura do Município de Trindade , em Pernambuco, publicou o edital de concurso público destinado ao preenchimento de vagas para profissionais de nível médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
