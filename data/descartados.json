@@ -14750,5 +14750,53 @@
   "municipio": "Tunápolis",
   "uf": "SC",
   "trecho": "RESOLVE: Art. 1º - NOMEAR, ANGÉLICA BRANCALIONE, com cargo de FISCAL DE TRIBUTOS, cargo este de provimento EFETIVO, com carga horária de 40 (quarenta) horas semanais, com lotação na Secretaria Municipal da Administração, Planejamento e Finanças, percebendo vencimentos e vantagens previstas na Lei, b"
+ },
+ {
+  "descartado_em": "2026-09-09",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "texto integral sem anatomia de edital (pontos=1) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "criterio": "texto integral sem anatomia de edital (pontos=1) e com 2 sinal(is) de ato de pessoal/fase posterior",
+   "origem": "verificador"
+  },
+  "fonte": "dou",
+  "titulo": "EDITAL Nº 7/2026 (Edital)",
+  "url": "https://www.in.gov.br/web/dou/-/edital-n-7/2026-730636144",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
+ },
+ {
+  "descartado_em": "2026-09-09",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "tributario",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal 2026: portaria delega atos do edital",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-2026-portaria-define-competencia/",
+  "municipio": "",
+  "uf": "",
+  "trecho": ""
  }
 ]

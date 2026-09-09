@@ -9136,5 +9136,342 @@
     "origem": "verificador"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "agente fazendario"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Queimados - RJ abre concurso público com salários de até R$ 11.567,11",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-queimados-rj-abre-concurso-publico-com-salarios-de-ate-11567",
+  "orgao": "Prefeitura de Queimados",
+  "municipio": "Queimados",
+  "uf": "RJ",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Queimados",
+     "https://queimados.rj.gov.br/"
+    ],
+    [
+     "Instituto de Avaliação Nacional (IAN)",
+     "https://www.ian.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-09",
+   "inscricoes_fim": "2026-10-13",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fazendario",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "9.9.2026 a 13.10.2026",
+    "vagas": "8 vagas",
+    "remuneracao": "até R$ 11.567,11",
+    "validade": "24 meses, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Queimados , no Estado do Rio de Janeiro, publicou o edital do Concurso Público 01/2026 para o preenchimento de vagas imediatas e formação de cadastro de reserva em funções de nível médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (agente fazendario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Tupaciguara - MG abre concurso público com 10 vagas",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-tupaciguara-mg-abre-concurso-publico-com-10-vagas",
+  "orgao": "Câmara de Tupaciguara",
+  "municipio": "Tupaciguara",
+  "uf": "MG",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Tupaciguara",
+     "https://www.camaratupaciguara.mg.gov.br/"
+    ],
+    [
+     "portal.iadhedconcursos.org",
+     "https://portal.iadhedconcursos.org/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-11-07",
+   "inscricoes_fim": "2026-12-07",
+   "site_inscricao": "https://portal.iadhedconcursos.org",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "7.11.2026 a 7.12.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 5.627,27",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Tupaciguara , em Minas Gerais, divulgou o edital do Concurso Público 01/2026 para preencher 10 vagas em funções de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Pau dos Ferros - RN abre concurso público com salários de até R$ 4.714,65",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-pau-dos-ferros-rn-abre-concurso-publico-com-salarios-de-ate-4714",
+  "orgao": "Câmara de Pau dos Ferros",
+  "municipio": "Pau dos Ferros",
+  "uf": "RN",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Pau dos Ferros",
+     "https://www.camarapaudosferros.rn.gov.br/"
+    ],
+    [
+     "SIGEPS",
+     "https://sistemas.cpcon.uepb.edu.br/sigeps-app/login"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-15",
+   "inscricoes_fim": "2026-10-15",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "15.9.2026 a 15.10.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 4.714,65",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Pau dos Ferros , no Rio Grande do Norte, publicou um edital de Concurso Público para preencher 5 vagas em funções de nível médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "agente fazendario"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Queimados RJ: iniciais de R$ 8,8 mil!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-queimados-rj/",
+  "orgao": "ISS Queimados",
+  "municipio": "",
+  "uf": "RJ",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "ISS Queimados RJ – 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/09113545/cdbb94c6408fdf016866f201450be4d5-cleaned.pdf"
+    ],
+    [
+     "ISS Queimados RJ – 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/09113545/cdbb94c6408fdf016866f201450be4d5-cleaned.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-09",
+   "inscricoes_fim": "2026-10-14",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "agente fazendario",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "9.9.2026 a 14.10.2026",
+    "vagas": "",
+    "remuneracao": "R$ 8.866,68",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso ISS Queimados, no Rio de Janeiro, está com edital na praça.",
+    "criterio": "evidência de inscrição (\\bedital (publicado|liberado|divulgado)\\b) + termo forte (agente fazendario)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Cadernos Reta Final do Concurso Sefaz AL 2026",
+  "url": "https://www.estrategiaconcursos.com.br/blog/cadernos-reta-final-concurso-sefaz-al/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "MATEMÁTICA FINANCEIRA",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/937fef89-7994-4cae-93eb-c09a4fafe443"
+    ],
+    [
+     "DIREITO CONSTITUCIONAL",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/78adc348-fb9d-4c4c-8b4a-4261befae2da"
+    ],
+    [
+     "DIREITO ADMINISTRATIVO",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/aaf1d6c4-f226-4946-9163-740f151f1ab3"
+    ],
+    [
+     "CONTABILIDADE GERAL",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/4b091574-4a1e-4bad-910e-9c0412fd9880"
+    ],
+    [
+     "DIREITO TRIBUTÁRIO",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/7f268f31-51df-40e6-854b-9f29b0ab216e"
+    ],
+    [
+     "ESTATÍSTICA E PROBABILIDADE",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/eff43b28-7636-4c0e-9fa8-d97c70877017"
+    ],
+    [
+     "CONTABILIDADE PÚBLICA",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/adde8388-03e0-49d7-9d4b-f2d08dc1092a"
+    ],
+    [
+     "ECONOMIA",
+     "https://concursos.estrategia.com/cadernos-e-simulados/cadernos/04ca482f-e09f-463b-8c0b-74c7a36b7d14"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 25.200,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Cadernos de Reta Final de questões anteriores para o Concurso Sefaz AL: resolva questões sobre o conteúdo do edital e eleve sua preparação a outro patamar.",
+    "criterio": "evidência de inscrição (\\boferece \\d+ vagas\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso ISS Pelotas RS: banca definida para novo edital",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-iss-pelotas/",
+  "orgao": "ISS Pelotas",
+  "municipio": "",
+  "uf": "RS",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "termo de referência",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/03120354/edital1142025.pdf"
+    ],
+    [
+     "Edital ISS Pelotas 2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/03121326/00eb739b0d0cf3238baceea40b493e46.pdf"
+    ],
+    [
+     "Legalle Concursos",
+     "https://legalleconcursos.com.br/editais/ver/fa2c921c51aa617618033506f2b971ea"
+    ],
+    [
+     "Edital ISS Pelotas 2019",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/03121326/00eb739b0d0cf3238baceea40b493e46.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 5.272,98",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Vem aí um novo edital de concurso público da Prefeitura de Pelotas, no Rio Grande do Sul, com oportunidades na área fiscal (ISS).",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Pelotas RS: banca definida para 271 vagas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-pelotas/",
+  "orgao": "Pelotas",
+  "municipio": "",
+  "uf": "RS",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "previsão",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/03141914/edital1142025-2.pdf"
+    ],
+    [
+     "Pelotas 2025",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/03154230/edital-pelotas.pdf"
+    ],
+    [
+     "documento",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/03/03141914/edital1142025-2.pdf"
+    ],
+    [
+     "Pelotas 2025",
+     "https://dhg1h5j42swfq.cloudfront.net/2025/10/03154230/edital-pelotas.pdf"
+    ]
+   ],
+   "inscricoes_fim": "2026-01-20",
+   "ia": {
+    "classe": "pre_edital",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "até 20.1.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 4.243,27",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Vem aí um novo concurso público da Prefeitura de Pelotas, no Rio Grande do Sul.",
+    "criterio": "concurso ainda sem edital (\\bbanca (definida|escolhida|contratada|em definicao)\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
