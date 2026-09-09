@@ -14918,5 +14918,53 @@
   "municipio": "",
   "uf": "",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-09-09",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de São Joaquim — PORTARIA Nº 869/2026 (2026-09-09)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8688455",
+  "municipio": "São Joaquim",
+  "uf": "SC",
+  "trecho": "AUSTO, ocupante do cargo de Professora – 40 horas, por 02 (dois) dias, a contar do dia 02/09/2026. – MARCELE MIKA SATO, ocupante do cargo de Fiscal de Tributos, por 01 (um) dia, no dia 02/09/2026. – MAIKELE DE OLIVEIRA MARCA, ocupante da função de Agente Comunitário de Saúde - ESF, por 02 (dois) dia"
+ },
+ {
+  "descartado_em": "2026-09-09",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bprogressao\\b)",
+   "criterio": "documento não é concurso (título: \\bprogressao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Garopaba — PARECER- ATO DE PROGRESSÃO HORIZONTAL N°029/2026 (2026-09-09)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8692954",
+  "municipio": "Garopaba",
+  "uf": "SC",
+  "trecho": ": Art. 1.º CONCEDER 125 PONTOS ao (a) servidor (a) WESLEY DA SILVA GARCIA, matrícula funcional nº. 10592, cargo efetivo em carreira de AUDITOR DE CONTROLE INTERNO, do Grupo de GES I, conforme estabelece o art.56, inciso IV, alínea A e C da lei nº2.383/2021. Art. 2.º Eventuais pedidos de revisão dos "
  }
 ]

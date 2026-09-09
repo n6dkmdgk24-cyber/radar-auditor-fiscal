@@ -9591,5 +9591,49 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Verê - PR abre concurso público com salários de até R$ 18.900,00",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vere-pr-abre-concurso-publico-com-salarios-de-ate-18900",
+  "orgao": "Prefeitura de Verê",
+  "municipio": "Verê",
+  "uf": "PR",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Verê",
+     "https://www.vere.pr.gov.br/"
+    ],
+    [
+     "www.institutounicampo.com.br",
+     "https://www.institutounicampo.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-09",
+   "inscricoes_fim": "2026-10-05",
+   "site_inscricao": "https://www.institutounicampo.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "9.9.2026 a 5.10.2026",
+    "vagas": "cadastro de reserva",
+    "remuneracao": "até R$ 18.900,00",
+    "validade": "",
+    "cadastro_reserva": true,
+    "resumo": "A Prefeitura Municipal de Verê , no Paraná, divulgou o edital do Concurso Público de Seleção de Pessoal destinado à formação de cadastro de reserva para profissionais de nível fundamental incompleto, médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
  }
 ]
