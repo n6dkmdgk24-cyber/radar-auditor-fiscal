@@ -9473,5 +9473,123 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: banca em outubro, edital em dezembro",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-banca-em-outubro-e-edital-em-dezembro/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal iniciou os procedimentos para contratar a instituição que ficará responsável pela organização do novo certame.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: banca prevista para outubro!",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-banca-prevista-para-outubro/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Receita Federal do Brasil",
+     "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-inicia-processo-de-contratacao-de-instituicao-para-executar-concurso-publico"
+    ],
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal avançou para a fase de contratação da instituição que ficará responsável pela organização do certame.",
+    "criterio": "anatomia de edital (7 seções: banca, carga, edital, provas, remuneracao, requisitos, secao_inscricoes) + cargo 'auditor fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-09",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Receita Federal: iniciada a escolha da banca!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-receita-federal-2026-iniciada-escolha-banca/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-09",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o Termo de Referência na íntegra",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/09123526/termo-de-referencia-082_2026.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "até R$ 24.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O aguardado Concurso Receita Federal avança nesta semana com a abertura para escolha da banca organizadora visando preencher 146 vagas de nível superior A Receita Federal do Brasil iniciou o processo formal para a contratação da institui…",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
