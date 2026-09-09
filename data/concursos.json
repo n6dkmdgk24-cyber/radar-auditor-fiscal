@@ -9098,5 +9098,43 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-08",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: tire algumas dúvidas sobre o edital",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-duvidas-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-08",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso Receita Federal ainda está em fase de planejamento.",
+    "criterio": "anatomia de edital (5 seções: banca, cronograma, edital, provas, requisitos) + cargo 'auditor fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
  }
 ]
