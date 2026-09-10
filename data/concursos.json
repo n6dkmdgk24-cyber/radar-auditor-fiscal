@@ -9865,5 +9865,92 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Tangará - RN publica edital de concurso público para diversos cargos",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-tangara-rn-publica-edital-de-concurso-publico-para-diversos-cargos",
+  "orgao": "Prefeitura de Tangará",
+  "municipio": "Tangará",
+  "uf": "RN",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Tangará",
+     "https://tangara.rn.gov.br/"
+    ],
+    [
+     "Núcleo Permanente de Concursos (Comperve)",
+     "https://www.comperve.ufrn.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-17",
+   "inscricoes_fim": "2026-10-07",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "17.9.2026 a 7.10.2026",
+    "vagas": "cadastro de reserva",
+    "remuneracao": "até R$ 4.675,50",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": true,
+    "resumo": "A Prefeitura Municipal de Tangará , no Rio Grande do Norte, publicou o edital do Concurso Público destinado ao preenchimento de vagas e à formação de cadastro de reserva para profissionais de nível fundamental, médio e superior.",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Vale Real - RS abre concurso público com vagas imediatas e cadastro de reserva",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-vale-real-rs-abre-concurso-publico-com-vagas-imediatas-e-cadastro-de-reserva",
+  "orgao": "Prefeitura de Vale Real",
+  "municipio": "Vale Real",
+  "uf": "RS",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Município de Vale Real",
+     "https://www.valereal.rs.gov.br/"
+    ],
+    [
+     "www.objetivas.com.br",
+     "https://www.objetivas.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-16",
+   "inscricoes_fim": "2026-10-16",
+   "site_inscricao": "https://www.objetivas.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "16.9.2026 a 16.10.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 7.717,63",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Município de Vale Real , no Rio Grande do Sul, divulgou o edital do Concurso Público nº 001/2026 para o preenchimento de vagas imediatas e a formação de cadastro de reserva em funções de nível alfabetizado, fundamental, médio, magistér…",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
