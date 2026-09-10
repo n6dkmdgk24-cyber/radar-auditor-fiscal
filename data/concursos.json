@@ -2607,19 +2607,20 @@
     ]
    ],
    "inscricoes_inicio": "2026-08-12",
-   "inscricoes_fim": "2026-09-09",
+   "inscricoes_fim": "2026-09-14",
    "site_inscricao": "https://www.institutoverbena.ufg.br",
    "ia": {
     "classe": "abertura",
     "area": "tributario",
     "cargo": "fiscal de tributos",
-    "inscricoes": "12.8.2026 a 9.9.2026",
+    "inscricoes": "12.8.2026 a 14.9.2026",
     "vagas": "5 vagas",
     "validade": "",
     "cadastro_reserva": false,
     "resumo": "A Prefeitura de São Miguel do Araguaia , no estado de Goiás, divulgou o edital do Concurso Público visando à contratação de profissionais de nível fundamental, médio-técnico e superior.",
     "criterio": "retificação com inscrições abertas até 2026-09-09",
-    "origem": "regras"
+    "origem": "regras",
+    "prazo_atualizado_em": "2026-09-10"
    }
   }
  },
@@ -9949,6 +9950,126 @@
     "cadastro_reserva": false,
     "resumo": "O Município de Vale Real , no Rio Grande do Sul, divulgou o edital do Concurso Público nº 001/2026 para o preenchimento de vagas imediatas e a formação de cadastro de reserva em funções de nível alfabetizado, fundamental, médio, magistér…",
     "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "analista de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Santa Bárbara - MG abre processo seletivo com salários de até R$ 24.017,23",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-santa-barbara-mg-abre-processo-seletivo-com-salarios-de-ate-24017",
+  "orgao": "Prefeitura de Santa Bárbara",
+  "municipio": "Santa Bárbara",
+  "uf": "MG",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Santa Bárbara",
+     "https://www.santabarbara.mg.gov.br/"
+    ],
+    [
+     "www.ribeiroamaral.com.br",
+     "https://www.ribeiroamaral.com.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-09-15",
+   "site_inscricao": "https://www.ribeiroamaral.com.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "analista de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 15.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 24.017,23",
+    "validade": "1 ano, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Santa Bárbara , no Estado de Minas Gerais, publicou o edital do Processo Seletivo Simplificado nº 01/2026 destinado à formação de cadastro de reserva em funções de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?processos? seletivos?\\b) + cargo (analista de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Sefaz DF: governadora promete edital em 2026!",
+  "url": "https://blog.grancursosonline.com.br/concurso-sefaz-df-governadora-promete-edital-em-2026/",
+  "orgao": "Sefaz",
+  "municipio": "",
+  "uf": "DF",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o último edital Sefaz DF",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2023/02/01092124/Concurso-SEFAZ-DF-edital-2019-auditor-fiscal.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 37.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Durante encontro com auditores fiscais, a governadora Celina Leão reforçou a expectativa pelo lançamento do novo edital para recompor o quadro de servidores do Fisco do Distrito Federal.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: bancas enviam propostas até 11/9",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-banca-recebe-propostas/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "banca": "Fgv",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal avançou para a etapa de contratação da instituição organizadora.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
     "origem": "regras"
    }
   }
