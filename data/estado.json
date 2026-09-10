@@ -7,9 +7,8 @@
    "lastmod_max": "2026-09-09"
   },
   "cnb": {
-   "ultimo_pub": "2026-09-09T20:35:37",
+   "ultimo_pub": "2026-09-09T22:01:54",
    "guids": [
-    "https://concursosnobrasil.com/?p=386450",
     "https://concursosnobrasil.com/?p=386444",
     "https://concursosnobrasil.com/?p=386440",
     "https://concursosnobrasil.com/?p=386435",
@@ -408,11 +407,12 @@
     "https://concursosnobrasil.com/?p=389010",
     "https://concursosnobrasil.com/?p=389008",
     "https://concursosnobrasil.com/?p=389005",
-    "https://concursosnobrasil.com/?p=388993"
+    "https://concursosnobrasil.com/?p=388993",
+    "https://concursosnobrasil.com/?p=389040"
    ]
   },
   "dou": {
-   "ultima_data": "2026-09-09"
+   "ultima_data": "2026-09-10"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 6,
+   "proximo_extra": 8,
    "amp": {
     "ultima_data": "2026-09-05"
    },
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-09-09"
+   "ultima_data": "2026-09-10"
   },
   "selecao": {
    "vistos": [
@@ -890,14 +890,8 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-09T21:03:39",
+   "ultimo_pub": "2026-09-09T23:27:33",
    "guids": [
-    "https://cj.estrategia.com/portal/?p=95409",
-    "https://cj.estrategia.com/portal/?p=15680",
-    "https://cj.estrategia.com/portal/?p=195352",
-    "http://blog-estrategia.mystagingwebsite.com/blog/?p=33648",
-    "https://www.estrategiaconcursos.com.br/blog/?p=503144",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1348037",
     "https://www.estrategiaconcursos.com.br/blog/?p=1348183",
     "https://www.estrategiaconcursos.com.br/blog/?p=1802718",
     "https://www.estrategiaconcursos.com.br/blog/?p=831734",
@@ -1291,7 +1285,13 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1807158",
     "https://www.estrategiaconcursos.com.br/blog/?p=1807155",
     "https://www.estrategiaconcursos.com.br/blog/?p=624797",
-    "https://www.estrategiaconcursos.com.br/blog/?p=792212"
+    "https://www.estrategiaconcursos.com.br/blog/?p=792212",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1807192",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1807174",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1807215",
+    "https://cj.estrategia.com/portal/?p=43841",
+    "https://cj.estrategia.com/portal/?p=1492",
+    "https://cj.estrategia.com/portal/?p=29266"
    ]
   },
   "fafipa": {},
