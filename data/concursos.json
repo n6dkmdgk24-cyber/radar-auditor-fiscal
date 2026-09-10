@@ -9635,5 +9635,235 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "CREMERS - RS reabre inscrições do concurso público para Médico Fiscal e Agente Fiscal",
+  "url": "https://www.pciconcursos.com.br/noticias/cremers-rs-reabre-inscricoes-do-concurso-publico-para-medico-fiscal-e-agente-fiscal",
+  "orgao": "CREMERS",
+  "municipio": "",
+  "uf": "RS",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "CREMERS",
+     "https://www.cremers.org.br/"
+    ],
+    [
+     "www.institutoibest.org.br",
+     "https://www.institutoibest.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-09",
+   "inscricoes_fim": "2026-09-20",
+   "site_inscricao": "https://www.institutoibest.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "9.9.2026 a 20.9.2026",
+    "vagas": "30 vagas + CR",
+    "remuneracao": "até R$ 18.847,08",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Conselho Regional de Medicina do Estado do Rio Grande do Sul ( CREMERS ) divulgou a abertura de um concurso público para formar cadastro de reserva em funções de nível médio e superior.",
+    "criterio": "manchete de abertura (\\breabre\\b) + cargo (agente fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "pci",
+  "titulo": "Câmara de Ibirama - SC abre concurso público com salários de até R$ 8.500,00",
+  "url": "https://www.pciconcursos.com.br/noticias/camara-de-ibirama-sc-abre-concurso-publico-com-salarios-de-ate-8500",
+  "orgao": "Câmara de Ibirama",
+  "municipio": "Ibirama",
+  "uf": "SC",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara Municipal de Ibirama",
+     "https://www.camaraibirama.sc.gov.br/"
+    ],
+    [
+     "portal.sctreinamentos.selecao.site",
+     "https://portal.sctreinamentos.selecao.site/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-10-09",
+   "site_inscricao": "https://portal.sctreinamentos.selecao.site",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 9.10.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 8.500,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Câmara Municipal de Ibirama , em Santa Catarina, publicou o edital de Concurso Público para o provimento de 4 vagas imediatas e a formação de cadastro de reserva em funções de nível fundamental e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "tributario",
+  "termos": [
+   "fiscal de tributos"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Alvinópolis - MG publica edital de concurso público com salários de até R$ 17.954,23",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-alvinopolis-mg-publica-edital-de-concurso-publico-com-salarios-de-ate-17954",
+  "orgao": "Prefeitura de Alvinópolis",
+  "municipio": "Alvinópolis",
+  "uf": "MG",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura Municipal de Alvinópolis",
+     "https://www.alvinopolis.mg.gov.br/"
+    ],
+    [
+     "www.institutoconsulplan.org.br",
+     "https://www.institutoconsulplan.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-11-16",
+   "inscricoes_fim": "2026-12-15",
+   "site_inscricao": "https://www.institutoconsulplan.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "fiscal de tributos",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "16.11.2026 a 15.12.2026",
+    "vagas": "1 vaga",
+    "remuneracao": "até R$ 17.954,23",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura Municipal de Alvinópolis , em Minas Gerais, publicou o edital do Concurso Público destinado ao preenchimento de vagas para profissionais de nível fundamental, médio, técnico e superior.",
+    "criterio": "manchete de abertura (\\bpublica (o )?edita(l|is)\\b) + cargo (fiscal de tributos)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "conferir",
+  "termos": [
+   "agente fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso CREMERS: inscrições reabertas; até R$ 18,8 mil",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-cremers/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "cronograma retificado",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/10103429/de0e4cb6-9a34-429e-a6ec-2f1d27ad0729.pdf"
+    ],
+    [
+     "Edital CREMERS",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/07082215/6ec2530a-5047-483a-881d-6e85a2bd68f9.pdf"
+    ],
+    [
+     "Retificação",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/07/07082124/457d1cb7-a312-4c18-b4e0-c32b000d7f71.pdf"
+    ],
+    [
+     "Retificação 2",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/10103429/de0e4cb6-9a34-429e-a6ec-2f1d27ad0729.pdf"
+    ],
+    [
+     "Edital CREMERS",
+     "https://dhg1h5j42swfq.cloudfront.net/2024/03/24093649/5c6aace9-bfcd-48f2-b166-e89b947e65fb.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-07",
+   "inscricoes_fim": "2026-10-11",
+   "ia": {
+    "classe": "abertura",
+    "area": "outra",
+    "cargo": "agente fiscal",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "7.9.2026 a 11.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 18.847,08",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Foi publicado o novo edital do Conselho Regional de Medicina do Estado do Rio Grande do Sul (CREMERS) com a oferta de vagas em cadastro de reserva para dois cargos, Médico Fiscal (nível superior) e Agente Fiscal (nível médio/técnico), co…",
+    "criterio": "anatomia de edital (5 seções: banca, cronograma, remuneracao, requisitos, vagas) + cargo 'agente fiscal' na janela",
+    "origem": "verificador"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-10",
+  "categoria": "controle",
+  "termos": [
+   "controlador interno"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Câmara de Itacarambi MG: inscrições abertas!",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-camara-de-itacarambi/",
+  "orgao": "Câmara de Itacarambi",
+  "municipio": "Itacarambi",
+  "uf": "MG",
+  "data_publicacao": "2026-09-10",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Câmara de Itacarambi 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/06/29171727/d6d56a28-ed7e-4d05-bd78-c8f75d79f0d3-cleaned.pdf"
+    ],
+    [
+     "Câmara de Itacarambi 2026",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/06/29171727/d6d56a28-ed7e-4d05-bd78-c8f75d79f0d3-cleaned.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-10",
+   "inscricoes_fim": "2026-10-07",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "controlador interno",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "10.9.2026 a 7.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 3.737,48",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Estão abertas as inscrições do edital do concurso da Câmara Municipal de Itacarambi, em Minas Gerais.",
+    "criterio": "manchete de abertura (\\binscricoes (estao |estarao )?abertas\\b) + cargo (controlador interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
