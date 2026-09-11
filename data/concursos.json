@@ -10116,5 +10116,128 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "pci",
+  "titulo": "Prefeitura de Ivaiporã - PR abre concurso público com salários de até R$ 18.106,37",
+  "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ivaipora-pr-abre-concurso-publico-com-salarios-de-ate-18106",
+  "orgao": "Prefeitura de Ivaiporã",
+  "municipio": "Ivaiporã",
+  "uf": "PR",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Prefeitura de Ivaiporã",
+     "https://www.ivaipora.pr.gov.br/"
+    ],
+    [
+     "www.fundacaofafipa.org.br",
+     "https://www.fundacaofafipa.org.br/"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-14",
+   "inscricoes_fim": "2026-10-13",
+   "site_inscricao": "https://www.fundacaofafipa.org.br",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "14.9.2026 a 13.10.2026",
+    "vagas": "1 vaga + CR",
+    "remuneracao": "até R$ 18.106,37",
+    "validade": "2 anos, prorrogável",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura de Ivaiporã , no Paraná, publicou o Edital 251/2026 para a realização de Concurso Público, voltado à formação de cadastro de reserva e provimento de vagas em funções de nível fundamental, médio/técnico e superior.",
+    "criterio": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "cnb",
+  "titulo": "Concurso Prefeitura e Câmara de Nísia Floresta (RN) oferta 161 vagas de até R$ 3,2 mil",
+  "url": "https://concursosnobrasil.com/concursos/rn/2026/09/11/concurso-prefeitura-e-camara-de-nisia-floresta-rn-oferta-161-vagas-de-ate-r-32-mil/",
+  "orgao": "Câmara de Nísia Floresta",
+  "municipio": "Nísia Floresta",
+  "uf": "RN",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "site",
+     "https://concurso.idib.org.br/"
+    ],
+    [
+     "001",
+     "https://www.diariomunicipal.com.br/femurn/compartilhe/09EA5B55"
+    ],
+    [
+     "002",
+     "https://www.diariomunicipal.com.br/femurn/compartilhe/F982933E"
+    ]
+   ],
+   "inscricoes_inicio": "2026-09-11",
+   "inscricoes_fim": "2026-10-13",
+   "site_inscricao": "https://concurso.idib.org.br/",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "municipal",
+    "prova_remota": false,
+    "inscricoes": "11.9.2026 a 13.10.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 3.242,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso Prefeitura e Câmara de Nísia Floresta, no estado do Rio Grande do Norte, abre inscrições online com oportunidades em diferentes áreas.",
+    "criterio": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso Sefaz AL 2026: confira a distribuição das 100 vagas",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-al-2026-distribuicao-das-vagas/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "estadual",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 25.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O novo Concurso Sefaz AL oferta vagas imediatas e cadastro de reserva para Auditor Fiscal com salários iniciais de R$ 25 mil O novo Concurso Sefaz AL (Secretaria de Estado da Fazenda de Alagoas) está oficialmente na praça, visado ao pree…",
+    "criterio": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]

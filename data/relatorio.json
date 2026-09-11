@@ -1,23 +1,49 @@
 {
- "executado_em": "2026-09-11T11:44:06",
+ "executado_em": "2026-09-11T15:02:09",
  "itens": [
   {
-   "fonte": "cnb",
-   "titulo": "Concurso Prefeitura de Ivaiporã (PR) conta com salários de até R$ 18 mil",
-   "url": "https://concursosnobrasil.com/concursos/pr/2026/09/11/concurso-prefeitura-de-ivaipora-pr-conta-com-salarios-de-ate-r-18-mil/",
+   "fonte": "pci",
+   "titulo": "Prefeitura de Ivaiporã - PR abre concurso público com salários de até R$ 18.106,37",
+   "url": "https://www.pciconcursos.com.br/noticias/prefeitura-de-ivaipora-pr-abre-concurso-publico-com-salarios-de-ate-18106",
    "categoria_filtro": "tributario",
    "termos": [
     "auditor fiscal"
    ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 1)"
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\babre (o )?concursos?\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura e Câmara de Nísia Floresta (RN) oferta 161 vagas de até R$ 3,2 mil",
+   "url": "https://concursosnobrasil.com/concursos/rn/2026/09/11/concurso-prefeitura-e-camara-de-nisia-floresta-rn-oferta-161-vagas-de-ate-r-32-mil/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "abertura",
+   "regras_motivo": "manchete de abertura (\\boferta \\d+ vagas\\b) + cargo (auditor fiscal)",
+   "verificador": null,
+   "destino": "publicado (regras: abertura)"
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de São Domingos — PORTARIA Nº 2410, DE 09 DE SETEMBRO DE 2026 - DESIGNA MEMBROS DA COMISSÃO ORGANIZADORA E FISCAIS DE SALA DO CHAMAMENTO PÚ",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8698543",
+   "titulo": "Prefeitura municipal de Luzerna — PORTARIA 207/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697170",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bportaria\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Palmitos — PORTARIA Nº 658/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8700483",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
@@ -29,30 +55,198 @@
   },
   {
    "fonte": "domsc",
-   "titulo": "Prefeitura municipal de Descanso — EDITAL DE DISPENSA DE LICITAÇÃO - N. 31/2026 - AMEOSC - PROCESSO SELETIVO 2026 (2026-09-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8698344",
+   "titulo": "Prefeitura municipal de Gaspar — AUTO DE INFRAÇÃO N° 406/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8699785",
    "categoria_filtro": "conferir",
    "termos": [
     "fiscal de tributos"
    ],
    "regras": "descarte",
-   "regras_motivo": "documento não é concurso (título: \\blicitacao\\b)",
+   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
    "verificador": null,
    "destino": "descartado (regras)"
   },
   {
-   "fonte": "gran",
-   "titulo": "Concurso Receita Federal: propostas terminam hoje (11)!",
-   "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-propostas-terminam-hoje/",
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – FUMCBM Nº 516/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697732",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – FUMCBM Nº 519/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697736",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de Major Gercino — LEI COMPLEMENTAR MUNICIPAL Nº 1.438, DE 10 DE SETEMBRO DE 2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697489",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura municipal de São Lourenço do Oeste — LEI COMPLEMENTAR Nº 396, DE 10 DE SETEMBRO DE 2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8695655",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\blei\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 515/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697731",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 518/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697734",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – TAXA DE COLETA DE RESÍDUOS SÓLIDOS Nº 402/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697741",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — NOTIFICAÇÃO DE LANÇAMENTO – COSIP Nº 403/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697742",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal de tributos"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bnotificacao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 179/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697722",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 157/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697727",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "domsc",
+   "titulo": "Prefeitura Municipal de Laguna — AUTO INFRAÇÃO Nº 175/2026 (2026-09-11)",
+   "url": "https://diariomunicipal.sc.gov.br/atos/8697739",
+   "categoria_filtro": "conferir",
+   "termos": [
+    "fiscal tributario"
+   ],
+   "regras": "descarte",
+   "regras_motivo": "documento não é concurso (título: \\bauto (de )?infracao\\b)",
+   "verificador": null,
+   "destino": "descartado (regras)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Prefeitura de Esteio:",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-prefeitura-esteio/",
    "categoria_filtro": "tributario",
    "termos": [
-    "auditor fiscal",
-    "analista tributario"
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "fase citada no corpo do artigo (\\bhomologacao\\b) — verificar",
+   "verificador": "incerto: evidência insuficiente (pontos=4, contra=2, seções: banca, provas, remuneracao, requisitos)",
+   "destino": "pendente (tentativa 1)"
+  },
+  {
+   "fonte": "estrategia",
+   "titulo": "Concurso Sefaz AL 2026: confira a distribuição das 100 vagas",
+   "url": "https://www.estrategiaconcursos.com.br/blog/concurso-sefaz-al-2026-distribuicao-das-vagas/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
    ],
    "regras": "abertura",
-   "regras_motivo": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+   "regras_motivo": "evidência de inscrição (\\bnovo concurso\\b) + termo forte (auditor fiscal)",
    "verificador": null,
    "destino": "publicado (regras: abertura)"
+  },
+  {
+   "fonte": "cnb",
+   "titulo": "Concurso Prefeitura de Ivaiporã (PR) conta com salários de até R$ 18 mil",
+   "url": "https://concursosnobrasil.com/concursos/pr/2026/09/11/concurso-prefeitura-de-ivaipora-pr-conta-com-salarios-de-ate-r-18-mil/",
+   "categoria_filtro": "tributario",
+   "termos": [
+    "auditor fiscal"
+   ],
+   "regras": "incerto",
+   "regras_motivo": "sem evidência decisiva nas regras",
+   "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
+   "destino": "pendente (tentativa 2)"
   },
   {
    "fonte": "estrategia",
@@ -65,7 +259,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 3)"
+   "destino": "pendente (tentativa 4)"
   },
   {
    "fonte": "cnb",
@@ -78,7 +272,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, requisitos, taxa)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "cnb",
@@ -91,7 +285,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "dou",
@@ -104,7 +298,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "gran",
@@ -118,7 +312,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, edital, provas)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -131,7 +325,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 5)"
+   "destino": "pendente (tentativa 6)"
   },
   {
    "fonte": "estrategia",
@@ -144,7 +338,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, provas)",
-   "destino": "pendente (tentativa 7)"
+   "destino": "pendente (tentativa 8)"
   },
   {
    "fonte": "cnb",
@@ -157,7 +351,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=1, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   },
   {
    "fonte": "gran",
@@ -171,7 +365,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=1, seções: banca, cronograma, requisitos)",
-   "destino": "pendente (tentativa 9)"
+   "destino": "pendente (tentativa 10)"
   },
   {
    "fonte": "cnb",
@@ -184,7 +378,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "estrategia",
@@ -198,7 +392,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: cronograma, provas, requisitos)",
-   "destino": "pendente (tentativa 10)"
+   "destino": "pendente (tentativa 11)"
   },
   {
    "fonte": "domsc",
@@ -211,7 +405,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "gran",
@@ -224,7 +418,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=7, contra=0, seções: banca, cronograma, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "gran",
@@ -238,7 +432,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=3, seções: cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "gran",
@@ -251,7 +445,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: cronograma, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "estrategia",
@@ -264,7 +458,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 13)"
+   "destino": "pendente (tentativa 14)"
   },
   {
    "fonte": "estrategia",
@@ -277,7 +471,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, cronograma, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 14)"
+   "destino": "pendente (tentativa 15)"
   },
   {
    "fonte": "estrategia",
@@ -290,7 +484,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 25)"
+   "destino": "pendente (tentativa 26)"
   },
   {
    "fonte": "estrategia",
@@ -303,7 +497,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 27)"
+   "destino": "pendente (tentativa 28)"
   },
   {
    "fonte": "cnb",
@@ -316,7 +510,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 28)"
+   "destino": "pendente (tentativa 29)"
   },
   {
    "fonte": "sigpub",
@@ -329,7 +523,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 28)"
+   "destino": "pendente (tentativa 29)"
   },
   {
    "fonte": "estrategia",
@@ -342,7 +536,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 28)"
+   "destino": "pendente (tentativa 29)"
   },
   {
    "fonte": "estrategia",
@@ -355,7 +549,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 28)"
+   "destino": "pendente (tentativa 29)"
   },
   {
    "fonte": "estrategia",
@@ -368,7 +562,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 30)"
+   "destino": "pendente (tentativa 31)"
   },
   {
    "fonte": "estrategia",
@@ -381,7 +575,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 31)"
+   "destino": "pendente (tentativa 32)"
   },
   {
    "fonte": "sigpub",
@@ -394,7 +588,7 @@
    "regras": "incerto",
    "regras_motivo": "suspensão/cancelamento detectado (\\bsuspensao\\b)",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: cronograma, requisitos)",
-   "destino": "pendente (tentativa 34)"
+   "destino": "pendente (tentativa 35)"
   },
   {
    "fonte": "gran",
@@ -407,7 +601,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, carga, remuneracao, taxa)",
-   "destino": "pendente (tentativa 36)"
+   "destino": "pendente (tentativa 37)"
   },
   {
    "fonte": "estrategia",
@@ -420,7 +614,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=2, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 36)"
+   "destino": "pendente (tentativa 37)"
   },
   {
    "fonte": "cnb",
@@ -433,7 +627,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bhomologacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 38)"
+   "destino": "pendente (tentativa 39)"
   },
   {
    "fonte": "domsc",
@@ -446,7 +640,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 38)"
+   "destino": "pendente (tentativa 39)"
   },
   {
    "fonte": "estrategia",
@@ -459,7 +653,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 38)"
+   "destino": "pendente (tentativa 39)"
   },
   {
    "fonte": "cnb",
@@ -472,7 +666,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 39)"
+   "destino": "pendente (tentativa 40)"
   },
   {
    "fonte": "estrategia",
@@ -485,7 +679,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bresultado\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 43)"
+   "destino": "pendente (tentativa 44)"
   },
   {
    "fonte": "estrategia",
@@ -498,7 +692,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 44)"
+   "destino": "pendente (tentativa 45)"
   },
   {
    "fonte": "estrategia",
@@ -512,7 +706,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, remuneracao, taxa)",
-   "destino": "pendente (tentativa 49)"
+   "destino": "pendente (tentativa 50)"
   },
   {
    "fonte": "estrategia",
@@ -526,7 +720,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 49)"
+   "destino": "pendente (tentativa 50)"
   },
   {
    "fonte": "estrategia",
@@ -540,7 +734,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 51)"
+   "destino": "pendente (tentativa 52)"
   },
   {
    "fonte": "estrategia",
@@ -553,7 +747,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=7, seções: remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 51)"
+   "destino": "pendente (tentativa 52)"
   },
   {
    "fonte": "pci",
@@ -566,7 +760,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bhomologacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=2, seções: provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "domsc",
@@ -579,7 +773,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "domsc",
@@ -592,7 +786,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "domsc",
@@ -605,7 +799,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "gran",
@@ -618,7 +812,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=12, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 53)"
+   "destino": "pendente (tentativa 54)"
   },
   {
    "fonte": "cnb",
@@ -631,7 +825,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 54)"
+   "destino": "pendente (tentativa 55)"
   },
   {
    "fonte": "domsc",
@@ -644,7 +838,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 54)"
+   "destino": "pendente (tentativa 55)"
   },
   {
    "fonte": "gran",
@@ -657,7 +851,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=2, seções: carga, cronograma, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 54)"
+   "destino": "pendente (tentativa 55)"
   },
   {
    "fonte": "estrategia",
@@ -670,7 +864,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 54)"
+   "destino": "pendente (tentativa 55)"
   },
   {
    "fonte": "cnb",
@@ -683,7 +877,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, requisitos)",
-   "destino": "pendente (tentativa 55)"
+   "destino": "pendente (tentativa 56)"
   },
   {
    "fonte": "sigpub",
@@ -696,7 +890,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, provas)",
-   "destino": "pendente (tentativa 55)"
+   "destino": "pendente (tentativa 56)"
   },
   {
    "fonte": "estrategia",
@@ -709,7 +903,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 55)"
+   "destino": "pendente (tentativa 56)"
   },
   {
    "fonte": "gran",
@@ -724,7 +918,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=1, seções: banca, cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 57)"
+   "destino": "pendente (tentativa 58)"
   },
   {
    "fonte": "estrategia",
@@ -737,7 +931,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 57)"
+   "destino": "pendente (tentativa 58)"
   },
   {
    "fonte": "estrategia",
@@ -750,7 +944,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 57)"
+   "destino": "pendente (tentativa 58)"
   },
   {
    "fonte": "cnb",
@@ -763,7 +957,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 58)"
+   "destino": "pendente (tentativa 59)"
   },
   {
    "fonte": "cnb",
@@ -776,7 +970,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 58)"
+   "destino": "pendente (tentativa 59)"
   },
   {
    "fonte": "cnb",
@@ -789,7 +983,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 58)"
+   "destino": "pendente (tentativa 59)"
   },
   {
    "fonte": "gran",
@@ -803,7 +997,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, cronograma, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 58)"
+   "destino": "pendente (tentativa 59)"
   },
   {
    "fonte": "gran",
@@ -816,7 +1010,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=1, seções: banca, remuneracao, taxa)",
-   "destino": "pendente (tentativa 59)"
+   "destino": "pendente (tentativa 60)"
   },
   {
    "fonte": "estrategia",
@@ -829,7 +1023,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bgabarito\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 59)"
+   "destino": "pendente (tentativa 60)"
   },
   {
    "fonte": "cnb",
@@ -842,7 +1036,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 62)"
+   "destino": "pendente (tentativa 63)"
   },
   {
    "fonte": "cnb",
@@ -855,7 +1049,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 62)"
+   "destino": "pendente (tentativa 63)"
   },
   {
    "fonte": "estrategia",
@@ -868,7 +1062,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bhomologacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 63)"
+   "destino": "pendente (tentativa 64)"
   },
   {
    "fonte": "estrategia",
@@ -881,7 +1075,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 70)"
+   "destino": "pendente (tentativa 71)"
   },
   {
    "fonte": "sigpub",
@@ -894,7 +1088,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 72)"
+   "destino": "pendente (tentativa 73)"
   },
   {
    "fonte": "gran",
@@ -907,7 +1101,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 73)"
+   "destino": "pendente (tentativa 74)"
   },
   {
    "fonte": "cnb",
@@ -920,7 +1114,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, requisitos)",
-   "destino": "pendente (tentativa 74)"
+   "destino": "pendente (tentativa 75)"
   },
   {
    "fonte": "gran",
@@ -933,7 +1127,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bresultado\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: provas)",
-   "destino": "pendente (tentativa 74)"
+   "destino": "pendente (tentativa 75)"
   },
   {
    "fonte": "gran",
@@ -948,7 +1142,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 76)"
+   "destino": "pendente (tentativa 77)"
   },
   {
    "fonte": "estrategia",
@@ -962,7 +1156,7 @@
    "regras": "incerto",
    "regras_motivo": "fase citada no corpo do artigo (\\bclassificacao\\b) — verificar",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=0, seções: banca, cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 76)"
+   "destino": "pendente (tentativa 77)"
   },
   {
    "fonte": "estrategia",
@@ -975,7 +1169,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 77)"
+   "destino": "pendente (tentativa 78)"
   },
   {
    "fonte": "cnb",
@@ -988,7 +1182,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, provas, requisitos)",
-   "destino": "pendente (tentativa 78)"
+   "destino": "pendente (tentativa 79)"
   },
   {
    "fonte": "sigpub",
@@ -1001,7 +1195,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=1, seções: nenhuma)",
-   "destino": "pendente (tentativa 78)"
+   "destino": "pendente (tentativa 79)"
   },
   {
    "fonte": "dou",
@@ -1014,7 +1208,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, provas)",
-   "destino": "pendente (tentativa 79)"
+   "destino": "pendente (tentativa 80)"
   },
   {
    "fonte": "estrategia",
@@ -1028,7 +1222,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=4, seções: banca, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 79)"
+   "destino": "pendente (tentativa 80)"
   },
   {
    "fonte": "domsc",
@@ -1041,7 +1235,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 80)"
+   "destino": "pendente (tentativa 81)"
   },
   {
    "fonte": "qd",
@@ -1054,7 +1248,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 82)"
+   "destino": "pendente (tentativa 83)"
   },
   {
    "fonte": "qd",
@@ -1067,7 +1261,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 82)"
+   "destino": "pendente (tentativa 83)"
   },
   {
    "fonte": "gran",
@@ -1080,7 +1274,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 83)"
+   "destino": "pendente (tentativa 84)"
   },
   {
    "fonte": "sigpub",
@@ -1093,7 +1287,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: edital, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 84)"
+   "destino": "pendente (tentativa 85)"
   },
   {
    "fonte": "pci",
@@ -1106,7 +1300,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=2, seções: provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 86)"
+   "destino": "pendente (tentativa 87)"
   },
   {
    "fonte": "gran",
@@ -1120,7 +1314,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=1, seções: banca, cronograma, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 86)"
+   "destino": "pendente (tentativa 87)"
   },
   {
    "fonte": "estrategia",
@@ -1133,7 +1327,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 86)"
+   "destino": "pendente (tentativa 87)"
   },
   {
    "fonte": "estrategia",
@@ -1147,7 +1341,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 86)"
+   "destino": "pendente (tentativa 87)"
   },
   {
    "fonte": "cnb",
@@ -1160,7 +1354,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=3, contra=0, seções: banca, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 87)"
+   "destino": "pendente (tentativa 88)"
   },
   {
    "fonte": "cnb",
@@ -1173,7 +1367,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 88)"
+   "destino": "pendente (tentativa 89)"
   },
   {
    "fonte": "gran",
@@ -1186,7 +1380,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: cronograma, edital, remuneracao, taxa)",
-   "destino": "pendente (tentativa 89)"
+   "destino": "pendente (tentativa 90)"
   },
   {
    "fonte": "estrategia",
@@ -1200,7 +1394,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: banca, remuneracao)",
-   "destino": "pendente (tentativa 89)"
+   "destino": "pendente (tentativa 90)"
   },
   {
    "fonte": "gran",
@@ -1213,7 +1407,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=0, seções: banca, carga, cronograma, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 90)"
+   "destino": "pendente (tentativa 91)"
   },
   {
    "fonte": "estrategia",
@@ -1226,7 +1420,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 90)"
+   "destino": "pendente (tentativa 91)"
   },
   {
    "fonte": "estrategia",
@@ -1239,7 +1433,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 90)"
+   "destino": "pendente (tentativa 91)"
   },
   {
    "fonte": "estrategia",
@@ -1252,7 +1446,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 91)"
+   "destino": "pendente (tentativa 92)"
   },
   {
    "fonte": "estrategia",
@@ -1265,7 +1459,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, remuneracao)",
-   "destino": "pendente (tentativa 98)"
+   "destino": "pendente (tentativa 99)"
   },
   {
    "fonte": "sigpub",
@@ -1278,7 +1472,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 100)"
+   "destino": "pendente (tentativa 101)"
   },
   {
    "fonte": "sigpub",
@@ -1291,7 +1485,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 100)"
+   "destino": "pendente (tentativa 101)"
   },
   {
    "fonte": "estrategia",
@@ -1304,7 +1498,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: remuneracao)",
-   "destino": "pendente (tentativa 101)"
+   "destino": "pendente (tentativa 102)"
   },
   {
    "fonte": "cnb",
@@ -1317,7 +1511,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: provas, requisitos)",
-   "destino": "pendente (tentativa 102)"
+   "destino": "pendente (tentativa 103)"
   },
   {
    "fonte": "cnb",
@@ -1330,7 +1524,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=1, seções: banca, carga, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 102)"
+   "destino": "pendente (tentativa 103)"
   },
   {
    "fonte": "estrategia",
@@ -1343,7 +1537,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=1, contra=0, seções: banca)",
-   "destino": "pendente (tentativa 102)"
+   "destino": "pendente (tentativa 103)"
   },
   {
    "fonte": "gran",
@@ -1356,7 +1550,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=0, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 103)"
+   "destino": "pendente (tentativa 104)"
   },
   {
    "fonte": "gran",
@@ -1369,7 +1563,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, cronograma, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "gran",
@@ -1382,7 +1576,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=5, seções: banca, provas, remuneracao, requisitos, taxa)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "gran",
@@ -1395,7 +1589,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=6, contra=4, seções: banca, carga, cronograma, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "estrategia",
@@ -1408,7 +1602,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=2, contra=0, seções: remuneracao, requisitos)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "estrategia",
@@ -1421,7 +1615,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=5, contra=0, seções: banca, provas, remuneracao, requisitos, vagas)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "estrategia",
@@ -1434,7 +1628,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "estrategia",
@@ -1447,7 +1641,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=4, contra=1, seções: banca, provas, remuneracao, requisitos)",
-   "destino": "pendente (tentativa 105)"
+   "destino": "pendente (tentativa 106)"
   },
   {
    "fonte": "qd",
@@ -1460,7 +1654,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 110)"
+   "destino": "pendente (tentativa 111)"
   },
   {
    "fonte": "qd",
@@ -1474,20 +1668,7 @@
    "regras": "incerto",
    "regras_motivo": "sem evidência decisiva nas regras",
    "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "pendente (tentativa 110)"
-  },
-  {
-   "fonte": "domsc",
-   "titulo": "Prefeitura Municipal de Indaial — EDITAL DE PUBLICIDADE IPTU 2026 (2026-08-11)",
-   "url": "https://diariomunicipal.sc.gov.br/atos/8593618",
-   "categoria_filtro": "conferir",
-   "termos": [
-    "fiscal de tributos"
-   ],
-   "regras": "incerto",
-   "regras_motivo": "sem evidência decisiva nas regras",
-   "verificador": "incerto: evidência insuficiente (pontos=0, contra=0, seções: nenhuma)",
-   "destino": "descartado (expirado na fila)"
+   "destino": "pendente (tentativa 111)"
   }
  ]
 }
