@@ -15614,5 +15614,77 @@
   "municipio": "",
   "uf": "DF",
   "trecho": ""
+ },
+ {
+  "descartado_em": "2026-09-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\bportaria\\b)",
+   "criterio": "documento não é concurso (título: \\bportaria\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de São Domingos — PORTARIA Nº 2410, DE 09 DE SETEMBRO DE 2026 - DESIGNA MEMBROS DA COMISSÃO ORGANIZADORA E FISCAIS DE SALA DO CHAMAMENTO PÚBLICO – EDITAL Nº 001/2026, DESTINADO À SELEÇÃO DE ESTAGIÁRIOS PARA A PROCURADORIA MUNICIPAL (2026-09-11)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8698543",
+  "municipio": "São Domingos",
+  "uf": "SC",
+  "trecho": "anos, na qualidade de Presidente, matrícula nº 5156; II - Eliza Cristina De Oliveira Balena, servidora pública efetiva, ocupante do cargo de Fiscal de Tributos, Obras e Serviços, na qualidade de Membro,"
+ },
+ {
+  "descartado_em": "2026-09-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "documento não é concurso (título: \\blicitacao\\b)",
+   "criterio": "documento não é concurso (título: \\blicitacao\\b)",
+   "origem": "regras"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura municipal de Descanso — EDITAL DE DISPENSA DE LICITAÇÃO - N. 31/2026 - AMEOSC - PROCESSO SELETIVO 2026 (2026-09-11)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8698344",
+  "municipio": "Descanso",
+  "uf": "SC",
+  "trecho": "09 Fiscal de Tributos CR 40h R$ 7.347,05 Ensino Médio $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle', function(e) { e.preventDefault(); var $link = $(this); var target = $link.data('target'); var $box = $(target); $box.toggleClass('is-ope"
+ },
+ {
+  "descartado_em": "2026-09-11",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "criterio": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "origem": "fila"
+  },
+  "fonte": "domsc",
+  "titulo": "Prefeitura Municipal de Indaial — EDITAL DE PUBLICIDADE IPTU 2026 (2026-08-11)",
+  "url": "https://diariomunicipal.sc.gov.br/atos/8593618",
+  "municipio": "Indaial",
+  "uf": "SC",
+  "trecho": "mos da legislação tributária municipal. Este Edital entra em vigor na data de sua publicação. Indaial/SC, 10 de Agosto de 2026. ALTAIR SIMÃO FISCAL DE TRIBUTOS Município de Indaial ANEXO I – $(document).ready(function() { // Evento do resumo do documento $(document).on('click', '.resumo-ia__toggle',"
  }
 ]

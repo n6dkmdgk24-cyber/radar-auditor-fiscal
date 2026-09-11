@@ -10073,5 +10073,48 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "tributario",
+  "termos": [
+   "auditor fiscal",
+   "analista tributario"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Receita Federal: propostas terminam hoje (11)!",
+  "url": "https://blog.grancursosonline.com.br/concurso-receita-federal-propostas-terminam-hoje/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Receita Federal do Brasil",
+     "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/setembro/receita-federal-inicia-processo-de-contratacao-de-instituicao-para-executar-concurso-publico"
+    ],
+    [
+     "Clique aqui para conferir o último edital Receita Federal",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2022/12/13091817/concurso-receita-federal-edital-consolidado-2-retificacao.pdf"
+    ]
+   ],
+   "banca": "Fundacao Getulio Vargas",
+   "ia": {
+    "classe": "abertura",
+    "area": "tributario",
+    "cargo": "auditor fiscal",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O concurso Receita Federal chega ao último dia do prazo para que instituições interessadas apresentem propostas para organizar e executar a seleção.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor fiscal)",
+    "origem": "regras"
+   }
+  }
  }
 ]
