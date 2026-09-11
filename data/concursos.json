@@ -10239,5 +10239,89 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "controle",
+  "termos": [
+   "auditor federal de financas e controle"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso CGU: orçamento para contratação de banca avança",
+  "url": "https://blog.grancursosonline.com.br/concurso-cgu-contratacao-banca-2026/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o despacho de disponibilidade orçamentária na íntegra!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/11173147/Concurso-CGU-despacho.pdf"
+    ],
+    [
+     "Confira o documento de formalização de demanda na íntegra!",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/09/11173151/Concurso-CGU-documento-de-formalizacao-de-demanda.pdf"
+    ],
+    [
+     "Clique aqui para ver o último edital do concurso CGU",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2021/12/23081356/Edital-CGU-2021.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor federal de financas e controle",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "O Concurso CGU avançou mais uma etapa para a contratação da banca organizadora.",
+    "criterio": "evidência de inscrição (\\binscreva-se\\b) + termo forte (auditor federal de financas e controle)",
+    "origem": "regras"
+   }
+  }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "controle",
+  "termos": [
+   "auditor de controle interno"
+  ],
+  "fonte": "gran",
+  "titulo": "Concurso Equador RN: inscrições até 17 de setembro. Confira!",
+  "url": "https://blog.grancursosonline.com.br/concurso-equador-rn/",
+  "orgao": "Equador",
+  "municipio": "",
+  "uf": "RN",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Clique aqui para ver o edital Concurso Equador RN",
+     "https://blog-static.infra.grancursosonline.com.br/wp-content/uploads/2026/08/20104636/Edital-Camara-de-Massape-CE-2026.pdf"
+    ]
+   ],
+   "inscricoes_inicio": "2026-08-24",
+   "inscricoes_fim": "2026-09-17",
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor de controle interno",
+    "esfera": "",
+    "prova_remota": false,
+    "inscricoes": "24.8.2026 a 17.9.2026",
+    "vagas": "",
+    "remuneracao": "até R$ 4.875,71",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "A Prefeitura do município localizado no estado do Rio Grande do Norte, iniciou as inscrições dia 24 de agosto e seguirá com elas abertas até o dia 17 de setembro de 2026.",
+    "criterio": "manchete de abertura (\\binscricoes ate\\b) + cargo (auditor de controle interno)",
+    "origem": "regras"
+   }
+  }
  }
 ]
