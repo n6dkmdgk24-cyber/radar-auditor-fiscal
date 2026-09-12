@@ -16022,5 +16022,53 @@
   "municipio": "Laguna",
   "uf": "SC",
   "trecho": "XXX.235.639-XX Ao(s) 10 dia(s) do mês de 8 do ano de 2026, o(s) servidor(es) abaixo qualificado(s), no exercício do cargo de Fiscal Tributário da PREFEITURA DO MUNICÍPIO DE LAGUNA, tendo verificado que o contribuinte acima identificado cometeu as seguintes faltas: Memorando 4396/2023 Não foi solicit"
+ },
+ {
+  "descartado_em": "2026-09-12",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "criterio": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "origem": "fila"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Boa Vista/RR — 2026-08-11",
+  "url": "https://data.queridodiario.ok.org.br/1400100/2026-08-11/192799c1a8adf41cd5fee0dbd36c4eb733ea5ceb.pdf",
+  "municipio": "Boa Vista",
+  "uf": "RR",
+  "trecho": "01/07/2026 20 27154 Kezia Martins do Nascimento Auxiliar/Auxiliar de Serviços Diversos Ext. 29/10/2008 C-07 D-07 2023/2026 01/07/2026 21 27768 Laecio Ferreira de Oliveira Fiscal Municipal - Fiscal Tributário 13/02/2009 C-07 D-07 2023/2026 01/07/2026 22 26935 Leda Cristina da Paixao Assistente/Assist"
+ },
+ {
+  "descartado_em": "2026-09-12",
+  "veredito": {
+   "classe": "irrelevante",
+   "area": "outra",
+   "cargo": "",
+   "esfera": "",
+   "prova_remota": false,
+   "inscricoes": "",
+   "vagas": "",
+   "remuneracao": "",
+   "validade": "",
+   "cadastro_reserva": false,
+   "resumo": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "criterio": "expirou sem veredito após 30 dias na fila (último motivo: evidência insuficiente (pontos=0, contra=0, seções: nenhuma))",
+   "origem": "fila"
+  },
+  "fonte": "qd",
+  "titulo": "Diário Oficial de Londrina/PR — 2026-08-10",
+  "url": "https://data.queridodiario.ok.org.br/4113700/2026-08-10/fee289760ab60c2683c4627098a15fdf71f1b07f.pdf",
+  "municipio": "Londrina",
+  "uf": "PR",
+  "trecho": "01/10/2015 19 342904 CARLA LEOPOLDINA MACHADO DE OLIVEIRA Professor PROA02 Docência de 5ª a 8ª Séries 11 II 6 11 III 6 01/10/2015 19 138487 CARLOS EDUARDO BURKLE Auditor Fiscal de Tributos AFTU01 Serviço de Auditoria Fiscal de Tributos 32 III 41 32 IV 41 01/10/2015 19 145157 CARLOS MAGNO SILVA FEITO"
  }
 ]
