@@ -10323,5 +10323,42 @@
     "origem": "regras"
    }
   }
+ },
+ {
+  "descoberto_em": "2026-09-11",
+  "categoria": "controle",
+  "termos": [
+   "auditor federal de financas e controle"
+  ],
+  "fonte": "estrategia",
+  "titulo": "Concurso CGU: solicitado orçamento para contratação da banca",
+  "url": "https://www.estrategiaconcursos.com.br/blog/concurso-cgu-orcamento-solicitado-banca/",
+  "orgao": "",
+  "municipio": "",
+  "uf": "",
+  "data_publicacao": "2026-09-11",
+  "detalhes": {
+   "links_artigo": [
+    [
+     "Confira o despacho na íntegra",
+     "https://dhg1h5j42swfq.cloudfront.net/2026/09/11182909/sei_cgu-4237231-despacho.pdf"
+    ]
+   ],
+   "ia": {
+    "classe": "abertura",
+    "area": "controle",
+    "cargo": "auditor federal de financas e controle",
+    "esfera": "federal",
+    "prova_remota": false,
+    "inscricoes": "",
+    "vagas": "",
+    "remuneracao": "R$ 20.000,00",
+    "validade": "",
+    "cadastro_reserva": false,
+    "resumo": "Concurso CGU avança para contratação da banca; órgão solicita orçamento para realizar seleção com 60 vagas para Auditor O Concurso CGU avançou em mais uma etapa para a contratação da banca organizadora de seu novo concurso público.",
+    "criterio": "anatomia de edital (7 seções: banca, cronograma, edital, provas, remuneracao, requisitos, vagas) + cargo 'auditor federal de financas e controle' na janela",
+    "origem": "verificador"
+   }
+  }
  }
 ]
