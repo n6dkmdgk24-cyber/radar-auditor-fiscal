@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 10,
+   "proximo_extra": 0,
    "amp": {
     "ultima_data": "2026-09-05"
    },
@@ -890,9 +890,8 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-13T14:24:14",
+   "ultimo_pub": "2026-09-13T14:33:16",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1804477",
     "https://www.estrategiaconcursos.com.br/blog/?p=1784338",
     "https://www.estrategiaconcursos.com.br/blog/?p=1781973",
     "https://www.estrategiaconcursos.com.br/blog/?p=1804541",
@@ -1291,7 +1290,8 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1807899",
     "https://www.estrategiaconcursos.com.br/blog/?p=1807887",
     "https://www.estrategiaconcursos.com.br/blog/?p=1807891",
-    "https://www.estrategiaconcursos.com.br/blog/?p=1807276"
+    "https://www.estrategiaconcursos.com.br/blog/?p=1807276",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1807903"
    ]
   },
   "fafipa": {
