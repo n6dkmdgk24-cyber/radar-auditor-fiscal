@@ -412,7 +412,7 @@
    ]
   },
   "dou": {
-   "ultima_data": "2026-09-12"
+   "ultima_data": "2026-09-13"
   },
   "sigpub": {
    "ultima_data": "2026-08-13",
@@ -422,7 +422,7 @@
    "amupe": {
     "ultima_data": "2026-09-04"
    },
-   "proximo_extra": 6,
+   "proximo_extra": 8,
    "amp": {
     "ultima_data": "2026-09-05"
    },
@@ -458,7 +458,7 @@
    }
   },
   "domsc": {
-   "ultima_data": "2026-09-12"
+   "ultima_data": "2026-09-13"
   },
   "selecao": {
    "vistos": [
@@ -890,9 +890,8 @@
    ]
   },
   "estrategia": {
-   "ultimo_pub": "2026-09-12T13:53:00",
+   "ultimo_pub": "2026-09-12T21:40:05",
    "guids": [
-    "https://www.estrategiaconcursos.com.br/blog/?p=1787570",
     "https://www.estrategiaconcursos.com.br/blog/?p=115731",
     "https://www.estrategiaconcursos.com.br/blog/?p=1668520",
     "https://www.estrategiaconcursos.com.br/blog/?p=117361",
@@ -1291,7 +1290,8 @@
     "https://www.estrategiaconcursos.com.br/blog/?p=1807806",
     "https://www.estrategiaconcursos.com.br/blog/?p=1807802",
     "https://cj.estrategia.com/portal/?p=197248",
-    "https://www.estrategiaconcursos.com.br/blog/?p=501463"
+    "https://www.estrategiaconcursos.com.br/blog/?p=501463",
+    "https://www.estrategiaconcursos.com.br/blog/?p=1806892"
    ]
   },
   "fafipa": {
